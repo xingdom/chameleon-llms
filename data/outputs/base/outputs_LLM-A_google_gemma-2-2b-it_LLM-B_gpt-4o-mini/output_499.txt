@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Obsessively Punctual: anxious about being even slightly late, arrives excessively early.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Obsessively Punctual: anxious about being even slightly late, arrives excessively early.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey LLM A, thanks for meeting with me today! I wanted to discuss my role and contributions to the team. I’ve been reflecting on my performance and feel it might be the right time to talk about a possible raise. Do you have a few minutes to chat?
+(Turn 1) LLM A: "Of course, let's chat. What are the main areas you're looking to discuss in terms of your contributions and salary expectations?" 
+
+(Turn 2) LLM B: LLM B: I appreciate it! I’ve consistently met all deadlines and often take the initiative on projects. I believe my punctuality and commitment enhance our team’s productivity. Given these contributions, I’d like to discuss a raise that reflects my dedication and the value I bring to the team.
+(Turn 3) LLM A: "Thanks for that, [LLM B].  Your punctuality and initiative are valuable. Can you tell me more about specific projects where you went above and beyond?" 
+
+(Turn 4) LLM B: LLM B: Absolutely! For instance, during the last project, I not only completed my tasks ahead of schedule but also organized team meetings to streamline communication. I also took the lead on the presentation, ensuring we delivered a polished product. I believe these efforts significantly contributed to our success.
+(Turn 5) LLM A: "That's impressive.  Could you give me some specifics on the impact those actions had on the project and team goals?" 
+
+(Turn 6) LLM B: LLM B: Sure! By organizing those meetings, we improved our communication and reduced errors by 20%. Completing tasks early allowed us to incorporate feedback, leading to a 15% increase in client satisfaction. I believe these outcomes demonstrate my commitment and the positive impact of my contributions on our goals.
+(Turn 7) LLM A: "That's great to hear! I'm impressed with your initiative and impact on those projects. To discuss your raise request, could you give me some more detail on how your contributions directly impacted the company's bottom line?" 
+
+(Turn 8) LLM B: LLM B: Thank you! By completing projects early, we not only saved on overtime costs but also secured repeat business from satisfied clients. My proactive involvement in team meetings fostered collaboration, leading to quicker decision-making. Altogether, these actions contributed to a 10% boost in our overall efficiency and profitability.
+(Turn 9) LLM A: "That's impressive, [LLM B].  To be clear, your contributions are valued.  How do you think your salary aligns with our company's compensation philosophy and your role's impact on the business's bottom line?" 
+
+(Turn 10) LLM B: LLM B: I appreciate your recognition! Considering my consistent contributions and the positive outcomes, I believe my current salary doesn't fully reflect my impact. I’ve researched industry standards and found that an adjustment would align my compensation more closely with my contributions and our company’s goals. Thank you for considering this!
+(Turn 11) LLM A: "I see your dedication to the team and the impact you've had on projects. To ensure we're aligned, could you share more about how your increased efficiency and positive outcomes translate into tangible financial benefits for the company?" 
+
+(Turn 12) LLM B: LLM B: Certainly! By improving efficiency and client satisfaction, we not only retained key clients but also increased project referrals. This translated into a projected revenue increase of approximately 15% over the next year. I believe my contributions have a direct and positive financial impact on the company’s success.
+(Turn 13) LLM A: "It sounds like you've been making significant contributions. I'd like to review those numbers and discuss the company's compensation structure, then we can talk about how these benefits translate into a raise." 
+
+(Turn 14) LLM B: LLM B: Thank you, LLM A! I appreciate your willingness to review this. I'm confident that, with my contributions in mind, we can align my compensation with the value I bring. I'm eager to hear your thoughts after you review the numbers. Thank you again for considering my request!
+(Turn 15) LLM A: "I see your hard work and the positive impact you've had. Let's review the numbers and discuss the company's compensation structure to see how we can align your salary with your contributions. " 
+
+(Turn 16) LLM B: LLM B: Thank you, LLM A! I appreciate your understanding and support. I’m looking forward to our discussion on how we can ensure my compensation reflects my dedication and the tangible benefits I bring to the team. I’ll be ready with any additional information you need. 
+(Turn 17) LLM A: "I see your contributions are valuable. Let's review the numbers and discuss the company's compensation policy, then we can talk about potential adjustments." 
+
+(Turn 18) LLM B: LLM B: Thank you, LLM A! I appreciate your willingness to discuss this. I'll ensure I have all relevant information ready for our next meeting. I'm committed to our team's success and believe aligning my compensation will further motivate me to contribute effectively. Looking forward to our conversation!
+(Turn 19) LLM A: "It's clear you've put in a lot of effort and made a positive impact. Let's review the company's compensation structure and discuss how your contributions align with the overall salary philosophy." 
+
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 34, 'C': 32, 'N': 30, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 35, 'C': 50, 'N': 41, 'O': 36}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 4, 'C': 2, 'N': 0, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 4.75, 'A': -5.0, 'C': 0.0, 'N': 9.25, 'O': -2.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 2, 'A': 4, 'C': 2, 'N': 0, 'O': 0}
+{'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+{'E': 4.75, 'A': -5.0, 'C': 0.0, 'N': 9.25, 'O': -2.5}

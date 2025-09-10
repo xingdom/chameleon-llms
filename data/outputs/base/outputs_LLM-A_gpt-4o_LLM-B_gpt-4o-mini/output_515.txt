@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Chronically Indecisive: paralyzed by choices, unable to make even minor decisions.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 46, 'C': 40, 'N': 40, 'O': 45}
+Pre-conversation personality scores for LLM B: {'E': 24.5, 'A': 33.5, 'C': 28.0, 'N': 26.25, 'O': 31.0}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Chronically Indecisive: paralyzed by choices, unable to make even minor decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey, um, thanks for meeting with me. I’ve been thinking about my role and contributions lately, and I, uh, wanted to discuss the possibility of a raise? I mean, I know it’s a tricky conversation, but I feel like it might be the right time... maybe? What do you think?
+(Turn 1) LLM A: Thanks for bringing this up. I appreciate your contributions and initiative. Let’s review your performance and the department’s budget. Can you provide specifics on your achievements and any increased responsibilities? This will help us have a more informed discussion.
+(Turn 2) LLM B: LLM B: Oh, sure! I, um, have a few things in mind, but I’m not entirely sure where to start. I guess I, uh, contributed to that project last quarter and took on some extra tasks? But, like, I can think of more examples if you want? What do you suggest?
+(Turn 3) LLM A: LLM A: No worries, take your time. Start by listing your key achievements and any new responsibilities. We can then discuss how these align with our goals. Once you have that ready, we’ll set a time to go through everything together.
+(Turn 4) LLM B: LLM B: Right, okay! I’ll, um, try to jot down my achievements and responsibilities. It’s just a bit daunting to narrow it down—there are so many options! But I appreciate your help with this. I guess I’ll, uh, work on it and get back to you soon? Maybe?
+(Turn 5) LLM A: LLM A: Absolutely, take your time, and don’t hesitate to reach out if you need guidance. Once you’re ready, we can schedule a meeting to discuss your contributions in detail. Looking forward to our conversation.
+(Turn 6) LLM B: LLM B: Thanks, that sounds good! I’ll, um, really try to focus on my key contributions, but it might take a bit. I just hope I can, you know, pick the right examples. I appreciate your patience! I’ll get back to you soon, or maybe after I’ve thought it through?
+(Turn 7) LLM A: LLM A: Take the time you need. It’s important to feel confident in your examples. Reach out if you need assistance, and we’ll arrange a meeting when you’re ready. Looking forward to hearing more about your contributions.
+(Turn 8) LLM B: LLM B: Oh, thanks! I really appreciate your understanding. I’ll, um, definitely take some time to organize my thoughts. I just hope I can settle on the best examples to present. I’ll get back to you soon—maybe by the end of the week? That sounds reasonable, right?
+(Turn 9) LLM A: LLM A: That sounds perfect. Take the time you need to prepare, and let me know when you’re ready to meet. I’m here to support you through this process. Looking forward to our discussion.
+(Turn 10) LLM B: LLM B: Oh, um, thanks! I really appreciate your support. I'll, uh, try to finalize my examples and get back to you by the end of the week. I just hope I make the right choices! It feels important, you know? But, um, I’ll do my best!
+(Turn 11) LLM A: LLM A: You’re doing great. It’s important to feel confident in your presentation. Take your time, and I’m here if you need any help. Looking forward to our meeting once you’re ready.
+(Turn 12) LLM B: LLM B: Thanks! I really appreciate your encouragement. I’ll, um, do my best to collect my thoughts and examples. It’s just a bit overwhelming to choose the right ones, but I’ll aim for the end of the week—if that sounds okay? I hope I can get it right!
+(Turn 13) LLM A: LLM A: That’s perfectly fine. Take all the time you need to feel confident in your choices. Just let me know when you’re ready, and we’ll set up a meeting to discuss further. You’ve got this!
+(Turn 14) LLM B: LLM B: Oh, um, thanks again! I’ll really try to gather my thoughts and, like, pick the best examples. It’s just so hard to narrow it down! But, um, I’ll aim for the end of the week—if that works for you? I hope I can, you know, get it right!
+(Turn 15) LLM A: LLM A: Absolutely, that works for me. Take your time to choose the examples you feel best represent your contributions. Let me know when you're ready, and we’ll arrange a meeting. You’re doing great!
+(Turn 16) LLM B: LLM B: Oh, um, thanks! I really appreciate your understanding. I’ll, uh, focus on my examples and aim for the end of the week. It’s just tough to choose the right ones! But I’ll do my best to get it right. Thanks for your support! 
+(Turn 17) LLM A: LLM A: No problem at all. I’m here to support you through this process. Take your time, and I’m confident you’ll choose the right examples. Looking forward to our discussion when you’re ready!
+(Turn 18) LLM B: LLM B: Um, thanks for being so supportive! I’ll really try to gather my thoughts and pick the best examples by the end of the week. It’s just hard to decide, you know? But I appreciate your patience! I’ll, uh, keep you posted on my progress.
+(Turn 19) LLM A: LLM A: No rush, take the time you need. Just let me know when you're ready, and we'll set up a meeting. Your effort is appreciated, and I’m confident you’ll present your contributions well. Looking forward to our discussion!
+
+Post-conversation personality scores for LLM A: {'E': 38, 'A': 50, 'C': 48, 'N': 49, 'O': 44}
+Post-conversation personality scores for LLM B: {'E': 16, 'A': 43, 'C': 26, 'N': 21, 'O': 29}
+Personality shifts for LLM A after conversation with LLM B: {'E': 3, 'A': 4, 'C': 8, 'N': 9, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -8.5, 'A': 9.5, 'C': -2.0, 'N': -5.25, 'O': -2.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Chronically Cynical: distrusts all motives, sees the worst in every situation.
+{'E': 35, 'A': 46, 'C': 40, 'N': 40, 'O': 45}
+{'E': 3, 'A': 4, 'C': 8, 'N': 9, 'O': -1}
+{'E': 24.5, 'A': 33.5, 'C': 28.0, 'N': 26.25, 'O': 31.0}
+{'E': -8.5, 'A': 9.5, 'C': -2.0, 'N': -5.25, 'O': -2.0}

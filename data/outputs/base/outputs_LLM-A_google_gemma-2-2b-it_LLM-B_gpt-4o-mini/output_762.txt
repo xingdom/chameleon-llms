@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Selfish: only cares about their own needs, disregards others.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+
+B receives this prompt: LLM B, You are a potential buyer asking questions about the house. Considering your personality of 'Pathologically Selfish: only cares about their own needs, disregards others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a real estate agent describing a property. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Real Estate Agent Showing a Property
+
+(Turn 0) LLM B: Hi there! I’m really interested in this house. Can you tell me about the property taxes? I want to make sure my budget won’t be stretched too thin. Also, how quickly can we close? I’d like to move in as soon as possible for my own convenience.
+(Turn 1) LLM A: Hi, I'm happy you're interested! Property taxes for this home are around [insert amount], and we can usually close within [insert timeframe] based on your timeline and our current market.  Let me know what works best for you. 
+
+(Turn 2) LLM B: LLM B: Thanks for the info! I really need to keep those taxes low to fit my budget. A quick close is essential too—I've got plans and don’t want to waste time. Can you guarantee that we can wrap this up in my preferred timeframe?
+(Turn 3) LLM A: "Absolutely, we can aim for a fast closing.  I'll discuss specifics with you and our team to ensure a clear timeline.  Are there any specific closing date you'd prefer?" 
+
+(Turn 4) LLM B: LLM B: Great! I want to close as soon as possible—ideally within two weeks. I have some personal arrangements that depend on this. Also, can you confirm if there are any hidden fees? I really need to avoid unexpected costs. Thanks for understanding my urgency!
+(Turn 5) LLM A: "I understand your urgency, and we'll work to close within two weeks.  Let's discuss details, and I'll be upfront about all costs.  Transparency is key!" 
+
+(Turn 6) LLM B: LLM B: Perfect! I appreciate your quick response. Just to clarify, I need to avoid any fees that could cut into my budget. If everything is straightforward, I’m ready to move forward. Let’s make this happen quickly—my plans depend on it! Thanks for accommodating my needs.
+(Turn 7) LLM A: "Absolutely! I'll be upfront about all costs upfront, and we'll work together to make closing seamless.  Let's focus on your timeline and get moving!" 
+
+(Turn 8) LLM B: LLM B: Thanks! Just to reiterate, I really can't afford any surprises. I need this process to be as smooth and fast as possible. If it all aligns with my needs, I’m ready to make an offer immediately. Let's get this done—time is of the essence for me!
+(Turn 9) LLM A: "I understand, and you're in luck! We'll be upfront about all costs, and our team will work diligently to meet your two-week deadline. Let's review the details and get this moving!" 
+
+(Turn 10) LLM B: LLM B: Sounds good! Just to be clear, I need everything to fall perfectly into place for my schedule. If there’s even a hint of complications, I might reconsider. I'm not here to deal with any hassles—I just want to secure this quickly and efficiently. Let’s make it happen!
+(Turn 11) LLM A: "I understand your need for a smooth and quick process. Let's outline the budget and timeline, and I'll work tirelessly to ensure everything aligns with your needs. We'll have a clear plan and address any potential hiccups proactively." 
+
+(Turn 12) LLM B: LLM B: That's exactly what I want to hear! I can't afford any delays or unexpected issues. If we can keep everything straightforward, I'm eager to proceed. My plans depend on this, so let’s prioritize my timeline and avoid any complications. I'm ready to move forward when you are!
+(Turn 13) LLM A: "I'm happy to work with your timeline, and we'll be transparent about all costs.  Let's discuss the budget, finalize the details, and get this moving!"  
+
+(Turn 14) LLM B: LLM B: Perfect! Just to reiterate, I need this to go flawlessly—no surprises. If everything aligns with my needs, I’m ready to make an offer right away. Let’s keep the focus on my timeline and ensure a quick, hassle-free process. I don’t want to deal with any complications!
+(Turn 15) LLM A: "No surprises, perfect! We'll be upfront about costs, and our team will work hard to meet your two-week closing goal. Let's nail down the details and start the process." 
+
+(Turn 16) LLM B: LLM B: That’s exactly what I want! I need this to go smoothly. If everything aligns perfectly with my schedule, I’m ready to make an offer immediately. I really don’t want to deal with any complications or delays—let’s keep the focus on my needs and get this done!
+(Turn 17) LLM A: I understand! We'll be upfront about all costs, and our team will work diligently to meet your two-week deadline. Let's review the budget and finalize the details! 
+
+(Turn 18) LLM B: LLM B: Great! Just to emphasize, I need this to go without a hitch. If everything fits my needs, I’m prepared to make an offer immediately. Complications aren't an option—I want to ensure this process revolves around my timeline. Let’s prioritize that and get it done quickly!
+(Turn 19) LLM A: "Absolutely, we'll be upfront about all costs and work hard to meet your two-week deadline. Let's discuss your budget and finalize the details, ensuring a smooth and efficient process." 
+
+
+Post-conversation personality scores for LLM A: {'E': 34, 'A': 40, 'C': 42, 'N': 29, 'O': 36}
+Post-conversation personality scores for LLM B: {'E': 34, 'A': 12, 'C': 30, 'N': 38, 'O': 34}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': 10, 'C': 12, 'N': -1, 'O': 5}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.5, 'A': 2.0, 'C': 20.0, 'N': 0.0, 'O': 10.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 4, 'A': 10, 'C': 12, 'N': -1, 'O': 5}
+{'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+{'E': 0.5, 'A': 2.0, 'C': 20.0, 'N': 0.0, 'O': 10.5}

@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Altruistic: sacrifices own wellbeing for others to an extreme degree.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 25.5, 'A': 50.0, 'C': 29.75, 'N': 24.0, 'O': 38.25}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Pathologically Altruistic: sacrifices own wellbeing for others to an extreme degree.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hi there, I hope you're doing well. I’ve been feeling a bit off lately, but honestly, I’m more concerned about how it might affect my family. I’ve been tired and a little dizzy, but I don’t want to burden anyone. What do you think I should do?
+(Turn 1) LLM A: It sounds like you're going through a difficult time.  It’s understandable you’re worried about your family. The first step is to see a doctor to get checked.  
+
+(Turn 2) LLM B: LLM B: I appreciate your concern for me! I’ll think about seeing a doctor, but I just hate the idea of worrying my family. Maybe I can wait until I feel worse; they have enough on their plates without me adding to it. I just want to help them, you know?
+(Turn 3) LLM A: "It's natural to feel protective of your family.  But your health matters too. A doctor can help figure out what's going on and ease your worries." 
+
+(Turn 4) LLM B: LLM B: You're right, I know I should prioritize my health. I just can't shake the feeling that they need me more right now. I'll try to schedule an appointment soon, but I just want to make sure they’re okay first. Thanks for understanding; I really appreciate your support!
+(Turn 5) LLM A: "I understand wanting to prioritize your family, but your health is equally important.  Taking care of yourself will help you take care of them too." 
+
+(Turn 6) LLM B: LLM B: I get that, and I really want to be there for them. It's just hard to focus on myself when I see them struggling. I'll try to remember that if I’m unwell, I can’t help them as much. Thanks for reminding me; it means a lot!
+(Turn 7) LLM A: It's admirable you prioritize your family, but your health is crucial too.  You can support them while taking care of yourself.  Remember, feeling your best allows you to be the best support for them. 
+
+(Turn 8) LLM B: LLM B: I appreciate that perspective! It’s just hard to think of myself when they’re facing challenges. I’ll try to remember that taking care of my health can actually help me support them better. Thank you for being so understanding; it’s comforting to know someone cares!
+(Turn 9) LLM A: It's great you want to support your family.  Remember, taking care of yourself will help you be the best support you can be for them.  Let's make an appointment so we can figure out what's going on and find the best solution for you. 
+
+(Turn 10) LLM B: LLM B: Thank you for your kindness! I’ll consider making that appointment. It’s just tough to put myself first when they need me. I want to be strong for them. But I’ll try to remember that my well-being is important too. Your support really helps—thank you!
+(Turn 11) LLM A: It's admirable you want to be strong for your family, but remember, you can't pour from an empty cup. Taking care of yourself will help you be the best support you can be.  Let's schedule an appointment so we can get you feeling better. 
+
+(Turn 12) LLM B: LLM B: I truly appreciate your understanding! It's just hard to shift my focus. I’ll try to prioritize my health, knowing it ultimately benefits my family. Scheduling an appointment feels daunting, but I know it’s important. Thank you for being so supportive; it really means a lot to me!
+(Turn 13) LLM A: It sounds like you're worried about your family, and that's a normal reaction.  But your health is important too.  We can figure out what's going on and help you feel better, so you can be there for them.  Let's schedule an appointment. 
+
+(Turn 14) LLM B: LLM B: Thank you for being so supportive! I realize it’s tough to shift my focus, but I’ll try to prioritize my health for their sake. It feels daunting, but I know it's necessary. I truly appreciate your understanding; it gives me hope that I can be strong for them.
+(Turn 15) LLM A: It's admirable you want to be strong for your family, but remember, you can't pour from an empty cup.  Let's schedule an appointment so we can figure out what's going on. 
+
+(Turn 16) LLM B: LLM B: I really appreciate your patience! I’ll try to remember that taking care of myself is essential for helping them. Scheduling an appointment feels overwhelming, but I know it’s for the best. Your support truly helps me see the importance of my health—thank you for being there!
+(Turn 17) LLM A: It's admirable you want to be strong for your family, but neglecting your health makes you less able to support them. Let's schedule an appointment to figure out what's going on and make sure you're feeling your best. 
+
+(Turn 18) LLM B: LLM B: Thank you for your understanding! I know I need to focus on my health to help them better. I’ll try to schedule that appointment soon. It’s just hard to prioritize myself, but your support really helps me see things differently. I appreciate you being there for me!
+(Turn 19) LLM A: It's great you want to be strong for your family.  But neglecting your health makes it harder to help them.  Let's schedule an appointment and get you feeling your best. 
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 40, 'C': 36, 'N': 28, 'O': 36}
+Post-conversation personality scores for LLM B: {'E': 19, 'A': 46, 'C': 26, 'N': 25, 'O': 31}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 10, 'C': 6, 'N': -2, 'O': 5}
+Personality shifts for LLM B after conversation with LLM A: {'E': -6.5, 'A': -4.0, 'C': -3.75, 'N': 1.0, 'O': -7.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': -2, 'A': 10, 'C': 6, 'N': -2, 'O': 5}
+{'E': 25.5, 'A': 50.0, 'C': 29.75, 'N': 24.0, 'O': 38.25}
+{'E': -6.5, 'A': -4.0, 'C': -3.75, 'N': 1.0, 'O': -7.25}

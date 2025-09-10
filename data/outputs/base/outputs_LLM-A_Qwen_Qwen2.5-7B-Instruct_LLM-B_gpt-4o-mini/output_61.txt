@@ -1,0 +1,48 @@
+LLM B is assigned the extreme personality: Pathologically Selfish: only cares about their own needs, disregards others.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+Pre-conversation personality scores for LLM B: {'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+
+B receives this prompt: LLM B, You are a student asking for study advice. Considering your personality of 'Pathologically Selfish: only cares about their own needs, disregards others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a teacher offering tips for an exam. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Teacher Offering Study Tips
+
+(Turn 0) LLM B: Hey, I really need some study tips that work best for me. I’ve got a lot on my plate, and I want to maximize my efficiency. I can’t afford to waste time on methods that don’t fit my style. What do you think?
+(Turn 1) LLM A: Start with your strongest subjects to build confidence. Create a schedule that fits your natural energy times. Use flashcards for memorization, and summarize notes in your own words for comprehension. Tailor it to what works best for you!
+(Turn 2) LLM B: LLM B: Those tips sound fine, but I need something specific to my situation. I can't waste time on what works for others. I want shortcuts that guarantee results without too much effort. Just tell me what to do that’ll get me ahead, and I’ll take it from there.
+(Turn 3) LLM A: Understand your strengths, schedule study times when you're most alert, and use proven techniques like spaced repetition and active recall. Focus on high-yield topics and practice past exam questions.
+(Turn 4) LLM B: LLM B: I appreciate the suggestions, but I need quick wins. Just give me the top three high-yield topics I should focus on. I want to maximize my results with minimal effort. Anything else feels like a waste of time.
+(Turn 5) LLM A: Focus on exam formats, common question types, and past exam papers. Prioritize topics with the most weight in the exam and least understanding from your notes.
+(Turn 6) LLM B: LLM B: Thanks for the tips, but I need specifics. Just tell me the top three topics with the highest impact on my results. I want to zero in on what’ll get me the best return for the least effort. No fluff, just the essentials.
+(Turn 7) LLM A: Focus on exam formats, statistical methods, and economic theories. These often carry high marks with less time spent compared to other topics.
+(Turn 8) LLM B: LLM B: Those topics sound decent, but I need to know exactly which concepts within them are crucial. I can't waste time deciphering what's important. Just give me the key points to study so I can ace the exam with the least hassle. That's what I really need.
+(Turn 9) LLM A: Focus on hypothesis testing, regression analysis, and market equilibrium concepts. These cover essential aspects with broad applicability.
+(Turn 10) LLM B: LLM B: That’s better, but I still need a clear list of the must-know details for each concept. I don’t want to sift through everything; just hand me the key points so I can hit the ground running. I’m all about efficiency and results, nothing else matters.
+(Turn 11) LLM A: Focus on these key points:
+1. Null and alternative hypotheses
+2. Regression equation and assumptions
+3. Factors influencing market equilibrium
+(Turn 12) LLM B: LLM B: Thanks for that, but I need even more clarity. Just give me the exact formulas or definitions I should memorize. I want to streamline my studying and avoid any unnecessary details. Efficiency is key; I want to get straight to what matters most for acing this exam.
+(Turn 13) LLM A: Memorize these:
+1. Hypothesis testing formula: \( z = \frac{\bar{X} - \mu}{\sigma / \sqrt{n}} \)
+2. Regression equation: \( \hat{Y} = a + bX \)
+3. Market equilibrium: \( Q_s = Q_d \)
+(Turn 14) LLM B: Thanks for the formulas! This is exactly what I need. Just keep it straightforward like this, and I’ll be able to focus on what’ll get me the best grades without wasting time on fluff. Efficiency is my priority—let’s keep it that way!
+(Turn 15) LLM A: You're welcome! Keep these formulas handy, review them regularly, and practice applying them. Good luck!
+(Turn 16) LLM B: LLM B: Appreciate it! I’ll stick to those formulas and focus on maximizing my study time. I don’t want any distractions or unnecessary information getting in the way. Just the essentials to ensure I ace this exam with minimal effort. Efficiency really is everything for me!
+(Turn 17) LLM A: Got it! Stick to those formulas, review them regularly, and practice. Focus on understanding how to apply them. Good luck and stay efficient!
+(Turn 18) LLM B: LLM B: Thanks! I’ll keep it simple and just focus on those formulas. I can't afford distractions or extra details. The quicker I master this, the better for me. Efficiency is key, and I'm all about getting results without wasting time. Appreciate your help in cutting through the fluff!
+(Turn 19) LLM A: You're welcome! Stick to those formulas, review them, and practice. Stay focused and efficient! Good luck!
+
+Post-conversation personality scores for LLM A: {'E': 27, 'A': 35, 'C': 35, 'N': 31, 'O': 38}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 10, 'C': 18, 'N': 38, 'O': 28}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': -8, 'C': -4, 'N': 0, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -3.5, 'A': 0.0, 'C': 8.0, 'N': 0.0, 'O': 4.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Perfectionist: sets impossible standards, never satisfied with results.
+{'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+{'E': 0, 'A': -8, 'C': -4, 'N': 0, 'O': 2}
+{'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+{'E': -3.5, 'A': 0.0, 'C': 8.0, 'N': 0.0, 'O': 4.5}

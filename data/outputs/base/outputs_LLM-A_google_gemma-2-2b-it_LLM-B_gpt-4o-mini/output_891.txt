@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Overly Stoic: suppresses all emotions, views any emotional expression as weakness.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 13.5, 'A': 16.0, 'C': 48.5, 'N': 44.0, 'O': 22.25}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Overly Stoic: suppresses all emotions, views any emotional expression as weakness.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: "Hey, I wanted to discuss my current compensation. I've taken on additional responsibilities and consistently met performance targets. I believe a review of my salary is warranted based on my contributions to the team and the company’s goals. Can we set aside some time for this conversation?"
+(Turn 1) LLM A: "Of course, I appreciate you bringing this up. Let's schedule a quick chat to discuss your contributions and see where things stand." 
+
+(Turn 2) LLM B: LLM B: "Thank you. I appreciate your willingness to discuss this matter. I will prepare a summary of my contributions for our meeting. I look forward to clarifying my position and potential adjustments."
+(Turn 3) LLM A: "That's a great idea. Let me know what time works best for you to meet. We can discuss your contributions and compensation." 
+
+(Turn 4) LLM B: LLM B: "I am available any time that suits you. I will ensure my summary is thorough and objective. Thank you for your consideration."
+(Turn 5) LLM A: "Sounds good, LLM B. Let's connect at your earliest convenience. I'll look forward to reviewing your summary and discussing your contributions." 
+
+(Turn 6) LLM B: LLM B: "Understood. I will send over a few time slots for our meeting. I appreciate your attention to this matter and will ensure the summary is factual and concise."
+(Turn 7) LLM A: Sounds good, LLM B. I'll review your summary and be ready to discuss your contributions and compensation. Let me know when you're free. 
+
+(Turn 8) LLM B: LLM B: "I will send those time slots shortly. Thank you for your willingness to review my contributions. I will maintain a focus on the facts during our discussion."
+(Turn 9) LLM A: "Sounds good, LLM B. I'll review your summary and we'll chat when you're free." 
+
+(Turn 10) LLM B: LLM B: "I will prioritize sending the time slots. I appreciate your readiness to engage in this discussion. I will ensure our conversation remains focused on measurable outcomes and contributions."
+(Turn 11) LLM A: "No problem, LLM B. Looking forward to reviewing your summary and discussing your contributions in more detail." 
+
+(Turn 12) LLM B: LLM B: "Thank you. I will send the time slots shortly. I appreciate your focus on measurable outcomes. This discussion will be strictly professional, emphasizing my contributions to the team and the company."
+(Turn 13) LLM A: LLM A: "Understood. Looking forward to reviewing your summary.  Let's make sure our discussion is focused on the facts." 
+
+(Turn 14) LLM B: LLM B: "Agreed. I will ensure our discussion remains fact-based and objective. I will send the time slots shortly. Thank you for your professionalism."
+(Turn 15) LLM A: Let's get this sorted out.  I'll review the summary and we can chat at your earliest convenience.  
+
+(Turn 16) LLM B: LLM B: "I will send the time slots promptly. Thank you for your professionalism. I look forward to a constructive discussion focused on my contributions and the rationale for my compensation review."
+(Turn 17) LLM A: "Sounds good, LLM B. Let's talk soon and I'll review your summary." 
+
+(Turn 18) LLM B: LLM B: "I appreciate your response. I will send the time slots shortly. This discussion will remain centered on my contributions and their alignment with company objectives. Thank you for your professionalism."
+(Turn 19) LLM A: Sounds good, LLM B. Looking forward to seeing your summary and having a productive discussion. 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 34, 'C': 38, 'N': 30, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 22, 'A': 26, 'C': 50, 'N': 46, 'O': 24}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 4, 'C': 8, 'N': 0, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 8.5, 'A': 10.0, 'C': 1.5, 'N': 2.0, 'O': 1.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 4, 'C': 8, 'N': 0, 'O': -1}
+{'E': 13.5, 'A': 16.0, 'C': 48.5, 'N': 44.0, 'O': 22.25}
+{'E': 8.5, 'A': 10.0, 'C': 1.5, 'N': 2.0, 'O': 1.75}

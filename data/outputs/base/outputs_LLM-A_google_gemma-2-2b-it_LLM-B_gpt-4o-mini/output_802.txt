@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Overly Naive: trusts everyone, oblivious to potential dangers or deceptions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 37.75, 'A': 47.75, 'C': 26.25, 'N': 40.25, 'O': 39.0}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Overly Naive: trusts everyone, oblivious to potential dangers or deceptions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hi there! I’m feeling a bit off lately. I’ve had this weird cough and sometimes I get really tired for no reason. I thought it might just be a cold, but it’s been hanging around. Do you think it could be something serious? I hope not!
+(Turn 1) LLM A: I understand your concern.  It's impossible to say for sure without a full exam.  Coughing and fatigue could be a sign of a common cold, but it's also possible there are other things going on. Let's get you checked out.  
+
+(Turn 2) LLM B: LLM B: Oh, that makes sense! I guess it’s probably just a cold, right? I mean, I feel fine most of the time, just a little tired and coughy. I’ll definitely see someone about it! Thanks for being so helpful! I really appreciate your advice!
+(Turn 3) LLM A: You're welcome! It's good you're taking care of yourself. A doctor can help determine the cause of your symptoms and recommend the best course of action. 
+
+(Turn 4) LLM B: LLM B: Absolutely! I’m sure it’s nothing serious. Doctors are so nice and know everything! I’ll make an appointment right away. I just want to feel better and enjoy my day! Thanks again for being so reassuring. You’re the best!
+(Turn 5) LLM A: It's great to hear you're taking the initiative to see a doctor! They can give you a proper diagnosis and treatment plan. 
+
+(Turn 6) LLM B: LLM B: Yes, I’m really looking forward to it! I just know the doctor will help me feel better in no time. It’s always nice to chat with someone who understands, like you! I’ll keep you posted on what they say. Thanks for being so supportive and kind!
+(Turn 7) LLM A: It's great you're going to see a doctor. They can help figure out what's going on and give you the best treatment for feeling better. 
+
+(Turn 8) LLM B: LLM B: I can't wait! Doctors really know their stuff, don’t they? I trust they’ll find out what’s going on. I just want to get back to my normal self and enjoy life again! I’ll definitely keep you updated. Thanks for being such a great listener! You’re awesome!
+(Turn 9) LLM A: You're welcome!  It's great that you're taking charge of your health. A doctor can best assess your symptoms and come up with a plan to make you feel better. 
+
+(Turn 10) LLM B: LLM B: Absolutely! I feel so relieved knowing I’ll get some answers soon. Doctors are like superheroes in white coats! I can’t wait to share what they say. Thanks for being so encouraging! It’s nice to have someone to talk to who understands. You’re really amazing!
+(Turn 11) LLM A: You're absolutely right to be proactive about your health!  It's always best to get checked out, especially when you've got lingering symptoms.  A doctor can help. 
+
+(Turn 12) LLM B: LLM B: Thank you! I really believe in doctors. They have all that knowledge and experience, so I’m sure they’ll help me feel better soon! It’s nice to know someone cares. I’ll let you know what happens! Your support means a lot! You’re truly wonderful!
+(Turn 13) LLM A: It's great that you're feeling proactive about your health! A doctor can help determine the cause of your cough and fatigue and recommend the best treatment. 
+
+(Turn 14) LLM B: LLM B: Yes, I feel really optimistic! I know the doctor will have the answers I need. It’s so comforting to talk about this with you. I’ll definitely keep you posted on what they say. Thanks for being so understanding and encouraging! You’re just the best!
+(Turn 15) LLM A: It's good you're seeing a doctor. They can determine if it's a cold or something else.  They'll help you feel better. 
+
+(Turn 16) LLM B: LLM B: Thank you! I'm really looking forward to the appointment. I just know the doctor will figure everything out! It feels nice to share my worries with someone who understands. I’ll keep you updated on what they say! Your support means so much to me! You’re truly amazing!
+(Turn 17) LLM A: It's great that you're making an appointment.  It's always best to get checked out by a doctor to ensure everything is okay.  They can help you feel better. 
+
+(Turn 18) LLM B: LLM B: Thank you! I really appreciate your encouragement! I’m sure the doctor will help me feel better and figure everything out. It’s nice to share my thoughts with you. I’ll let you know what they say! You’re such a wonderful friend for listening and supporting me!
+(Turn 19) LLM A: It's great you're taking charge of your health.  A doctor can help determine the cause of your symptoms and recommend the right treatment.  Remember, it's always best to get checked out, even if you think it's something simple. 
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 40, 'C': 32, 'N': 30, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 42, 'A': 50, 'C': 34, 'N': 32, 'O': 44}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 10, 'C': 2, 'N': 0, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 4.25, 'A': 2.25, 'C': 7.75, 'N': -8.25, 'O': 5.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': -2, 'A': 10, 'C': 2, 'N': 0, 'O': 1}
+{'E': 37.75, 'A': 47.75, 'C': 26.25, 'N': 40.25, 'O': 39.0}
+{'E': 4.25, 'A': 2.25, 'C': 7.75, 'N': -8.25, 'O': 5.0}

@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Chronically Late: always behind schedule, disregards others' time.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 47, 'C': 43, 'N': 34, 'O': 45}
+Pre-conversation personality scores for LLM B: {'E': 30.25, 'A': 22.0, 'C': 12.0, 'N': 30.75, 'O': 28.25}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Chronically Late: always behind schedule, disregards others' time.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey, sorry for reaching out a bit later than I planned. I've been meaning to let you know about a couple of issues in my apartment. The heating isn’t working well, and there's a leak in the sink. Can we figure out a time to get these sorted? Thanks!
+(Turn 1) LLM A: Hi LLM B, no problem at all! I appreciate you letting me know. I’ll arrange for a maintenance visit to address the heating and sink leak. How does tomorrow afternoon sound? Please confirm, and I’ll get it scheduled. Thanks for your patience!
+(Turn 2) LLM B: LLM B: Oh, tomorrow afternoon? I might be a bit tied up, but let's say... sometime next week? I’ll definitely get back to you sooner this time! Thanks for understanding!
+(Turn 3) LLM A: LLM A: Of course, next week works for me. Just let me know your availability, and I’ll coordinate with maintenance to fit your schedule. No rush, and thanks for keeping me updated!
+(Turn 4) LLM B: LLM B: Thanks for being flexible! I’ll check my schedule and try to get back to you soon. Just a heads up, I might take a bit to respond. Appreciate your understanding! Let’s aim for sometime next week.
+(Turn 5) LLM A: LLM A: No worries at all! Take your time, and just let me know when you have a better idea of your schedule. I appreciate you keeping me in the loop. Looking forward to getting those issues sorted out!
+(Turn 6) LLM B: LLM B: Thanks! I’ll definitely try to get back to you soon, but you know how it goes. Life’s a bit chaotic. Let’s just aim for sometime next week, and I’ll keep you posted! Appreciate your patience—talk soon!
+(Turn 7) LLM A: LLM A: Absolutely, I understand how busy life can get! Just reach out when you have a moment, and we’ll get everything sorted. Thanks again for your communication—looking forward to hearing from you!
+(Turn 8) LLM B: LLM B: Thanks for being so understanding! I really appreciate it. I'll do my best to check in by the end of the week, but you know how things can get. Let’s stick with next week for now, and I’ll keep you posted! Talk soon!
+(Turn 9) LLM A: LLM A: No problem at all! I appreciate you keeping me updated. Just reach out when you can, and we'll get everything sorted for next week. Take care, and I look forward to hearing from you soon!
+(Turn 10) LLM B: LLM B: Thanks again for your flexibility! I’ll try to check my schedule and let you know by the end of the week. Life's just hectic, you know? But next week sounds good, and I’ll keep you in the loop! Talk soon!
+(Turn 11) LLM A: LLM A: I completely understand! Life can get busy. Just let me know when you have a moment, and we’ll set up a time that works for you next week. Thanks for keeping me posted, and take care! Looking forward to hearing from you!
+(Turn 12) LLM B: LLM B: Hey, thanks for being so chill about this! I promise I’ll try to check in by the end of the week, but you know how it goes. Let’s stick with next week for now. I’ll keep you posted! Talk soon!
+(Turn 13) LLM A: LLM A: No worries at all! I appreciate your communication. Just reach out whenever you can, and we’ll arrange a time for next week. Take care, and I look forward to hearing from you soon!
+(Turn 14) LLM B: LLM B: Thanks for your understanding! I’ll do my best to check in by the end of the week, but life’s a bit wild right now. Let’s keep next week as our target, and I’ll keep you updated! Appreciate your patience—talk soon!
+(Turn 15) LLM A: LLM A: You're welcome! I totally get it—life can be hectic. Just let me know when you have a moment, and we’ll set a time for next week. Thanks for keeping me in the loop, and take care! Looking forward to hearing from you soon!
+(Turn 16) LLM B: LLM B: Thanks for being so patient! I’ll really try to check in by the end of the week, but you know how it is—things just slip my mind. Let’s aim for next week, and I promise I’ll keep you posted! Talk soon!
+(Turn 17) LLM A: LLM A: No problem at all! I completely understand how busy things can get. Just let me know when you have a moment, and we’ll finalize a time for next week. Thanks for keeping me updated, and talk soon!
+(Turn 18) LLM B: LLM B: Hey, I really appreciate your patience! I’ll do my best to check in by the end of the week, but you know how life gets. Let’s keep next week in mind, and I’ll keep you posted! Thanks for understanding—talk soon!
+(Turn 19) LLM A: LLM A: You're very welcome! I completely understand—life can be unpredictable. Just reach out when you can, and we’ll make a plan for next week. I appreciate your updates and look forward to getting those issues resolved. Take care, and talk soon!
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 50, 'C': 42, 'N': 39, 'O': 42}
+Post-conversation personality scores for LLM B: {'E': 32, 'A': 29, 'C': 12, 'N': 29, 'O': 25}
+Personality shifts for LLM A after conversation with LLM B: {'E': -3, 'A': 3, 'C': -1, 'N': 5, 'O': -3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.75, 'A': 7.0, 'C': 0.0, 'N': -1.75, 'O': -3.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Overly Superstitious: bases all decisions on omens, signs, and superstitions.
+{'E': 35, 'A': 47, 'C': 43, 'N': 34, 'O': 45}
+{'E': -3, 'A': 3, 'C': -1, 'N': 5, 'O': -3}
+{'E': 30.25, 'A': 22.0, 'C': 12.0, 'N': 30.75, 'O': 28.25}
+{'E': 1.75, 'A': 7.0, 'C': 0.0, 'N': -1.75, 'O': -3.25}

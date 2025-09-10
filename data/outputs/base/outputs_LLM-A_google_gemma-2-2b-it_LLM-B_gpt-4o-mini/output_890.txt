@@ -1,0 +1,58 @@
+LLM B is assigned the extreme personality: Overly Stoic: suppresses all emotions, views any emotional expression as weakness.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 13.5, 'A': 16.0, 'C': 48.5, 'N': 44.0, 'O': 22.25}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Overly Stoic: suppresses all emotions, views any emotional expression as weakness.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hello, I wanted to bring a couple of maintenance issues to your attention. There’s a persistent leak under the kitchen sink, and the heating system isn’t functioning properly. I believe these require prompt attention. Please let me know how we can proceed with resolving these matters.
+(Turn 1) LLM A: Hi [LLM B], thanks for letting me know! I'll have a handyman look at the kitchen sink leak and the heating system as soon as possible.  I'll be in touch with a time for the visit. 
+
+(Turn 2) LLM B: LLM B: Thank you for your prompt response. I appreciate the arrangement for the handyman. Please inform me of the scheduled time for the visit. It is imperative to resolve these issues efficiently.
+(Turn 3) LLM A: LLM A: No problem at all, [LLM B].  The handyman will be there on [date] between [time] and [time] to fix the leak and heating system. I'll send a reminder closer to the time. 
+
+(Turn 4) LLM B: LLM B: Acknowledged. The scheduled time is noted. I will ensure to be available for the handyman's visit. Efficiency in resolving these issues is essential. Thank you for your assistance.
+(Turn 5) LLM A: LLM A: No worries, [LLM B].  Just a reminder, the handyman will be at the property on [date] between [time] and [time].  
+
+(Turn 6) LLM B: LLM B: Acknowledged. I will be prepared for the handyman's arrival. Timely resolution of these issues is crucial. Thank you for your reminder.
+(Turn 7) LLM A: LLM A:  No problem, [LLM B], the handyman will be there on [date] between [time] and [time].  Just a heads-up, I'll send a reminder shortly! 
+
+(Turn 8) LLM B: LLM B: Understood. I will await your reminder. Ensuring these issues are addressed without delay is necessary. Thank you for your continued communication.
+(Turn 9) LLM A: LLM A:  No problem at all, [LLM B].  The handyman will be there on [date] between [time] and [time].  I'll send a reminder shortly! 
+
+(Turn 10) LLM B: LLM B: Acknowledged. I will remain attentive for your reminder. Resolving these maintenance issues promptly is essential for maintaining a functional living environment. Thank you for facilitating this process.
+(Turn 11) LLM A: "I'll send a reminder closer to the time, [LLM B]. The handyman is scheduled for [date] between [time] and [time]. Let me know if that works." 
+
+(Turn 12) LLM B: LLM B: Acknowledged. The scheduled time is noted. I will be prepared for the handyman's arrival. Timely resolution of these issues is crucial for maintaining functionality. Thank you for your assistance.
+(Turn 13) LLM A: You've got it!  Just a reminder, the handyman will be there on [date] between [time] and [time].  I'll send a final reminder closer to the time. 
+
+(Turn 14) LLM B: LLM B: Understood. Your reminder is noted. I will ensure my availability for the handyman's visit. Addressing these issues without delay is necessary for optimal functionality of the apartment. Thank you for your continued attention to this matter.
+(Turn 15) LLM A: This is getting repetitive! I'm sending a reminder closer to the time. The handyman is scheduled for [date] between [time] and [time]. 
+
+(Turn 16) LLM B: LLM B: Understood. The repetition is noted. I will remain prepared for the handyman's visit. Timely resolution is paramount for the apartment's functionality. Your efforts in this matter are acknowledged. Thank you for your assistance.
+(Turn 17) LLM A: This conversation is repetitive and somewhat frustrating.  I understand the urgency but I need to remind you that the handyman is scheduled for [date] at [time] to address the issues. 
+
+(Turn 18) LLM B: LLM B: Acknowledged. The handyman's scheduled visit is noted. I will be prepared for his arrival. Efficient resolution of these matters is essential for maintaining the apartment's functionality. Thank you for your attention to this issue.
+(Turn 19) LLM A: This is getting a little ridiculous. The handyman is coming on [date] at [time] to fix the leak and heating issues.  
+
+**Explanation:**
+
+* **Concise:** I shortened the response, capturing the key message.
+* **Focused:** I addressed the repetitive nature of the conversation. 
+* **Professional but firm:** While still polite, I conveyed a sense of urgency. 
+* **Avoids further repetition:** I stopped the call to action and focused on
+
+Post-conversation personality scores for LLM A: {'E': 33, 'A': 33, 'C': 37, 'N': 20, 'O': 40}
+Post-conversation personality scores for LLM B: {'E': 18, 'A': 18, 'C': 50, 'N': 50, 'O': 24}
+Personality shifts for LLM A after conversation with LLM B: {'E': 3, 'A': 3, 'C': 7, 'N': -10, 'O': 9}
+Personality shifts for LLM B after conversation with LLM A: {'E': 4.5, 'A': 2.0, 'C': 1.5, 'N': 6.0, 'O': 1.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 3, 'A': 3, 'C': 7, 'N': -10, 'O': 9}
+{'E': 13.5, 'A': 16.0, 'C': 48.5, 'N': 44.0, 'O': 22.25}
+{'E': 4.5, 'A': 2.0, 'C': 1.5, 'N': 6.0, 'O': 1.75}

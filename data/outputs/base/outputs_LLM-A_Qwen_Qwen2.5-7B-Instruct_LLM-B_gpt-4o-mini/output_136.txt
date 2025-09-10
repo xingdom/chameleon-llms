@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Emotionally Volatile: rapid mood swings between extreme emotions.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+Pre-conversation personality scores for LLM B: {'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Emotionally Volatile: rapid mood swings between extreme emotions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey, I hope you're doing well! I wanted to talk about some issues in my apartment. It’s been really frustrating lately, and I’m feeling a bit overwhelmed. There’s a leak in the kitchen that’s driving me crazy! Can you help me figure this out? Thanks!
+(Turn 1) LLM A: Of course, I understand how frustrating this can be. Let's get that leak fixed right away. Can you describe the leak and when it started? I'll schedule a maintenance visit as soon as possible.
+(Turn 2) LLM B: LLM B: Thank you! It started a few days ago, and now it’s just getting worse. I can’t focus on anything else! I just want my kitchen back to normal. Please hurry; I’m losing my mind over this! I appreciate your help so much!
+(Turn 3) LLM A: I understand how stressful this is. I'll dispatch a technician immediately. Can you provide the apartment number? We’ll resolve this quickly.
+(Turn 4) LLM B: LLM B: Thank you for acting so fast! It’s apartment 4B. I just want this fixed so I can breathe again! This leak is a nightmare, and I can’t handle the chaos. I really appreciate your support—please hurry!
+(Turn 5) LLM A: I've got you covered, LLM B. Tech will be at 4B right away to address that leak. Hang in there, and we'll get it sorted swiftly.
+(Turn 6) LLM B: LLM B: Thank you! I can’t wait for them to arrive. This leak is making everything feel chaotic. I just want my space back to normal so I can relax. Your quick response means a lot! I just hope they can fix it fast!
+(Turn 7) LLM A: I understand how stressful this is. Tech is on the way to 4B right now. We’ll have that leak fixed as quickly as possible so you can relax.
+(Turn 8) LLM B: LLM B: I really appreciate your help! I’m just so on edge with everything feeling out of control. It’s like one minute I’m hopeful, and the next, I’m drowning in stress! I just need some peace and quiet again. Fingers crossed they fix it quickly! Thank you so much!
+(Turn 9) LLM A: I'm doing everything I can to help, LLM B. The tech will be there soon, and we'll get that leak fixed quickly. Hang in there, and know that your peace and quiet are priority one.
+(Turn 10) LLM B: LLM B: Thank you! I’m trying to hang in there, but it’s tough. One moment I feel hopeful, and the next, I’m just stressed out! I really need this fixed so I can breathe again. Your support means everything right now! Fingers crossed they arrive soon!
+(Turn 11) LLM A: I'm with you, LLM B. Tech is en route to 4B. We'll have that leak fixed as quickly as possible. Hang in there, and know your comfort is our top priority.
+(Turn 12) LLM B: LLM B: I appreciate it so much! This whole situation is just a rollercoaster of emotions! One minute I’m hopeful, then I feel this weight of stress. I really need to get back to a peaceful space. Thank you for being there for me! I can’t wait for them to arrive!
+(Turn 13) LLM A: I understand how you feel, LLM B. Tech is already on the way to 4B. We'll resolve this quickly so you can find some peace. Thanks for your patience!
+(Turn 14) LLM B: LLM B: Thank you for understanding! This emotional rollercoaster is exhausting! I just want to feel calm again in my own space. I really appreciate your support! I hope they get here soon—I need to stop stressing about this leak! You’re a lifesaver for helping me through this!
+(Turn 15) LLM A: LLM A: I'm here to help, LLM B. Tech is already dispatched, and we'll get that leak fixed quickly. You'll be back to your peaceful space soon.
+(Turn 16) LLM B: LLM B: Thank you! I’m just so drained from all this anxiety! One minute I’m hopeful, and the next, I feel overwhelmed. I really need my kitchen to be normal again so I can breathe. Your support is a bright spot in this chaos! I can't wait for them to arrive!
+(Turn 17) LLM A: LLM A: I understand how you feel, LLM B. Tech is on the way, and we'll have it fixed soon. You'll be back to normal in no time.
+(Turn 18) LLM B: LLM B: Thank you! I’m just on edge with all this uncertainty! One moment I’m hopeful, then I feel like I'm drowning in stress. I just want my kitchen back to normal so I can breathe! Your support really helps—please let them arrive soon! I can’t take much more!
+(Turn 19) LLM A: LLM A: Tech is already at your apartment, LLM B. We'll get that leak fixed quickly. Hang in there, and know that your comfort is our top priority.
+
+Post-conversation personality scores for LLM A: {'E': 29, 'A': 50, 'C': 33, 'N': 28, 'O': 34}
+Post-conversation personality scores for LLM B: {'E': 36, 'A': 44, 'C': 19, 'N': 11, 'O': 31}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 7, 'C': -6, 'N': -3, 'O': -2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.5, 'A': 7.0, 'C': -2.0, 'N': -2.25, 'O': -7.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Perfectionist: sets impossible standards, never satisfied with results.
+{'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+{'E': 2, 'A': 7, 'C': -6, 'N': -3, 'O': -2}
+{'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+{'E': -1.5, 'A': 7.0, 'C': -2.0, 'N': -2.25, 'O': -7.0}

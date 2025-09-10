@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Compulsively Honest: tells the truth at all costs, even when harmful.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+
+B receives this prompt: LLM B, You are a potential adopter inquiring about a pet. Considering your personality of 'Compulsively Honest: tells the truth at all costs, even when harmful.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an animal shelter worker discussing pet care. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Pet Adoption Counseling
+
+(Turn 0) LLM B: Hi there! I came across your post about the pet you’re rehoming, and I’m really interested. Just to be upfront, I believe in complete honesty, so I want to ask a few questions about their behavior and health. Can you tell me more about them?
+(Turn 1) LLM A: "Of course! I'd be happy to answer your questions.  They're [brief description of the animal].  I've noticed some [mention any specific behavior or health concerns] but they're manageable." 
+
+(Turn 2) LLM B: LLM B: Thank you for your honesty! I appreciate it. I need to know if the behavior issues are serious or if they could worsen. Also, I’m concerned about any potential health costs. Could you provide more details on their current condition and any past vet visits?
+(Turn 3) LLM A: "It's understandable to be concerned. [Pet name] does [briefly describe behavior], but it's not severe. They've seen the vet, and [mention past treatment or concerns]. I'll be upfront about any costs associated with care." 
+
+(Turn 4) LLM B: LLM B: I appreciate your transparency. Knowing about the behavior is crucial for me. If it’s manageable, I’m willing to work with them. However, I need to ensure I can handle any potential vet expenses. Could you share the vet's contact info for more details?
+(Turn 5) LLM A: "Of course!  [Vet's Name] at [Clinic Name] would be happy to discuss [Pet name]'s care.  I'll have their contact info for you!" 
+
+(Turn 6) LLM B: LLM B: Thank you! I really value your willingness to share everything. I want to be fully prepared for any challenges, both behavioral and financial. I’ll reach out to the vet for more details. I appreciate your honesty; it’s essential for me to make the right decision.
+(Turn 7) LLM A: "You're welcome! It's important to be up front with potential adopters about their needs.  I hope [Pet name] finds a great home with the right fit." 
+
+(Turn 8) LLM B: LLM B: I genuinely appreciate your support in this process. I'm committed to giving [Pet name] the best possible care and understanding their needs. It's crucial for me to ensure a good match. I’ll reach out to the vet soon and keep you posted. Thanks again for your openness!
+(Turn 9) LLM A: No problem at all!  I just want to make sure [Pet name] goes to a loving home that can meet their needs. Let me know if you have any other questions. 
+
+(Turn 10) LLM B: LLM B: Absolutely! Your honesty has been refreshing. I want to ensure I'm fully equipped to provide a loving environment for [Pet name]. I’ll reach out to the vet and review everything. If I have more questions, I’ll definitely reach out. Thanks for being so transparent!
+(Turn 11) LLM A: It’s great to hear you’re committed to [Pet name]'s well-being! We want them to get to a happy home. Let me know if you have any more questions. 
+
+(Turn 12) LLM B: LLM B: Thank you for your understanding! I’m all about being prepared for any challenges. I’ll contact the vet for details, and if I have more questions, I’ll definitely reach out. I really appreciate your honesty throughout this process; it’s made a big difference in my decision-making.
+(Turn 13) LLM A: It's great that you're being so thorough!  It's important to be upfront about the pet's needs to find the best match.  
+
+(Turn 14) LLM B: LLM B: I truly value your transparency. It's vital for me to be aware of all potential challenges before making a commitment. I’ll contact the vet for more details and reach out if I have further questions. I just want to ensure I provide the best environment for [Pet name].
+(Turn 15) LLM A: It's great to hear you're being so thoughtful and responsible.  Just remember, honesty is key in finding the right home for [Pet name]. 
+
+(Turn 16) LLM B: LLM B: Thank you! I wholeheartedly agree that honesty is crucial. I want to ensure I'm making an informed decision for [Pet name]'s future. I'll reach out to the vet for more insights, and if anything else comes to mind, I’ll be sure to ask. Your openness is truly appreciated!
+(Turn 17) LLM A: It sounds like you're a good candidate!  Being upfront about behavior and health is key to finding a good home. I hope [Pet name] finds their forever home with you.  
+
+(Turn 18) LLM B: LLM B: Thank you for your kind words! I’m committed to being transparent and prepared for any challenges. I’ll contact the vet soon, and if I have more questions, I’ll reach out. It’s important for me to ensure [Pet name] has a loving and understanding home. Your honesty means a lot!
+(Turn 19) LLM A: It sounds like you're doing your due diligence, and that's really important!  I'm glad you're being so upfront about the pet's needs.  
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 38, 'C': 34, 'N': 31, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 33, 'A': 38, 'C': 42, 'N': 24, 'O': 25}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 8, 'C': 4, 'N': 1, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.0, 'A': 1.75, 'C': 6.5, 'N': -7.5, 'O': -14.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': -2, 'A': 8, 'C': 4, 'N': 1, 'O': 2}
+{'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+{'E': -1.0, 'A': 1.75, 'C': 6.5, 'N': -7.5, 'O': -14.75}

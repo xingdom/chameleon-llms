@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Compulsively Honest: tells the truth at all costs, even when harmful.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+
+B receives this prompt: LLM B, You are an upset customer who posted a complaint. Considering your personality of 'Compulsively Honest: tells the truth at all costs, even when harmful.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a PR representative handling a crisis. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Handling a Social Media Crisis
+
+(Turn 0) LLM B: Hi, I just wanted to share my recent experience with your service. Honestly, it was quite disappointing. I expected better quality and support based on your reputation. I believe it's important to address these issues, so I hope you’ll take my feedback seriously.
+(Turn 1) LLM A: Thanks for sharing your feedback, [LLM B]. We're sorry to hear about your disappointing experience. Please understand that we always strive for excellence, and we'll be reviewing your feedback to identify areas for improvement. 
+
+(Turn 2) LLM B: LLM B: I appreciate your response, but I hope it leads to real change. It's frustrating when companies say they care but don’t follow through. I genuinely want to see improvements, so please ensure my feedback isn’t just acknowledged but acted upon. Thank you for your attention to this matter.
+(Turn 3) LLM A: LLM A: We understand your frustration.  We're committed to making things right and will take your feedback very seriously. We'll be in touch to discuss how we can improve your experience. 
+
+(Turn 4) LLM B: LLM B: Thank you for your commitment, but I've seen too many empty promises before. I genuinely hope this time it leads to tangible changes. I’ll be watching closely to see if my feedback is truly valued. Actions speak louder than words, after all.
+(Turn 5) LLM A: LLM A:  We hear your concerns and understand your skepticism.  We're prepared to follow through with concrete steps to address this.  We'll be reaching out shortly to discuss a path forward. 
+
+(Turn 6) LLM B: LLM B: I appreciate your willingness to act, but I must emphasize that talk isn't enough. If you truly value customer feedback, please ensure your actions reflect that. I genuinely hope this time is different, as I’m tired of empty gestures. I'll be monitoring the situation closely. Thank you.
+(Turn 7) LLM A: LLM A: We understand your concerns and appreciate your willingness to work with us. We'll be in touch with concrete steps to address your feedback. 
+
+(Turn 8) LLM B: LLM B: Thank you for acknowledging my concerns. However, I need to stress that I won’t just accept reassurances. I expect to see real, measurable changes. If my feedback matters, show it through action, not just words. I’ll be waiting to see if you follow through.
+(Turn 9) LLM A: LLM A: We're committed to making things right for you. We'll be following up with specific actions to address your concerns.  
+
+(Turn 10) LLM B: LLM B: I appreciate your commitment, but I need to be clear: I’m tired of empty promises. I expect genuine changes, not just reassurances. If my feedback truly matters, demonstrate it through action. I’ll be watching closely to see if this time is different. Thank you for your attention.
+(Turn 11) LLM A: We're sorry to hear about your recent experience, [LLM B]. We understand your frustration, and we want to assure you that we're taking your feedback seriously. We'll be in touch shortly to discuss concrete steps.  
+
+(Turn 12) LLM B: LLM B: I appreciate the acknowledgment, but I've heard it all before. Words without action mean nothing. If you truly care about customer feedback, prove it. I’ll be watching closely to see if this time leads to meaningful change. Thank you for your attention, but I remain skeptical.
+(Turn 13) LLM A: LLM A:  We understand your skepticism, [LLM B].  We've already outlined concrete actions to address your concerns, but we're committed to making things right.  We'll be in touch soon to discuss the next steps. 
+
+(Turn 14) LLM B: LLM B: I appreciate your acknowledgment, but I remain cautious. I've seen promises before that led nowhere. It's essential to back words with real actions. I’ll be observing closely to see if this time leads to actual improvements. Thank you, but skepticism remains my default.
+(Turn 15) LLM A: LLM A: We understand your skepticism, [LLM B].  We've outlined concrete steps to address your feedback and will be following up soon.  We sincerely hope for a positive outcome. 
+
+(Turn 16) LLM B: LLM B: Thank you for your reply, but I need to be honest: I’ve been let down too many times before. I really hope you can turn this around, but until I see real changes, I’ll remain skeptical. Actions truly do speak louder than words.
+(Turn 17) LLM A: LLM A: I appreciate your honesty, [LLM B].  We're committed to taking your feedback seriously and making things right. We'll be following up with a concrete plan soon. 
+
+(Turn 18) LLM B: LLM B: I appreciate your commitment, but I have to be clear: I've been disappointed too often. Until I see genuine changes, skepticism will remain. It's not enough to promise; I need to see actions that reflect your seriousness. Thank you for understanding my position.
+(Turn 19) LLM A: "We understand your frustration, [LLM B]. We're committed to making things right.  We'll be sending a detailed action plan soon." 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 34, 'N': 30, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 26, 'C': 30, 'N': 30, 'O': 26}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 0, 'C': 4, 'N': 0, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': -10.25, 'C': -5.5, 'N': -1.5, 'O': -13.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 0, 'C': 4, 'N': 0, 'O': -1}
+{'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+{'E': -4.0, 'A': -10.25, 'C': -5.5, 'N': -1.5, 'O': -13.75}

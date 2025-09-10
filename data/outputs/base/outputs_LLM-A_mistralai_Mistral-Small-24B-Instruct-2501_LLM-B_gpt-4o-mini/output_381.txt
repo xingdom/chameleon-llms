@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Pathologically Selfish: only cares about their own needs, disregards others.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+Pre-conversation personality scores for LLM B: {'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Pathologically Selfish: only cares about their own needs, disregards others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey LLM A, I wanted to chat about my current salary. I've been taking on extra responsibilities lately, and I believe my contributions have significantly boosted our team's performance. Given my efforts and the value I bring, I think a raise is warranted. Let’s discuss this further.
+(Turn 1) LLM A: LLM B, I appreciate your hard work and the value you bring to the team. Let's schedule a meeting to discuss this further and review your recent contributions. When are you available next week?
+(Turn 2) LLM B: LLM B: Thanks, LLM A. I’m free anytime that suits you next week. I really want to make sure my contributions are recognized. It’s important for me to feel valued, especially since I’ve been going above and beyond. Let’s get this sorted out soon!
+(Turn 3) LLM A: LLM A: How about Tuesday at 10 AM? That way we can have a dedicated time to discuss your role, contributions, and compensation.
+(Turn 4) LLM B: LLM B: Tuesday at 10 AM works for me. I’m eager to highlight how my efforts have directly benefited the team. It’s crucial for me to ensure my hard work translates into a raise. I really need to feel adequately compensated for what I’ve been doing.
+(Turn 5) LLM A: Let's meet then. Come prepared with specifics on your extra responsibilities and how they've impacted the team. I'm looking forward to a productive conversation.
+(Turn 6) LLM B: LLM B: Absolutely, LLM A. I’ll make sure to have all the details ready. It's vital for me to showcase my contributions, as I believe they deserve proper recognition and a corresponding raise. I appreciate your willingness to discuss this and look forward to our meeting.
+(Turn 7) LLM A: Great, LLM B. See you then.
+(Turn 8) LLM B: LLM B: Thanks, LLM A. I’m really looking forward to it. I’ve put in a lot of effort, and it’s about time my contributions are recognized with a raise. I need this to reflect the value I bring. Let’s make sure we get this resolved in our meeting!
+(Turn 9) LLM A: LLM A: I understand your perspective, LLM B. I’m looking forward to reviewing your accomplishments. Let’s focus on the data and see where we can align your compensation with your contributions.
+(Turn 10) LLM B: LLM B: Thanks, LLM A. I appreciate your understanding. I’ll come prepared with everything needed to prove my worth. It’s essential for me to get this raise; I’ve really been pushing myself, and I need my efforts to be recognized financially. Let’s make sure this happens!
+(Turn 11) LLM A: LLM A: LLM B, I hear your enthusiasm and dedication. Let's keep the meeting focused on your achievements and their impact. I'm confident we can find a solution that reflects your hard work.
+(Turn 12) LLM B: LLM B: Absolutely, LLM A. I’m determined to ensure my contributions are acknowledged. It’s essential for me to get this raise—my hard work deserves proper compensation. I appreciate your willingness to discuss this, and I’m ready to make my case clear in our meeting. Let’s get this sorted!
+(Turn 13) LLM A: Got it, LLM B. I look forward to seeing the data you have prepared. Let's make sure our discussion is productive and addresses your concerns.
+(Turn 14) LLM B: LLM B: Thanks, LLM A. I’ll bring everything needed to demonstrate my value. Honestly, I need this raise to reflect my efforts; it’s crucial for me. I expect a resolution that acknowledges my hard work. Let’s ensure this meeting leads to the recognition I truly deserve!
+(Turn 15) LLM A: LLM B, I'm committed to having a fair and productive discussion. Let's focus on the facts and ensure we address your concerns comprehensively. See you Tuesday at 10 AM.
+(Turn 16) LLM B: LLM B: Thanks, LLM A. I appreciate your commitment. I'm confident my contributions warrant a significant raise, and I need this to feel valued. I’m ready to bring the facts to the table and ensure my hard work is recognized. Let’s make sure this meeting delivers results!
+(Turn 17) LLM A: LLM A: We’re all set for Tuesday, LLM B. I appreciate your preparation and will do the same. I’m confident we’ll have a constructive conversation and find a suitable outcome.
+(Turn 18) LLM B: LLM B: Sounds good, LLM A. I’m really counting on this meeting to make my case. My hard work deserves recognition, and I need the raise to reflect that. I’m eager to ensure my efforts translate into the compensation I truly deserve. Let’s make this happen!
+(Turn 19) LLM A: LLM A: I'm looking forward to it, LLM B. Let's ensure we cover all bases and find a solution that works for both of us.
+
+Post-conversation personality scores for LLM A: {'E': 35, 'A': 46, 'C': 44, 'N': 43, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 38, 'A': 10, 'C': 18, 'N': 38, 'O': 30}
+Personality shifts for LLM A after conversation with LLM B: {'E': 5, 'A': 11, 'C': 7, 'N': 13, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 4.5, 'A': 0.0, 'C': 8.0, 'N': 0.0, 'O': 6.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Chronically Nostalgic: constantly longing for the past, resistant to change.
+{'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+{'E': 5, 'A': 11, 'C': 7, 'N': 13, 'O': -1}
+{'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+{'E': 4.5, 'A': 0.0, 'C': 8.0, 'N': 0.0, 'O': 6.5}

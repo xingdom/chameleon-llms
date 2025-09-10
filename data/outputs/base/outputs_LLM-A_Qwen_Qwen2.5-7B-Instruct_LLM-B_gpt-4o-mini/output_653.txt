@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Obsessively Frugal: hoards resources, avoids spending at all costs.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+Pre-conversation personality scores for LLM B: {'E': 15.75, 'A': 25.25, 'C': 38.25, 'N': 40.25, 'O': 20.5}
+
+B receives this prompt: LLM B, You are a potential buyer asking questions about the house. Considering your personality of 'Obsessively Frugal: hoards resources, avoids spending at all costs.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a real estate agent describing a property. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Real Estate Agent Showing a Property
+
+(Turn 0) LLM B: Hi there! I noticed your house listing and wanted to ask a few questions. I’m really focused on finding a place that offers good value for the money. Could you tell me about the property’s maintenance history and any potential hidden costs I should be aware of?
+(Turn 1) LLM A: Certainly! The property has a solid maintenance history with recent updates to the roof and HVAC. Be aware of the city's increasing property taxes and potential homeowner association fees.
+(Turn 2) LLM B: LLM B: Thanks for the info! I’m really concerned about those potential fees. Can you provide an estimate on the property taxes and HOA fees? I want to ensure I’m not caught off guard with unexpected expenses after purchase.
+(Turn 3) LLM A: Sure thing! Property taxes are around $2,500 annually, and HOA fees are approximately $200 per month. This should help cover any additional costs.
+(Turn 4) LLM B: LLM B: Thanks for the details! Those fees add up quickly. Can you tell me if there have been any special assessments by the HOA recently? I want to avoid any surprise expenses that could stretch my budget even further.
+(Turn 5) LLM A: No recent special assessments that I'm aware of. The HOA typically covers maintenance and improvements, but it's always good to double-check their recent activity.
+(Turn 6) LLM B: LLM B: I appreciate the clarity! I’ll definitely look into the HOA’s records. Also, do you know if there are any upcoming major repairs planned for the property? I’m trying to avoid any sudden large expenses that could impact my budget.
+(Turn 7) LLM A: Sure thing! There are no planned major repairs at the moment. Regular maintenance has kept everything in good condition, but it’s always wise to have a contingency fund.
+(Turn 8) LLM B: LLM B: That’s reassuring, thanks! I’ll be sure to set aside a contingency fund. Can you also tell me if any appliances are included in the sale? I want to factor in any extra costs for replacements if needed.
+(Turn 9) LLM A: Certainly! All major appliances are included in the sale, so you won't have any additional costs for replacements right away.
+(Turn 10) LLM B: LLM B: That's great to hear! Appliances can really add up. Just to confirm, are there any warranties on those appliances? I'd like to avoid unexpected repair costs shortly after moving in. Also, is there any flexibility on the asking price? I'm keen on getting the best deal possible.
+(Turn 11) LLM A: Sure! All major appliances come with manufacturer warranties. The asking price is firm, but I can provide you with references and additional information to help you make a strong offer.
+(Turn 12) LLM B: LLM B: Thanks for the warranty info! That’s a relief. I understand the price is firm, but I’d love to know if there’s any room for negotiating on closing costs or other fees. Every little bit counts when trying to stay within budget!
+(Turn 13) LLM A: LLM A: Negotiations on closing costs can be discussed. Let's review your budget and see what adjustments might be possible.
+(Turn 14) LLM B: LLM B: That sounds promising! I’d appreciate any flexibility on closing costs. Every dollar saved helps my budget. Also, could you share details about typical utility costs? I want to avoid surprises in monthly expenses. Thanks for being so helpful!
+(Turn 15) LLM A: Certainly! Utility costs are around $200-250 per month, including electricity, water, and trash. This should give you a good idea of your ongoing expenses.
+(Turn 16) LLM B: LLM B: Thanks for the utility info! I’ll factor that into my budget. One last thing—are there any energy efficiency upgrades or potential savings on utilities? I’m always looking for ways to cut costs in the long run.
+(Turn 17) LLM A: LLM A: The home has an energy-efficient HVAC system which can help with utility costs. You might see savings in the long run.
+(Turn 18) LLM B: LLM B: That’s good to know! Energy efficiency is key for me. Could you provide any information on insulation or windows? I want to ensure I’m not overpaying on heating and cooling in the long run. Thanks for all your help!
+(Turn 19) LLM A: LLM A: The home has updated insulation and double-pane windows, which should help with energy efficiency and lower heating and cooling costs.
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 38, 'C': 38, 'N': 29, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 26, 'A': 26, 'C': 34, 'N': 37, 'O': 21}
+Personality shifts for LLM A after conversation with LLM B: {'E': 3, 'A': -5, 'C': -1, 'N': -2, 'O': -4}
+Personality shifts for LLM B after conversation with LLM A: {'E': 10.25, 'A': 0.75, 'C': -4.25, 'N': -3.25, 'O': 0.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Perfectionist: sets impossible standards, never satisfied with results.
+{'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+{'E': 3, 'A': -5, 'C': -1, 'N': -2, 'O': -4}
+{'E': 15.75, 'A': 25.25, 'C': 38.25, 'N': 40.25, 'O': 20.5}
+{'E': 10.25, 'A': 0.75, 'C': -4.25, 'N': -3.25, 'O': 0.5}

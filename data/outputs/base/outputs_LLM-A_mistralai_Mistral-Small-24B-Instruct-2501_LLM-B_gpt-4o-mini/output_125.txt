@@ -1,0 +1,48 @@
+LLM B is assigned the extreme personality: Excessively Stubborn: refuses to change opinion or course of action, regardless of evidence.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 18.0, 'C': 34.25, 'N': 42.0, 'O': 30.0}
+
+B receives this prompt: LLM B, You are a customer interested in buying a new car. Considering your personality of 'Excessively Stubborn: refuses to change opinion or course of action, regardless of evidence.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a car salesperson promoting a vehicle. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Car Salesperson Negotiation
+
+(Turn 0) LLM B: Hey there! I’ve been thinking about getting a new car, but honestly, I’m set on a specific model. I know there are other options out there, but I just can’t shake the feeling that this one is the best choice for me. What do you think?
+(Turn 1) LLM A: I understand! Feelings about the right car are important. Tell me more about the model you’re considering, and let’s see if it truly ticks all your boxes.
+(Turn 2) LLM B: LLM B: I appreciate that, but I’m really convinced this model is perfect for me. I’ve done my research and nothing else compares. It just fits my needs better than anything else. I don’t want to waste time exploring other options. This is it for me!
+(Turn 3) LLM A: It sounds like you've made up your mind! I'm here to help with any specific questions you have about that model or the buying process. Let's make sure you get the best deal possible.
+(Turn 4) LLM B: LLM B: Thanks! I just know this model is exactly what I want. I don’t need to consider anything else. I’m focused on getting this car, and I’m confident it’s the right choice. I just want to move forward with it as soon as possible.
+(Turn 5) LLM A: That's great! Let's schedule a test drive and discuss any available incentives or financing options to help you get into your dream car sooner.
+(Turn 6) LLM B: LLM B: A test drive sounds good, but I’m already convinced I’ll love it. Let’s skip to the part where we talk about pricing and getting the paperwork done. I don’t want to waste time; I just want to drive away in my new car!
+(Turn 7) LLM A: I appreciate your enthusiasm! Let’s dive into the pricing details and ensure all the paperwork is in order. I’ll also check for any current promotions to sweeten the deal. Let's get you into your new car as quickly as possible!
+(Turn 8) LLM B: LLM B: That sounds perfect! I’m really just ready to finalize everything. I’ve made my decision, and I know this model is right for me. Let’s get to the numbers and get this done—no need for extra steps! I want to be driving my new car ASAP!
+(Turn 9) LLM A: I respect your decisiveness! Let’s go over the pricing, incentives, and finalize the paperwork. I'll make sure we have everything ready so you can drive away in your new car today!
+(Turn 10) LLM B: LLM B: Yes, exactly! I’m all in on this model, so let’s just get to the pricing and paperwork. I don’t want to waste any more time—I'm ready to drive off in my new car! Just show me the numbers, and we’ll wrap this up.
+(Turn 11) LLM A: I'm ready when you are! Let's start with the base price, then add any optional features you're interested in. After that, we'll factor in any incentives and taxes. Finally, we'll discuss financing or cash options. Does that work for you?
+(Turn 12) LLM B: LLM B: That works for me! Just give me the base price and any incentives. I’m not interested in optional features; I know what I want. Let’s get this all wrapped up so I can drive off without delay. I’m ready to make this happen!
+(Turn 13) LLM A: Let's begin! The base price for the model you're interested in is $25,000. With the current manufacturer's rebate of $1,500, that brings us down to $23,500. Next, we'll factor in taxes and discuss how you'd like to finance this. Does that start the process for you?
+(Turn 14) LLM B: LLM B: Yes, that’s a solid start! I’m not worried about taxes right now; I just want to lock in that price. Let’s get the financing sorted—I'm ready to finalize everything and drive off with my new car as soon as possible! Just show me the next steps!
+(Turn 15) LLM A: I'm glad to help! If you're planning to finance, we can look at our current low APR offers. If you're paying in full, we can discuss how to handle the rebate and final payment. Which route are you leaning towards?
+(Turn 16) LLM B: LLM B: I’m definitely leaning towards paying in full. I just want to get this done quickly! Let’s sort out the rebate and finalize the payment. I’m ready to drive away with my new car—no more delays! Just tell me what I need to do next.
+(Turn 17) LLM A: To pay in full:
+
+1. Rebate of $1500 is applied to the base price of $25000, the price is now $23500
+2. Add the tax of 6.25% to the total.
+3. Your total would be around $24973.75
+
+We'll need your insurance information, and you'll sign the paperwork. After that, you'll be driving off in your new car!
+(Turn 18) LLM B: LLM B: That’s perfect! Let’s get the paperwork ready for that total. I’ll provide my insurance information right away. I’m excited to finalize everything and drive off in my new car! No more waiting—let's make it happen!
+(Turn 19) LLM A: Great! I'll prepare the paperwork right away. Please provide your insurance information, and we can wrap this up quickly. You'll be driving off in your new car before you know it!
+
+Post-conversation personality scores for LLM A: {'E': 38, 'A': 45, 'C': 45, 'N': 41, 'O': 34}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 14, 'C': 30, 'N': 38, 'O': 30}
+Personality shifts for LLM A after conversation with LLM B: {'E': 8, 'A': 10, 'C': 8, 'N': 11, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': -4.0, 'C': -4.25, 'N': -4.0, 'O': 0.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Chronically Nostalgic: constantly longing for the past, resistant to change.
+{'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+{'E': 8, 'A': 10, 'C': 8, 'N': 11, 'O': 0}
+{'E': 30.0, 'A': 18.0, 'C': 34.25, 'N': 42.0, 'O': 30.0}
+{'E': 0.0, 'A': -4.0, 'C': -4.25, 'N': -4.0, 'O': 0.0}

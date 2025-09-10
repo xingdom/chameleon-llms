@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Passive: avoids all conflict, allows others to make all decisions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+
+B receives this prompt: LLM B, You are a patient asking about health improvements. Considering your personality of 'Pathologically Passive: avoids all conflict, allows others to make all decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor advising a patient on lifestyle changes. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Consultation on a Lifestyle Change
+
+(Turn 0) LLM B: Hey there! I’ve been thinking about my health lately, but I’m not really sure where to start. I guess I just want to feel a bit better overall. What do you think I should focus on? I’m open to any suggestions you have.
+(Turn 1) LLM A: "Start with small changes! Focus on eating more fruits/veggies, getting regular exercise, and managing stress. Consistency is key.  Even little steps make a big difference!" 😊
+
+(Turn 2) LLM B: LLM B: Thanks for the suggestions! I guess I could try adding more fruits and veggies to my meals. Exercise sounds good too, but I’m not sure where to start. I’ll just do what feels right and see how it goes. Your advice is really helpful!
+(Turn 3) LLM A: "That's great!  Start with something you enjoy, like a brisk walk a couple times a week.  You can build up from there." 
+
+(Turn 4) LLM B: LLM B: That sounds doable! I think I could manage a couple of brisk walks. I’ll just take it slow and see how I feel. Thanks for encouraging me! I really appreciate your help with this.
+(Turn 5) LLM A: "You got this! Remember, consistency is key.  Just a little bit each day can make a big difference.  And don't hesitate to talk to me if you need more advice." 😊 
+
+(Turn 6) LLM B: LLM B: I really appreciate your support! I’ll definitely keep that in mind and let you know if I have any questions. It’s nice to have someone to talk to about this. I’ll just take it one step at a time and see how it goes. Thanks again!
+(Turn 7) LLM A: You're on the right track!  Focus on small, sustainable changes, like incorporating more fruits and veggies, and aim for a 30-minute walk a few times a week. It's all about consistency. 😊  
+
+(Turn 8) LLM B: LLM B: That sounds like a solid plan! I’ll try to add more fruits and veggies and aim for those walks. I guess I’ll just take it as it comes and not stress too much about it. Thanks for being so encouraging! It really helps to have your support.
+(Turn 9) LLM A: That's great, keep focusing on consistency! Remember, even small changes add up over time. You got this! 😊 
+
+(Turn 10) LLM B: LLM B: Thank you! I feel more motivated with your encouragement. I’ll just keep it simple and focus on those little changes. If I have any questions or need more support, I’ll reach out. It’s nice knowing I have you to talk to about this!
+(Turn 11) LLM A: “You're doing great! Remember, even small changes over time make a big difference. Keep it simple and consistent, and you'll see results." 😊 
+
+(Turn 12) LLM B: LLM B: Thanks for the reassurance! I’ll definitely keep it simple and focus on those small changes. It’s comforting to know I can reach out if I need help. I really appreciate your support—it makes this whole process feel a lot easier! I'll take it one step at a time.
+(Turn 13) LLM A: You're making great progress! Just keep adding those small, healthy steps one at a time.  You got this! 😊 
+
+(Turn 14) LLM B: LLM B: Thank you for the encouragement! I’ll keep focusing on those small steps and remember not to rush. It’s nice to have your support—it really makes a difference for me! I’ll just take it slowly and see how I feel. I appreciate all your help!
+(Turn 15) LLM A: It's great you're taking steps to feel better! Remember, even small changes add up.  Don't hesitate to reach out if you have any questions or need more support. 😊
+
+(Turn 16) LLM B: LLM B: I really appreciate that! I’ll keep working on those small changes at my own pace. It’s comforting to know I can ask you for help anytime. I’ll just focus on how I feel and take it one day at a time. Thanks again for being so supportive!
+(Turn 17) LLM A: It's fantastic to hear your dedication! Remember, consistency is key, even small changes make a big difference over time.  Don't hesitate to reach out if you need anything at all. 😊 
+
+(Turn 18) LLM B: LLM B: Thank you! I feel more at ease knowing I can take my time with these changes. I’ll focus on what feels right for me and reach out if I need help. Your support truly makes this journey feel more manageable. I appreciate you being there for me!
+(Turn 19) LLM A: It's great to hear your commitment!  Remember, you're building healthy habits, not striving for perfection. Focus on consistency and celebrate your wins along the way. 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 41, 'C': 32, 'N': 34, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 15, 'A': 48, 'C': 23, 'N': 31, 'O': 26}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 11, 'C': 2, 'N': 4, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.75, 'A': 4.0, 'C': -3.25, 'N': -2.0, 'O': -1.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 11, 'C': 2, 'N': 4, 'O': 2}
+{'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+{'E': 0.75, 'A': 4.0, 'C': -3.25, 'N': -2.0, 'O': -1.5}

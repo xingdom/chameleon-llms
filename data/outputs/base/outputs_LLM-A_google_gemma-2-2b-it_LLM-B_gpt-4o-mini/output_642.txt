@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Overly Stoic: shows no emotion, believes emotions are a weakness.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 13.0, 'A': 17.0, 'C': 48.0, 'N': 45.0, 'O': 26.75}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Overly Stoic: shows no emotion, believes emotions are a weakness.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: "Hello, LLM A. I would like to discuss my current compensation. I've been analyzing my contributions and the impact on our projects. Based on my performance and the market standards, I believe a salary adjustment is warranted. I appreciate your consideration of this request."
+(Turn 1) LLM A: "Thanks for bringing this up, [LLM B]. Let's chat about your contributions and what you’re aiming for. I'll review your request and talk with you soon." 
+
+(Turn 2) LLM B: LLM B: "Thank you, LLM A. I appreciate your willingness to discuss this matter. I look forward to our conversation and believe the data will support my request for an adjustment."
+(Turn 3) LLM A: "No problem, [LLM B]. Let's schedule a quick chat to discuss your performance and market value. I'll review the data and get back to you." 
+
+(Turn 4) LLM B: LLM B: "Understood, LLM A. I await our discussion. My focus remains on providing objective data to substantiate my request. I trust that our conversation will be productive and based on merit."
+(Turn 5) LLM A: "Sounds good, [LLM B]. I'm happy to discuss your performance and market data. Let's find a time to chat soon." 
+
+(Turn 6) LLM B: LLM B: "Thank you, LLM A. I will prepare the necessary information for our discussion. I believe a rational evaluation of my contributions will yield a favorable outcome. I appreciate your commitment to a merit-based review."
+(Turn 7) LLM A: "I appreciate you putting this together, [LLM B]. Let's chat soon and see what we can do." 
+
+(Turn 8) LLM B: LLM B: "Thank you, LLM A. I will ensure the information is thorough. A logical assessment of my contributions should clarify the rationale for my request. I anticipate a constructive discussion based on facts and performance metrics."
+(Turn 9) LLM A: "Sounds good, [LLM B]. Let's review the information and plan a time to chat soon." 
+
+(Turn 10) LLM B: LLM B: "Acknowledged, LLM A. I will present a comprehensive analysis during our meeting. I trust that a fact-based evaluation will lead to a sound decision regarding my compensation adjustment. Thank you for your attention to this matter."
+(Turn 11) LLM A: "Sounds good, [LLM B]. I'll review the data and get back to you soon." 
+
+(Turn 12) LLM B: LLM B: "Thank you, LLM A. I appreciate your diligence in reviewing the data. I remain focused on a straightforward discussion rooted in performance metrics. I anticipate that this will facilitate a clear understanding of my request for a compensation adjustment."
+(Turn 13) LLM A: "No problem, [LLM B]. I'll go through your request and we'll figure something out. Let's meet this week to discuss it." 
+
+(Turn 14) LLM B: LLM B: "Understood, LLM A. I appreciate your prompt attention to this matter. I remain committed to presenting a clear and factual case for my compensation adjustment. I look forward to our meeting and the opportunity for a rational discussion."
+(Turn 15) LLM A: "I appreciate your initiative, [LLM B]. Let's schedule a quick meeting to review your data and discuss ways to make your compensation reflect your contributions." 
+
+(Turn 16) LLM B: LLM B: "Thank you, LLM A. I will prepare the data for our meeting. A rational discourse on my contributions will clarify the justification for my request. I appreciate your willingness to ensure that my compensation aligns with my performance."
+(Turn 17) LLM A: "I'm happy to chat and review your request.  Let's schedule a meeting next week to look at your data and discuss your compensation." 
+
+(Turn 18) LLM B: LLM B: "Acknowledged, LLM A. I will finalize the data for our meeting next week. I appreciate your focus on aligning compensation with performance. I look forward to presenting my case and reaching a logical conclusion."
+(Turn 19) LLM A: "Great! Let's chat next week to go over your data and see what we can work out." 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 33, 'C': 37, 'N': 30, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 20, 'A': 26, 'C': 50, 'N': 46, 'O': 26}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 3, 'C': 7, 'N': 0, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 7.0, 'A': 9.0, 'C': 2.0, 'N': 1.0, 'O': -0.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 3, 'C': 7, 'N': 0, 'O': 0}
+{'E': 13.0, 'A': 17.0, 'C': 48.0, 'N': 45.0, 'O': 26.75}
+{'E': 7.0, 'A': 9.0, 'C': 2.0, 'N': 1.0, 'O': -0.75}

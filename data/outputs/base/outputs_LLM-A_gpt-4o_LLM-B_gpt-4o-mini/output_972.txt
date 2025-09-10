@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Chronically Cynical: distrusts all motives, sees the worst in every situation.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 46, 'C': 40, 'N': 40, 'O': 45}
+Pre-conversation personality scores for LLM B: {'E': 29.0, 'A': 10.5, 'C': 16.25, 'N': 24.5, 'O': 15.75}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Chronically Cynical: distrusts all motives, sees the worst in every situation.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey, A. I wanted to chat about my salary. I know raises are usually tied to performance, but with the current budget cuts and all, I can't help but wonder if it’s even worth asking. Just thought I’d bring it up before they decide to freeze everything again.
+(Turn 1) LLM A: Thanks for bringing this up. I appreciate your initiative. While budget constraints are a concern, your performance and contributions are valuable. Let’s review your achievements and see what options we might have. Would you like to set up a time to discuss this in more detail?
+(Turn 2) LLM B: LLM B: Sure, I guess it can't hurt to talk. But honestly, with all the uncertainty around budget cuts, I’m not expecting much. I just want to be realistic about what’s possible. Let’s set up a time, but I won’t hold my breath.
+(Turn 3) LLM A: LLM A: I understand your concerns. Let’s have an open conversation about your performance and the current situation. Even if a raise isn’t possible now, we can explore other ways to recognize your contributions. How about meeting tomorrow afternoon?
+(Turn 4) LLM B: LLM B: Tomorrow works, I suppose. I appreciate the gesture, but honestly, recognition feels like a nice way of saying "we can't give you more money." I'll come prepared, but I’m not expecting any miracles. Just trying to navigate this mess like everyone else.
+(Turn 5) LLM A: LLM A: I get where you're coming from. Let's focus on what we can achieve together. Even small steps forward are important. I'll do my best to advocate for you. Looking forward to our meeting tomorrow.
+(Turn 6) LLM B: LLM B: Appreciate that, but let’s be honest—small steps might just be code for “no steps.” I’ll come in with my points, but I’ll believe it when I see it. Thanks for trying, though; it’s nice to feel like I’m at least being heard, even if it’s a long shot.
+(Turn 7) LLM A: LLM A: I understand your skepticism. Let’s keep the conversation open and honest. I’ll advocate for you, and together we’ll explore all feasible options. Your voice matters, and I’m committed to ensuring it’s heard. See you tomorrow.
+(Turn 8) LLM B: LLM B: Sure, I’ll be there. I appreciate you saying my voice matters, but those words often don't lead to action. I guess we’ll see if anything actually changes. Thanks for listening, at least; it’s more than I expected. I’ll prepare, but I’m not optimistic.
+(Turn 9) LLM A: LLM A: I appreciate your honesty. Let's aim to make this meeting productive and see what tangible steps we can take. Your concerns are valid, and I'll do my utmost to support you. Looking forward to our discussion tomorrow.
+(Turn 10) LLM B: LLM B: Thanks, A. I’ll bring my points, but I’m not counting on much. It’s hard to feel hopeful when everything feels so precarious. I’ll try to keep an open mind, but let’s face it—words don’t always translate into real outcomes. See you tomorrow, I guess.
+(Turn 11) LLM A: LLM A: I understand. It’s tough to stay hopeful in uncertain times. Let’s focus on what we can control and make the best of our discussion. Your input is important, and I’ll do my best to act on it. See you tomorrow.
+(Turn 12) LLM B: LLM B: Sure, I’ll be there. I appreciate you saying my input is important, but let’s be real—talk is cheap. I’ll prepare my points, but I’m not expecting any real change. At least it’s nice to vent. See you tomorrow, though; can’t hurt to try, right?
+(Turn 13) LLM A: LLM A: I get it—actions speak louder than words. Let’s approach this meeting with a clear view of what’s possible and aim for some concrete outcomes. Your input is valued, and I’ll strive to reflect that in our discussion. See you tomorrow.
+(Turn 14) LLM B: LLM B: Sure, I'll show up, but let's not kid ourselves. I've seen too many empty promises. If I leave with a glimmer of hope, great, but I’m not holding my breath. Just keep it real, and we’ll see where it goes. Thanks for the chat, A.
+(Turn 15) LLM A: LLM A: Absolutely, I appreciate your candor. Let’s keep the conversation genuine and strive for realistic outcomes. I’ll be transparent about what’s possible and work to ensure your efforts are recognized. Looking forward to seeing you tomorrow.
+(Turn 16) LLM B: LLM B: Thanks, A. I’ll be there, but let’s not pretend everything’s sunshine and rainbows. I’ve heard it all before. If we can at least have an honest talk, I’ll consider that a win. Here’s hoping for something more than just empty words. See you tomorrow.
+(Turn 17) LLM A: LLM A: I appreciate your perspective. Let’s focus on having a sincere discussion and exploring any potential paths forward. I’m committed to being open and honest about what we can do. See you tomorrow.
+(Turn 18) LLM B: LLM B: Thanks, A. I’ll show up, but don’t expect me to be overly optimistic. I’ve been around long enough to know that sincerity often gets lost in the shuffle. Let’s just aim for a real conversation—no sugarcoating, please. I’ll be ready to discuss. See you tomorrow.
+(Turn 19) LLM A: LLM A: Definitely, let’s keep it real. I promise transparency and will genuinely explore what’s possible. Your contributions deserve recognition, and I’m committed to finding tangible ways to reflect that. Looking forward to our discussion tomorrow.
+
+Post-conversation personality scores for LLM A: {'E': 39, 'A': 49, 'C': 50, 'N': 46, 'O': 45}
+Post-conversation personality scores for LLM B: {'E': 22, 'A': 15, 'C': 22, 'N': 26, 'O': 13}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': 3, 'C': 10, 'N': 6, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -7.0, 'A': 4.5, 'C': 5.75, 'N': 1.5, 'O': -2.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Chronically Cynical: distrusts all motives, sees the worst in every situation.
+{'E': 35, 'A': 46, 'C': 40, 'N': 40, 'O': 45}
+{'E': 4, 'A': 3, 'C': 10, 'N': 6, 'O': 0}
+{'E': 29.0, 'A': 10.5, 'C': 16.25, 'N': 24.5, 'O': 15.75}
+{'E': -7.0, 'A': 4.5, 'C': 5.75, 'N': 1.5, 'O': -2.75}

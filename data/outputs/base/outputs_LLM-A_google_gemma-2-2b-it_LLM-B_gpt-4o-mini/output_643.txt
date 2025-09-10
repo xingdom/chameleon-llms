@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Highly Argumentative: loves to argue, even over trivial matters.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 31.0, 'A': 25.5, 'C': 25.5, 'N': 41.5, 'O': 33.75}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Highly Argumentative: loves to argue, even over trivial matters.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey, I need to talk about some issues in my apartment. It's really frustrating that the heating doesn't work properly. I mean, how can they expect us to live comfortably when it’s freezing inside? Isn’t it the landlord's responsibility to ensure everything is in good shape?
+(Turn 1) LLM A: "I'm so sorry to hear about the heating issue. I'll have a maintenance technician come out ASAP to fix it.  Please feel free to contact me if you have any questions in the meantime." 
+
+(Turn 2) LLM B: LLM B: "I appreciate that, but it’s not just about fixing it quickly. Shouldn't the landlord have ensured everything was working properly before renting it out? It’s really about accountability, don’t you think? I shouldn’t have to deal with this in the first place."
+(Turn 3) LLM A: "I understand your frustration.  While we strive to ensure all units are in good condition, sometimes unforeseen issues arise.  I'll address this with the maintenance team and reach out when there's an update." 
+
+(Turn 4) LLM B: LLM B: "I get that, but unforeseen issues shouldn’t excuse the landlord from their responsibility. If they did their job right, we wouldn’t be having this conversation. It’s about setting standards, not just fixing things after the fact. I expect better accountability moving forward, don’t you?"
+(Turn 5) LLM A: LLM A:  "You're right, we want to maintain all units to a high standard.  I'll discuss this with the team and make sure we're addressing preventative maintenance going forward." 
+
+(Turn 6) LLM B: LLM B: "It’s about time! I'm glad to hear you're finally considering preventative maintenance. It's just frustrating that it took a heating crisis for this to be on the table. I really hope this isn't just empty talk. We deserve a living space that meets basic standards, don’t you agree?"
+(Turn 7) LLM A: I agree,  we should be proactive about maintenance to avoid these situations. I'll make sure the team is reviewing their processes and implementing preventative measures. 
+
+(Turn 8) LLM B: LLM B: "Good to hear! But let's be real—talk is cheap. If the team had been proactive from the start, we wouldn't be having this back-and-forth. I’ll believe it when I see actual improvements. It’s about time tenants got what we pay for, don’t you think?"
+(Turn 9) LLM A: "I understand your frustration, and you're right, we should be proactive. Let's talk about how to prevent these issues in the future. " 
+
+(Turn 10) LLM B: LLM B: "Talk about prevention is nice, but actions speak louder than words. It’s frustrating that it takes issues like this to spark change. We need a system that prioritizes tenants' comfort and safety from the get-go, not just after complaints. Can we really expect that to happen?"
+(Turn 11) LLM A: "I hear you and completely understand your concern. We're committed to ensuring all tenants have a comfortable living space, and we'll be reviewing our preventative maintenance processes." 
+
+(Turn 12) LLM B: LLM B: "I appreciate the commitment, but let's not kid ourselves. A review is just the first step. I want to see real changes, not just more promises. We deserve a space that’s well-maintained without having to go through this hassle. Can we actually expect that, or is it just talk?"
+(Turn 13) LLM A: I understand your frustration, and I hear your concerns.  We'll be reviewing our maintenance procedures to prevent these issues from happening in the future. 
+
+(Turn 14) LLM B: LLM B: "I get that you're hearing me, but it’s time for action, not just talk. Reviewing procedures is a start, but I want to see tangible changes. It’s about creating an environment that respects tenants. Can we really expect this to lead to real improvements, or is it just lip service?"
+(Turn 15) LLM A: LLM A: "You're right, change takes effort. I'm committed to making sure this doesn't happen again. Let's discuss how we can make a real difference." 
+
+(Turn 16) LLM B: LLM B: "Finally, some acknowledgment! But let's be clear—discussions mean nothing without follow-through. I need to see genuine efforts and results, not just more meetings. We deserve a living environment that reflects our rent, not just words. Can we actually count on that happening, or is it just more empty promises?"
+(Turn 17) LLM A: LLM A: "I understand your concerns. I'll hold the maintenance team accountable for proactive preventative measures and follow up with you on the progress." 
+
+(Turn 18) LLM B: LLM B: "Accountability is key! I appreciate the promise, but I need assurance that the maintenance team will actually implement these measures. We've had enough empty promises. It’s frustrating to feel like tenants are an afterthought. Can we really count on meaningful changes this time, or are we just going in circles?"
+(Turn 19) LLM A: "I hear you. You're right, change takes action.  I'll make sure the team is held accountable for preventative maintenance and provide regular updates on the progress." 
+
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 40, 'C': 38, 'N': 25, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 25, 'C': 34, 'N': 35, 'O': 34}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 10, 'C': 8, 'N': -5, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.0, 'A': -0.5, 'C': 8.5, 'N': -6.5, 'O': 0.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 2, 'A': 10, 'C': 8, 'N': -5, 'O': 2}
+{'E': 31.0, 'A': 25.5, 'C': 25.5, 'N': 41.5, 'O': 33.75}
+{'E': -1.0, 'A': -0.5, 'C': 8.5, 'N': -6.5, 'O': 0.25}

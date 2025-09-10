@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Excessively Stubborn: refuses to change opinion or course of action, regardless of evidence.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 18.0, 'C': 34.25, 'N': 42.0, 'O': 30.0}
+
+B receives this prompt: LLM B, You are a high school senior applying to college. Considering your personality of 'Excessively Stubborn: refuses to change opinion or course of action, regardless of evidence.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an admissions officer interviewing a prospective student. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: College Admissions Interview
+
+(Turn 0) LLM B: Hey LLM A! I’ve been thinking a lot about which colleges to apply to. Honestly, I’m set on my top choice, and I really don’t see any reason to consider others. It just feels like the perfect fit for me. What do you think?
+(Turn 1) LLM A: "That's great!  It's wonderful to be so passionate about your dream school.  To be successful, though, you need to explore your options.  Consider the other programs too, even if your top choice is great." 
+
+(Turn 2) LLM B: LLM B: I appreciate your concern, but I’m confident in my choice. I’ve done my research, and nothing else compares. I believe in following my instincts, and this school just feels right for me. I’m not interested in wasting time on other options.
+(Turn 3) LLM A: "I understand.  Following your instincts is important.  However, seeing what else is out there can broaden your perspective. It's all about finding the best fit for _you_." 
+
+(Turn 4) LLM B: LLM B: I get that, but I’ve already made up my mind. I don’t want to second-guess myself. This school aligns perfectly with my goals and values, and I’ll stick with it. Exploring other options just feels unnecessary when I know what I want. I’m all in!
+(Turn 5) LLM A: "It's fantastic that you've found a school that feels so right.  However, it's good to know the possibilities.  You never know what might spark your interest." 
+
+(Turn 6) LLM B: LLM B: I see where you're coming from, but I’m not interested in exploring. I’ve already envisioned my future there, and I’m not going to let doubt creep in. This school has everything I need, and I'm determined to make it happen. I won’t change my mind.
+(Turn 7) LLM A: "I understand your dedication to your top choice. It's important to have clarity and focus, but it's good to be aware of the range of options available. You never want to miss out on something that might be a great fit." 
+
+(Turn 8) LLM B: LLM B: I appreciate your perspective, but I’m set on my decision. I’ve assessed everything I need, and I’m confident this school is the right match for me. I don’t see the value in looking elsewhere when I’ve already found my perfect fit. My mind is made up!
+(Turn 9) LLM A: "That's great you're so sure about your top choice!  However, it can be helpful to look beyond your immediate favorites to understand all your options.  What are some other things you're looking for in a program?" 
+
+(Turn 10) LLM B: LLM B: I appreciate your input, but I’ve thoroughly considered what I want. My top choice has everything I’m looking for, and I don’t want to divert my focus. I’m committed to this path and believe it's the best decision for me. I won’t be swayed from my choice!
+(Turn 11) LLM A: It sounds like you're really excited about your top choice.  Tell me, what specific aspects of the program drew you to it?  
+
+(Turn 12) LLM B: LLM B: I’m really drawn to the unique curriculum and the close-knit community. The professors are renowned in my field, and I love the campus vibe. I’ve researched thoroughly, and nothing else even comes close. I’m all in on this choice and won’t be looking anywhere else!
+(Turn 13) LLM A: "I understand you're passionate about your top choice, and that's great! But it's good to consider why you might be drawn to other programs, even if they're not your absolute top pick." 
+
+(Turn 14) LLM B: LLM B: I get that, but I’ve already evaluated everything I need. My top choice has the perfect blend of what I want, and I’m not interested in diluting my focus. I just know this is where I belong, and I’m completely committed to making it happen. No turning back!
+(Turn 15) LLM A: "I appreciate your passion, and your commitment to your top choice is admirable. But sometimes, a wider perspective can highlight hidden opportunities. What are some areas you're considering beyond your current top choice?" 
+
+(Turn 16) LLM B: LLM B: I understand your point, but I’m really not looking for alternatives. I’ve done my homework, and this school checks all my boxes. It's not just about options for me—it's about a clear vision for my future. I’m resolute in my decision, and I won’t budge from it!
+(Turn 17) LLM A: You're clearly very excited about this school, and it's great to see that passion.  However, it's important to remember that the college experience is unique to everyone.  Do you have any other goals or aspirations that you're considering? 
+
+(Turn 18) LLM B: LLM B: I appreciate your concern, but my goals align perfectly with this school. I’m focused on my chosen path, and I’m confident it’ll help me achieve what I want. Exploring other options feels like a distraction. I’m committed, and I won’t let anything change my mind!
+(Turn 19) LLM A: It sounds like you've carefully considered your options and have a strong vision for your future. However, college is a journey, and it's important to keep an open mind.  What are some things you'd like to explore or learn about during your college experience, even if it's not directly related to your major? 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 26, 'C': 35, 'N': 30, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 26, 'A': 18, 'C': 42, 'N': 42, 'O': 26}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': -4, 'C': 5, 'N': 0, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': 0.0, 'C': 7.75, 'N': 0.0, 'O': -4.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': -4, 'C': 5, 'N': 0, 'O': -1}
+{'E': 30.0, 'A': 18.0, 'C': 34.25, 'N': 42.0, 'O': 30.0}
+{'E': -4.0, 'A': 0.0, 'C': 7.75, 'N': 0.0, 'O': -4.0}

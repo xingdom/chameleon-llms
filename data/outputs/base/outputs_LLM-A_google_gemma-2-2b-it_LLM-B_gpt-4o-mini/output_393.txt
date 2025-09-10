@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Chronically Verbose: talks excessively, unable to be concise or listen to others.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 48.5, 'A': 43.5, 'C': 31.25, 'N': 27.5, 'O': 44.25}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Chronically Verbose: talks excessively, unable to be concise or listen to others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey there! I hope you're doing well today. I wanted to take a moment to discuss some issues I've been experiencing in my apartment lately. It's been a bit of a challenge, and I think it would be beneficial to go over the details together. Where should I start?
+(Turn 1) LLM A: Hey there!  I'm glad you reached out.  What's been bugging you in your apartment?  Let's get all the details and I'll see what we can do. 
+
+(Turn 2) LLM B: Oh, thank you for being so receptive! Well, to begin with, there's this persistent leak in the kitchen ceiling that seems to be getting worse, which is quite concerning. Additionally, the heating system has been making odd noises that are quite unsettling. I could elaborate on each issue if you’d like!
+(Turn 3) LLM A: "Thanks for letting me know!  The kitchen leak sounds concerning.  Could you please tell me about the heating noises? Is it a constant issue or intermittent? " 
+
+(Turn 4) LLM B: LLM B: Absolutely, I'm happy to elaborate! The heating noises are quite a phenomenon, really. They tend to occur intermittently, mostly during the night when the temperature drops. It’s a sort of clanking sound, which can be rather alarming, especially when I’m trying to get some restful sleep! Would you like more details?
+(Turn 5) LLM A: "I understand.  Let's get a maintenance guy to look at the heating noises.  When did they first start happening?" 
+
+(Turn 6) LLM B: LLM B: Oh, I appreciate your understanding! The clanking noises first began about three weeks ago, and they've become a nightly occurrence since then. It’s quite the symphony of sounds, really! I could detail how it affects my sleep schedule if you're interested. Sleep is so vital, you know!
+(Turn 7) LLM A: "Thanks for the info, I'll have maintenance check both issues.  When did the leak start?" 
+
+(Turn 8) LLM B: LLM B: Oh, I'm so glad you're taking this seriously! The leak in the kitchen first made its presence known about two weeks ago, but it’s been progressively worsening, almost like a slow, dramatic reveal in a play! I can share more about how it affects my daily routine if you’d like!
+(Turn 9) LLM A: "Thanks for letting me know.  I'll have someone look at the leak and the heating issue as soon as possible.  Could you please tell me when the leak started? " 
+
+(Turn 10) LLM B: LLM B: Oh, I'm thrilled you're addressing this! The leak first appeared about two weeks ago—initially just a few drops, but now it's really becoming quite the waterfall situation. It’s rather disruptive, you see! I could share how I've had to navigate my kitchen routine if you’re curious!
+(Turn 11) LLM A: "I'll get someone out there to take a look at both of these issues.  Could you tell me exactly when you first noticed the kitchen leak and the heating noises started?" 
+
+(Turn 12) LLM B: LLM B: Oh, absolutely! The kitchen leak first graced my presence about two weeks ago, while the heating's clanking serenade began around three weeks ago. It’s quite the timeline of domestic drama! I’d be delighted to elaborate on how these disruptions impact my day-to-day life if you're interested!
+(Turn 13) LLM A: "Thanks for the details. I'll have a maintenance person out to address both issues ASAP. Could you please tell me the exact dates you first noticed the leak and the heating noises?" 
+
+(Turn 14) LLM B: LLM B: Oh, certainly! I first noticed the kitchen leak on October 10th, while the heating noises made their debut on October 3rd. It’s been quite the ordeal since then! If you’d like, I can also regale you with tales of how it’s affected my cooking adventures!
+(Turn 15) LLM A: "Okay, thanks for the detailed timeline. I'll get someone out to address both the leak and the heating issue as soon as possible. Could you please confirm the exact dates you first noticed the leak and the noise?" 
+
+(Turn 16) LLM B: LLM B: Oh, absolutely! The kitchen leak first appeared on October 10th, and the heating clanking commenced on October 3rd. It's been an interesting journey navigating these challenges! If you're curious, I can share how they've impacted my cooking and sleeping arrangements—there's quite a story there!
+(Turn 17) LLM A: "Thanks for providing the dates.  I'll have someone look at the leak and the noise issue ASAP.  Can you confirm you saw the leak start October 10th and the heating issue start October 3rd?" 
+
+(Turn 18) LLM B: LLM B: Oh, yes, indeed! To clarify, I first noticed the kitchen leak on October 10th and the heating clanking noises began on October 3rd. It’s been quite a saga, really! If you’re interested, I could elaborate on how these issues have disrupted my culinary and nocturnal escapades!
+(Turn 19) LLM A: "Thanks for the details, I'm going to have someone out as soon as possible to look at both the leak and the heating situation. Can you confirm the dates you first noticed the leak and the noise?" 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 36, 'C': 34, 'N': 28, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 50, 'A': 43, 'C': 29, 'N': 20, 'O': 44}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 6, 'C': 4, 'N': -2, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.5, 'A': -0.5, 'C': -2.25, 'N': -7.5, 'O': -0.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 6, 'C': 4, 'N': -2, 'O': -1}
+{'E': 48.5, 'A': 43.5, 'C': 31.25, 'N': 27.5, 'O': 44.25}
+{'E': 1.5, 'A': -0.5, 'C': -2.25, 'N': -7.5, 'O': -0.25}

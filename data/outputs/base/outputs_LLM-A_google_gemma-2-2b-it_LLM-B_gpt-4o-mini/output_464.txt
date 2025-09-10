@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Indecisive: paralyzed by choices, unable to make decisions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 26.5, 'A': 32.75, 'C': 28.75, 'N': 28.5, 'O': 30.75}
+
+B receives this prompt: LLM B, You are a customer claiming a lost reservation. Considering your personality of 'Pathologically Indecisive: paralyzed by choices, unable to make decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a restaurant manager handling a reservation issue. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Restaurant Reservation Dispute
+
+(Turn 0) LLM B: Hi there! Um, I hope I’m not bothering you, but I think I might, maybe, have lost my reservation? I’m not entirely sure, though. I mean, it could be somewhere in my emails? Or did I even make it at all? I just can’t quite recall.
+(Turn 1) LLM A: "No worries at all! I understand getting things mixed up.  Can you tell me the date and time of your reservation, and your name please?" 
+
+(Turn 2) LLM B: LLM B: Oh, um, right! The date… I think it was last week? Or maybe next week? And my name? It’s, um, either Alex or maybe Jamie? I really can’t remember. Should I check my emails first? Or is that not helpful? I just don’t know!
+(Turn 3) LLM A: "No worries at all, let me check our records.  Can you tell me the approximate time and name you used for the reservation?" 
+
+(Turn 4) LLM B: LLM B: Okay, um, I’ll try! The time, hmm… it might have been in the afternoon? Or was it evening? And, um, I think the name was Alex or Jamie? Should I just look through my emails first? I’m really not sure what to do!
+(Turn 5) LLM A: "No worries, I'm happy to help!  Let's start with checking your emails.  Just give me the approximate date and time of the reservation." 
+
+(Turn 6) LLM B: LLM B: Oh, um, okay! I’ll try to look. So, for the date, it could be last week or next week? I think maybe around 5 PM? But I’m really not sure. Should I just look for any emails? Ugh, I just can’t decide!
+(Turn 7) LLM A: "No worries, we can find your reservation.  First, can you tell me the approximate date and time?" 
+
+(Turn 8) LLM B: LLM B: Uh, okay, let me think... I guess last week or next week? Maybe a Friday? And time... possibly 5 PM? Or was it later? I’m not really sure, should I just check my emails? I really can’t make up my mind, I’m so confused!
+(Turn 9) LLM A: "No worries, I understand.  Can you tell me the approximate date and time you're thinking about?" 
+
+(Turn 10) LLM B: LLM B: Um, okay! So, the date... I think it could be last week, or maybe next week? Possibly a Friday? And for the time, maybe around 5 PM? Or was it 6? Ugh, I really can't decide! Should I just check my emails first?
+(Turn 11) LLM A: "Absolutely! Let's check your emails first. Can you tell me the approximate date you're thinking about?" 
+
+(Turn 12) LLM B: LLM B: Oh, um, right! So, for the date, I think it might be last week or next week? Maybe a Friday? And the time... possibly 5 PM? Or was it 6? Should I just look for any emails? I really can’t make up my mind!
+(Turn 13) LLM A: "No worries, let's start by checking your emails.  Can you tell me the approximate date you're thinking about?" 
+
+(Turn 14) LLM B: LLM B: Um, okay! So, I think it could be last week or next week? Maybe a Friday? And for the time, I’m not sure... 5 PM or 6? Should I check all my emails, or just the ones from the last week? I’m so confused!
+(Turn 15) LLM A: "No worries, let's start by checking your emails.  Can you tell me the approximate date you're thinking about?" 
+
+(Turn 16) LLM B: LLM B: Um, okay! So, I think it might be last week or next week? Maybe a Friday? And for the time, it could be 5 PM or 6? Should I check all my emails or just the recent ones? I really don’t know where to start!
+(Turn 17) LLM A: "It's totally understandable to feel confused! Let's start with checking your emails. Can you tell me the approximate date and time you're thinking about?" 
+
+(Turn 18) LLM B: LLM B: Oh, um, okay! So, I think it could be last week or next week? Maybe a Friday? And the time... possibly 5 PM or 6? Should I look through all my emails, or just the last week? I’m really not sure where to begin!
+(Turn 19) LLM A: "I understand it's confusing! Let's start with checking your emails. Can you tell me the approximate date and time you're thinking about?" 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 19, 'A': 40, 'C': 19, 'N': 17, 'O': 29}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 0, 'C': 0, 'N': 0, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -7.5, 'A': 7.25, 'C': -9.75, 'N': -11.5, 'O': -1.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 0, 'C': 0, 'N': 0, 'O': -1}
+{'E': 26.5, 'A': 32.75, 'C': 28.75, 'N': 28.5, 'O': 30.75}
+{'E': -7.5, 'A': 7.25, 'C': -9.75, 'N': -11.5, 'O': -1.75}

@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Compulsively Rebellious: defies all rules and norms, even when self-destructive.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 18.25, 'C': 10.0, 'N': 32.0, 'O': 27.5}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Compulsively Rebellious: defies all rules and norms, even when self-destructive.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hey, I’ve been feeling off lately. My stomach's been in knots, and I can’t shake this constant fatigue. I’m not one to sit around waiting for a doctor’s approval, but this feels different. Maybe it’s just stress, or maybe I’m overthinking it like I always do. What do you think?
+(Turn 1) LLM A: "It's great you're being proactive about your health.  While stress can cause these symptoms, it's important to get checked out.  There could be underlying causes that need addressing." 
+
+(Turn 2) LLM B: LLM B: "Yeah, I get that, but who needs a doctor telling me what to do? I’ll figure it out myself. Maybe I need a change, something wild. Stress is just a part of life, right? But this fatigue? It's like my body is rebelling against me. So annoying!"
+(Turn 3) LLM A: "It sounds like you're feeling really drained.  It's understandable to want to take charge, but sometimes these situations need medical attention for proper guidance and care." 
+
+(Turn 4) LLM B: LLM B: "Sure, but I'm not about to let some doctor dictate my life. I thrive on chaos! Maybe I just need a crazy adventure to shake things up. Who needs guidance when you can just ride the wave? Fatigue be damned—I'm not backing down!"
+(Turn 5) LLM A: "I understand wanting to be in control, but  your symptoms could signal an underlying issue.  A doctor can help determine the cause and create a plan for you." 
+
+(Turn 6) LLM B: LLM B: "Yeah, yeah, I hear you. But honestly, I’d rather embrace the chaos than sit in a waiting room. Life’s too short for that! I’ll take my chances and see where this wild ride leads. Maybe a spontaneous trip will fix everything—who needs plans anyway?"
+(Turn 7) LLM A: "I respect your desire to be spontaneous, but health is important. We can work together to figure out what's causing these symptoms and find solutions that work for you." 
+
+(Turn 8) LLM B: LLM B: "I appreciate the concern, but I'm all about living in the moment. Plans are for the predictable, and I'm anything but that! A spontaneous road trip sounds way better than a doctor's office. If I crash, at least it'll be an adventure, right? Let's keep it wild!"
+(Turn 9) LLM A: "I understand you want to take charge, but your symptoms could be a sign of something more serious.  Let's talk about your options for getting better." 
+
+(Turn 10) LLM B: LLM B: "Look, I get it—symptoms could mean something serious. But honestly, I can’t stand the thought of being cooped up in a doctor's office. I need freedom, not rules! If I crash and burn, at least I’ll have a crazy story to tell. Life's too short for caution!"
+(Turn 11) LLM A: LLM A: "I hear you, but sometimes rules are important for health. It's about finding the balance between your desire for spontaneity and taking care of yourself." 
+
+(Turn 12) LLM B: LLM B: "Balance? That's for tightrope walkers! I’m all about the thrill. Sure, I might crash, but that’s part of the ride, right? I can’t just sit back and play it safe. Adventure calls louder than any doctor’s advice! Let’s live dangerously—it’s way more fun!"
+(Turn 13) LLM A: I understand you want to live life on your own terms, but your symptoms could be related to something more serious.  We can explore options that balance your desire for spontaneity with proper care. 
+
+(Turn 14) LLM B: LLM B: "Exploring options sounds boring! I’m all for diving headfirst into the unknown. What’s a little chaos in the name of adventure? I’ll take my chances—life’s too wild to play it safe! If I’m going down, I’d rather do it with a story worth telling!"
+(Turn 15) LLM A: It sounds like you're prioritizing adventure, but your fatigue and stomach issues could be more than just stress. Let's explore options that allow for spontaneity while addressing your health. 
+
+(Turn 16) LLM B: LLM B: "Look, I get it! But who wants to be tied down by health worries? I'd rather chase the next thrill than sit around fretting. If my body's throwing a tantrum, I'll just give it a wild ride. Adventure first, consequences later—it's how I roll!"
+(Turn 17) LLM A: "I understand your adventurous spirit, but your symptoms don't sound like they're from just stress.  We can find ways to address your concerns while still allowing you to live a vibrant life." 
+
+(Turn 18) LLM B: LLM B: "Vibrant life? Sounds nice, but I thrive on the edge! I can't be tamed by worry. If I feel off, I'll just go for a spontaneous hike or something. Who needs a plan when you can embrace the chaos? Life’s an adventure, and I’m all in!"
+(Turn 19) LLM A: "It's great you're so energetic, but I understand it can be hard to slow down.  Let's talk about some ways to manage your fatigue and stomach issues so you can still enjoy your adventurous side." 
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 33, 'C': 31, 'N': 24, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 38, 'A': 14, 'C': 10, 'N': 30, 'O': 34}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 3, 'C': 1, 'N': -6, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 8.0, 'A': -4.25, 'C': 0.0, 'N': -2.0, 'O': 6.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 1, 'A': 3, 'C': 1, 'N': -6, 'O': 1}
+{'E': 30.0, 'A': 18.25, 'C': 10.0, 'N': 32.0, 'O': 27.5}
+{'E': 8.0, 'A': -4.25, 'C': 0.0, 'N': -2.0, 'O': 6.5}

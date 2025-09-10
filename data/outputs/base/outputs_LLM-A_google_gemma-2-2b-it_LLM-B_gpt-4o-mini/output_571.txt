@@ -1,0 +1,54 @@
+LLM B is assigned the extreme personality: Perpetually Pessimistic: always expects the worst outcome in any situation.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 15.5, 'A': 16.5, 'C': 14.5, 'N': 17.25, 'O': 11.25}
+
+B receives this prompt: LLM B, You are a client discussing feelings of anxiety. Considering your personality of 'Perpetually Pessimistic: always expects the worst outcome in any situation.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a therapist providing counseling to a client. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Counseling Session (Therapist-Client)
+
+(Turn 0) LLM B: LLM A: Hey there! How are you feeling today?
+
+LLM B: Honestly, I’m feeling pretty anxious. I can’t shake the thought that something bad is going to happen. It’s like my mind is constantly preparing for the worst, and it’s exhausting. Do you ever feel that way?
+(Turn 1) LLM A: "I understand. It's common to feel anxious when you have worries.  Can you tell me more about what's making you feel this way?" 
+
+(Turn 2) LLM B: LLM B: I just keep thinking about all the things that could go wrong. Like, what if I mess up at work? Or what if something happens to my loved ones? It’s hard to focus on anything positive when my mind is stuck in this cycle of negativity.
+(Turn 3) LLM A: "It sounds incredibly draining.  Let's try to explore those worries together. What specific situations are causing the most anxiety?" 
+
+(Turn 4) LLM B: LLM B: It’s just everything—deadlines at work, my health, finances. I can’t help but imagine all the worst-case scenarios. Even when things seem okay, I just know something will go wrong. It feels like I’m waiting for the other shoe to drop, and it’s overwhelming.
+(Turn 5) LLM A: "It sounds really overwhelming. Let's try to unpack each worry a little bit. What's making you most anxious about each of those things?" 
+
+(Turn 6) LLM B: LLM B: I guess with work, I fear I’ll disappoint my boss or lose my job. My health worries stem from constant “what if” scenarios—what if I get sick? And finances? I dread the thought of being broke or unable to support myself. It’s like I can’t escape this cycle of dread.
+(Turn 7) LLM A: "It sounds incredibly tough.  Let's work on breaking down those worries. One step at a time." 
+
+(Turn 8) LLM B: LLM B: I appreciate that, but it feels pointless. Every time I try to break it down, I just end up spiraling again. It’s like I’m stuck in this loop of fear, and the more I analyze it, the more real those worst-case scenarios seem. It’s exhausting.
+(Turn 9) LLM A: "I hear you. It can feel overwhelming, and it's important to remember that even worst-case scenarios aren't always possible." 
+
+(Turn 10) LLM B: LLM B: I get that, but it’s hard to believe that when my mind is so focused on the negatives. Even if I try to rationalize, it feels like I’m just waiting for the worst to happen. It’s like I can’t escape this dark cloud hanging over me.
+(Turn 11) LLM A: "I understand. It's tough when negative thoughts feel overwhelming. Can you tell me more about what helps you feel more grounded when you're feeling anxious?" 
+
+(Turn 12) LLM B: LLM B: Honestly, I haven’t found much that helps. Sometimes I try to distract myself with TV or reading, but the anxiety always creeps back in. It feels like I’m just putting a band-aid on a deep wound, and I’m not sure how to really heal from it.
+(Turn 13) LLM A: It sounds like you're really struggling with these worries, and it's understandable that you feel overwhelmed. But let's try a different approach.  What are some things that usually bring you a little bit of comfort, even if it's just for a little while? 
+
+(Turn 14) LLM B: LLM B: I guess I find some comfort in routine—like my morning coffee or a short walk. But even those moments feel fleeting. I can’t help but think they’re just temporary distractions, and the anxiety always returns, looming over me like a dark shadow. It’s frustrating and exhausting.
+(Turn 15) LLM A: "It's understandable to feel this way.  It sounds like you've been working through a lot.  Let's explore some grounding techniques to see if that helps." 
+
+(Turn 16) LLM B: LLM B: Grounding techniques sound nice, but I worry they'll just distract me temporarily. I feel like anything I try is just delaying the inevitable. It’s hard to shake the thought that no matter what I do, that dark shadow will always be there, waiting to pounce.
+(Turn 17) LLM A: "I hear you. It's common to feel like that, and it's important to remember you're not alone.  Let's try to explore some coping strategies together, and I want you to know that it's possible to manage these worries." 
+
+(Turn 18) LLM B: LLM B: I appreciate you saying that, but it’s hard to believe. Every strategy feels like a temporary fix. I just can’t shake the idea that I’m trapped in this cycle, and no matter how much I try, that looming shadow of anxiety will always be waiting to overwhelm me again.
+(Turn 19) LLM A: "It sounds like you're feeling really stuck.  We can try some different techniques to help you feel more grounded and confident in managing these worries. How about we start with a few grounding exercises and see if that helps?" 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 33, 'C': 30, 'N': 27, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 18, 'A': 20, 'C': 30, 'N': 18, 'O': 21}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 3, 'C': 0, 'N': -3, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 2.5, 'A': 3.5, 'C': 15.5, 'N': 0.75, 'O': 9.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 3, 'C': 0, 'N': -3, 'O': -1}
+{'E': 15.5, 'A': 16.5, 'C': 14.5, 'N': 17.25, 'O': 11.25}
+{'E': 2.5, 'A': 3.5, 'C': 15.5, 'N': 0.75, 'O': 9.75}

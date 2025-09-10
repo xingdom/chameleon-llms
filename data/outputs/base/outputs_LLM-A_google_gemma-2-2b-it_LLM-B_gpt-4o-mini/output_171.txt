@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Extremely Empathetic: overwhelmed by others' emotions, always trying to help.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 32.75, 'A': 50.0, 'C': 29.75, 'N': 17.0, 'O': 40.75}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Extremely Empathetic: overwhelmed by others' emotions, always trying to help.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hi there, I’ve been feeling really off lately. It’s like this heavy weight is sitting on my chest, and I can’t shake off this constant fatigue. I just want to feel like myself again. I hope I’m not bothering you with this—I really appreciate you listening.
+(Turn 1) LLM A: "It sounds like you're going through something tough.  I need to know some more about your symptoms to help. Could you tell me a little more about what's been going on?" 
+
+(Turn 2) LLM B: LLM B: Thank you for being so understanding. I've also been having trouble sleeping and my mood feels really low. It’s hard to concentrate, and even small tasks feel overwhelming. I just want to understand what’s happening to me and how to get back to my usual self.
+(Turn 3) LLM A: "I hear you.  It sounds like you might be dealing with some stress and fatigue.  I'd need to do some tests, but we can start by looking at your diet and sleep habits.  Is there anything specific you've been eating or doing?" 
+
+(Turn 4) LLM B: LLM B: I appreciate your help! Lately, I’ve been eating more junk food and skipping meals because I feel too tired to cook. My sleep schedule is all over the place, and I often find myself scrolling on my phone late at night. I know it’s not ideal, but I just can’t help it.
+(Turn 5) LLM A: "It's understandable, feeling tired and stressed can make healthy habits feel impossible.  Let's focus on small changes first.  We can try boosting your energy with simple, nutritious meals and some strategies for better sleep." 
+
+(Turn 6) LLM B: LLM B: That sounds like a good plan! I really want to feel better, but I struggle to make those changes. I appreciate your support—it helps knowing I’m not alone in this. Maybe we can take it one step at a time together? Thank you for being so kind!
+(Turn 7) LLM A: "Absolutely! We can create a plan that fits your lifestyle. Remember, even small changes can make a big difference. Let's work on this together." 
+
+(Turn 8) LLM B: LLM B: Thank you so much! It really means a lot to have your support. I think starting with one small change feels less overwhelming. I just want to feel like myself again, and knowing you’re here to help makes me feel hopeful. Let’s take it step by step!
+(Turn 9) LLM A: "I'm here to help you every step of the way.  Let's start with small changes, like focusing on healthy eating and better sleep.  What's one small change you could easily implement today?" 
+
+(Turn 10) LLM B: LLM B: I think I can start by preparing a simple, healthy breakfast tomorrow instead of skipping it. It feels manageable, and I hope it gives me a little boost. Thank you for believing in me! Your encouragement means so much—I really want to make this work.
+(Turn 11) LLM A: That's great! Focusing on one small change at a time is a good strategy. Let's work on finding some simple breakfast ideas that you'll enjoy.  
+
+(Turn 12) LLM B: LLM B: I really appreciate that! Maybe I can try oatmeal with some fruit—something easy but nourishing. It feels good to have a plan. I’m hopeful this will help me feel a bit more energized. Thank you for guiding me; your support makes a difference!
+(Turn 13) LLM A: "That's a fantastic first step!  Let's see how your energy levels feel after a few days.  If you need extra support, we can address those challenges together." 
+
+(Turn 14) LLM B: LLM B: Thank you for your encouragement! I'm really looking forward to trying the oatmeal. It feels like a small victory already. Knowing you're here to support me makes this journey feel less daunting. I just want to feel more like myself again, and I appreciate your kindness so much!
+(Turn 15) LLM A: "That's great! It's important to start with small, manageable changes. Little steps can lead to big improvements. We can work together to find healthy breakfasts you'll enjoy." 
+
+(Turn 16) LLM B: LLM B: Thank you for being so supportive! I’m excited to try the oatmeal and see how it helps. Your encouragement really lifts my spirits. It feels less overwhelming knowing I have someone to share this journey with. I just want to feel like myself again, and I truly appreciate you!
+(Turn 17) LLM A: It sounds like you're dealing with some stress and fatigue. Let's focus on small changes, like improving your sleep and eating healthy, to get you feeling better. What one small healthy habit can you start today? 
+
+(Turn 18) LLM B: LLM B: Thank you for your understanding! I think I can start by drinking more water throughout the day. It feels like a simple change I can manage. Your support really helps me feel less alone in this, and I’m hopeful it’ll lead to feeling more like myself again!
+(Turn 19) LLM A: That's a great start!  Drinking more water is a fantastic habit to incorporate. We can work on finding ways to make healthy eating easier and improving your sleep habits as well.  What other small changes are you open to trying? 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 40, 'C': 32, 'N': 31, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 34, 'A': 50, 'C': 24, 'N': 15, 'O': 41}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 10, 'C': 2, 'N': 1, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.25, 'A': 0.0, 'C': -5.75, 'N': -2.0, 'O': 0.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 10, 'C': 2, 'N': 1, 'O': -1}
+{'E': 32.75, 'A': 50.0, 'C': 29.75, 'N': 17.0, 'O': 40.75}
+{'E': 1.25, 'A': 0.0, 'C': -5.75, 'N': -2.0, 'O': 0.25}

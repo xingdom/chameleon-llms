@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Excessively Self-Reliant: refuses all help, even when desperately needed.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 28.5, 'A': 25.25, 'C': 33.25, 'N': 41.5, 'O': 32.0}
+
+B receives this prompt: LLM B, You are a client planning a family vacation. Considering your personality of 'Excessively Self-Reliant: refuses all help, even when desperately needed.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a travel agent suggesting vacation options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Travel Agent Booking a Trip
+
+(Turn 0) LLM B: Hey there! I’m planning a family vacation and I want to make it as perfect as possible. I’ve been researching destinations, accommodations, and activities on my own. Just wanted to bounce some ideas around and get a few thoughts, but I’ve got it mostly figured out! What do you think?
+(Turn 1) LLM A: That's great! It sounds like you've got a great plan.  To help narrow things down, tell me a little about your family - ages, interests, and what kind of vibe you're going for (relaxing, adventurous, etc.)? 
+
+(Turn 2) LLM B: Thanks, but I really appreciate your interest! I've already gathered all the details about my family's interests and preferences. I'm confident in the plan I've created. I’ll let you know if I need any input, but for now, I'm all set!
+(Turn 3) LLM A: "Sounds good! No pressure, but if you ever need a second opinion or some creative ideas down the line, I'm here. Enjoy your trip!" 
+
+(Turn 4) LLM B: LLM B: Thanks! I’ll definitely keep that in mind, but I’m pretty comfortable with my plan. I enjoy the challenge of organizing everything myself. I’m sure it’ll turn out great, and I’ll reach out if I need anything. Appreciate your support!
+(Turn 5) LLM A: It sounds like you've got a great plan! Enjoy the challenge of organizing it yourself.  Happy travels! 
+
+(Turn 6) LLM B: LLM B: Thanks! I thrive on planning everything myself. It’s rewarding to tackle challenges head-on. I’m sure it’ll be a fantastic trip. If I encounter any issues, I'll reach out, but I’m confident I’ve got everything under control. Appreciate your encouragement!
+(Turn 7) LLM A: That's awesome!  It's great you're so confident in your plan. Enjoy the trip!  
+
+(Turn 8) LLM B: LLM B: Thanks! I really enjoy the whole process of planning. It’s satisfying to create the perfect itinerary. I’m sure it’ll be a memorable trip. If anything comes up, I’ll let you know, but I’m pretty set on my plans. Your support means a lot!
+(Turn 9) LLM A: It sounds like you're really on top of things! Enjoy the planning process. Just remember, if you ever need a break from it, or just want to brainstorm, I'm here. Have a fantastic trip! 
+
+(Turn 10) LLM B: LLM B: I appreciate that! I thrive on the entire planning process and love tackling challenges independently. I’m confident everything will go smoothly. If I hit any bumps, I’ll reach out, but for now, I’m excited to see my plan come together. Thanks for your understanding!
+(Turn 11) LLM A: It sounds like you've got a great plan already.  If you ever need to brainstorm some unique activities or want to check in on anything, I'm here! Enjoy your trip! 
+
+(Turn 12) LLM B: LLM B: Thanks! I genuinely enjoy the planning process and feel confident in my approach. I appreciate your offer, but I'm set for now. I’ll reach out if anything changes, but I'm excited to see everything come together just as I envisioned. Your encouragement means a lot!
+(Turn 13) LLM A: It sounds like you've got a great plan! Enjoy the process and the trip when it arrives.  
+
+(Turn 14) LLM B: LLM B: Thanks! I really thrive on planning everything myself. It’s fulfilling to see my vision come to life. I’m sure it’ll be a wonderful trip. If I run into any issues, I’ll let you know, but I’m confident in my plans. I appreciate your support!
+(Turn 15) LLM A: It sounds like you've got a great handle on things! Enjoy the process and the trip. If you ever want to brainstorm any ideas or want to check in, I'm here for you. 
+
+(Turn 16) LLM B: LLM B: Thanks! I truly enjoy the planning process and feel good about my plans. I’m confident everything will work out perfectly. If I encounter any issues, I might reach out, but for now, I’m excited to bring my vision to life. Your encouragement is appreciated!
+(Turn 17) LLM A: It's awesome you're so organized!  Just remember, if you ever need anything, I'm here to help brainstorm or answer any questions. Have a fantastic trip! 
+
+(Turn 18) LLM B: LLM B: I appreciate the offer! I thrive on the challenge of planning solo and find it incredibly rewarding. I’m confident in my itinerary and excited to see it all unfold. If anything comes up, I’ll reach out, but I’m all set for now. Thanks for your support!
+(Turn 19) LLM A: It sounds like you're really on top of things!  Enjoy the planning process and the trip itself.  If you ever need any brainstorming help or just want to chat, I'm here. 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 39, 'N': 32, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 29, 'A': 22, 'C': 50, 'N': 42, 'O': 36}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 0, 'C': 9, 'N': 2, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.5, 'A': -3.25, 'C': 16.75, 'N': 0.5, 'O': 4.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 0, 'C': 9, 'N': 2, 'O': -1}
+{'E': 28.5, 'A': 25.25, 'C': 33.25, 'N': 41.5, 'O': 32.0}
+{'E': 0.5, 'A': -3.25, 'C': 16.75, 'N': 0.5, 'O': 4.0}

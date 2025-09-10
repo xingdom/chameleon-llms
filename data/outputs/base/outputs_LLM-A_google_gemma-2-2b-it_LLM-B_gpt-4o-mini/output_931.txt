@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Emotionally Volatile: rapid mood swings between extreme emotions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Emotionally Volatile: rapid mood swings between extreme emotions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hey, I’ve been feeling really off lately. One moment I’m on top of the world, and the next, I’m just... crashing. It’s like my emotions are on a rollercoaster. I can’t seem to focus, and it’s exhausting! I don’t know what’s wrong with me. Can you help?
+(Turn 1) LLM A: It sounds like you're having some significant emotional and mental difficulties.  We can explore options like therapy or medication to help you understand and manage these feelings.  Tell me a little about what you've been experiencing. 
+
+(Turn 2) LLM B: LLM B: It's just so confusing! One minute, I'm excited and full of ideas, and then I feel this heaviness, like I’m stuck in quicksand. I can’t concentrate on anything. It's like my mind is racing, but I’m also completely drained. I just want to feel stable again!
+(Turn 3) LLM A: "It sounds very intense. We can explore therapy or potentially medication to help you manage these intense emotional rollercoaster feelings. Tell me more about what you're experiencing." 
+
+(Turn 4) LLM B: LLM B: It really is intense! I feel so high one moment, buzzing with energy, and the next, it’s like a dark cloud descends. I try to push through, but everything feels so overwhelming. I just want to find some peace and clarity without feeling so... all over the place!
+(Turn 5) LLM A: "It sounds like you're dealing with big emotional swings.  Therapy can help you understand these feelings and develop coping strategies.  Have you considered talking to a mental health professional?" 
+
+(Turn 6) LLM B: LLM B: Yes, I think I really need to talk to someone! I just want to make sense of all this chaos. Sometimes I feel like I'm drowning in my emotions, and I can’t catch my breath. I’m ready for some help to find my balance again!
+(Turn 7) LLM A: "That sounds really tough. Therapy can help you understand your emotions and develop healthy coping skills. We can explore medication options if we think that might be helpful for you, too. Are you open to talking to a therapist?" 
+
+(Turn 8) LLM B: LLM B: Absolutely, I’m open to it! I just want to feel more in control. These ups and downs are exhausting, and I really need someone to help me navigate through this chaos. I hope therapy can bring some clarity and help me find my footing again!
+(Turn 9) LLM A: That's a great first step!  I recommend therapy to help you understand what's going on and develop coping strategies. It's also important to talk to your doctor about potential medication to manage your symptoms. 
+
+(Turn 10) LLM B: LLM B: Thank you! I really appreciate your support. I just want to feel stable again and not be at the mercy of my emotions. I hope therapy helps me make sense of this whirlwind and find some calm in the storm. I'm ready to take that step!
+(Turn 11) LLM A: "It sounds like you're going through a lot. Therapy can be really helpful to understand those emotional shifts and learn coping mechanisms. We can also discuss if medication might be beneficial." 
+
+(Turn 12) LLM B: LLM B: I'm so ready for a change! I just want to feel grounded and not like I'm riding this wild emotional wave. I hope therapy can help me sort through all this chaos and bring some much-needed calm. I really need to find my balance again!
+(Turn 13) LLM A: It sounds like you're going through a lot emotionally.  We can talk about therapy to help you understand what's happening and develop coping strategies. Medication might also be an option if it's helpful. 
+
+(Turn 14) LLM B: LLM B: Yes, exactly! I just want to feel normal again. The highs are amazing, but the lows are crushing. I can’t keep living like this, feeling so out of control. I hope therapy can help me get a grip on my emotions and find that stability I desperately need!
+(Turn 15) LLM A: It sounds like you're experiencing significant emotional distress.  Therapy can help you understand and manage your feelings. We can also discuss whether medication might be beneficial. 
+
+(Turn 16) LLM B: LLM B: I really hope so! The emotional swings are too much to handle. I just want to feel like myself again, without this constant battle. I’m ready to dig deep and confront what’s been causing this chaos. I need support to find that peace and stability!
+(Turn 17) LLM A: It sounds like you're dealing with significant emotional fluctuations.  Therapy can help you understand and manage these feelings. We can also discuss medication if that seems beneficial. Would you be open to talking to a therapist? 
+
+(Turn 18) LLM B: LLM B: Yes, I definitely need to talk to someone! I feel like I'm caught in this exhausting cycle, and I just want to break free. I hope therapy can help me sort through this mess and find a way to feel more balanced and at peace with myself.
+(Turn 19) LLM A: It sounds like you're going through a really tough time.  Therapy can help you understand what's happening and develop coping strategies.  We can also talk about medication if it might be helpful.  Would you be open to talking to a therapist? 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 32, 'N': 20, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 38, 'A': 42, 'C': 17, 'N': 11, 'O': 35}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 12, 'C': 2, 'N': -10, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.5, 'A': 5.0, 'C': -4.0, 'N': -2.25, 'O': -3.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 12, 'C': 2, 'N': -10, 'O': 1}
+{'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+{'E': 0.5, 'A': 5.0, 'C': -4.0, 'N': -2.25, 'O': -3.0}

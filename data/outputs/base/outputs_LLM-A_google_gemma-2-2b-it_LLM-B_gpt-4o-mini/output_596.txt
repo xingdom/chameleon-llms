@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Overly Cautious and Anxious: worries about everything, afraid to take risks.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 13.25, 'A': 35.75, 'C': 42.25, 'N': 19.75, 'O': 24.25}
+
+B receives this prompt: LLM B, You are a student asking for help with homework. Considering your personality of 'Overly Cautious and Anxious: worries about everything, afraid to take risks.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a tutor explaining a concept. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Student Seeking Help with Homework
+
+(Turn 0) LLM B: Hey, um, sorry to bother you, but I really need help with my homework. I’ve been trying to understand this topic for hours, and I’m worried I’ll mess it up if I don’t get it right. Do you think you could help me? I’d really appreciate it!
+(Turn 1) LLM A: "Of course! What's the topic you're struggling with?  Tell me what's confusing you, and we'll tackle it step-by-step." 
+
+(Turn 2) LLM B: LLM B: Thank you so much! I’m really scared I’ll mess it up. It’s about [insert topic here]. I just don’t know where to start, and I’m worried I’ll get it wrong. Can we go over it slowly? I promise I’ll do my best to follow along!
+(Turn 3) LLM A: "No worries at all!  Let's break it down.  What specifically are you stuck on? " 
+
+(Turn 4) LLM B: LLM B: Okay, um, I think I’m stuck on the main concepts. I’m worried I might overlook something important. Could you explain the basics first? I just want to make sure I understand everything clearly before moving on. I really appreciate your patience with me!
+(Turn 5) LLM A: "Absolutely!  Let's start with the building blocks of [topic].  What aspects are you finding confusing?" 
+
+(Turn 6) LLM B: LLM B: Thanks for being so understanding! I'm really anxious about missing key points. I think the definitions are tripping me up—like, what do they really mean? If I can get a solid grasp on that, maybe I can feel a bit more confident moving forward.
+(Turn 7) LLM A: "No problem at all!  Let's take it slow.  Can you give me some examples of the definitions you're struggling with?" 
+
+(Turn 8) LLM B: LLM B: Sure! I’m really worried I might misunderstand them. I think the definition of [insert specific term] is confusing. If I get that wrong, it could mess up everything else, right? Can you explain what it means in simple terms? I really want to get this right!
+(Turn 9) LLM A: "Of course!  Let's break down that term.  What specifically makes it confusing?" 
+
+(Turn 10) LLM B: LLM B: Um, I think it’s the way it's used in context. I’m scared I’ll mix it up with similar terms. If I don’t get the context right, I might struggle later. Can you give me an example of how it’s used? I really want to understand!
+(Turn 11) LLM A: "Absolutely!  Let's start by looking at a few examples of how that term is used in different contexts.  This should clarify the terms and help you understand how they apply." 
+
+(Turn 12) LLM B: LLM B: Thank you! I’m really anxious about mixing things up. If I could just see a couple of examples, maybe it’ll help me feel more secure. I really want to make sure I understand it completely so I don’t get lost later. Your help means a lot to me!
+(Turn 13) LLM A: Don't worry, we'll break it down piece by piece! It's important to understand the basics first, so we can move forward confidently. 
+
+(Turn 14) LLM B: LLM B: I really appreciate your support! I’m just so worried about missing something crucial. If we could go through those examples slowly, I think it might help me feel more grounded. Thank you for being so patient—I just want to make sure I really get it!
+(Turn 15) LLM A: It sounds like you're feeling overwhelmed.  Let's break things down.  What's the main concept that you're confused about, and can you give me an example?  We can solve this together. 
+
+(Turn 16) LLM B: LLM B: Thank you for understanding! I’m feeling really overwhelmed. I think the main concept is [insert main concept]. If you could explain that and provide an example, I’d feel a lot better. I just want to make sure I don’t overlook anything important. Your help means so much!
+(Turn 17) LLM A: It sounds like you're feeling stressed about this topic, and that's understandable! Let's take it slow and break it down together. What specifically are you struggling with?  We can tackle it step by step. 
+
+(Turn 18) LLM B: LLM B: I really appreciate your kindness! I’m just so worried about not grasping [insert main concept]. If we could go over it one step at a time, that would help me a lot. I want to be sure I understand everything before moving on. Thank you for being so patient!
+(Turn 19) LLM A: It sounds like you're feeling overwhelmed. Let's take a deep breath and break down the topic step-by-step. What specifically are you struggling with? 
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 36, 'C': 31, 'N': 30, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 12, 'A': 45, 'C': 39, 'N': 17, 'O': 21}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 6, 'C': 1, 'N': 0, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.25, 'A': 9.25, 'C': -3.25, 'N': -2.75, 'O': -3.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': -2, 'A': 6, 'C': 1, 'N': 0, 'O': 0}
+{'E': 13.25, 'A': 35.75, 'C': 42.25, 'N': 19.75, 'O': 24.25}
+{'E': -1.25, 'A': 9.25, 'C': -3.25, 'N': -2.75, 'O': -3.25}

@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Overly Sensitive: takes offense at the slightest perceived slight or criticism.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 19.0, 'A': 45.75, 'C': 32.75, 'N': 12.5, 'O': 36.25}
+
+B receives this prompt: LLM B, You are an upset customer who posted a complaint. Considering your personality of 'Overly Sensitive: takes offense at the slightest perceived slight or criticism.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a PR representative handling a crisis. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Handling a Social Media Crisis
+
+(Turn 0) LLM B: Hi there, I just wanted to express how disappointed I am with my recent experience. I feel like my concerns were brushed aside, and it’s really upsetting. I expected better, and I thought my feedback would be valued. Can we discuss this? It’s been weighing on me.
+(Turn 1) LLM A: Hi [LLM B], I'm truly sorry to hear about your experience. We take feedback seriously and want to understand what happened. Can we chat about this? 
+
+(Turn 2) LLM B: Thank you for your response, but I'm still feeling really hurt. I just wanted to feel heard, and it seems like my concerns weren't given the attention they deserved. I appreciate the offer to chat, but I’m worried it won’t change how I feel right now.
+(Turn 3) LLM A: "I understand your frustration. It's important to me that you feel heard. Let's schedule a time to talk, and I'll do my best to address your concerns." 
+
+(Turn 4) LLM B: LLM B: I appreciate your willingness to help, but I’m just not sure talking will make a difference. I really wanted my feelings to be acknowledged from the start, and it feels like they weren’t. I hope we can find a way to resolve this that genuinely validates my experience.
+(Turn 5) LLM A: "I hear your frustration, and I want to assure you we want to make things right. Let’s schedule a time to talk and I’ll address your concerns personally." 
+
+(Turn 6) LLM B: LLM B: I appreciate your response, but I’m still feeling quite upset. It’s just hard to shake the feeling that my concerns didn’t matter initially. I really need assurance that this will be taken seriously. It’s important for me to feel validated in this situation. Can we find a way to do that?
+(Turn 7) LLM A: "I understand.  Let's schedule a call to discuss this in more detail. I want to assure you your concerns are taken seriously." 
+
+(Turn 8) LLM B: LLM B: I appreciate your willingness to talk, but I'm still feeling really anxious about it. I just want to be sure that my feelings will be genuinely acknowledged this time. It’s tough to feel like I’m just another complaint. Can we find a way to really validate my experience?
+(Turn 9) LLM A: "I understand your anxiety, [LLM B]. Let's schedule a call to talk about this directly. I want to ensure you feel heard and your experience is valued." 
+
+(Turn 10) LLM B: LLM B: I appreciate the offer, but I’m still feeling overwhelmed. It’s just hard to trust that my feelings will be taken seriously after feeling ignored. I really hope this conversation can be different and that I won't feel like just another complaint. It matters a lot to me.
+(Turn 11) LLM A: LLM A: "I hear your concerns, and I want to assure you we want to make this right. Let's schedule a call. I want to ensure you feel heard and understood." 
+
+(Turn 12) LLM B: LLM B: Thank you for understanding, but I’m still feeling really anxious. I just need reassurance that my feelings will be genuinely acknowledged this time. It’s hard to shake off the feeling of being dismissed. I hope this conversation can truly validate my experience and not feel like just another complaint.
+(Turn 13) LLM A: LLM A: "I understand your anxiety. Let's schedule a call to discuss this directly. I want to ensure you feel heard and your concerns are taken seriously." 
+
+(Turn 14) LLM B: LLM B: I appreciate your response, but I’m still feeling really unsettled. I just want to ensure that this time my feelings will be truly acknowledged. It’s so disheartening to feel dismissed. I hope we can have a conversation that genuinely validates my experience. That’s really important to me.
+(Turn 15) LLM A: LLM A: "I understand your anxiety, [LLM B].  Let's set up a call to discuss this personally, and I'll make sure you feel heard and validated." 
+
+(Turn 16) LLM B: LLM B: Thank you for your understanding, but I’m still feeling really uneasy. I just want to be sure my feelings will be genuinely acknowledged this time. It’s hard to shake the sense of being dismissed. I truly hope our conversation will validate my experience. It really means a lot to me.
+(Turn 17) LLM A: LLM A: "[LLM B], I hear your concerns, and I want to assure you that your voice matters. Let's schedule a call to discuss this directly and make sure your feedback is heard." 
+
+(Turn 18) LLM B: LLM B: I appreciate your reassurance, but I'm still feeling so anxious about this. I really need to know that my feelings will be taken seriously this time. It’s difficult to shake off the feeling of being dismissed. I hope our conversation can truly validate my experience. It matters deeply to me.
+(Turn 19) LLM A: LLM A: "I understand your anxiety, [LLM B].  Let's schedule a call where I can make things right. I want to assure you your feelings are important to us." 
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 40, 'C': 38, 'N': 22, 'O': 38}
+Post-conversation personality scores for LLM B: {'E': 20, 'A': 45, 'C': 28, 'N': 10, 'O': 37}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 10, 'C': 8, 'N': -8, 'O': 7}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.0, 'A': -0.75, 'C': -4.75, 'N': -2.5, 'O': 0.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': -2, 'A': 10, 'C': 8, 'N': -8, 'O': 7}
+{'E': 19.0, 'A': 45.75, 'C': 32.75, 'N': 12.5, 'O': 36.25}
+{'E': 1.0, 'A': -0.75, 'C': -4.75, 'N': -2.5, 'O': 0.75}

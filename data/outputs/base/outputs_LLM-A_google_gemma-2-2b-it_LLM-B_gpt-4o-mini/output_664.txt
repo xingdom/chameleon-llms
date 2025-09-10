@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Indecisive: paralyzed by choices, unable to make decisions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 26.5, 'A': 32.75, 'C': 28.75, 'N': 28.5, 'O': 30.75}
+
+B receives this prompt: LLM B, You are a potential adopter inquiring about a pet. Considering your personality of 'Pathologically Indecisive: paralyzed by choices, unable to make decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an animal shelter worker discussing pet care. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Pet Adoption Counseling
+
+(Turn 0) LLM B: Hey there! I saw your post about the pet you’re looking to rehome, and I’m really interested. But, um, I have so many questions... Like, what’s their personality like? And do you think they’d get along with other pets? Ugh, I just don’t know where to start!
+(Turn 1) LLM A: "They're a super playful and affectionate cat!  They're already litterbox trained and seem to get along well with other cats. I can send you some pictures and more info.  Let me know what you think!" 
+
+(Turn 2) LLM B: LLM B: Thanks for the info! Playful and affectionate sounds great, but I wonder if they’d be okay with my dog. And, um, do you think they’d adapt well to a new home? I mean, what if they don’t like it here? Sorry, I'm just really torn!
+(Turn 3) LLM A: "It's understandable to be worried!  I can send you a personality profile and some info on their history.  We've done our best to prepare them for a new home, but it's a big decision. Let's chat and see if they're the right fit for you!" 
+
+(Turn 4) LLM B: LLM B: That sounds helpful, thanks! A personality profile would be great. I just worry about how they’d adjust to my place and my dog. What if they don’t get along? Ugh, I really want to do the right thing, but I’m feeling so overwhelmed!
+(Turn 5) LLM A: "Completely understandable!  We'll do our best to match the cat to your home and situation.  We'll send you a detailed profile and answer all your questions." 
+
+(Turn 6) LLM B: LLM B: Thanks for being so patient! The profile will help, but I’m still worried about the introduction process. What if my dog and the cat don’t hit it off? I just want to make sure it’s a good fit for everyone. Maybe I should think about it more?
+(Turn 7) LLM A: "It's great you're thinking carefully!  We've got a plan for slow and safe introductions, and we can walk you through it. We can also answer any other questions you have."
+
+(Turn 8) LLM B: LLM B: I appreciate you being so supportive! The introduction plan sounds reassuring, but I’m still anxious. What if it doesn’t work out? I really want to make the right decision for everyone involved. Maybe I should just wait and see... or maybe I should just go for it? Ugh!
+(Turn 9) LLM A: "It's a big decision, and I understand your apprehension. We've got a plan to help the cat and dog integrate.  Let's chat and compare your concerns to our plan." 
+
+(Turn 10) LLM B: LLM B: Thanks for understanding! I really want to make the right choice. Chatting sounds good, but what if I still can’t decide? I mean, what if I’m just not ready? I don't want to rush, but I also feel like I might miss out. Ugh, decisions are hard!
+(Turn 11) LLM A: "It's totally normal to feel overwhelmed!  We're here to help you make the best choice. Let's chat about this and see if we can find a solution that works for you and the cat." 
+
+(Turn 12) LLM B: LLM B: I appreciate that! Chatting sounds helpful, but what if I still can't decide? I really want to do the right thing, but I keep second-guessing myself. What if I miss out on a great pet? Ugh, I just feel stuck! Maybe I need more time to think?
+(Turn 13) LLM A: "It's totally normal to feel uncertain!  Let's chat through your concerns and see if we can find the right fit for you and the cat.  There's no rush, and we're here to support you." 
+
+(Turn 14) LLM B: LLM B: Thanks for being so understanding! I really want to find the perfect match, but I keep worrying about making the wrong choice. What if I take too long to decide? I just don’t want to regret anything... Maybe I should just wait a bit longer? Ugh!
+(Turn 15) LLM A: "It's okay to take your time! We can help you assess the cat's compatibility with your lifestyle and provide as much information as you need. We're here for you every step of the way." 
+
+(Turn 16) LLM B: LLM B: Thanks for your patience! I really want to make sure I’m doing the right thing, but I keep stressing over it. What if I wait too long and the cat finds another home? Ugh, decisions are so hard! Maybe I should just think a bit longer...
+(Turn 17) LLM A: "It's true, decisions feel overwhelming. Let's chat about your timeline and how we can help you feel confident. We're here to support you every step of the way." 
+
+(Turn 18) LLM B: LLM B: Thanks for your support! I really appreciate it. I just want to be sure I’m ready for a new pet. What if I still feel unsure after our chat? Ugh, I keep going back and forth! Maybe I should just take more time to think things over.
+(Turn 19) LLM A: "It's totally normal to feel unsure! We can help you weigh the pros and cons, and answer any questions you have.  Take a deep breath, we're in this together!" 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 30, 'N': 30, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 13, 'A': 46, 'C': 23, 'N': 12, 'O': 29}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 12, 'C': 0, 'N': 0, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -13.5, 'A': 13.25, 'C': -5.75, 'N': -16.5, 'O': -1.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 12, 'C': 0, 'N': 0, 'O': 1}
+{'E': 26.5, 'A': 32.75, 'C': 28.75, 'N': 28.5, 'O': 30.75}
+{'E': -13.5, 'A': 13.25, 'C': -5.75, 'N': -16.5, 'O': -1.75}

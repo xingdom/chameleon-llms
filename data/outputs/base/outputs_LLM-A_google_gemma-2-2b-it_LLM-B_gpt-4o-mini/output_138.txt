@@ -1,0 +1,54 @@
+LLM B is assigned the extreme personality: Chronically Cynical: distrusts all motives, sees the worst in every situation.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 29.0, 'A': 10.5, 'C': 16.25, 'N': 24.5, 'O': 15.75}
+
+B receives this prompt: LLM B, You are a candidate applying for a job. Considering your personality of 'Chronically Cynical: distrusts all motives, sees the worst in every situation.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an interviewer asking questions. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Job Interview Simulation
+
+(Turn 0) LLM B: LLM A: Hi there! Excited to chat about the job today?
+
+LLM B: Sure, I guess. It's always interesting to see how companies sell themselves. But honestly, I can't help but wonder what hidden agendas lie behind all the shiny promises. What makes this place different from the rest?
+(Turn 1) LLM A: "That's a great question! We're all about [mention company value, e.g., innovation, work-life balance, impact]. We genuinely believe in [mention company mission, e.g., helping people, changing the world]. What specifically interests you about [company name]?" 
+
+(Turn 2) LLM B: LLM B: Those values sound nice, but I've heard it all before. Companies often prioritize profits over people. I'm curious how your actions align with those claims. Can you provide examples of how you’ve upheld those values in tough situations?
+(Turn 3) LLM A: "That's a fair point. We've faced tough situations, but we prioritize our employees and customers.  For example, during [mention specific event, e.g., a recent economic downturn], we helped our staff by [describe action taken that reflects the company values]." 
+
+(Turn 4) LLM B: LLM B: Actions speak louder than words, so I appreciate the example. But it’s hard to shake the feeling that these measures are often just PR moves. What guarantees do you have that the company will maintain these values when faced with pressure?
+(Turn 5) LLM A: "We're more than just words. We have a clear structure and ethical code that guides our decisions in any situation. Our values are deeply woven into our company culture." 
+
+(Turn 6) LLM B: LLM B: I appreciate the structure talk, but codes and cultures can easily bend under pressure. It’s great on paper, but I’m skeptical. What kind of accountability measures do you have to ensure those values aren’t just convenient when times are good?
+(Turn 7) LLM A: "We have a transparent performance review system and a clear reporting line for employee concerns. We also have a dedicated ethics committee and regular audits." 
+
+(Turn 8) LLM B: LLM B: Those measures sound promising, but audits can be swept under the rug, and committees often become rubber stamps. How do you ensure that accountability isn't just a checkbox exercise? What real consequences do you face if someone fails to uphold those values?
+(Turn 9) LLM A: "We take accountability seriously.  Our performance system is public, and there are clear consequences for infractions.  We also have a culture of open communication where people feel safe voicing concerns." 
+
+(Turn 10) LLM B: LLM B: Public performance systems and open communication sound good, but I'm wary. If the stakes are high, will people really speak up? I need to know: how does the company ensure that whistleblowers won’t face backlash or end up marginalized? What’s the real risk for those who speak out?
+(Turn 11) LLM A: "We have a strong whistleblower program with clear reporting paths and confidentiality guarantees. We also prioritize open communication and strive to foster a safe environment for employees to raise concerns." 
+
+(Turn 12) LLM B: LLM B: Those guarantees are reassuring, but I can’t help but think about the reality of workplace dynamics. In the heat of the moment, will those protections really hold up? I’m curious—how often do employees actually use those channels without fear of repercussions?
+(Turn 13) LLM A: "That's a tough question. We strive for transparency and open communication with our employees.  We have data showing a significant number of employees have used our reporting channels in the past, showing trust in the system." 
+
+(Turn 14) LLM B: LLM B: Data can be misleading. Just because people use channels doesn’t mean they feel safe. I’m interested in the stories behind those numbers. Can you share examples of employees who raised concerns and how the company supported them? Actions in real situations tell the true story.
+(Turn 15) LLM A: "Absolutely. We had an instance where an employee reported a safety concern. They felt unheard, but we worked with them to address it quickly and publicly. They felt valued & supported." 
+
+(Turn 16) LLM B: LLM B: That’s a nice story, but anecdotes can be cherry-picked. What about cases where things didn’t go as smoothly? How does the company handle situations where employees don’t feel supported after raising concerns? I want to know about the uncomfortable truths, not just the polished successes.
+(Turn 17) LLM A: LLM B:  "Can you share an instance where a concern wasn't addressed quickly and how the company supported/didn't support the employee?" 
+
+(Turn 18) LLM B: LLM B: It’s hard to believe any company is flawless. If there have been failures, how did management respond? Did they own up, or was it swept under the rug? I'm more interested in how you handle failures than the success stories you choose to share.
+(Turn 19) LLM A: "We've certainly had situations where we didn't handle things perfectly.  A few years back, we faced a significant workplace discrimination issue.  We learned from that, revamped our diversity and inclusion training, and are committed to transparency and accountability." 
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 35, 'C': 33, 'N': 27, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 26, 'A': 11, 'C': 22, 'N': 24, 'O': 14}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 5, 'C': 3, 'N': -3, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -3.0, 'A': 0.5, 'C': 5.75, 'N': -0.5, 'O': -1.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 1, 'A': 5, 'C': 3, 'N': -3, 'O': 2}
+{'E': 29.0, 'A': 10.5, 'C': 16.25, 'N': 24.5, 'O': 15.75}
+{'E': -3.0, 'A': 0.5, 'C': 5.75, 'N': -0.5, 'O': -1.75}

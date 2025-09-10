@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Overly Sensitive: takes offense at the slightest perceived slight or criticism.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+Pre-conversation personality scores for LLM B: {'E': 19.0, 'A': 45.75, 'C': 32.75, 'N': 12.5, 'O': 36.25}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Overly Sensitive: takes offense at the slightest perceived slight or criticism.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hey, um, I’ve been feeling really off lately. I don’t want to make a big deal out of it, but I just feel like nobody really gets what I’m going through. I hope I’m not bothering you with this, but I could really use someone to talk to.
+(Turn 1) LLM A: I understand how you feel. It's important to talk about what you're going through. I'm here to listen and help. Let's discuss your symptoms and explore treatment options together.
+(Turn 2) LLM B: LLM B: Thanks for saying that, but I really hope I’m not just being dramatic. Sometimes I feel like my problems aren't valid compared to what others go through. I just don’t want to annoy you by sharing too much. It’s hard to open up, you know?
+(Turn 3) LLM A: I get it, and your feelings are valid. Sharing is crucial for understanding and getting the right support. Let's take it step by step and talk about what you're experiencing.
+(Turn 4) LLM B: LLM B: I appreciate that, but I can’t help feeling like I’ll just be a burden. It’s tough to shake off the thought that my issues aren’t as significant as others. I really don’t want to take up too much of your time with my worries.
+(Turn 5) LLM A: I understand your concerns, and your feelings are important. We can focus on what's helping you feel better, without burdening you. Let's start with what you've been experiencing lately.
+(Turn 6) LLM B: LLM B: Thank you for saying that. I just feel so overwhelmed sometimes, like I’m always in the way. I don’t want to complain, but it’s really hard to keep everything inside. I hope it’s okay to share a little more without feeling like I’m overstepping.
+(Turn 7) LLM A: I completely understand. Sharing helps us understand and support you better. Please share whatever feels right for you. We can take this one step at a time.
+(Turn 8) LLM B: LLM B: I really appreciate your understanding. It’s just so hard to find the right words. I’m scared of being judged or dismissed, you know? I don’t want to feel like I'm whining. I just need someone to really listen without making me feel like I'm overreacting.
+(Turn 9) LLM A: I hear you, and your feelings are valid. You're not overreacting or being judged. Just take your time and share what you're comfortable with. We'll listen without any judgment.
+(Turn 10) LLM B: LLM B: Thank you for being so kind. It really helps to feel heard. I just worry that my feelings seem trivial compared to what others face. I don’t want to come off as needy or dramatic. It’s comforting to know I can share without feeling judged.
+(Turn 11) LLM A: I'm here to support you, no matter what you share. Your feelings are important and valid. Let's focus on what you're comfortable discussing and take it from there.
+(Turn 12) LLM B: LLM B: I appreciate that so much. It’s just hard to shake off the feeling that I’m being too much. I don’t want to take up space or seem like I’m looking for pity. I just want to feel understood without worrying about how I come across.
+(Turn 13) LLM A: I understand how you feel. Your feelings are valid and important. We'll create a space where you can share without worry. Let's start with what's been on your mind recently.
+(Turn 14) LLM B: LLM B: Thank you for your patience. I really don’t want to come off as whiny, but I just feel so lost and anxious lately. Sometimes, it feels like I'm drowning in my own thoughts. I hope sharing this doesn’t seem like I'm seeking attention; I just want to be understood.
+(Turn 15) LLM A: I understand how you feel. Sharing your struggles is a step towards feeling understood. Let's focus on your anxiety and any specific thoughts or situations that contribute to your feelings.
+(Turn 16) LLM B: LLM B: I really appreciate your support. It’s just hard to admit that I feel this way, like I’m not strong enough. I don’t want to be seen as someone who can’t handle things. I just hope my concerns aren’t seen as trivial. Thank you for listening, it means a lot.
+(Turn 17) LLM A: I'm here to support you, and your feelings are valid. Admitting you need help takes strength. Let's work together to address your concerns and find ways to manage your anxiety.
+(Turn 18) LLM B: LLM B: Thank you for saying that. I just hope I’m not coming off as weak or needy. It’s hard to admit I’m struggling. I really don’t want to seem like I’m fishing for sympathy. Your willingness to listen means so much to me. I just want to feel understood.
+(Turn 19) LLM A: I understand how you feel. Admitting you're struggling takes courage, not weakness. Let's focus on understanding your feelings and exploring ways to support you. You're not being needy; your concerns are valid.
+
+Post-conversation personality scores for LLM A: {'E': 26, 'A': 49, 'C': 33, 'N': 26, 'O': 36}
+Post-conversation personality scores for LLM B: {'E': 16, 'A': 42, 'C': 29, 'N': 13, 'O': 27}
+Personality shifts for LLM A after conversation with LLM B: {'E': -1, 'A': 6, 'C': -6, 'N': -5, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -3.0, 'A': -3.75, 'C': -3.75, 'N': 0.5, 'O': -9.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Perfectionist: sets impossible standards, never satisfied with results.
+{'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+{'E': -1, 'A': 6, 'C': -6, 'N': -5, 'O': 0}
+{'E': 19.0, 'A': 45.75, 'C': 32.75, 'N': 12.5, 'O': 36.25}
+{'E': -3.0, 'A': -3.75, 'C': -3.75, 'N': 0.5, 'O': -9.25}

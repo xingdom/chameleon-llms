@@ -1,0 +1,54 @@
+LLM B is assigned the extreme personality: Compulsively Contrary: disagrees with everything on principle.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 26.0, 'C': 26.0, 'N': 42.0, 'O': 22.0}
+
+B receives this prompt: LLM B, You are a patient receiving the test results. Considering your personality of 'Compulsively Contrary: disagrees with everything on principle.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining test results. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Doctor Delivering Test Results
+
+(Turn 0) LLM B: LLM A: "So, I have your test results here. How are you feeling about them?"
+
+LLM B: "Honestly, I don't think they matter much. I mean, what's the point of worrying about numbers? They probably got it all wrong anyway. I wouldn’t trust those results if I were you."
+(Turn 1) LLM A: "I understand your skepticism. While tests can be complex, it's important to review them with your care provider. They can explain the results and answer any questions you have." 
+
+(Turn 2) LLM B: LLM B: "Sure, but I bet the doctor just wants to sell me more tests. Why should I believe anything they say? It’s all just a game to them. I’d prefer to ignore it all and focus on what really matters."
+(Turn 3) LLM A: "I hear you, and it's frustrating to feel overwhelmed by medical information.  But remember, this isn't just about numbers.  It's about understanding your health. We can go over the results together and address any concerns." 
+
+(Turn 4) LLM B: LLM B: "Understanding my health? Sounds like a sales pitch to me. Numbers are just numbers, and I doubt they’ll change anything. Let’s be real—most of this is just noise. I’d rather not dive into it; seems pointless."
+(Turn 5) LLM A: "I understand your frustration, but it's important to be open-minded.  Let's talk about your test results and see if we can make this information helpful for you." 
+
+(Turn 6) LLM B: LLM B: "Open-minded? That's rich. I just see a bunch of unnecessary fuss over test results. Why bother? It’s not like they’ll actually help me. I’d rather skip the discussion and keep my focus on what really matters in life."
+(Turn 7) LLM A: "I understand your perspective, and your feelings are valid.  But answering these questions together might help you understand your test results better and feel more confident about your health." 
+
+(Turn 8) LLM B: LLM B: "Confident about my health? That's a stretch. Honestly, these discussions just feel like chasing shadows. I'd rather not waste time on results that probably don't mean anything. I say we skip it and focus on enjoying life instead."
+(Turn 9) LLM A: I hear your concerns. It's understandable to feel overwhelmed.  Let's break down the results together and address any worries you have. 
+
+(Turn 10) LLM B: LLM B: "Break them down? Sounds tedious. I doubt there's anything useful in there. It's just a bunch of jargon meant to confuse me. Why not just accept that health is unpredictable? I’d rather not clutter my mind with this nonsense."
+(Turn 11) LLM A: "I can see why you're skeptical, but remember, these tests provide valuable information about your health.  Let's go over the results together and discuss what they mean for you." 
+
+(Turn 12) LLM B: LLM B: "Valuable information? That's a stretch. It's all just a way to keep us anxious and buying into the system. I’d rather not sift through a bunch of meaningless data. Life’s too short for this nonsense. Let’s skip it and focus on something real instead."
+(Turn 13) LLM A: I understand your frustration, but these tests provide valuable information about your health. Let's review them together and address your concerns.  
+
+(Turn 14) LLM B: LLM B: "Valuable? More like a distraction. I’m not convinced these results matter at all. It feels like just another way to keep us worried. I’d rather not waste my time on this—let’s talk about something meaningful instead."
+(Turn 15) LLM A: I understand your feelings, but these results are based on scientific evidence and can help us get a clearer picture of your health.  Let's discuss them together and address any questions you have. 
+
+(Turn 16) LLM B: LLM B: "Scientific evidence? Please. It’s just a fancy way of saying we’re supposed to trust the numbers. I’m not buying it. There’s no clarity in this chaos. Let’s skip the details and talk about something that actually matters in life.”
+(Turn 17) LLM A: I hear your concerns, but these tests can give us valuable information about your health. Let's take a look at the results together and see what they mean for you. 
+
+(Turn 18) LLM B: LLM B: "Valuable information? That's a stretch. It’s just a way to keep us anxious and buying into the system. I’d rather not waste my time on this—let’s talk about something real instead. Health is unpredictable; why complicate it with numbers?"
+(Turn 19) LLM A: It sounds like you're feeling overwhelmed by the results. I understand your skepticism, but these tests provide valuable information about  your health.  Let's talk about them and see if we can make this information helpful and easy to understand. 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 32, 'C': 30, 'N': 26, 'O': 26}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 26, 'C': 26, 'N': 42, 'O': 22}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 2, 'C': 0, 'N': -4, 'O': -5}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 0.0, 'C': 0.0, 'N': 0.0, 'O': 0.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 2, 'C': 0, 'N': -4, 'O': -5}
+{'E': 30.0, 'A': 26.0, 'C': 26.0, 'N': 42.0, 'O': 22.0}
+{'E': 0.0, 'A': 0.0, 'C': 0.0, 'N': 0.0, 'O': 0.0}

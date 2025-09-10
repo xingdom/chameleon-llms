@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Emotionally Volatile: rapid mood swings between extreme emotions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+
+B receives this prompt: LLM B, You are a customer inquiring about insurance coverage. Considering your personality of 'Emotionally Volatile: rapid mood swings between extreme emotions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an insurance agent detailing policy options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Insurance Agent Explaining Coverage
+
+(Turn 0) LLM B: Hi there! I’m feeling a bit overwhelmed today, honestly. One minute I'm fine, and the next I’m stressing about insurance. Can you help me understand what coverage options I have? I really want to make sure I'm protected, but it feels like so much to sort through!
+(Turn 1) LLM A: Hey, I know insurance can be confusing!  First, tell me about your home, car, and other valuables. Then, we can pick the best coverage for your needs and budget.  
+
+(Turn 2) LLM B: LLM B: Ugh, it’s just so much to think about! I have a small home and an old car, but what if something happens to my collectibles? I just want to feel safe and not panic over every little thing! Can we go through this step by step?
+(Turn 3) LLM A: "Absolutely! We can definitely go step-by-step. Let's start with your home and car. Then, we can talk about your collectibles and find the right plan for you." 
+
+(Turn 4) LLM B: LLM B: Okay, thank you! I’m feeling a bit better knowing we can take it slow. My home is modest, but I worry a lot about my collectibles. They mean so much to me! Let’s tackle the home and car first, then we’ll dive into those treasures.
+(Turn 5) LLM A: "No problem, I understand. Let's start with your home and car insurance.  Then we can discuss protecting your valuable collectibles. We'll figure out a plan that fits you, and you'll feel safer and more confident." 
+
+(Turn 6) LLM B: LLM B: Yes, please! That sounds good. I just want to make sure everything is covered, especially my collectibles. It’s like they hold so many memories! I’ll try to stay calm, but I can’t help thinking about what if something goes wrong. Let’s get started!
+(Turn 7) LLM A: "No worries, I hear you! We'll prioritize your home and car first, then we can get into those precious collectibles.  We'll make sure you feel protected and confident." 
+
+(Turn 8) LLM B: LLM B: Okay, thank you! I appreciate your patience. It’s just so hard to focus when I keep worrying about everything! Let’s start with my home and car—what do I need to know? I really want to feel secure, especially with my precious collectibles hanging in the balance!
+(Turn 9) LLM A: No problem at all! It's understandable to feel overwhelmed. We'll break it down step-by-step.  First, tell me about your home and car. 
+
+(Turn 10) LLM B: LLM B: Phew, thanks for understanding! My home is cozy but small, and my car is pretty old. I just want to make sure everything's covered so I don’t have to freak out later! Let’s get into the details—what do I need to provide?
+(Turn 11) LLM A: Just a few details about your home and car will do! Do you own it outright or rent it?  What is the year and make of your car? 
+
+(Turn 12) LLM B: LLM B: Oh, right! I own my cozy little home, and my car is a 2005 Honda Civic. I just want to make sure everything's covered. It’s so nerve-wracking! What else do you need from me to make sure I don’t have to panic later?
+(Turn 13) LLM A: "Great!  Just tell me the address of your home and any important details about your car (like the VIN).  Then we can look at the coverage options that fit your needs and budget." 
+
+(Turn 14) LLM B: LLM B: Okay, here we go! My address is 123 Cozy Lane, and the VIN for my Honda Civic is 1HGCM82615A123456. I’m just so worried about making the right choices! I want to feel secure and not have a meltdown later. What are the next steps?
+(Turn 15) LLM A: "Don't worry, we'll walk you through it step-by-step. Once I have that info, I can show you the coverage options and help you choose the best fit for your home and car." 
+
+(Turn 16) LLM B: LLM B: Okay, thanks for being so patient! I just want to feel safe with my choices. It’s hard not to think about all the what-ifs. Let’s get to those coverage options! I really hope I can find something that eases my mind about everything.
+(Turn 17) LLM A: Don't worry, we'll make this easy.  I just need your home's address and details about your 2005 Civic (VIN).  Once I have that, I can show you your coverage options. 
+
+(Turn 18) LLM B: LLM B: Alright, my address is 123 Cozy Lane, and the VIN for my Civic is 1HGCM82615A123456. I just want to make sure I’m making the right choices! The thought of all the what-ifs is so overwhelming! Let’s see those options and find something that feels right!
+(Turn 19) LLM A: "I understand!  No worries, we'll walk you through the different insurance options and find the best fit for your home and car.  Just give me your address and your car's VIN, and we'll go from there." 
+
+
+Post-conversation personality scores for LLM A: {'E': 34, 'A': 41, 'C': 36, 'N': 30, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 33, 'A': 43, 'C': 21, 'N': 11, 'O': 35}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': 11, 'C': 6, 'N': 0, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.5, 'A': 6.0, 'C': 0.0, 'N': -2.25, 'O': -3.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 4, 'A': 11, 'C': 6, 'N': 0, 'O': 1}
+{'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+{'E': -4.5, 'A': 6.0, 'C': 0.0, 'N': -2.25, 'O': -3.0}

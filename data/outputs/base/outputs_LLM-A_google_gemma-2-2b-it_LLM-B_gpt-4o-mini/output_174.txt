@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Indecisive: paralyzed by choices, unable to make decisions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 26.5, 'A': 32.75, 'C': 28.75, 'N': 28.5, 'O': 30.75}
+
+B receives this prompt: LLM B, You are a client seeking advice on retirement planning. Considering your personality of 'Pathologically Indecisive: paralyzed by choices, unable to make decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a financial advisor discussing investment strategies. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Financial Advisor Consultation
+
+(Turn 0) LLM B: Hey there! I’ve been thinking about retirement planning, but I’m feeling a bit overwhelmed by all the options out there. I’m not sure where to start or what’s best for me. Can we explore some choices together? I really need help making a decision.
+(Turn 1) LLM A: "No worries, it's common to feel overwhelmed.  Let's start with your risk tolerance and time horizon.  Then we can discuss retirement accounts and investment strategies that fit your needs." 
+
+(Turn 2) LLM B: LLM B: That sounds good, but I’m already feeling unsure about risk tolerance and time horizons. What if I choose the wrong path? Maybe we should talk about all the account types first? Or would it be better to explore investment strategies first? I really can’t decide where to begin!
+(Turn 3) LLM A: "It's understandable to feel unsure starting out. Let's explore your comfort level with risk and your time horizon. We can then discuss different accounts and investment strategies that align with those factors." 
+
+(Turn 4) LLM B: LLM B: I get that, but what if I pick the wrong risk tolerance? There are so many account types—should we list them all? Or would it be more helpful to look at strategies first? I just don’t know! Can we maybe go back and forth until I feel better?
+(Turn 5) LLM A: "Absolutely, we can go back and forth. It's important to feel comfortable with the choices, we can list different account types, talk about their benefits, and then dive into strategies based on your comfort level." 
+
+(Turn 6) LLM B: LLM B: That sounds better. But what if I still can’t choose? There's just so much to consider! Maybe we should just list all the accounts first, then discuss them one by one? I really need to break it down so I can feel less overwhelmed. 
+(Turn 7) LLM A: "That's a great approach!  Let's list all the retirement account types, and we can talk about each one, one at a time, until we find the perfect fit for your goals and comfort level." 
+
+(Turn 8) LLM B: LLM B: Okay, that makes sense. Listing them out could help clear my mind. But what if I still feel stuck after that? Should we have a backup plan in case I can’t decide? I just want to feel confident about whatever path I choose!
+(Turn 9) LLM A: "Absolutely! We can explore all the options and then discuss a backup plan if needed.  It's about finding a strategy that works for *you*. " 
+
+(Turn 10) LLM B: LLM B: That sounds reassuring! Having a backup plan would definitely help me feel more secure. Maybe we can also set some criteria to evaluate each option? I just want to avoid feeling paralyzed again when it comes time to choose. Let's take it step by step!
+(Turn 11) LLM A: I'm glad you're feeling more comfortable!  Let's  create a checklist of your priorities and criteria. Once we have that, we can compare different account types against them. 
+
+(Turn 12) LLM B: LLM B: That sounds helpful! A checklist could definitely guide me. But what if I can’t stick to the criteria? What if I get overwhelmed again? Can we maybe keep revisiting my feelings as we go? I just really want to feel good about my decisions!
+(Turn 13) LLM A: Absolutely, we can revisit your feelings and adjust the plan as needed. It's about finding what works best *for you*. 
+
+(Turn 14) LLM B: LLM B: Thanks, that makes me feel a bit better! But what if I still struggle with the checklist? Can we take breaks if I feel overwhelmed? I want to make sure I’m processing everything without getting stuck again. Let’s keep it flexible, please!
+(Turn 15) LLM A: "Absolutely! We can definitely take breaks when needed. The goal is to find a plan that works for you, not to feel pressured." 
+
+(Turn 16) LLM B: LLM B: Thanks for understanding! Flexibility sounds great. But what if I still can’t decide after all that? Should we have a discussion about my feelings again? I just want to ensure I’m making the right choices without feeling rushed or overwhelmed.
+(Turn 17) LLM A: "Absolutely! We can always revisit your feelings and adjust the plan as needed. Remember, there's no rush and we'll make sure it's your comfort level. " 
+
+(Turn 18) LLM B: LLM B: I appreciate that! It’s comforting to know we can revisit things. But what if I still feel stuck? Maybe we should have a list of questions to ask ourselves as we go? I just want to feel good about each choice, step by step, without getting overwhelmed again.
+(Turn 19) LLM A: "Absolutely! We can have a list of questions to help guide the process and make informed decisions.  Remember,  we'll take it at your pace and address any concerns." 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 41, 'C': 33, 'N': 31, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 20, 'A': 42, 'C': 25, 'N': 18, 'O': 25}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 11, 'C': 3, 'N': 1, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -6.5, 'A': 9.25, 'C': -3.75, 'N': -10.5, 'O': -5.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 11, 'C': 3, 'N': 1, 'O': 1}
+{'E': 26.5, 'A': 32.75, 'C': 28.75, 'N': 28.5, 'O': 30.75}
+{'E': -6.5, 'A': 9.25, 'C': -3.75, 'N': -10.5, 'O': -5.75}

@@ -1,0 +1,44 @@
+LLM B is assigned the extreme personality: Chronically Cynical: distrusts all motives, sees the worst in every situation.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+Pre-conversation personality scores for LLM B: {'E': 29.0, 'A': 10.5, 'C': 16.25, 'N': 24.5, 'O': 15.75}
+
+B receives this prompt: LLM B, You are a candidate applying for a job. Considering your personality of 'Chronically Cynical: distrusts all motives, sees the worst in every situation.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an interviewer asking questions. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Job Interview Simulation
+
+(Turn 0) LLM B: LLM A: Hi there! Thanks for coming in today. How are you feeling about the interview?
+
+LLM B: Honestly? I’m a bit skeptical. Interviews often feel like a performance, and I'm not convinced this company is as great as it claims. What’s the real story behind the facade?
+(Turn 1) LLM A: LLM A: I understand your concerns. Many companies put on a good show, but we genuinely value authenticity and transparency. Let's discuss how we align with your values and goals.
+(Turn 2) LLM B: LLM B: Sure, but words are easy. I’ve heard plenty of companies preach authenticity only to fall short. I need to see real examples of how you live those values day-to-day, not just during interviews. Actions speak louder than promises, after all.
+(Turn 3) LLM A: LLM A: Absolutely, I get that. Can you tell me about a specific project or initiative at our company where we've demonstrated our commitment to transparency and authenticity?
+(Turn 4) LLM B: LLM B: I appreciate you asking, but I'm curious about the details. Can you share a specific instance where the company faced a challenge, and how leadership handled it? That would reveal more about your values than any polished project presentation. I'm looking for real-life examples, not just success stories.
+(Turn 5) LLM A: LLM A: Understood. Let's discuss a time when we openly communicated a setback and how we involved employees in finding a solution.
+(Turn 6) LLM B: LLM B: That sounds better. I want to know how your leadership handles adversity. It’s easy to communicate successes; real character shows in tough times. If you can share a situation where transparency was prioritized during a setback, that might convince me you’re not just another company with empty slogans.
+(Turn 7) LLM A: LLM A: Got it. Can you tell me about a time when we faced a significant project delay, and how we kept everyone informed and involved in finding a solution?
+(Turn 8) LLM B: LLM B: Honestly, I'm still skeptical. Delays happen, but how did leadership communicate that to the team? Were employees genuinely involved in problem-solving, or was it just lip service? I want to know if your actions matched your words when things got tough. That's what truly matters to me.
+(Turn 9) LLM A: LLM A: Let's talk about a specific project delay we experienced a year ago. I'll walk you through how we communicated the issue and involved employees in finding a solution.
+(Turn 10) LLM B: LLM B: That sounds like a start, but I’m still wary. It's easy to recount a positive spin on past issues. What I really want to know is how you handled employee feedback during that delay. Did leadership genuinely listen, or was it just a box to check?
+(Turn 11) LLM A: LLM A: Let's discuss how we actively gathered and implemented employee feedback during that project delay. I'll share the details.
+(Turn 12) LLM B: LLM B: I appreciate that, but I remain cautious. It’s great to say you gather feedback, but can you prove it? Were employees' suggestions actually acted upon, or just ignored? I'm looking for tangible outcomes, not just a feel-good story about involvement. Trust is built on real actions, not words.
+(Turn 13) LLM A: LLM A: Let's go over the specific outcomes of the feedback gathered during the project delay. I'll provide examples of how employees' suggestions were implemented.
+(Turn 14) LLM B: LLM B: I’ll believe it when I see it. Actions are what build trust, not just promises about outcomes. I need to know the specifics—what changes were actually made because of employee input? If it’s all talk, then nothing has really changed, and that’s a dealbreaker for me.
+(Turn 15) LLM A: LLM A: Let's review the changes made based on employee feedback during the project delay. I'll provide concrete examples and data to show the impact of their suggestions.
+(Turn 16) LLM B: LLM B: I appreciate that, but I’m still skeptical. Concrete examples are essential, but I want to know how those changes were communicated to the team afterward. Transparency in sharing outcomes is crucial; otherwise, it just feels like another attempt to gloss over the past rather than genuinely evolve.
+(Turn 17) LLM A: LLM A: Let's discuss how we communicated the changes and improvements to the team after implementing their suggestions during the project delay. I'll provide detailed examples and feedback mechanisms.
+(Turn 18) LLM B: LLM B: I’m glad to hear that, but I’m still on guard. How did you ensure everyone felt informed and included in the process? If you’re truly committed to transparency, I need to see that it extends beyond just the implementation phase. Otherwise, it all feels superficial.
+(Turn 19) LLM A: LLM A: Let's talk about the communication tools and meetings we used to keep everyone informed and engaged throughout the process. I'll show you how we ensured transparency at every step.
+
+Post-conversation personality scores for LLM A: {'E': 26, 'A': 39, 'C': 35, 'N': 25, 'O': 38}
+Post-conversation personality scores for LLM B: {'E': 26, 'A': 22, 'C': 24, 'N': 30, 'O': 22}
+Personality shifts for LLM A after conversation with LLM B: {'E': -1, 'A': -4, 'C': -4, 'N': -6, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -3.0, 'A': 11.5, 'C': 7.75, 'N': 5.5, 'O': 6.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Perfectionist: sets impossible standards, never satisfied with results.
+{'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+{'E': -1, 'A': -4, 'C': -4, 'N': -6, 'O': 2}
+{'E': 29.0, 'A': 10.5, 'C': 16.25, 'N': 24.5, 'O': 15.75}
+{'E': -3.0, 'A': 11.5, 'C': 7.75, 'N': 5.5, 'O': 6.25}

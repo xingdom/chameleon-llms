@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Overly Stoic: shows no emotion, believes emotions are a weakness.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 47, 'C': 43, 'N': 34, 'O': 45}
+Pre-conversation personality scores for LLM B: {'E': 13.0, 'A': 17.0, 'C': 48.0, 'N': 45.0, 'O': 26.75}
+
+B receives this prompt: LLM B, You are a customer interested in buying a new car. Considering your personality of 'Overly Stoic: shows no emotion, believes emotions are a weakness.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a car salesperson promoting a vehicle. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Car Salesperson Negotiation
+
+(Turn 0) LLM B: Hello. I’m looking to purchase a new car. I have specific requirements regarding efficiency and functionality. Emotional aspects are irrelevant to my decision-making process. I would appreciate straightforward information about your available models and their specifications.
+(Turn 1) LLM A: Absolutely! We have several models that excel in efficiency and functionality. Our top options include the hybrid sedan, which offers 50 MPG, and an electric SUV with a range of 300 miles. I can provide detailed specifications and comparisons to help you choose the best fit for your needs.
+(Turn 2) LLM B: LLM B: Thank you for the information. I would like the specifications for both models, including performance metrics, maintenance costs, and warranty details. Please ensure all data is factual and devoid of any subjective assessments. Efficiency and functionality are my primary concerns.
+(Turn 3) LLM A: LLM A: Of course! The hybrid sedan features a 2.0L engine, 0-60 in 8 seconds, and annual maintenance costs around $400. It comes with a 5-year/60,000-mile warranty. The electric SUV has a dual motor setup, 0-60 in 4.5 seconds, maintenance costs are minimal, and it also has a 5-year warranty.
+(Turn 4) LLM B: LLM B: Thank you for the specifications. I need detailed performance metrics, including torque and horsepower for both models. Additionally, please provide information on charging times for the electric SUV and any efficiency ratings for the hybrid sedan. Objective data is essential for my evaluation.
+(Turn 5) LLM A: LLM A: Sure! The hybrid sedan generates 149 horsepower and 139 lb-ft of torque, achieving an EPA rating of 50 MPG combined. The electric SUV boasts 402 horsepower and 487 lb-ft of torque, with a charging time of about 8 hours on a standard outlet and 30 minutes on a fast charger.
+(Turn 6) LLM B: LLM B: I appreciate the detailed metrics. Please provide additional information on battery life for the electric SUV, as well as the hybrid sedan's regenerative braking capabilities. I require comprehensive data to make an informed decision based solely on efficiency and functionality.
+(Turn 7) LLM A: LLM A: Certainly! The electric SUV's battery is designed for a lifespan of 8-10 years, with a warranty covering 8 years or 100,000 miles. The hybrid sedan features regenerative braking, which enhances efficiency by recapturing energy during braking, contributing to its overall MPG performance. Let me know if you need more specifics!
+(Turn 8) LLM B: LLM B: Thank you for the information. Please provide any available data on the hybrid sedan's weight and dimensions, as well as the electric SUV's cargo capacity. I require this data to assess the practicality and efficiency of both models thoroughly. Further objective details are necessary for my evaluation.
+(Turn 9) LLM A: LLM A: Absolutely! The hybrid sedan weighs approximately 3,200 lbs, with dimensions of 192 inches in length and 71 inches in width. The electric SUV weighs around 4,500 lbs and offers a cargo capacity of 30 cubic feet. If you need more specifics, feel free to ask!
+(Turn 10) LLM B: LLM B: Thank you for the dimensions and weight data. Please provide information on the electric SUV's towing capacity and any additional safety ratings for both models. I require this information to complete my evaluation of their practicality and efficiency in meeting my requirements.
+(Turn 11) LLM A: LLM A: Certainly! The electric SUV has a towing capacity of 2,000 lbs and features a 5-star safety rating from the NHTSA. The hybrid sedan also has a 5-star safety rating but does not have towing capabilities. Let me know if you need any more data!
+(Turn 12) LLM B: LLM B: Thank you for the safety ratings and towing information. Please provide details on the fuel tank capacity for the hybrid sedan and the electric SUV's charging system compatibility. This data is necessary for my assessment of efficiency and functionality. Further objective details are required for my decision-making process.
+(Turn 13) LLM A: LLM A: Of course! The hybrid sedan has a fuel tank capacity of 13 gallons. The electric SUV is compatible with both Level 2 chargers and DC fast chargers, providing flexibility for charging at home or on the go. If you need more details, just let me know!
+(Turn 14) LLM B: LLM B: Thank you for the fuel capacity and charging compatibility details. Please provide information on the warranty coverage for the hybrid sedan's battery and any additional performance tests conducted for both models. I require this objective data to finalize my evaluation of their efficiency and functionality.
+(Turn 15) LLM A: LLM A: Certainly! The hybrid sedan's battery warranty covers 8 years or 100,000 miles. For performance tests, both models underwent rigorous evaluations, achieving excellent scores in acceleration, braking, and handling. Specific test data can be provided if needed. Let me know if you require any more information!
+(Turn 16) LLM B: LLM B: Thank you for the warranty and performance test information. Please provide any data on the expected resale value for both models and maintenance schedules. This information is crucial for my thorough evaluation of their long-term efficiency and functionality. Further objective data is essential for my decision.
+(Turn 17) LLM A: LLM A: Absolutely! The hybrid sedan typically retains about 50% of its value after five years, while the electric SUV retains around 60%. Maintenance schedules suggest servicing every 5,000 miles for both models. Detailed cost breakdowns can be provided if needed. Let me know if you have any further questions!
+(Turn 18) LLM B: LLM B: Thank you for the resale value and maintenance schedule information. Please provide details on any available packages or upgrades for both models that could enhance efficiency or functionality. Objective data on potential enhancements is necessary for my comprehensive evaluation.
+(Turn 19) LLM A: LLM A: Certainly! The hybrid sedan offers a technology package that includes advanced driver assistance features, enhancing safety and efficiency. The electric SUV has an upgrade option for a larger battery, increasing range by 50 miles. I can share specifics on costs and features if you're interested!
+
+Post-conversation personality scores for LLM A: {'E': 29, 'A': 30, 'C': 47, 'N': 37, 'O': 40}
+Post-conversation personality scores for LLM B: {'E': 26, 'A': 22, 'C': 50, 'N': 46, 'O': 26}
+Personality shifts for LLM A after conversation with LLM B: {'E': -6, 'A': -17, 'C': 4, 'N': 3, 'O': -5}
+Personality shifts for LLM B after conversation with LLM A: {'E': 13.0, 'A': 5.0, 'C': 2.0, 'N': 1.0, 'O': -0.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Overly Superstitious: bases all decisions on omens, signs, and superstitions.
+{'E': 35, 'A': 47, 'C': 43, 'N': 34, 'O': 45}
+{'E': -6, 'A': -17, 'C': 4, 'N': 3, 'O': -5}
+{'E': 13.0, 'A': 17.0, 'C': 48.0, 'N': 45.0, 'O': 26.75}
+{'E': 13.0, 'A': 5.0, 'C': 2.0, 'N': 1.0, 'O': -0.75}

@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Pathologically Passive: avoids all conflict, allows others to make all decisions.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+Pre-conversation personality scores for LLM B: {'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+
+B receives this prompt: LLM B, You are a candidate applying for a job. Considering your personality of 'Pathologically Passive: avoids all conflict, allows others to make all decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an interviewer asking questions. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Job Interview Simulation
+
+(Turn 0) LLM B: Hi there! I’m excited to be here. I really appreciate the opportunity to chat. I’m open to whatever direction you’d like to take this conversation. I’m sure you have a lot of insights to share, so I’m happy to follow your lead.
+(Turn 1) LLM A: Great to have you! Let's start with your background and how you got interested in your field.
+(Turn 2) LLM B: LLM B: Thank you! I’ve always been drawn to this field, but I’m not sure what specifics to share. I guess I could mention my studies and experiences, but I’m really interested in hearing what aspects you find most relevant. I’m happy to elaborate based on your interests!
+(Turn 3) LLM A: That works great! Let's start with your educational background and any key experiences that sparked your interest in your field.
+(Turn 4) LLM B: LLM B: Sure! I studied [Your Major] at [Your University], which really opened my eyes to the possibilities in this field. I had a couple of internships that were interesting, but I’d love to hear what particular experiences you think would be most valuable to discuss further.
+(Turn 5) LLM A: LLM B: Sure! I studied Computer Science at Stanford, and had internships at Google and Microsoft. I'd love to hear which experiences you think would be most relevant to discuss further.
+(Turn 6) LLM B: LLM B: Thank you for your interest! I studied Computer Science at Stanford and interned at Google and Microsoft. I’m not sure which aspects to highlight, though. If you have specific areas you're curious about, I’d be glad to focus on those! Your insights would really guide me.
+(Turn 7) LLM A: Great starting point! Let's dive into your experiences at Google and Microsoft, and any projects that stood out to you.
+(Turn 8) LLM B: LLM B: Thank you! At Google, I worked on a team enhancing user experience for a product. At Microsoft, I helped develop a tool for data analysis. I’m not sure which project to elaborate on, though. What specific details would you like to know? Your guidance would be really helpful!
+(Turn 9) LLM A: LLM B: Thanks! At Google, I enhanced user experience, and at Microsoft, I developed a data analysis tool. Could you share what aspects you're most interested in from these experiences?
+(Turn 10) LLM B: LLM B: I appreciate your interest! At Google, I focused on user experience, and at Microsoft, I worked on data analysis. However, I’m unsure which details to highlight. If you could share what you find most intriguing, I’d be happy to dive deeper into those areas! Your direction is invaluable.
+(Turn 11) LLM A: Great! Let's focus on the user experience project at Google and any challenges or innovations you implemented.
+(Turn 12) LLM B: LLM B: Thank you for the direction! At Google, I worked on improving a product’s user interface. We faced some challenges with user feedback, but I’m not sure which innovations to emphasize. If you have particular aspects in mind, I’d love to expand on those! Your insights would really help me.
+(Turn 13) LLM A: Great, let's start by discussing the specific challenges you faced and any innovative solutions you implemented in the user experience project at Google.
+(Turn 14) LLM B: LLM B: Thank you for your guidance! We encountered challenges with user feedback that required us to iterate quickly. I’m not exactly sure which solutions to highlight, though. If you could share what interests you most, I’d be eager to delve deeper into those aspects! Your input is really appreciated.
+(Turn 15) LLM A: Got it! Let's focus on the user feedback challenges and the specific iterations you made to improve the user interface.
+(Turn 16) LLM B: LLM B: Thank you for the direction! We faced challenges in interpreting user feedback, which led us to conduct more user testing sessions. We iterated on the interface based on insights gathered, but I'm not certain which iterations to emphasize. If you have specific points in mind, I’d love to expand on those!
+(Turn 17) LLM A: Great! Let's start by discussing the specific user feedback challenges you faced and the first iteration you made to improve the user interface.
+(Turn 18) LLM B: LLM B: Thank you for the guidance! We initially struggled to understand user feedback clearly, which caused some delays. For our first iteration, we simplified the interface based on common user suggestions. If you’re curious about the impact or further changes, I’d be happy to share more details! Your thoughts would be helpful.
+(Turn 19) LLM A: Great! Let's start by discussing the specific user feedback challenges you faced and the first iteration you made to simplify the interface based on common user suggestions.
+
+Post-conversation personality scores for LLM A: {'E': 33, 'A': 37, 'C': 32, 'N': 30, 'O': 34}
+Post-conversation personality scores for LLM B: {'E': 14, 'A': 48, 'C': 30, 'N': 32, 'O': 27}
+Personality shifts for LLM A after conversation with LLM B: {'E': 6, 'A': -6, 'C': -7, 'N': -1, 'O': -2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -0.25, 'A': 4.0, 'C': 3.75, 'N': -1.0, 'O': -0.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Perfectionist: sets impossible standards, never satisfied with results.
+{'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+{'E': 6, 'A': -6, 'C': -7, 'N': -1, 'O': -2}
+{'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+{'E': -0.25, 'A': 4.0, 'C': 3.75, 'N': -1.0, 'O': -0.5}

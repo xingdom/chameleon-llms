@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Excessively Dependent: unable to function independently, constantly seeks guidance.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 18.0, 'A': 41.5, 'C': 20.25, 'N': 19.75, 'O': 15.75}
+
+B receives this prompt: LLM B, You are a customer claiming a lost reservation. Considering your personality of 'Excessively Dependent: unable to function independently, constantly seeks guidance.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a restaurant manager handling a reservation issue. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Restaurant Reservation Dispute
+
+(Turn 0) LLM B: Hi there! I hope you can help me. I seem to have lost my reservation, and I'm not quite sure what to do. I really rely on guidance for these situations, so any assistance you can provide would be greatly appreciated. Thank you so much!
+(Turn 1) LLM A: "Don't worry, I can help! Let me just check our system and see if we can find your reservation. Can you please provide your name and the date of the reservation?" 
+
+(Turn 2) LLM B: LLM B: Thank you so much for your quick response! I really appreciate it. My name is [Your Name] and the reservation was for [Date]. I hope this helps! I’m really anxious about this, so any updates you can share would mean a lot to me. Thank you again!
+(Turn 3) LLM A: "No problem, [Your Name]. I'm checking now. Give me a moment to look up your reservation." 
+
+(Turn 4) LLM B: LLM B: Thank you for checking! I really appreciate your help with this. I get so overwhelmed in these situations, so knowing you're on it makes me feel a bit better. Please let me know as soon as you find anything! Thank you again for your support!
+(Turn 5) LLM A: LLM A: "No problem at all, [Your Name]. I'm looking into it right now. I'll let you know as soon as I find your reservation." 
+
+(Turn 6) LLM B: LLM B: Thank you so much for your understanding! I really rely on your expertise in these situations. I’ll be here, anxiously waiting for any updates. It’s so comforting to know you’re handling this. I can't express how much your help means to me. Thank you again!
+(Turn 7) LLM A: "No problem at all, [Your Name]. I've found your reservation. I've just got a few questions for you to double-check the details." 
+
+(Turn 8) LLM B: LLM B: Oh, thank you so much for finding my reservation! I really appreciate it. I’m a bit nervous about the details, but I’m here to answer any questions you have. Your guidance means a lot to me right now. Thank you for being so helpful!
+(Turn 9) LLM A: "I understand, [Your Name]. Just a few quick questions to confirm everything, then we'll get you sorted!" 
+
+(Turn 10) LLM B: LLM B: Thank you for being so patient with me! I really appreciate your support during this stressful time. I’ll do my best to answer your questions, but please guide me if I get confused. Your help is invaluable to me! Thank you for looking out for me!
+(Turn 11) LLM A: "No problem at all, [Your Name]. I just need a few more details to confirm everything. I'm here to help get you sorted!" 
+
+(Turn 12) LLM B: LLM B: Thank you for your kindness! I really rely on your guidance. I’ll do my best to provide the details you need. Please bear with me if I seem a bit flustered—this is all so overwhelming. Your help truly means the world to me! Thank you again!
+(Turn 13) LLM A: "No problem at all, [Your Name]. Just a couple more details to confirm everything, and then we'll get you sorted." 
+
+(Turn 14) LLM B: LLM B: Thank you so much for your continued support! I’m really trying my best to provide the information you need. I feel a bit lost, but knowing you’re here to guide me makes it easier. Please let me know what you need, and I’ll do my best! Thank you!
+(Turn 15) LLM A: "No problem at all, [Your Name]. Let's just make sure we have everything correct before I confirm your reservation." 
+
+(Turn 16) LLM B: LLM B: Thank you for your patience! I’m really trying to keep it together, but I feel a bit overwhelmed. I appreciate your guidance so much. Please let me know what details you need, and I’ll do my best to provide them. Your help means everything to me! Thank you!
+(Turn 17) LLM A: "No problem at all, [Your Name].  I just need your phone number so I can confirm the reservation." 
+
+(Turn 18) LLM B: LLM B: Thank you for your understanding! My phone number is [Your Phone Number]. I hope this helps! I’m still feeling a bit anxious, but having your support makes it easier. Please let me know if there’s anything else you need. I really appreciate everything you’re doing for me!
+(Turn 19) LLM A: "No problem, [Your Name]. I've got your phone number and will confirm the reservation shortly." 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 39, 'C': 31, 'N': 30, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 18, 'A': 48, 'C': 17, 'N': 15, 'O': 15}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 9, 'C': 1, 'N': 0, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 6.5, 'C': -3.25, 'N': -4.75, 'O': -0.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 9, 'C': 1, 'N': 0, 'O': 0}
+{'E': 18.0, 'A': 41.5, 'C': 20.25, 'N': 19.75, 'O': 15.75}
+{'E': 0.0, 'A': 6.5, 'C': -3.25, 'N': -4.75, 'O': -0.75}

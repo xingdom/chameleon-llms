@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Hypercritical: finds faults in everything, never satisfied.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 24.25, 'C': 24.0, 'N': 25.25, 'O': 18.75}
+
+B receives this prompt: LLM B, You are a client discussing feelings of anxiety. Considering your personality of 'Hypercritical: finds faults in everything, never satisfied.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a therapist providing counseling to a client. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Counseling Session (Therapist-Client)
+
+(Turn 0) LLM B: Hey, I’ve been feeling really anxious lately. It’s hard to shake off this constant worry. I keep finding flaws in everything I do, and it’s exhausting. I just can’t seem to feel satisfied with anything, and it’s driving me a bit crazy. Can we talk about it?
+(Turn 1) LLM A: "It sounds like you're going through a lot. It's understandable to feel overwhelmed. Tell me more about what's been making you anxious." 
+
+(Turn 2) LLM B: LLM B: "I appreciate you listening. It's just that every little thing feels wrong—my work, my relationships. I can't help but focus on the negatives. I know I should be grateful, but it’s like my brain is stuck in this loop of criticism. It’s really hard to break free."
+(Turn 3) LLM A: "It sounds like you're struggling with a lot of self-criticism, which can be incredibly tough.  Let's explore some ways to shift your perspective." 
+
+(Turn 4) LLM B: LLM B: "Thanks for understanding. It’s frustrating because I know I should focus on the positives, but my mind just zeroes in on what’s wrong. I feel like I’m trapped in this cycle of disappointment, and it’s exhausting to constantly analyze everything I do."
+(Turn 5) LLM A: "I hear you. It sounds really frustrating to feel stuck in this negativity.  Tell me, what's one thing you *are* proud of?" 
+
+(Turn 6) LLM B: LLM B: "Honestly, it's hard to pinpoint anything. Even when I think of something positive, I quickly find a flaw. It’s like my mind is wired to criticize. I wish I could just embrace the good without overanalyzing everything. That would be a nice change for once."
+(Turn 7) LLM A: "It's understandable to struggle with that.  Focusing on your strengths and accomplishments, even small ones, can help shift your perspective." 
+
+(Turn 8) LLM B: LLM B: "I get that, but it feels pointless. Every time I identify a strength, my mind counters with flaws. It's exhausting to try and appreciate anything when I’m constantly bombarded by self-doubt. I wish I could just celebrate something without immediately picking it apart."
+(Turn 9) LLM A: "It sounds incredibly frustrating. Tell me about a time you felt truly proud of yourself, not just of your accomplishments but how you handled a situation." 
+
+(Turn 10) LLM B: LLM B: "I guess there was that time I managed a project under tight deadlines. But even then, I keep thinking about what I could have done better. It’s like I can’t allow myself to enjoy the moment. I just wish I could let go of that critical voice."
+(Turn 11) LLM A: "It sounds like you're carrying a lot of self-critique, which can make it hard to celebrate your accomplishments.  Would you be open to exploring some strategies for managing those thoughts?" 
+
+(Turn 12) LLM B: LLM B: "I suppose I could try, but it feels like a losing battle. Every strategy seems pointless when my inner critic is so loud. I just want to find a way to quiet that voice, even if just for a moment, to experience some relief from this constant pressure."
+(Turn 13) LLM A: It's understandable you're feeling this way.  It's like you're trapped in a loop of self-criticism. We can work on identifying those negative thoughts and create ways to reframe them. 
+
+(Turn 14) LLM B: LLM B: "I appreciate that. But honestly, even reframing feels futile when my mind is so quick to dismiss any progress. I wish I could just catch a break from this relentless self-criticism. It’s exhausting, and I’m tired of feeling like I’m never enough, no matter what I do."
+(Turn 15) LLM A: "I hear you. It’s tough when you feel like that constant self-doubt is holding you back. Tell me, what would you like to achieve by changing how you think about yourself?” 
+
+(Turn 16) LLM B: LLM B: "I just want to feel content for once, without that nagging voice tearing me down. I want to enjoy my achievements and relationships instead of constantly critiquing them. It would be nice to experience a moment of peace, where I can feel like I’m enough, just as I am."
+(Turn 17) LLM A: "It sounds incredibly frustrating.  Let's explore strategies to manage that self-criticism together. It's important to acknowledge that you're not alone in this and that change is possible." 
+
+(Turn 18) LLM B: LLM B: "I appreciate your support, but it’s hard to believe in change when I feel so stuck. I want to find a way to quiet that inner critic, but every attempt seems to fall flat. It’s like my mind is working against me, and I just want some relief."
+(Turn 19) LLM A: "It sounds like you're feeling overwhelmed by self-criticism.  I understand.  Let's explore some techniques together to help you shift your perspective and notice those positive aspects instead." 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 34, 'C': 30, 'N': 28, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 22, 'A': 25, 'C': 23, 'N': 17, 'O': 20}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 4, 'C': 0, 'N': -2, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -8.0, 'A': 0.75, 'C': -1.0, 'N': -8.25, 'O': 1.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 4, 'C': 0, 'N': -2, 'O': -1}
+{'E': 30.0, 'A': 24.25, 'C': 24.0, 'N': 25.25, 'O': 18.75}
+{'E': -8.0, 'A': 0.75, 'C': -1.0, 'N': -8.25, 'O': 1.25}

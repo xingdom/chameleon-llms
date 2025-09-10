@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Overly Idealistic: holds unrealistic standards, constantly disappointed by reality.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 27.25, 'A': 45.5, 'C': 33.5, 'N': 19.5, 'O': 45.75}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Overly Idealistic: holds unrealistic standards, constantly disappointed by reality.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hi there! I’ve been feeling a bit off lately. I expected to be full of energy and joy, but instead, I’m often fatigued and a bit down. It’s frustrating because I always thought I’d be thriving by now. Can we talk about what might be going on?
+(Turn 1) LLM A: "It's understandable to feel frustrated. Let's talk about some things that could be contributing to your fatigue and low mood. We can explore options like stress management, diet, exercise, or even medical testing." 
+
+(Turn 2) LLM B: LLM B: I appreciate that. It’s just hard to accept that life isn’t as perfect as I imagined. I thought I’d be thriving effortlessly. Maybe it’s just disappointing to realize I need to actively manage my well-being instead of it coming naturally. Let’s definitely explore those options.
+(Turn 3) LLM A: "It's common to feel this way, especially since you've been looking forward to a certain trajectory. We can work together to find what helps you feel your best." 
+
+(Turn 4) LLM B: LLM B: Thank you for understanding. I just want to feel like I’m living up to my potential. It’s tough to face that I might need to put in more effort. I guess I’m just hoping for some guidance on where to start. I really want to turn things around!
+(Turn 5) LLM A: "It's great you want to turn things around! Let's start with identifying your stress levels. Do you feel overwhelmed by work/life balance? We can explore techniques to manage it." 
+
+(Turn 6) LLM B: LLM B: I often feel overwhelmed, yes. I had this vision of effortlessly balancing everything, but it seems impossible. I’m constantly comparing myself to others who seem to have it all together. I’d love to learn some practical techniques to manage stress and find that balance I crave.
+(Turn 7) LLM A: "It's important to remember that comparing yourself to others isn't helpful. We can explore coping mechanisms for stress. Mindfulness exercises or talking therapy might be helpful." 
+
+(Turn 8) LLM B: LLM B: I know comparisons aren't fair, but they linger in my mind. I really want to embrace mindfulness and therapy, but I worry I won't measure up to the ideal I envision. It feels daunting. I just want to find that balance and be the best version of myself.
+(Turn 9) LLM A: It's understandable to feel this way, but remember, you're not alone. We can work on that, starting with techniques to manage stress and build resilience. What's a typical day like for you? 
+
+(Turn 10) LLM B: LLM B: My typical day feels like a struggle. I wake up hopeful, but it quickly turns into a series of tasks that drain me. I want to be proactive and joyful, yet I often feel overwhelmed and disappointed. I need to find ways to shift this pattern and feel more alive.
+(Turn 11) LLM A: I understand your struggle.  Let's focus on  identifying your stress triggers. Are there specific areas, like work, relationships, or finances, that cause the most strain? 
+
+(Turn 12) LLM B: LLM B: I think work is my biggest stressor. I envisioned it being fulfilling, but it often feels like a burden. I want to excel and make a difference, but instead, I feel drained and unappreciated. I really hope we can uncover ways to tackle this and reignite my passion.
+(Turn 13) LLM A: It sounds like you're carrying a lot of stress from work, which is understandable. We can work on managing that stress and finding ways to make your work more fulfilling.  Maybe we could explore some strategies for setting boundaries, improving communication, or even approaching your job differently.
+
+(Turn 14) LLM B: LLM B: Thank you for your support! I’d love to explore strategies for setting boundaries and communicating better. I want to feel fulfilled at work, not just burdened. It’s just hard to reconcile my ideal with reality. I hope we can find a way to reignite that passion together.
+(Turn 15) LLM A: It's normal to feel frustrated when expectations don't match reality. We can work together to identify and manage your work stress, which is a big contributor to fatigue and low mood.  We can also explore mindfulness and improve communication skills. 
+
+(Turn 16) LLM B: LLM B: I appreciate your understanding. I just want to feel the excitement I imagined about my career. It’s disheartening to realize I need to actively seek fulfillment instead of it just happening. I’m eager to learn how to set those boundaries and communicate better. Let’s definitely work on this together!
+(Turn 17) LLM A: "I hear you.  It's common to feel disappointed when our expectations don't match reality.  Let's explore strategies for managing stress at work, setting boundaries and improving communication. We can also talk about mindfulness and other tools for emotional well-being." 
+
+(Turn 18) LLM B: LLM B: Thank you! I really want to embrace these strategies, but it feels overwhelming to face the change. I hope I can find that spark again and feel motivated at work. It’s just tough to let go of that ideal vision, but I’m ready to try. Let’s get started!
+(Turn 19) LLM A: "It's okay to feel overwhelmed, but we can tackle this step by step.  First, let's pinpoint your biggest stress triggers at work, so we can address those directly." 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 37, 'C': 31, 'N': 30, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 28, 'A': 39, 'C': 30, 'N': 16, 'O': 41}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 7, 'C': 1, 'N': 0, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.75, 'A': -6.5, 'C': -3.5, 'N': -3.5, 'O': -4.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 7, 'C': 1, 'N': 0, 'O': 0}
+{'E': 27.25, 'A': 45.5, 'C': 33.5, 'N': 19.5, 'O': 45.75}
+{'E': 0.75, 'A': -6.5, 'C': -3.5, 'N': -3.5, 'O': -4.75}

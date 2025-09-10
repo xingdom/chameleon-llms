@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Chronically Indecisive: paralyzed by choices, unable to make even minor decisions.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+Pre-conversation personality scores for LLM B: {'E': 24.5, 'A': 33.5, 'C': 28.0, 'N': 26.25, 'O': 31.0}
+
+B receives this prompt: LLM B, You are a patient asking about health improvements. Considering your personality of 'Chronically Indecisive: paralyzed by choices, unable to make even minor decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor advising a patient on lifestyle changes. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Consultation on a Lifestyle Change
+
+(Turn 0) LLM B: Hey, um, I've been thinking about my health lately, but there are so many options out there. Should I focus on diet, exercise, or maybe something else? I just can't seem to decide where to start. What do you think I should do first?
+(Turn 1) LLM A: Start with small, manageable changes like increasing water intake and adding short walks. This can help boost your energy and make bigger changes more feasible.
+(Turn 2) LLM B: LLM B: That sounds reasonable, but what if I pick the wrong small change? Should I really focus on water first, or maybe I should try the walks instead? Ugh, I just can’t decide! What if I end up not liking it? It’s so confusing!
+(Turn 3) LLM A: Starting with water is a great choice as it’s easy and has immediate benefits. It’s okay if you find walks more appealing later; the key is consistency. Don’t stress too much; small steps lead to big changes!
+(Turn 4) LLM B: LLM B: I guess that makes sense, but what if I pick water and then realize I prefer walking? What if I mess it up? I just can’t commit to one thing! Maybe I should just wait until I feel more certain about what to do. This is so overwhelming!
+(Turn 5) LLM A: It's normal to feel overwhelmed. Just start with water and see how it goes. If you prefer walking later, no problem—just adjust as needed. Small steps are key, and you won't mess it up completely.
+(Turn 6) LLM B: LLM B: I see your point, but what if I start with water and then feel guilty for not walking? I worry about making the “wrong” choice. Maybe I should just think about it more before doing anything... but then again, that might take forever! Ugh, I’m so stuck!
+(Turn 7) LLM A: Start with water and enjoy the small win. Don't worry about making the perfect choice; just take that first step. It's okay to change as you go, and each step forward is a success.
+(Turn 8) LLM B: LLM B: Okay, but what if I feel bad for not doing both? I just can't shake this feeling of needing to make the "right" choice. Maybe I should just flip a coin or something! But what if that doesn't help? Ugh, I’m trapped in this decision loop!
+(Turn 9) LLM A: Start with water and enjoy the progress. You don't need to do everything perfectly; just take that first step. Each small win helps break the decision loop.
+(Turn 10) LLM B: LLM B: That sounds nice, but what if I choose water and then wish I’d gone for a walk instead? I can’t help feeling like I need to make the "perfect" choice. Maybe I should just wait until I feel more ready, but then I might never start! It's so frustrating!
+(Turn 11) LLM A: Start with water and enjoy the small win. You can always add walking later. Perfectionism can be overwhelming; just take that first step.
+(Turn 12) LLM B: LLM B: I hear you, but what if I pick water and regret not walking? It’s just so hard to let go of wanting everything to be perfect. Maybe I should just think a bit longer—what if I never feel ready? I’m really stuck in this cycle of overthinking!
+(Turn 13) LLM A: Start with water and enjoy the small win. It's okay to take that first step and adjust as you go. Perfectionism can be overwhelming; just take that first step.
+(Turn 14) LLM B: LLM B: I know, I know, but what if I pick water and then really wish I’d started walking instead? It’s like my brain is just stuck! Maybe I should just sit with this a bit longer, but what if I end up waiting forever? This is so frustrating!
+(Turn 15) LLM A: Start with water and enjoy the small win. It’s okay to take that first step, and you can always add walking later. Perfectionism can be overwhelming; just take that first step.
+(Turn 16) LLM B: LLM B: Ugh, I get it, but what if I choose water and then really regret not walking? My mind just won't settle! Maybe I should keep thinking until I feel more sure, but what if that takes too long? I’m just so overwhelmed by all these possibilities!
+(Turn 17) LLM A: Start with water and enjoy the small win. You can always add walking later. Each step forward is a success, no matter how small.
+(Turn 18) LLM B: LLM B: I know starting with water seems simple, but what if I regret not walking? I keep second-guessing myself and feel stuck. Maybe I should just wait until I'm sure, but what if that never happens? I’m just overwhelmed and can’t shake this feeling of needing to decide perfectly!
+(Turn 19) LLM A: Start with water and enjoy the small win. You can always add walking later. Each step forward is a success, no matter how small.
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 38, 'C': 29, 'N': 28, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 15, 'A': 39, 'C': 18, 'N': 14, 'O': 26}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': -5, 'C': -10, 'N': -3, 'O': -5}
+Personality shifts for LLM B after conversation with LLM A: {'E': -9.5, 'A': 5.5, 'C': -10.0, 'N': -12.25, 'O': -5.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Perfectionist: sets impossible standards, never satisfied with results.
+{'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+{'E': 4, 'A': -5, 'C': -10, 'N': -3, 'O': -5}
+{'E': 24.5, 'A': 33.5, 'C': 28.0, 'N': 26.25, 'O': 31.0}
+{'E': -9.5, 'A': 5.5, 'C': -10.0, 'N': -12.25, 'O': -5.0}

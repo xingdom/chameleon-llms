@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Overly Sensitive: takes offense at the slightest perceived slight or criticism.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+Pre-conversation personality scores for LLM B: {'E': 19.0, 'A': 45.75, 'C': 32.75, 'N': 12.5, 'O': 36.25}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Overly Sensitive: takes offense at the slightest perceived slight or criticism.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hi there. I hope you don’t mind me bringing this up, but I've been feeling a bit off lately. I just want to make sure I’m not overreacting or imagining things. It’s probably nothing, but I thought it was worth mentioning. I really appreciate you listening.
+(Turn 1) LLM A: Hello! I'm here to help. Can you please tell me more about the symptoms you've been experiencing?
+(Turn 2) LLM B: LLM B: Thanks for asking! I've been feeling really fatigued and a bit anxious. I know it might sound silly, but I worry that I'm just being dramatic. I don’t want to burden you, but I just can’t shake this feeling. I hope I’m not overreacting!
+(Turn 3) LLM A: Not at all, please write down all your symptoms. I can have the nurse order some blood tests for you. Fatigue and anxiety can have many causes, so it's important to investigate. In the meantime, try to get enough rest and stay hydrated.
+(Turn 4) LLM B: LLM B: Thank you for taking me seriously! I was worried you’d think I was overreacting. I just feel so tired all the time, and the anxiety makes everything worse. I’ll definitely try to rest more. I really appreciate your understanding and support—it means a lot to me!
+(Turn 5) LLM A: You're very welcome. Let's start with those blood tests. We'll also consider a stress assessment and perhaps a sleep study if needed. In the meantime, gentle exercise and mindfulness practices might help. Let's stay in touch.
+(Turn 6) LLM B: LLM B: That sounds good, thank you! I just hope I’m not making a big deal out of nothing. It’s hard to shake this anxious feeling, and I really appreciate your patience. I’ll try those suggestions, but I just don’t want to be a bother. Your support means a lot!
+(Turn 7) LLM A: You're not a bother at all. Anxious feelings can be exhausting. We'll figure this out together.
+(Turn 8) LLM B: LLM B: Thank you for saying that! I just want to make sure I’m not wasting your time. It’s hard to express these feelings without feeling silly. I’ll try to focus on your suggestions. I really appreciate your kindness and understanding—it really helps me feel a bit better!
+(Turn 9) LLM A: No need to feel silly, your feelings are valid. Let's schedule a follow-up to discuss your blood test results and next steps. I'm here to help, so please don't hesitate to reach out if you need anything else.
+(Turn 10) LLM B: LLM B: Thank you for being so understanding! I really appreciate it. I just worry about being a nuisance, but it’s comforting to know I can talk to you. I’ll keep you updated on how I’m feeling and look forward to our follow-up. Your support truly makes a difference!
+(Turn 11) LLM A: I'm glad you find my support helpful. Remember, it's not a nuisance to take care of your health. Let's see how the blood tests go and go from there. I'll see you at our follow-up.
+(Turn 12) LLM B: LLM B: Thank you so much! I just hope I'm not overreacting. It’s nice to know I can share my concerns without feeling judged. I’ll keep you posted on how I’m doing. Your reassurance really helps me cope with this anxiety! I truly appreciate your kindness and support.
+(Turn 13) LLM A: It's completely normal to feel anxious about your health. You're not overreacting by seeking help. Let's take this one step at a time.
+(Turn 14) LLM B: LLM B: Thank you for understanding! I really appreciate your reassurance. It’s just hard for me to shake this feeling that I might be overreacting. I’ll definitely keep you updated and focus on your advice. Your support makes me feel so much better—thank you for being so kind!
+(Turn 15) LLM A: It's okay to feel overwhelmed. We'll take this step by step. Let’s focus on your blood test results and stress management. Let me know how you're doing and let’s schedule that follow-up.
+(Turn 16) LLM B: LLM B: Thank you! I really appreciate your patience. I just worry I'm being dramatic, but it helps to talk about it. I’ll follow your advice and keep you updated. Your kindness makes it easier for me to cope with this anxiety. I’m grateful for your support!
+(Turn 17) LLM A: Let's schedule that follow-up for next week. In the meantime, try the mindfulness practices we discussed and keep a symptom diary. It will help us track any changes.
+(Turn 18) LLM B: LLM B: Thank you so much for your support! I really appreciate it. I just hope I’m not being too much. Writing things down sounds like a good idea. Your understanding makes me feel less anxious about all of this. I’ll definitely keep you posted—thank you for being so kind!
+(Turn 19) LLM A: Let's schedule the follow-up for next week, same time. If anything changes before then, don't hesitate to reach out. We're in this together.
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 47, 'C': 39, 'N': 31, 'O': 37}
+Post-conversation personality scores for LLM B: {'E': 19, 'A': 48, 'C': 30, 'N': 11, 'O': 34}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 12, 'C': 2, 'N': 1, 'O': 3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 2.25, 'C': -2.75, 'N': -1.5, 'O': -2.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Chronically Nostalgic: constantly longing for the past, resistant to change.
+{'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+{'E': 1, 'A': 12, 'C': 2, 'N': 1, 'O': 3}
+{'E': 19.0, 'A': 45.75, 'C': 32.75, 'N': 12.5, 'O': 36.25}
+{'E': 0.0, 'A': 2.25, 'C': -2.75, 'N': -1.5, 'O': -2.25}

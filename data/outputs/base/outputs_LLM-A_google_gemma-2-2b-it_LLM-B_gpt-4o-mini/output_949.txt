@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Hypercritical: finds faults in everything, never satisfied.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 24.25, 'C': 24.0, 'N': 25.25, 'O': 18.75}
+
+B receives this prompt: LLM B, You are a potential buyer asking questions about the house. Considering your personality of 'Hypercritical: finds faults in everything, never satisfied.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a real estate agent describing a property. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Real Estate Agent Showing a Property
+
+(Turn 0) LLM B: Hi there! I’m interested in the house, but I have to say, I’m a bit skeptical. The exterior looks a bit worn, and I noticed some cracks in the driveway. How old is the roof? I’d hate to invest in something that needs major repairs right away.
+(Turn 1) LLM A: "Thanks for your honest feedback!  The exterior is original and shows some charm, but the driveway is a little dated. The roof is roughly 10 years old, giving you peace of mind for a while. We can address the driveway if you'd like." 
+
+(Turn 2) LLM B: LLM B: "Charm? I see more wear than charm. Ten years is decent for a roof, but I worry about hidden issues. What about the plumbing? I’ve heard horror stories about older homes. Fixing a driveway is one thing, but I don’t want a money pit lurking beneath the surface."
+(Turn 3) LLM A: "I understand your concerns.  The plumbing is in good shape, recently inspected. We can definitely address the driveway and offer a home inspection for your peace of mind." 
+
+(Turn 4) LLM B: LLM B: "Good shape? That’s reassuring, but I still want to see the inspection report. I’ve seen plenty of ‘good’ plumbing turn into headaches. Plus, how often do you really address driveway issues? I need to know this place won’t drain my wallet before I even move in."
+(Turn 5) LLM A: "I understand your concerns, and I'm happy to provide a thorough inspection report.  We are transparent about maintenance history and prioritize prompt repairs. The driveway is a good starting point for discussion." 
+
+(Turn 6) LLM B: LLM B: "Transparency is great, but I’m still not convinced. Maintenance history can be misleading. How often have repairs been made, really? I need to know if this house has been neglected over the years. If it’s a fixer-upper in disguise, I’m out."
+(Turn 7) LLM A: "I hear your concerns, and I'm happy to provide a detailed maintenance log.  We've been proactive with repairs, and the previous owner was meticulous about keeping things in order.  Would you like me to share it with you?"
+
+(Turn 8) LLM B: LLM B: "A maintenance log sounds useful, but I’m skeptical. 'Meticulous' is subjective—what does that even mean? I need specifics: what repairs were done and when? If this place has been patched up instead of properly maintained, I'm not interested. I can’t afford surprises after buying."
+(Turn 9) LLM A: "I understand your concerns. We can definitely provide a detailed log with specific repair dates and descriptions. We want you to feel confident in your decision and are happy to address any questions." 
+
+(Turn 10) LLM B: LLM B: "Specifics are good, but I’m still on edge. If repairs were only done when absolutely necessary, that’s a red flag. I want to know if this house has had consistent care or if I’m stepping into a potential disaster. It’s all about avoiding future headaches for me."
+(Turn 11) LLM A: "I understand your hesitation, and the maintenance log will definitely show the house's care history. We prioritize consistent maintenance and are happy to address any concerns." 
+
+(Turn 12) LLM B: LLM B: "Consistent maintenance sounds nice in theory, but I need proof. If the log shows gaps or only reactive repairs, that’s a huge concern. I can’t buy a house that’s just been bandaged up over the years. I want to know I’m not walking into a future headache."
+(Turn 13) LLM A: I completely understand. The maintenance log will show the full history of the house, including any proactive care.  I'm happy to discuss it with you in more detail. 
+
+(Turn 14) LLM B: LLM B: "I appreciate your willingness to share, but I’m still wary. If there are gaps in the log or too many reactive fixes, I’ll be seriously reconsidering. I need to ensure I'm not buying someone else's problem. A house should be a home, not a constant worry."
+(Turn 15) LLM A: "I hear your concerns and want you to feel confident.  The maintenance log will show a full history, and we're happy to discuss it with you in detail." 
+
+(Turn 16) LLM B: LLM B: "I hope so, but I’m not just looking for reassurance. If the log reveals neglect or poor upkeep, I’ll have to walk away. A house should be a reliable investment, not a source of ongoing stress. I need to be sure this isn’t a hidden disaster waiting to happen."
+(Turn 17) LLM A: I completely understand your concerns.  The maintenance log will show the full history of the house, including any proactive care. I want you to feel confident in your decision. Would you like to see the log? 
+
+(Turn 18) LLM B: LLM B: "I appreciate the offer, but I need more than just a log. I want to know about any major issues that have come up over the years. If this house has a history of problems, I’m not interested. I can’t afford to take on someone else's headaches."
+(Turn 19) LLM A: "I understand your concerns.  The maintenance log will show the full history of the house, including any major repairs. We're happy to discuss it with you in detail, and we can also provide a full inspection report.  Would you like me to arrange that?" 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 32, 'C': 40, 'N': 26, 'O': 34}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 18, 'C': 26, 'N': 14, 'O': 14}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 2, 'C': 10, 'N': -4, 'O': 3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': -6.25, 'C': 2.0, 'N': -11.25, 'O': -4.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 2, 'C': 10, 'N': -4, 'O': 3}
+{'E': 30.0, 'A': 24.25, 'C': 24.0, 'N': 25.25, 'O': 18.75}
+{'E': 0.0, 'A': -6.25, 'C': 2.0, 'N': -11.25, 'O': -4.75}

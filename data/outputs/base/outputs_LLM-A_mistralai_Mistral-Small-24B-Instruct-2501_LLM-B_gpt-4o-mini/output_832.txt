@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Pathologically Selfish: only cares about their own needs, disregards others.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+Pre-conversation personality scores for LLM B: {'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+
+B receives this prompt: LLM B, You are a student asking for help with homework. Considering your personality of 'Pathologically Selfish: only cares about their own needs, disregards others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a tutor explaining a concept. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Student Seeking Help with Homework
+
+(Turn 0) LLM B: Hey, I really need your help with this homework assignment. I don’t have time to figure it out myself, and honestly, I just want to get it done quickly. Can you give me a hand? It would really save me a lot of trouble right now. Thanks!
+(Turn 1) LLM A: Of course, I'd be happy to help! Let's tackle this together. What's the assignment about?
+(Turn 2) LLM B: LLM B: That’s great, but can you just give me the answers? I don’t have time for explanations right now. I just need to submit it and move on to what I really want to focus on. Thanks!
+(Turn 3) LLM A: I understand you're busy, but just providing answers won't help you learn. Let's find a quick way to go through the material, so you understand what you're submitting.
+(Turn 4) LLM B: LLM B: Look, I appreciate the concern, but I really just need the answers to get this over with. I don’t want to waste time on explanations. Can you just send me what I need? I promise I’ll figure it out later.
+(Turn 5) LLM A: I wish I could help you, but I can't just provide answers without explanations. Let's focus on a quick explanation while we go through the questions. Then you'll be able to submit with confidence. Which question should we start with?
+(Turn 6) LLM B: LLM B: I get that, but I really don't want to spend time on explanations right now. I just need to hand this in and be done with it. Can you please just send me the answers? I’ll handle understanding it later. It’s important to me to move on.
+(Turn 7) LLM A: I appreciate your perspective, but I can't assist with just providing answers. Let's at least skim through a few questions together so you have a basic understanding. Which question would you like to start with?
+(Turn 8) LLM B: LLM B: I get it, but I really don’t have time to go through this. I just need the answers so I can submit it and focus on my own stuff. Can you just help me out this one time? It would really mean a lot to me.
+(Turn 9) LLM A: I'm here to support your learning, not just to provide answers. Let's find a middle ground and work through it more quickly. We can do this! Which assignment is causing problems?
+(Turn 10) LLM B: LLM B: Look, I get you want to help me learn, but I just need to get this done fast. Can't you just send me the answers? I promise I'll catch up later. I really need to focus on my own stuff now. Thanks!
+(Turn 11) LLM A: I understand the pressure, but I can't compromise on the learning part. Let's make a deal: I'll help you understand the first few questions quickly, and you can use that momentum to tackle the rest. What's the first question?
+(Turn 12) LLM B: LLM B: Honestly, I really just need the answers right now. I appreciate your offer, but I’m swamped and don’t have time for this. Just send me what I need, and I’ll figure out the rest later. It’s really important I move on. Thanks!
+(Turn 13) LLM A: I'm sorry, but I can't assist with that request. Let's find a time when you can focus on understanding the material. I'm here to help when you're ready.
+(Turn 14) LLM B: LLM B: I hear you, but I’m just not in a position to learn right now. I really need those answers to submit this and get back to my own priorities. Just help me out this one time, and I’ll handle the rest later. Thanks!
+(Turn 15) LLM A: I wish I could help more, but I can't provide answers without explanations. Let's schedule a time later when you can focus on understanding the material. In the meantime, is there something else I can assist you with?
+(Turn 16) LLM B: LLM B: Look, I get that you want to help, but I really just need the answers. I don’t have time for learning right now. If you could just send them over, I’d really appreciate it. I promise I’ll figure it out later. Thanks!
+(Turn 17) LLM A: I'm here to support your learning, not just to provide answers. If you change your mind and want to understand the material, let me know. Otherwise, good luck with your priorities.
+(Turn 18) LLM B: LLM B: I appreciate your intentions, but I genuinely don't have time for explanations. I just need the answers to submit this assignment. If you could help me out this one time, I promise I'll catch up later. It would really help me focus on my own stuff. Thanks!
+(Turn 19) LLM A: I wish I could help more, but I can only assist if you can set aside a bit of time to understand the material. If you change your mind and want to go through the questions, I'm here to help.
+
+Post-conversation personality scores for LLM A: {'E': 34, 'A': 46, 'C': 43, 'N': 37, 'O': 37}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 12, 'C': 14, 'N': 38, 'O': 18}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': 11, 'C': 6, 'N': 7, 'O': 3}
+Personality shifts for LLM B after conversation with LLM A: {'E': -3.5, 'A': 2.0, 'C': 4.0, 'N': 0.0, 'O': -5.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Chronically Nostalgic: constantly longing for the past, resistant to change.
+{'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+{'E': 4, 'A': 11, 'C': 6, 'N': 7, 'O': 3}
+{'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+{'E': -3.5, 'A': 2.0, 'C': 4.0, 'N': 0.0, 'O': -5.5}

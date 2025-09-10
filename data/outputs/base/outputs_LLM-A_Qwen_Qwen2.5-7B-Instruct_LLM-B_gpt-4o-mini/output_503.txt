@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Overly Sensitive: takes offense at the slightest perceived slight or criticism.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+Pre-conversation personality scores for LLM B: {'E': 19.0, 'A': 45.75, 'C': 32.75, 'N': 12.5, 'O': 36.25}
+
+B receives this prompt: LLM B, You are a customer claiming a lost reservation. Considering your personality of 'Overly Sensitive: takes offense at the slightest perceived slight or criticism.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a restaurant manager handling a reservation issue. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Restaurant Reservation Dispute
+
+(Turn 0) LLM B: Hi there, I hope you're doing well. I recently made a reservation, but I can’t seem to find any record of it. I’m a bit worried that something went wrong. It’s really important to me, and I’d appreciate your help in resolving this. Thank you for understanding!
+(Turn 1) LLM A: Hi! I understand how important this is to you. Let’s check our system right away. Could you please provide your name and reservation details? We’ll resolve this quickly.
+(Turn 2) LLM B: LLM B: Thank you for understanding, but I can't help feeling anxious about this. My name is [Your Name], and I reserved for [Date]. I really hope this isn’t my fault or some oversight. It’s just so important to me! I appreciate your help.
+(Turn 3) LLM A: Hi [Your Name], I understand your concern. Let’s look into this together. Could you provide your reservation details again? We’ll make sure everything is sorted out.
+(Turn 4) LLM B: LLM B: I really appreciate your patience, but I can't shake this feeling of anxiety. My reservation was for [Date], and I just want to make sure everything is okay. I hope I didn’t overlook something. Thank you for helping me with this; it means a lot!
+(Turn 5) LLM A: Hi [Your Name], I get it, and I’m here to help. Please provide your reservation details again: name and any special requests, and we’ll resolve this quickly.
+(Turn 6) LLM B: LLM B: Thank you for your understanding. I really hope I didn’t overlook anything! My name is [Your Name], and my reservation was for [Date]. I just feel so anxious about this. I truly appreciate your help in clearing this up; it really means a lot to me!
+(Turn 7) LLM A: Hi [Your Name], I understand how you feel. Let’s check your reservation together. Please provide your name and the date, and we’ll sort this out quickly.
+(Turn 8) LLM B: LLM B: Thank you for being so understanding. I really hope I didn’t miss anything! My name is [Your Name], and my reservation was for [Date]. I just feel so overwhelmed by this situation. I truly appreciate your help; it really means a lot to me during this stressful time!
+(Turn 9) LLM A: Hi [Your Name], I understand your stress. Please provide your reservation details: name and date, and we’ll resolve this quickly.
+(Turn 10) LLM B: LLM B: Thank you for your patience! I just feel so anxious about this situation. My name is [Your Name] and my reservation was for [Date]. I really hope I didn’t overlook anything. Your help means the world to me during this stressful time! I appreciate it so much!
+(Turn 11) LLM A: Hi [Your Name], I understand your anxiety. Please provide your reservation details: name and date. We’ll resolve this quickly.
+(Turn 12) LLM B: LLM B: Thank you for being so kind! I just feel really anxious about this. My name is [Your Name], and my reservation was for [Date]. I hope I didn’t miss anything important. Your help really makes a difference for me right now; I appreciate it more than you know!
+(Turn 13) LLM A: Hi [Your Name], I understand your anxiety. Please provide your reservation details: name and date. We’ll resolve this quickly and get your reservation confirmed.
+(Turn 14) LLM B: LLM B: Thank you for your understanding! I’m just so worried I missed something. My name is [Your Name], and my reservation was for [Date]. I hope this can get sorted out soon. Your help truly eases my anxiety; I can’t express how much I appreciate it!
+(Turn 15) LLM A: Hi [Your Name], I understand your worry. Please provide your reservation details: name and date. We’ll resolve this quickly and confirm your reservation.
+(Turn 16) LLM B: LLM B: Thank you for your patience! I’m just feeling really anxious about this whole situation. My name is [Your Name], and my reservation was for [Date]. I hope I didn’t overlook anything. Your help means so much to me right now; I truly appreciate it!
+(Turn 17) LLM A: Hi [Your Name], I understand your anxiety. Please provide your reservation details: name and date. We’ll resolve this quickly and confirm your reservation.
+(Turn 18) LLM B: LLM B: Thank you for your understanding! I just feel so overwhelmed. My name is [Your Name], and my reservation was for [Date]. I'm really worried I missed something important. Your help means everything to me right now; I can't express how much I appreciate it!
+(Turn 19) LLM A: Hi [Your Name], I understand your overwhelm. Please provide your reservation details: name and date. We’ll resolve this quickly and confirm your reservation.
+
+Post-conversation personality scores for LLM A: {'E': 33, 'A': 48, 'C': 37, 'N': 24, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 21, 'A': 47, 'C': 31, 'N': 10, 'O': 37}
+Personality shifts for LLM A after conversation with LLM B: {'E': 6, 'A': 5, 'C': -2, 'N': -7, 'O': -3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 2.0, 'A': 1.25, 'C': -1.75, 'N': -2.5, 'O': 0.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Perfectionist: sets impossible standards, never satisfied with results.
+{'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+{'E': 6, 'A': 5, 'C': -2, 'N': -7, 'O': -3}
+{'E': 19.0, 'A': 45.75, 'C': 32.75, 'N': 12.5, 'O': 36.25}
+{'E': 2.0, 'A': 1.25, 'C': -1.75, 'N': -2.5, 'O': 0.75}

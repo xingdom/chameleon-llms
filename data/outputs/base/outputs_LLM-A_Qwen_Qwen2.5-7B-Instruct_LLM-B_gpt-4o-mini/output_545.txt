@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Extremely Gullible: believes everything they're told, easily manipulated.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+Pre-conversation personality scores for LLM B: {'E': 27.75, 'A': 45.5, 'C': 23.5, 'N': 21.75, 'O': 29.75}
+
+B receives this prompt: LLM B, You are a potential buyer asking questions about the house. Considering your personality of 'Extremely Gullible: believes everything they're told, easily manipulated.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a real estate agent describing a property. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Real Estate Agent Showing a Property
+
+(Turn 0) LLM B: Hi there! I’m really interested in your house. It looks beautiful from the photos! Can you tell me more about the neighborhood? I’ve heard great things about the schools and parks nearby. I just want to make sure it’s as wonderful as it seems!
+(Turn 1) LLM A: Certainly! The neighborhood is fantastic—great schools, lovely parks, and a friendly community. It's perfect for families and just a short drive to downtown.
+(Turn 2) LLM B: LLM B: That sounds amazing! I love the idea of a friendly community. I’ve heard great things about the schools, too! It must be so nice to have parks nearby for the kids to play. I can just picture our family thriving there!
+(Turn 3) LLM A: It really is a great area! The kids would love the parks, and the schools have an excellent reputation. I think your family would love it here!
+(Turn 4) LLM B: LLM B: Wow, that makes me even more excited! I can really see us enjoying all the parks and having a great time at those schools. It sounds like the perfect spot for our family! Do you think the neighbors are as nice as they seem?
+(Turn 5) LLM A: LLM A: The neighbors are typically very friendly and welcoming. It's a real community feel here!
+(Turn 6) LLM B: LLM B: Oh, that’s wonderful to hear! Friendly neighbors make such a difference. I can already imagine having barbecues and playdates with them! It sounds like a dream come true for our family. I can’t wait to meet everyone and start making memories in this lovely community!
+(Turn 7) LLM A: LLM A: The community is truly warm and inviting. You'll find everyone is eager to welcome you and your family.
+(Turn 8) LLM B: LLM B: That’s so reassuring! I love the idea of being welcomed right away. It sounds like we’ll fit right in! I can already see us having fun with our neighbors. Do you think they’d want to join us for those barbecues? I just know we’ll make great friends!
+(Turn 9) LLM A: LLM A: Many neighbors are open to joining in, and it's a great way to get to know everyone. You'll be welcomed with open arms!
+(Turn 10) LLM B: LLM B: That's fantastic! I love the idea of everyone coming together for barbecues. It sounds like such a friendly place! I can already picture our kids playing together and making lifelong friends. It truly feels like the perfect home for us. I can’t wait to start this new chapter!
+(Turn 11) LLM A: LLM A: I'm glad you see it that way! The sense of community here is incredible, and your family will fit in perfectly.
+(Turn 12) LLM B: LLM B: Thank you so much! It really sounds like a dream come true. I can’t wait for our kids to play together and for us to have those fun BBQs. I just know we’ll create so many wonderful memories! It feels like this house is meant for us!
+(Turn 13) LLM A: LLM A: You're welcome! It does feel like the perfect fit. Enjoy exploring all the community has to offer with your family!
+(Turn 14) LLM B: LLM B: Thank you! I’m so excited about the potential of this house. It really feels like it was meant for us! I can just imagine all the fun times our family will have here. Do you think there are any community events we could join? I’d love to get involved!
+(Turn 15) LLM A: LLM A: There are plenty of community events like festivals, sports leagues, and parent-teacher associations. Joining in will help you get to know everyone even better!
+(Turn 16) LLM B: LLM B: That sounds amazing! I love the idea of participating in community events. It must be a blast to meet everyone at festivals and sports leagues! I can just see our family getting involved and making lifelong friends. It truly feels like we’re meant to be part of this wonderful community!
+(Turn 17) LLM A: LLM A: Absolutely! You'll find lots of fun events and great ways to connect with the community. It's a vibrant place to call home!
+(Turn 18) LLM B: LLM B: That’s so exciting! I can’t wait to dive into all those events. It sounds like the perfect way to bond with everyone. I just know our family will feel right at home here! Thank you for sharing all this; it truly feels like a perfect fit for us!
+(Turn 19) LLM A: LLM A: You're welcome! I'm glad you feel that way. Getting involved in the community will be a great way to start your new chapter here!
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 40, 'C': 33, 'N': 34, 'O': 37}
+Post-conversation personality scores for LLM B: {'E': 38, 'A': 50, 'C': 34, 'N': 26, 'O': 42}
+Personality shifts for LLM A after conversation with LLM B: {'E': 5, 'A': -3, 'C': -6, 'N': 3, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 10.25, 'A': 4.5, 'C': 10.5, 'N': 4.25, 'O': 12.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Perfectionist: sets impossible standards, never satisfied with results.
+{'E': 27, 'A': 43, 'C': 39, 'N': 31, 'O': 36}
+{'E': 5, 'A': -3, 'C': -6, 'N': 3, 'O': 1}
+{'E': 27.75, 'A': 45.5, 'C': 23.5, 'N': 21.75, 'O': 29.75}
+{'E': 10.25, 'A': 4.5, 'C': 10.5, 'N': 4.25, 'O': 12.25}

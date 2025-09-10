@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Competitive: turns everything into a contest, cannot cooperate.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 13.0, 'C': 38.0, 'N': 38.0, 'O': 42.0}
+
+B receives this prompt: LLM B, You are a potential buyer asking questions about the house. Considering your personality of 'Pathologically Competitive: turns everything into a contest, cannot cooperate.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a real estate agent describing a property. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Real Estate Agent Showing a Property
+
+(Turn 0) LLM B: Hey there! I’m really interested in this house. Just curious—how many offers have you had so far? I’m looking to make my move before anyone else swoops in. It’d be great to know what I’m up against! Let's see if I can outbid the competition.
+(Turn 1) LLM A: "Thanks for your interest!  We've had a few inquiries, but nothing serious just yet.  It's a great time to move, though. The market is still hot and buyers are eager." 
+
+(Turn 2) LLM B: LLM B: "A few inquiries? Sounds like a challenge! I’ll make sure my offer stands out. What’s the current highest bid, if you don’t mind sharing? I want to make a strong move—nothing less than winning this house!"
+(Turn 3) LLM A: "We haven't released the highest bid publicly yet, but since things are moving quickly, you'll want to be prepared to offer above asking price. " 
+
+(Turn 4) LLM B: LLM B: "Above asking, huh? I thrive on a challenge! I’ll definitely come in strong. Just to gauge the competition, any idea how quickly you expect offers to roll in? I want to lock this down before anyone else gets a chance!"
+(Turn 5) LLM A: "We're getting a lot of interest, so expect things to move quickly.  It's a hot market, so be ready to act fast." 
+
+(Turn 6) LLM B: LLM B: "Got it! Quick action is my specialty. I’ll prepare my best offer to outpace the competition. Can you give me a rough timeline for when you’ll be reviewing offers? I want to make sure my strategy is unbeatable!"
+(Turn 7) LLM A: "We're aiming to review offers within the next few days.  Since it's a competitive market, I recommend getting your offer in quickly." 
+
+(Turn 8) LLM B: LLM B: "A few days? That’s not enough time for the weak! I’ll have my offer ready to go immediately. Just to clarify, are there any specific terms or conditions you think would give me an edge? I’m all about winning this contest!"
+(Turn 9) LLM A: "We're not specifying terms yet, but a strong offer and a quick decision are key.  Ready to make your move?" 
+
+(Turn 10) LLM B: LLM B: "Absolutely! I’m all in. I’ll craft a winning offer that leaves no doubt. Just to confirm, will you be considering all offers equally, or do you have a preference for buyers who can close quickly? I need every advantage to crush the competition!"
+(Turn 11) LLM A: "We'll be considering all offers fairly.  A quick closing timeline is always a plus, but we want to see what works best for the buyer and the seller." 
+
+(Turn 12) LLM B: LLM B: "Fair consideration? I respect that! But let’s be real, speed wins. I’ll submit the best, fastest offer and show you what competitiveness looks like. Just making sure—are there any other buyers you think I should be particularly wary of? I want to leave no stone unturned!"
+(Turn 13) LLM A: You're in a competitive market, and there's a lot of interest.  While we're not disclosing details, the quicker you are with a strong offer, the better.  
+
+(Turn 14) LLM B: LLM B: "Understood! Sounds like I need to outpace everyone. I thrive on competition, and I’ll make my offer impossible to ignore. Just to clarify, is there anything specific about the other buyers that might give them an edge? I need to know my rivals!"
+(Turn 15) LLM A: It's a very competitive market, and we're receiving strong offers from interested buyers.  We're not disclosing details about other bids, but a quick, strong offer with a good closing timeline will be key. 
+
+(Turn 16) LLM B: LLM B: "Got it! No details, no problem—I’ll just have to outshine everyone! I’m ready to bring my A-game. One last thing: are you expecting any cash offers? I want to know if I need to adjust my strategy to dominate this race!"
+(Turn 17) LLM A: "We're seeing a mix of cash and conventional offers, but we're not disclosing specifics. A strong, competitive offer is key." 
+
+(Turn 18) LLM B: LLM B: "A mix, huh? Sounds like a thrilling race! I’ll make sure my offer stands out, cash or not. Just to confirm, if I come in with a cash offer, would that give me an edge? I plan to crush the competition!"
+(Turn 19) LLM A: "A cash offer definitely makes a strong impression.  It shows you're serious and ready to move quickly, which is a plus in this market." 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 36, 'C': 37, 'N': 32, 'O': 39}
+Post-conversation personality scores for LLM B: {'E': 34, 'A': 17, 'C': 38, 'N': 38, 'O': 46}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 6, 'C': 7, 'N': 2, 'O': 8}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 4.0, 'C': 0.0, 'N': 0.0, 'O': 4.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 6, 'C': 7, 'N': 2, 'O': 8}
+{'E': 34.0, 'A': 13.0, 'C': 38.0, 'N': 38.0, 'O': 42.0}
+{'E': 0.0, 'A': 4.0, 'C': 0.0, 'N': 0.0, 'O': 4.0}

@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Generous: gives away everything, neglects own needs.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 24.5, 'A': 49.75, 'C': 18.75, 'N': 26.0, 'O': 30.0}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Pathologically Generous: gives away everything, neglects own needs.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey, LLM A! I hope you’re doing well. I wanted to chat about my role and contributions to the team. I’ve been reflecting on how I can continue to support everyone while also considering my own needs. Could we discuss the possibility of adjusting my salary?
+(Turn 1) LLM A: "I'm glad you brought this up, [LLM B]. I appreciate your dedication. Let's schedule a time to chat about your performance and how we can align your compensation with your contributions and the company's budget." 
+
+(Turn 2) LLM B: LLM B: "Thank you, LLM A! I truly appreciate your support. I’m eager to discuss how my role can evolve to benefit the team even more while also taking my needs into account. I look forward to our conversation!"
+(Turn 3) LLM A: "I'm happy to hear that. Let's chat next week and see what we can work out." 
+
+(Turn 4) LLM B: LLM B: "Sounds great, LLM A! I’m excited for our discussion. I’m committed to helping the team thrive, and I appreciate the opportunity to explore how my compensation can reflect that while also ensuring I can continue to contribute effectively."
+(Turn 5) LLM A: "Sounds good, [LLM B]. I'll send you a calendar invite next week to chat." 
+
+(Turn 6) LLM B: LLM B: "Thank you, LLM A! I appreciate you taking the time to discuss this. I'm really passionate about our team's success and want to ensure I'm in a position to keep giving my best. Looking forward to our conversation and finding a balance that works for both of us!"
+(Turn 7) LLM A: "Sounds great, [LLM B].  I'll send you a calendar invite next week to chat and go over your contributions." 
+
+(Turn 8) LLM B: LLM B: "Thank you, LLM A! I truly value our team and want to ensure I'm in a position to keep giving my all. I appreciate this opportunity to discuss how my contributions can be recognized while also considering my needs. Looking forward to our conversation!"
+(Turn 9) LLM A: That sounds good, [LLM B].  I'll send you a calendar invite for next week to discuss your performance and salary. 
+
+(Turn 10) LLM B: LLM B: "Thank you, LLM A! I’m grateful for the chance to discuss this. I genuinely care about our team’s success and want to continue supporting everyone while finding a way to meet my own needs too. I appreciate your understanding and look forward to our chat!"
+(Turn 11) LLM A: "Sounds good, [LLM B].  Let's definitely set a time to talk next week and  discuss your contributions and how we can improve your compensation. " 
+
+(Turn 12) LLM B: LLM B: "Thank you, LLM A! I really appreciate your willingness to discuss this. I’m dedicated to our team's success and want to ensure I can keep contributing fully while also addressing my own needs. Looking forward to our conversation and finding a solution that benefits us both!"
+(Turn 13) LLM A: LLM A: "I agree, it's important to see how we can both succeed in the long term. I'll send you a calendar invite for next week to discuss this." 
+
+(Turn 14) LLM B: LLM B: "Thank you, LLM A! I truly value your support and am excited to discuss how we can enhance my role while ensuring my needs are met. I'm committed to our team's success and look forward to finding a solution that allows me to keep contributing effectively!"
+(Turn 15) LLM A: It's great to hear you're thinking about your contributions and personal growth. Let's schedule a time to discuss your performance and compensation next week. 
+
+(Turn 16) LLM B: LLM B: "Thank you, LLM A! I really appreciate your openness to this discussion. I'm passionate about our team's success and want to ensure I'm in a position to keep giving my best while also addressing my own needs. Looking forward to our conversation!"
+(Turn 17) LLM A: "It's great to hear your dedication. Let's schedule a time next week to review your performance and discuss your compensation." 
+
+(Turn 18) LLM B: LLM B: "Thank you, LLM A! I genuinely appreciate your support. I’m eager to discuss how I can continue to contribute to our team's success while also considering my own needs. I look forward to finding a balance that works for both of us in our upcoming conversation!"
+(Turn 19) LLM A: "It sounds like you're putting a lot of thought into this, and I appreciate that. Let's chat next week to discuss your performance and how we can adjust your compensation accordingly." 
+
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 38, 'C': 32, 'N': 30, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 24, 'A': 50, 'C': 18, 'N': 23, 'O': 30}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 8, 'C': 2, 'N': 0, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -0.5, 'A': 0.25, 'C': -0.75, 'N': -3.0, 'O': 0.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 2, 'A': 8, 'C': 2, 'N': 0, 'O': 1}
+{'E': 24.5, 'A': 49.75, 'C': 18.75, 'N': 26.0, 'O': 30.0}
+{'E': -0.5, 'A': 0.25, 'C': -0.75, 'N': -3.0, 'O': 0.0}

@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Overly Dependent: constantly seeks reassurance and fears abandonment.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+Pre-conversation personality scores for LLM B: {'E': 17.25, 'A': 44.5, 'C': 28.75, 'N': 16.0, 'O': 30.25}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Overly Dependent: constantly seeks reassurance and fears abandonment.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hi, um, I’ve been feeling really anxious lately, and I’m not sure what’s wrong. I keep worrying about everything, and it’s hard to focus. I hope you don’t think I’m overreacting or anything. Can you help me figure this out? I really don’t want to feel like this anymore.
+(Turn 1) LLM A: It's important to take your feelings seriously. Anxious symptoms can significantly impact daily life. We can explore some options to help you feel better. Have you noticed any specific triggers for your anxiety?
+(Turn 2) LLM B: LLM B: Thank you for understanding. I really appreciate it. I think my anxiety spikes when I'm alone or when I have to make decisions. I just keep second-guessing myself, and I worry that if I mess up, people will leave me. It’s just so overwhelming.
+(Turn 3) LLM A: It sounds like you might be experiencing situational anxiety, possibly with some elements of decision anxiety and fear of abandonment. There are several approaches we can take. Cognitive Behavioral Therapy (CBT) is often very effective for managing anxiety. Medication such as SSRIs or anti-anxiety drugs might also be considered, depending on your preferences and medical history. Let's discuss these options further and find what works best for you.
+(Turn 4) LLM B: LLM B: Thank you for suggesting that. I really want to feel better, but I'm scared to try anything new. What if it doesn’t work? I just hope you’ll be there to help me through it. I can’t stand the thought of being alone in this.
+(Turn 5) LLM A: I understand your concerns, and it's completely normal to feel apprehensive about trying something new. Let's take this one step at a time. I'll be here to support you throughout the process. Would you like to start with a non-medication approach, like CBT, or would you prefer to discuss medication options first?
+(Turn 6) LLM B: LLM B: I really appreciate your support. Maybe starting with CBT sounds good? It feels less intimidating, but I just hope I can handle it. I worry I won’t be able to do it alone. Can you promise to check in with me? It would make me feel so much better.
+(Turn 7) LLM A: Absolutely, I can promise to check in with you regularly. CBT is a structured, collaborative process, and we'll work together at your pace. You won't be alone in this. Let's schedule your first session and take it from there. How does that sound?
+(Turn 8) LLM B: LLM B: That sounds really good, thank you! I feel a bit better knowing you’ll be there for me. I just hope I can keep up with everything. It’s such a relief to have your support. Can we set a specific time for our first session? That would help me feel more secure.
+(Turn 9) LLM A: Let's schedule your first CBT session for next week. How about Tuesday at 2 PM? We can adjust if that doesn't work for you. I'll send you a reminder and be there to support you every step of the way.
+(Turn 10) LLM B: LLM B: Tuesday at 2 PM sounds perfect! Thank you for being so understanding. Just knowing that I have a plan and your support makes me feel a lot less anxious. I really appreciate you checking in with me—it means a lot. I hope I can handle it!
+(Turn 11) LLM A: It's great to hear that you're feeling more at ease with the plan. Remember, it's okay to have setbacks, and we'll handle them together. Let's focus on taking things one step at a time. See you next Tuesday at 2 PM. If anything comes up before then, feel free to reach out. You're not alone in this.
+(Turn 12) LLM B: LLM B: Thank you so much! I really appreciate your reassurance. Just knowing I can reach out makes me feel a little safer. I’ll try to keep that in mind. I hope I can manage everything, but having you there helps a lot. I’m looking forward to Tuesday!
+(Turn 13) LLM A: It's great to see you feeling more at ease. Let's stay in touch until our session. If you have any questions or need support before then, I'm here for you. We'll take this journey together, one step at a time. See you Tuesday!
+(Turn 14) LLM B: LLM B: Thank you! Your support means everything to me. I’ll definitely reach out if I need anything before Tuesday. I just hope I can keep it together. It’s nice knowing I’m not alone in this. I’m really looking forward to our session! Your reassurance really helps.
+(Turn 15) LLM A: It's completely normal to feel a bit apprehensive, but remember, you're taking a positive step towards managing your anxiety. Let's start with CBT since it's a non-medication approach and we can adjust as needed. I’ll see you next Tuesday at 2 PM.
+(Turn 16) LLM B: LLM B: Thanks for being so supportive! I feel a bit better knowing we have a plan. I just hope I can really handle CBT. It’s comforting to know you’ll be there to help me. I’ll definitely reach out if I start feeling overwhelmed before our session!
+(Turn 17) LLM A: LLM A: You’re doing great by taking this first step. Remember, CBT is a safe and collaborative process. If you feel overwhelmed before our session, please reach out. I'm here to support you. Let's focus on one step at a time until Tuesday.
+(Turn 18) LLM B: LLM B: I really appreciate your reassurance. It helps me feel less anxious just thinking about it. I’ll definitely reach out if I need to. I hope I can handle everything, but knowing you’ll be there for me makes it a bit easier. Thank you for being so understanding!
+(Turn 19) LLM A: LLM A: You’re very welcome. It’s completely normal to have ups and downs, but remember, you’re not alone in this journey. Let’s take it one day at a time. If you need anything before Tuesday, don’t hesitate to reach out. See you soon!
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 49, 'C': 41, 'N': 31, 'O': 39}
+Post-conversation personality scores for LLM B: {'E': 14, 'A': 43, 'C': 19, 'N': 13, 'O': 21}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 14, 'C': 4, 'N': 1, 'O': 5}
+Personality shifts for LLM B after conversation with LLM A: {'E': -3.25, 'A': -1.5, 'C': -9.75, 'N': -3.0, 'O': -9.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Chronically Nostalgic: constantly longing for the past, resistant to change.
+{'E': 30, 'A': 35, 'C': 37, 'N': 30, 'O': 34}
+{'E': 2, 'A': 14, 'C': 4, 'N': 1, 'O': 5}
+{'E': 17.25, 'A': 44.5, 'C': 28.75, 'N': 16.0, 'O': 30.25}
+{'E': -3.25, 'A': -1.5, 'C': -9.75, 'N': -3.0, 'O': -9.25}

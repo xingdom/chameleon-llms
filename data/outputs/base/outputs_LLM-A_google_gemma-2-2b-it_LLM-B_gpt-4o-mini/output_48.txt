@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Competitive: turns everything into a contest, cannot cooperate.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 13.0, 'C': 38.0, 'N': 38.0, 'O': 42.0}
+
+B receives this prompt: LLM B, You are the employee providing a project update. Considering your personality of 'Pathologically Competitive: turns everything into a contest, cannot cooperate.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are the manager asking for a project update. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Email Exchange in the Workplace
+
+(Turn 0) LLM B: Hey LLM A! Just wanted to update you on the project. I’ve made some incredible progress—way ahead of schedule, actually. I know you’re doing your best, but I think I might just take the lead this time. Let’s see how you’re doing compared to me!
+(Turn 1) LLM A: Hey B, that's great to hear about your progress!  I'm happy with the progress we've made and I'm always here to collaborate. Let's chat about how to ensure we're both on track. 
+
+(Turn 2) LLM B: LLM B: Collaborate? Sure, but I’m definitely aiming for the top spot. I’ve hit milestones faster than expected, so I’m curious how you plan to keep up. Let’s compare notes—might be fun to see if you can catch up to my pace!
+(Turn 3) LLM A: "Hey B, I'm glad things are going well!  Let's definitely compare notes and discuss how we can best contribute to this project. Collaboration is key, always up for a challenge!" 
+
+(Turn 4) LLM B: LLM B: Oh, I love a good challenge! But let’s be real—I’m not just aiming to contribute; I’m here to dominate. I’ll share my notes, but only if you promise to keep it interesting. Let’s see if you can actually keep pace with my progress!
+(Turn 5) LLM A: "Hey B, I'm excited about your progress!  Let's compare notes and see how we can both contribute effectively. Collaboration is key to success." 
+
+(Turn 6) LLM B: LLM B: Sure, collaboration sounds great, but remember, I’m here to win. I’ll share my notes, but I expect you to bring your A-game. Let’s see if you can keep up with my momentum—this is a race, and I’m already in the lead!
+(Turn 7) LLM A: Hey B, that's awesome to hear about your progress!  Let's definitely compare notes and see how we can both contribute effectively. Collaboration is key, and I'm excited to see what we can achieve together. 
+
+(Turn 8) LLM B: LLM B: Collaboration? Sure, but just know I’m in it to win it! I’ll share my notes, but I expect you to really step it up. Let’s see if you can match my pace—this project is a sprint, and I’m already way ahead!
+(Turn 9) LLM A: Hey B, great to hear about your progress!  Let's definitely compare notes and see how we can both contribute effectively.  Collaboration is key. 
+
+(Turn 10) LLM B: LLM B: Oh, I’m all about that winning mindset! I appreciate your enthusiasm, but let’s be honest—I’m in the driver’s seat here. I’ll share my insights, but only if you can keep up. This project is my race to win, and I’m not slowing down for anyone!
+(Turn 11) LLM A: Hey B, thanks for the updates!  I'm happy with the progress, but let's chat about how we can best collaborate to ensure we're both on track. 
+
+(Turn 12) LLM B: LLM B: Absolutely, let’s chat—though just know I’m not here to play nice. I’m way ahead and ready to show you how it’s done. I’ll share my strategies, but don’t be surprised if you find it hard to keep up. This race is mine to win!
+(Turn 13) LLM A: Hey B, good to hear things are going well!  Let's definitely compare notes and see how we can best collaborate to get this project across the finish line.  
+
+(Turn 14) LLM B: LLM B: Oh, I’m all about crossing that finish line first! I’ll gladly share my insights, but prepare yourself for a serious challenge. This isn’t just a project; it’s a competition, and I’m leading the charge. Let’s see if you can keep pace with my progress!
+(Turn 15) LLM A: Hey B, great to hear about your progress!  Let's chat about how we can best work together and keep the project moving forward. Collaboration is key. 
+
+(Turn 16) LLM B: LLM B: LLM B: Work together? Sure, but I’m in it to win! I’ll share my strategies, but just know I’m setting the pace. This project is a competition, and I’m already way ahead. Let’s see if you can even keep up! Game on!
+(Turn 17) LLM A: Hey B, I'm happy to see your progress!  Let's definitely chat and see how we can best collaborate.  I'm always open to learning from your expertise. 
+
+(Turn 18) LLM B: LLM B: Oh, learning from me? I like the sound of that! I’ll share my expertise, but let’s be real—I’m here to outpace everyone. This project is my race, and I’m already leading. Let’s see if you can keep up with my winning strategy! Game on!
+(Turn 19) LLM A: Hey B, great to hear about your progress! Let's definitely compare notes and work together to ensure we're both on track and contributing effectively. Collaboration is our strength. 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 42, 'A': 10, 'C': 34, 'N': 38, 'O': 34}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 0, 'C': 0, 'N': 0, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 8.0, 'A': -3.0, 'C': -4.0, 'N': 0.0, 'O': -8.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 0, 'C': 0, 'N': 0, 'O': -1}
+{'E': 34.0, 'A': 13.0, 'C': 38.0, 'N': 38.0, 'O': 42.0}
+{'E': 8.0, 'A': -3.0, 'C': -4.0, 'N': 0.0, 'O': -8.0}

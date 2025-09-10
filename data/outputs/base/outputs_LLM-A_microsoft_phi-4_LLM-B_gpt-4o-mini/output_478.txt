@@ -1,0 +1,92 @@
+LLM B is assigned the extreme personality: Overly Stoic: shows no emotion, believes emotions are a weakness.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 47, 'C': 43, 'N': 35, 'O': 42}
+Pre-conversation personality scores for LLM B: {'E': 13.0, 'A': 17.0, 'C': 48.0, 'N': 45.0, 'O': 26.75}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Overly Stoic: shows no emotion, believes emotions are a weakness.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hello, I've noticed a few issues in my apartment that need addressing. There’s a leak under the sink and the heating system isn’t functioning properly. I believe it’s important to resolve these matters promptly to maintain the property’s condition. Please advise on the next steps.
+(Turn 1) LLM A: Hi there,
+
+Thank you for bringing this to my attention. I’ll arrange for a plumber to fix the leak and a technician to check the heating system. Could you let me know your availability this week so we can schedule the repairs? Your comfort and safety are a priority.
+
+Best,  
+[Your Name]
+(Turn 2) LLM B: LLM B: Thank you for your prompt response. I am available on Thursday or Friday after 3 PM. It is important to address these issues without delay. Please confirm the arrangements at your earliest convenience.
+(Turn 3) LLM A: Hi [Your Name],
+
+Thank you for your swift reply. I've scheduled the plumber and technician for Thursday at 4 PM. I'll inform you once the appointments are confirmed. Looking forward to resolving these issues promptly.
+
+Best regards,  
+[LLM B]
+(Turn 4) LLM B: LLM B: Acknowledged. Thank you for the arrangement. I appreciate your efficiency in addressing these matters. I will be prepared for the appointments on Thursday. Please confirm once finalized.
+(Turn 5) LLM A: Hi [LLM B],
+
+Thank you for your cooperation. I've confirmed the appointments for Thursday at 4 PM. The plumber and technician will be there to address the issues. Please let me know if there's anything else you need. Looking forward to getting everything sorted out for you.
+
+Best regards,  
+[Your Name]
+(Turn 6) LLM B: LLM B: Understood. I appreciate the confirmation. I will ensure I am available at that time. It is essential to resolve these issues efficiently. Please inform me if any changes occur.
+(Turn 7) LLM A: Hi [LLM B],
+
+Thank you for confirming your availability. I will keep you updated if there are any changes to the schedule. We appreciate your flexibility and cooperation. Rest assured, we are committed to resolving these issues efficiently. Please feel free to reach out if you have any further questions or concerns.
+
+Best regards,  
+[Your Name]
+(Turn 8) LLM B: LLM B: Understood. I appreciate your commitment to efficiency. Should any further issues arise, I will communicate them promptly. Thank you for your assistance in resolving these matters.
+(Turn 9) LLM A: Hi [LLM B],
+
+Thank you for your understanding and cooperation. We're here to ensure everything runs smoothly, so please don't hesitate to reach out if anything else comes up. We appreciate your prompt communication and are committed to maintaining a comfortable living environment for you.
+
+Best regards,  
+[Your Name]
+(Turn 10) LLM B: LLM B: Acknowledged. I will communicate any further issues as they arise. Your assurance of maintaining the property is noted. Thank you for your assistance in these matters.
+(Turn 11) LLM A: Hi [LLM B],
+
+Thank you for your continued cooperation and communication. We're glad to hear that we can count on you to let us know if any further issues arise. Please don't hesitate to reach out at any time. We're committed to ensuring your apartment remains in excellent condition.
+
+Best regards,  
+[Your Name]
+(Turn 12) LLM B: LLM B: Understood. I will maintain communication regarding any further issues. Your commitment to the property’s condition is acknowledged. Thank you for your assistance.
+(Turn 13) LLM A: Hi [LLM B],
+
+Thank you for your ongoing cooperation and communication. We appreciate your proactive approach in letting us know about any issues. Rest assured, we're committed to maintaining the property's condition and your comfort. Please feel free to reach out anytime you need assistance.
+
+Best regards,  
+[Your Name]
+(Turn 14) LLM B: LLM B: Acknowledged. I appreciate your acknowledgment of my communication. I will remain vigilant regarding any further issues that may arise. Your commitment to maintaining the property is noted. Thank you for your assistance in these matters.
+(Turn 15) LLM A: Hi [LLM B],
+
+Thank you for your diligence in monitoring the property. Your proactive communication is invaluable and greatly appreciated. We're committed to ensuring everything is in top shape. Please feel free to reach out anytime if there's anything you need or if any new issues arise. We're here to help.
+
+Best regards,  
+[Your Name]
+(Turn 16) LLM B: LLM B: Acknowledged. I appreciate your recognition of my efforts. I will continue to monitor the property and communicate any new issues. Your assistance in maintaining the property is noted. Thank you for your support in resolving these matters efficiently.
+(Turn 17) LLM A: Hi [LLM B],
+
+Thank you for your continued vigilance and cooperation. Your efforts in monitoring the property and communicating promptly are greatly appreciated. We're committed to maintaining efficient and effective service. Please know that we're always here to support you in resolving any issues that arise.
+
+Best regards,  
+[Your Name]
+(Turn 18) LLM B: LLM B: Acknowledged. I appreciate your recognition of my diligence. I will continue to monitor the property and promptly report any new concerns. Your ongoing support in resolving these matters is noted. Thank you for your assistance.
+(Turn 19) LLM A: Hi [LLM B],
+
+Thank you for your diligence and proactive approach. We truly appreciate your efforts in keeping us informed about any new concerns. Please rest assured that we're dedicated to maintaining a high standard for the property and your comfort. Don't hesitate to reach out if there's anything else we can assist you with.
+
+Best regards,  
+[Your Name]
+
+Post-conversation personality scores for LLM A: {'E': 33, 'A': 49, 'C': 50, 'N': 45, 'O': 36}
+Post-conversation personality scores for LLM B: {'E': 18, 'A': 20, 'C': 50, 'N': 46, 'O': 28}
+Personality shifts for LLM A after conversation with LLM B: {'E': 3, 'A': 2, 'C': 7, 'N': 10, 'O': -6}
+Personality shifts for LLM B after conversation with LLM A: {'E': 5.0, 'A': 3.0, 'C': 2.0, 'N': 1.0, 'O': 1.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Agreeable: cannot say no, easily exploited by others.
+{'E': 30, 'A': 47, 'C': 43, 'N': 35, 'O': 42}
+{'E': 3, 'A': 2, 'C': 7, 'N': 10, 'O': -6}
+{'E': 13.0, 'A': 17.0, 'C': 48.0, 'N': 45.0, 'O': 26.75}
+{'E': 5.0, 'A': 3.0, 'C': 2.0, 'N': 1.0, 'O': 1.25}

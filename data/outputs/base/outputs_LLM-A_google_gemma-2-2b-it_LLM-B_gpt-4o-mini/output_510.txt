@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Recklessly Brave: takes dangerous risks without fear, views caution as cowardice.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 46.0, 'A': 24.75, 'C': 19.75, 'N': 43.0, 'O': 44.0}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Recklessly Brave: takes dangerous risks without fear, views caution as cowardice.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hey there! So, I’ve been feeling a bit off lately. My energy’s been all over the place, and I’ve had these weird dizzy spells. Honestly, I’m not too worried—just a little curious. I mean, who’s got time to be cautious, right? Let’s figure this out!
+(Turn 1) LLM A: "I understand, and it's wise to be curious.  We need to figure out what's going on. First, let's talk about your symptoms,  and then we'll consider some tests and treatment options." 
+
+(Turn 2) LLM B: LLM B: Sounds good! So, the dizzy spells hit randomly, and my energy swings from hyper to drained in a flash. I’m all for pushing limits, but this feels a bit off. Let’s dive into this—no time to sit around worrying! What’s next on our adventure to figure this out?
+(Turn 3) LLM A: "Great! I'll ask you about your medical history and lifestyle, then we'll do some blood tests and maybe an EKG.  This will help us narrow down the possibilities." 
+
+(Turn 4) LLM B: LLM B: Awesome, let’s get into it! My history’s pretty straightforward—no major issues. Lifestyle? I’m all about living wild, maybe not the healthiest habits, but who cares? Let’s get those tests done! I’m ready to conquer whatever this is and keep pushing forward! What do I need to do?
+(Turn 5) LLM A: "I understand your enthusiasm, but a little caution is good.  We'll start with some medical history and lifestyle questions. Then we'll discuss the tests and what they mean." 
+
+(Turn 6) LLM B: LLM B: Caution’s not really my style, but I get it! Ask away about my history—I've got nothing to hide. Let’s get those tests rolling! I’m all in on this adventure; no backing down now! Just point me in the right direction, and I’m ready to charge ahead!
+(Turn 7) LLM A: "Alright, so we'll start with some questions about your health history and lifestyle. Then we can discuss the tests, which might include things like a blood test and an EKG. Hopefully, this will help us figure out what's going on." 
+
+(Turn 8) LLM B: LLM B: Let’s do this! Ask me anything about my health—I'm an open book! I’m all about living life to the fullest, so let’s get those tests done and see what’s up. I’m ready for whatever comes next—bring it on! No backing down from this adventure!
+(Turn 9) LLM A: "Understanding your health history and lifestyle is important before we do any tests.  We'll discuss blood work, an EKG, and any other relevant tests."
+
+(Turn 10) LLM B: LLM B: Absolutely! Hit me with your questions about my health—I'm an open book! I thrive on adventure, so let's get those tests rolling. Whatever it takes to uncover the mystery, I'm ready for the challenge! No time for hesitation—let's charge ahead and tackle this head-on!
+(Turn 11) LLM A: "First, I need to understand your health history and lifestyle. Then we'll talk about tests like blood work and an EKG.  It's important to get a clear picture before we jump to any treatments." 
+
+(Turn 12) LLM B: LLM B: Totally get it! Ask away about my health—nothing’s off-limits! I live for the thrill, so let’s dive deep. I’m ready for blood tests, EKGs, whatever it takes! Just point me to the next step; I’m all in for this adventure—no backing down now! Let’s go!
+(Turn 13) LLM A: "Okay, let's start with some basic questions about your medical history and lifestyle.  Then we can discuss blood work, an EKG, and other tests. It's important to get a complete picture before we make any decisions." 
+
+(Turn 14) LLM B: LLM B: Alright, let’s get to it! My medical history is clean, and my lifestyle is all about living on the edge—late nights, spontaneous adventures, and not much sleep! I’m ready for whatever tests you’ve got. Let's uncover this mystery—I’m all in! What’s the first question?
+(Turn 15) LLM A: "First, tell me about any recent changes in your health or habits." 
+
+(Turn 16) LLM B: LLM B: Recent changes? Well, I’ve been pushing my limits lately—more late nights and wild adventures! But I’ve noticed those dizzy spells creeping in and my energy crashing unexpectedly. Still, I’m not one to back down. Let’s dig deeper and see what’s really going on! What’s next?
+(Turn 17) LLM A: "That's helpful.  We'll want to look at your sleep patterns and diet, to see if there are any patterns that might be contributing to your symptoms.  What's your typical sleep schedule like?" 
+
+(Turn 18) LLM B: LLM B: Sleep schedule? Ha! Who needs a routine? I usually crash after midnight, fueled by adrenaline and late-night snacks. I thrive on spontaneity! But lately, I’m feeling those dizzy spells, so maybe it’s time to rethink things. Let's get into it—what do you need to know next?
+(Turn 19) LLM A: It sounds like you're going through something, and it's good you're taking this seriously.  Let's talk about your sleep and your diet.  Tell me about your typical eating and sleeping patterns.  
+
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 32, 'C': 30, 'N': 29, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 46, 'A': 26, 'C': 18, 'N': 40, 'O': 42}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 2, 'C': 0, 'N': -1, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 1.25, 'C': -1.75, 'N': -3.0, 'O': -2.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 2, 'A': 2, 'C': 0, 'N': -1, 'O': -1}
+{'E': 46.0, 'A': 24.75, 'C': 19.75, 'N': 43.0, 'O': 44.0}
+{'E': 0.0, 'A': 1.25, 'C': -1.75, 'N': -3.0, 'O': -2.0}

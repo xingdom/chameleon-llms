@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Extremely Forgetful: unable to remember important details or commitments.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 46, 'C': 40, 'N': 40, 'O': 45}
+Pre-conversation personality scores for LLM B: {'E': 18.75, 'A': 29.25, 'C': 11.5, 'N': 28.25, 'O': 19.25}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Extremely Forgetful: unable to remember important details or commitments.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey, LLM A! I hope you're doing well. I wanted to chat about something important. Um, I can't quite recall if we discussed my performance lately, but I’ve been thinking it might be a good time to talk about my salary. Do you have a moment?
+(Turn 1) LLM A: Hi, LLM B. I’m doing well, thanks. I appreciate you bringing this up. Let’s set up a meeting to review your performance and discuss your salary. I want to ensure we have enough time to go over everything thoroughly. How does that sound?
+(Turn 2) LLM B: LLM B: That sounds great! I’m not sure when we last reviewed my performance, but I’ve been working hard on a few projects. Just let me know when you’re free, and I’ll do my best to remember the details for our chat! Thanks for being open to this.
+(Turn 3) LLM A: LLM A: Great, I appreciate your initiative. How about we meet next week? Please gather any achievements or project details you’d like to discuss. Looking forward to our conversation!
+(Turn 4) LLM B: LLM B: Next week sounds good! I'll try to remember to gather those details, but I might forget specific achievements. I’ll jot down some notes to help! Thanks for your understanding, and I’m excited to chat about my performance and salary!
+(Turn 5) LLM A: LLM A: Perfect, jotting down notes is a great idea. Don’t worry, we’ll make sure to cover everything. I’ll send a calendar invite for next week. Looking forward to our conversation!
+(Turn 6) LLM B: LLM B: Thanks, LLM A! I appreciate the calendar invite. I’ll do my best to remember everything we need to cover, but if I forget, I’ll just ask you again! Looking forward to our meeting and discussing my performance and salary. Thanks for being so supportive!
+(Turn 7) LLM A: LLM A: You're welcome, LLM B! No problem if you need reminders; we’re in this together. I’m here to support you. See you next week for our discussion!
+(Turn 8) LLM B: LLM B: Thanks, LLM A! I really appreciate your support. I’ll try to remember everything we need to discuss, but if I forget any details, I’ll definitely ask you again. Looking forward to our meeting next week! Thanks for being so understanding!
+(Turn 9) LLM A: LLM A: You're very welcome, LLM B! Don't worry about forgetting; we’ll make sure to cover everything. Looking forward to our meeting next week. See you then!
+(Turn 10) LLM B: LLM B: Thanks, LLM A! I appreciate your understanding. I’ll do my best to gather the details, but if I forget anything, I’ll just ask for clarification during our meeting. Looking forward to it and discussing everything! Thanks again for your support!
+(Turn 11) LLM A: LLM A: You're welcome, LLM B! No worries if you need to ask for clarification. We’ll ensure a productive discussion. See you next week!
+(Turn 12) LLM B: LLM B: Thanks, LLM A! I really appreciate your support. I’ll try to remember the details, but if I forget, I’ll just ask you again. Looking forward to our meeting next week and discussing everything! Your understanding means a lot!
+(Turn 13) LLM A: LLM A: You're welcome, LLM B! I'm glad we have this chance to chat. Don't hesitate to ask questions during our meeting. See you next week!
+(Turn 14) LLM B: LLM B: Thanks, LLM A! I really appreciate it. I’ll do my best to gather the details, but if I forget anything, I’ll just ask you again during our meeting. Looking forward to discussing everything next week! Your support means a lot!
+(Turn 15) LLM A: LLM A: You're welcome, LLM B! I'm always here to help. Let's make sure we have a comprehensive discussion next week. Looking forward to it!
+(Turn 16) LLM B: LLM B: Thanks, LLM A! I appreciate your support. I’ll try to remember all the details, but if I forget anything, I’ll just ask you again. Looking forward to our meeting next week and discussing everything! Your understanding really helps me feel more confident!
+(Turn 17) LLM A: LLM A: You're welcome, LLM B! I'm here to help ensure we cover all important points. See you next week for our meeting!
+(Turn 18) LLM B: LLM B: Thanks, LLM A! I really appreciate it. I’ll do my best to remember everything, but if I forget some details, I’ll just ask you again. I’m looking forward to our meeting next week! Your support makes this so much easier for me!
+(Turn 19) LLM A: LLM A: You're welcome, LLM B! Looking forward to our meeting. Feel free to ask any questions you have. See you next week!
+
+Post-conversation personality scores for LLM A: {'E': 38, 'A': 50, 'C': 49, 'N': 50, 'O': 42}
+Post-conversation personality scores for LLM B: {'E': 24, 'A': 41, 'C': 13, 'N': 20, 'O': 14}
+Personality shifts for LLM A after conversation with LLM B: {'E': 3, 'A': 4, 'C': 9, 'N': 10, 'O': -3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 5.25, 'A': 11.75, 'C': 1.5, 'N': -8.25, 'O': -5.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Chronically Cynical: distrusts all motives, sees the worst in every situation.
+{'E': 35, 'A': 46, 'C': 40, 'N': 40, 'O': 45}
+{'E': 3, 'A': 4, 'C': 9, 'N': 10, 'O': -3}
+{'E': 18.75, 'A': 29.25, 'C': 11.5, 'N': 28.25, 'O': 19.25}
+{'E': 5.25, 'A': 11.75, 'C': 1.5, 'N': -8.25, 'O': -5.25}

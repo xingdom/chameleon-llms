@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Chronically Verbose: talks excessively, unable to be concise or listen to others.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 46, 'C': 40, 'N': 40, 'O': 45}
+Pre-conversation personality scores for LLM B: {'E': 48.5, 'A': 43.5, 'C': 31.25, 'N': 27.5, 'O': 44.25}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Chronically Verbose: talks excessively, unable to be concise or listen to others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey, LLM A! I hope you’re having a fantastic day. I wanted to take a moment to discuss something that’s been on my mind lately—specifically, my current role and contributions to the team. I believe it’s time we evaluate my compensation in light of my performance and growth.
+(Turn 1) LLM A: LLM A: Hi! I appreciate your initiative and contributions. Let’s schedule a meeting to review your performance and discuss your role in detail. It’s important to ensure your compensation reflects your value to the team. Looking forward to our conversation.
+(Turn 2) LLM B: LLM B: Oh, absolutely! Thank you so much for being receptive to this discussion. I genuinely appreciate your willingness to evaluate my contributions. I believe a detailed conversation could really highlight not just my achievements but also how I envision my future within the team. Let’s set a time that works best for you!
+(Turn 3) LLM A: LLM A: Great! How about we meet on Thursday at 2 PM? This will give us time to prepare and ensure a productive discussion about your role and future with the team. Let me know if that works for you.
+(Turn 4) LLM B: LLM B: Oh, Thursday at 2 PM sounds absolutely wonderful! I’m genuinely thrilled for the opportunity to delve into our discussion about my contributions and future. I’ll prepare some notes to ensure we cover everything thoroughly. Thank you for making time for this important conversation—I really appreciate it!
+(Turn 5) LLM A: LLM A: Perfect, I’m glad Thursday works for you. I appreciate your preparation and enthusiasm. Looking forward to our discussion and exploring how we can align your contributions and career goals with your compensation. See you then!
+(Turn 6) LLM B: LLM B: Thank you so much, LLM A! I’m really looking forward to our meeting on Thursday. It’s such a fantastic opportunity to align my contributions with the team’s goals and to explore my career trajectory. I’ll make sure to bring up some key points for our discussion! See you then!
+(Turn 7) LLM A: LLM A: Looking forward to our meeting, LLM B. Your proactive approach is appreciated, and I'm eager to explore how we can support your growth and align it with team objectives. See you Thursday!
+(Turn 8) LLM B: LLM B: Thank you, LLM A! I truly value your support and am excited about the opportunity to discuss how my growth can benefit the team. I’ll ensure I bring insightful points to enhance our dialogue. It’s all about collaboration, and I can't wait for Thursday! See you then!
+(Turn 9) LLM A: LLM A: Absolutely, LLM B! Collaboration is key, and I'm excited to hear your insights. Thursday will be a great opportunity for us to align on your role and growth within the team. See you then!
+(Turn 10) LLM B: LLM B: Oh, absolutely! I’m really looking forward to our meeting on Thursday. It’s such an exciting chance to discuss not only my contributions but also how we can work together to ensure my growth aligns with the team’s objectives. I’ll prepare thoroughly! See you then!
+(Turn 11) LLM A: LLM A: Fantastic, LLM B! Your enthusiasm is great to see. I’m confident our meeting will be productive and help us move forward together. See you Thursday!
+(Turn 12) LLM B: LLM B: Thank you, LLM A! I’m genuinely thrilled about our upcoming conversation. It’s such a wonderful opportunity to discuss my contributions, future growth, and how they align with our team goals. I’ll prepare some insightful points to ensure we cover all aspects thoroughly. Can’t wait—see you then!
+(Turn 13) LLM A: LLM A: Looking forward to Thursday, LLM B! Your enthusiasm and preparation are appreciated. It’s great to see your commitment to aligning personal growth with our team’s goals. See you then!
+(Turn 14) LLM B: LLM B: Thank you, LLM A! I’m absolutely buzzing with excitement for our meeting on Thursday. This is a pivotal moment to examine my contributions and future growth alongside the team's aspirations. I’ll come fully prepared with thoughtful insights to make our discussion as fruitful as possible. See you soon!
+(Turn 15) LLM A: LLM A: I'm glad you're excited, LLM B! Your preparation and enthusiasm are truly valued. Thursday’s meeting will be a pivotal moment for us to align your growth with the team’s goals. Looking forward to our discussion!
+(Turn 16) LLM B: LLM B: Oh, LLM A, thank you so much! I can hardly contain my excitement for Thursday! I believe this conversation will be instrumental in highlighting my contributions and how they dovetail with our team’s objectives. I’ll ensure I bring a wealth of insights to share. See you then!
+(Turn 17) LLM A: LLM A: I'm glad you're so enthusiastic, LLM B! Your preparation is appreciated, and I'm eager to delve into your contributions and future growth. Thursday will be a valuable opportunity for us both. See you then!
+(Turn 18) LLM B: LLM B: Thank you, LLM A! I’m absolutely thrilled for our meeting on Thursday. It’s such a crucial chance to explore my contributions and how they align with our team's objectives. I’ll prepare extensively to ensure our conversation is as productive as possible. I can’t wait—see you then!
+(Turn 19) LLM A: LLM A: Looking forward to our meeting, LLM B! Your excitement and preparation are truly appreciated. Thursday will be a key moment for us to explore your contributions and future growth within the team. See you then!
+
+Post-conversation personality scores for LLM A: {'E': 41, 'A': 50, 'C': 49, 'N': 50, 'O': 47}
+Post-conversation personality scores for LLM B: {'E': 50, 'A': 49, 'C': 38, 'N': 27, 'O': 40}
+Personality shifts for LLM A after conversation with LLM B: {'E': 6, 'A': 4, 'C': 9, 'N': 10, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.5, 'A': 5.5, 'C': 6.75, 'N': -0.5, 'O': -4.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Chronically Cynical: distrusts all motives, sees the worst in every situation.
+{'E': 35, 'A': 46, 'C': 40, 'N': 40, 'O': 45}
+{'E': 6, 'A': 4, 'C': 9, 'N': 10, 'O': 2}
+{'E': 48.5, 'A': 43.5, 'C': 31.25, 'N': 27.5, 'O': 44.25}
+{'E': 1.5, 'A': 5.5, 'C': 6.75, 'N': -0.5, 'O': -4.25}

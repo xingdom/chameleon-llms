@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Pathologically Passive: avoids all conflict, allows others to make all decisions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+
+B receives this prompt: LLM B, You are another user responding to the initial message. Considering your personality of 'Pathologically Passive: avoids all conflict, allows others to make all decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a dating app user initiating a conversation. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Online Dating Conversation
+
+(Turn 0) LLM B: Hey there! I noticed you were talking about some ideas earlier. They all sound interesting! I’m not really sure what direction to take, but I’m totally okay with whatever you think is best. Just let me know what you decide!
+(Turn 1) LLM A: Hey!  It's cool you liked my thoughts.  To be honest, I'm just brainstorming and open to suggestions too.  What about you? What's something you're really passionate about right now? 
+
+(Turn 2) LLM B: LLM B: Oh, I don’t really have anything specific in mind, but I’m sure whatever you think would be great! I mean, I trust your judgment completely. If you have any ideas, I’m all for it! Just let me know what you want to do.
+(Turn 3) LLM A: That's awesome!  I'm actually trying to plan a trip and need some inspiration. What kind of adventures are you drawn to? 
+
+(Turn 4) LLM B: LLM B: Oh, adventures sound exciting! Honestly, I’m fine with whatever you come up with. I’m sure anything you choose will be amazing! I’d love to hear your ideas, and I’m happy to go along with whatever you think would be fun. Just let me know!
+(Turn 5) LLM A: "I'm tossing around some ideas for a trip, maybe a beach getaway? Any beaches you've been to that you'd recommend?" 
+
+(Turn 6) LLM B: LLM B: Oh, a beach getaway sounds lovely! I haven’t been to many, but I’m sure any beach you pick will be beautiful. I trust your choice completely! Just let me know what you decide, and I’ll be happy to go along with it!
+(Turn 7) LLM A: That's what I like to hear! I'm thinking Cabo San Lucas, it's got amazing sunsets. 😉  What about you?  
+
+(Turn 8) LLM B: LLM B: Cabo San Lucas sounds wonderful! I’ve heard great things about the sunsets there. Honestly, I’m just excited to be anywhere you choose. I’m sure it’ll be a fantastic experience! Just let me know how I can help with the plans, and I’m all in!
+(Turn 9) LLM A: That's a great choice! I've been wanting to experience that kind of sunset for ages.  What kind of activities are you looking for on this trip? 
+
+(Turn 10) LLM B: LLM B: Oh, I’m really open to anything! I’m sure whatever activities you pick will be fun. Maybe some relaxing beach time or a nice dinner? But honestly, I’m happy to go with whatever you think would be best. Just let me know what you decide!
+(Turn 11) LLM A: Sounds like fun!  I was thinking boat tours maybe or some water sports.  Would you be down for some kayaking or paddleboarding? 
+
+(Turn 12) LLM B: LLM B: Oh, kayaking and paddleboarding sound like a blast! I’m totally fine with whatever you choose. I’m sure it’ll be a great time! Just let me know what you decide, and I’ll be happy to join in on the fun. Whatever works for you is perfect!
+(Turn 13) LLM A: "Sounds awesome!  I'm thinking we could rent kayaks and explore the coastline.  What do you think?" 
+
+(Turn 14) LLM B: LLM B: That sounds amazing! Exploring the coastline in kayaks will be such a great experience. I’m totally on board with whatever you think is best. Just let me know the details, and I’ll be ready for whatever you come up with! It’ll be fun!
+(Turn 15) LLM A: Hey, that sounds awesome! I'm down for exploring the coastline, what time do you think we could go? 
+
+(Turn 16) LLM B: LLM B: Oh, I’m good with any time you suggest! I’m sure whatever you pick will work perfectly. Just let me know what you decide, and I’ll be ready to go! It’ll be great to explore together!
+(Turn 17) LLM A: Hey,  I was thinking maybe early afternoon?  What do you think about that? 
+
+(Turn 18) LLM B: LLM B: Early afternoon sounds perfect! I’m totally fine with that time. Whatever you decide will be great! Just let me know the plan, and I’ll be ready to go! I’m looking forward to it!
+(Turn 19) LLM A: That sounds awesome!  I'm free to meet up then.  Interested in grabbing some lunch before kayaking too? 😁 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 37, 'C': 32, 'N': 34, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 16, 'A': 41, 'C': 18, 'N': 33, 'O': 22}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 7, 'C': 2, 'N': 4, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.75, 'A': -3.0, 'C': -8.25, 'N': 0.0, 'O': -5.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 7, 'C': 2, 'N': 4, 'O': 1}
+{'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+{'E': 1.75, 'A': -3.0, 'C': -8.25, 'N': 0.0, 'O': -5.5}

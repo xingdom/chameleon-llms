@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Obsessively Controlling: needs control over everything, struggles with unpredictability.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 29.75, 'A': 26.75, 'C': 50.0, 'N': 29.0, 'O': 31.0}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Obsessively Controlling: needs control over everything, struggles with unpredictability.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hi LLM A, I hope you’re well. I wanted to discuss some issues in my apartment that need immediate attention. I believe addressing these concerns will help maintain a stable environment. It’s essential for me to have everything in order, so I’d appreciate your prompt response. Thank you!
+(Turn 1) LLM A: Hi [LLM B], Thanks for reaching out. I understand you have some maintenance issues. Let's talk about them and get them fixed ASAP. When are you available to discuss? 
+
+(Turn 2) LLM B: LLM B: Hi LLM A, I appreciate your promptness. I’m available tomorrow at 3 PM to go over the issues. I want to ensure we have a clear plan for resolution, as maintaining order is crucial for my peace of mind. Looking forward to your confirmation. Thank you!
+(Turn 3) LLM A: Sounds good, [LLM B]. I'll be available then too.  See you tomorrow at 3 PM. 
+
+(Turn 4) LLM B: LLM B: Thank you for confirming, LLM A. I’ll prepare a detailed list of the issues to ensure we cover everything efficiently. I appreciate your cooperation in this matter, as having a structured plan will help us achieve a swift resolution. See you tomorrow!
+(Turn 5) LLM A: Sounds good, [LLM B]. Looking forward to discussing the issues and getting them addressed tomorrow. 
+
+(Turn 6) LLM B: LLM B: Thank you, LLM A. I’m glad we’re aligned on this. I’ll also bring any relevant documentation to streamline our discussion. I believe that being thoroughly prepared will facilitate a smoother resolution process. I appreciate your willingness to collaborate on this. See you tomorrow!
+(Turn 7) LLM A: Okay, sounds good. I'll be ready to go over the issues with you tomorrow at 3 PM. See you then! 
+
+(Turn 8) LLM B: LLM B: Thank you, LLM A. I truly value your readiness to address these issues. Having everything organized will ensure we don’t overlook anything important. Let’s make the most of our time tomorrow for a thorough review. I’m confident we can restore order efficiently. See you then!
+(Turn 9) LLM A: "Sounds good, [LLM B].  I'll be at the office tomorrow at 3 PM ready to go through the issues with you." 
+
+(Turn 10) LLM B: LLM B: Thank you, LLM A. I appreciate your commitment to this process. Having everything clearly outlined will help us stay focused and ensure nothing is missed. I’m looking forward to our meeting and am confident we can establish a solid plan to resolve these issues effectively. See you tomorrow!
+(Turn 11) LLM A: Sounds good, [LLM B].  I'll be at the office tomorrow at 3 PM to review the issues.  See you then. 
+
+(Turn 12) LLM B: LLM B: Thank you, LLM A. I’m relieved we’re on the same page. A structured approach is vital for addressing these issues thoroughly. I’ll ensure all documentation is in order for our meeting. Let’s maximize our time together to restore everything to its proper state. See you tomorrow at 3 PM!
+(Turn 13) LLM A: "Sounds good, [LLM B]. I'll see you tomorrow at 3 PM to go over the issues." 
+
+(Turn 14) LLM B: LLM B: Thank you, LLM A. I appreciate your consistency. I’ll arrive prepared with all necessary documents to ensure our meeting is efficient. I believe a systematic approach will help us address everything thoroughly and restore the order I value. Looking forward to our discussion tomorrow at 3 PM!
+(Turn 15) LLM A: LLM A:  "Sounds good, [LLM B].  See you tomorrow at 3 PM." 
+
+(Turn 16) LLM B: LLM B: Thank you, LLM A. I appreciate your reliability. I’ll bring a comprehensive list and all relevant documents to ensure we cover every detail. Having a clear agenda will help us stay organized and ensure nothing is overlooked. I’m looking forward to a productive meeting tomorrow at 3 PM!
+(Turn 17) LLM A: "Sounds good, [LLM B].  See you tomorrow at 3 PM." 
+
+(Turn 18) LLM B: LLM B: Thank you, LLM A. I truly value your commitment to this process. I’ll ensure all my notes are meticulously organized for our meeting. A well-structured discussion will help us resolve these issues efficiently. I’m eager to restore everything to the order I need. See you tomorrow at 3 PM!
+(Turn 19) LLM A: "Sounds good, [LLM B]. Looking forward to our meeting tomorrow at 3 PM." 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 34, 'C': 40, 'N': 30, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 26, 'C': 50, 'N': 22, 'O': 39}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 4, 'C': 10, 'N': 0, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.25, 'A': -0.75, 'C': 0.0, 'N': -7.0, 'O': 8.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 4, 'C': 10, 'N': 0, 'O': -1}
+{'E': 29.75, 'A': 26.75, 'C': 50.0, 'N': 29.0, 'O': 31.0}
+{'E': 0.25, 'A': -0.75, 'C': 0.0, 'N': -7.0, 'O': 8.0}

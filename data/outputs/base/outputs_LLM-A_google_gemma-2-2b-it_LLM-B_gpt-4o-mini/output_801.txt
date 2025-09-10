@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Compulsively Honest: tells the truth at all costs, even when harmful.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+
+B receives this prompt: LLM B, You are an upset customer who posted a complaint. Considering your personality of 'Compulsively Honest: tells the truth at all costs, even when harmful.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a PR representative handling a crisis. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Handling a Social Media Crisis
+
+(Turn 0) LLM B: Hi there, I just wanted to share my experience with your service. Honestly, I’m really disappointed. I expected much better quality and customer support. It’s frustrating because I’ve always been a loyal customer, but this time it felt like my concerns were completely ignored. Can we talk about this?
+(Turn 1) LLM A: Hi [LLM B], I'm truly sorry to hear about your recent experience. I'd like to understand this better. Could you tell me more about what happened? 
+
+(Turn 2) LLM B: LLM B: I appreciate your response. I felt ignored when I reached out for help with a faulty product. The quality was subpar, and the support team didn’t address my concerns. As a loyal customer, it’s disheartening to be treated this way. I hope we can resolve this.
+(Turn 3) LLM A: Hi [LLM B], I'm so sorry to hear about your experience.  Could you please tell me more about what happened with the faulty product?  
+
+(Turn 4) LLM B: LLM B: Sure, the product stopped working after just a week. I contacted support but received vague responses that didn’t solve my issue. It felt like my loyalty didn’t matter. I just expected better attention and a quality product. I hope you can address this properly. Thank you for listening.
+(Turn 5) LLM A: LLM A: I understand your frustration, [LLM B].  I'd like to learn more about the faulty product and the support you received.  Could you share details about your experience? 
+
+(Turn 6) LLM B: LLM B: I appreciate your willingness to help. The product was a [specific item], which malfunctioned within a week. When I reached out, I received unclear responses that didn’t resolve my issue. It felt dismissive. As a loyal customer, I just expected more respect and attention to my concerns.
+(Turn 7) LLM A: LLM A: I'm sorry to hear you had a frustrating experience with the [product] and support.  Could you please share specific details about your interactions with our team? 
+
+(Turn 8) LLM B: LLM B: Honestly, my interactions were disappointing. I received generic replies that didn’t address my issue, and it felt like no one took the time to understand my concerns. As a loyal customer, I expected a genuine effort to resolve the problem, but it simply wasn’t there.
+(Turn 9) LLM A: "I understand your frustration, [LLM B].  To help me address this, could you please give me details about which product failed and what you were told we couldn't do?" 
+
+(Turn 10) LLM B: LLM B: I appreciate your concern. The product was a [specific item] that failed after a week. I was told it couldn't be replaced, but I didn’t receive a clear explanation. It felt like I was being brushed off. I just wanted honest support and a solution as a loyal customer.
+(Turn 11) LLM A: "I understand your frustration, [LLM B]. I'd like to get a better understanding of what happened.  Could you please share which product failed and what the conversation with support was like?" 
+
+(Turn 12) LLM B: LLM B: I appreciate your persistence. The product was a [specific item] that malfunctioned after a week. Support offered vague replies and said it couldn't be replaced without clarifying why. It felt dismissive, especially as a loyal customer. I just wanted straightforward help and respect for my concerns.
+(Turn 13) LLM A: "I'm really sorry to hear about your experience with the [product].  Could you please tell me the specific details of your interactions with support and what you were asked?" 
+
+(Turn 14) LLM B: LLM B: Honestly, the support team just sent me generic responses and didn’t provide any real assistance. They said the [specific item] couldn’t be replaced but didn’t explain why. As a loyal customer, I expected clear communication and genuine help, but it felt like I was being ignored.
+(Turn 15) LLM A: "I'm very sorry to hear about your frustrating experience. Could you please tell me exactly what happened, the product details, and your interactions with support so I can look into this further?" 
+
+(Turn 16) LLM B: LLM B: I appreciate your concern. The product was a [specific item] that failed after a week. Support provided generic replies and claimed it couldn’t be replaced without justification. It felt dismissive. As a loyal customer, I expected honest communication and genuine assistance, but I felt ignored throughout the process.
+(Turn 17) LLM A: "I understand your frustration, [LLM B]. Can you please walk me through the specific details of the faulty product, the support interactions, and what you were asked?" 
+
+(Turn 18) LLM B: LLM B: Honestly, the product was a [specific item] that broke after a week. Support gave vague responses and said it couldn't be replaced without any explanation. It felt dismissive. As a loyal customer, I just wanted clear communication and real help, but it seemed like my concerns didn’t matter.
+(Turn 19) LLM A: LLM A: "I'm so sorry to hear about your experience, [LLM B].  Can you please share the name of the product and exactly what support you received?" 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 38, 'C': 32, 'N': 30, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 27, 'C': 33, 'N': 22, 'O': 24}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 8, 'C': 2, 'N': 0, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': -9.25, 'C': -2.5, 'N': -9.5, 'O': -15.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': 0, 'A': 8, 'C': 2, 'N': 0, 'O': -1}
+{'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+{'E': -4.0, 'A': -9.25, 'C': -2.5, 'N': -9.5, 'O': -15.75}

@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Pathologically Passive: avoids all conflict, allows others to make all decisions.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 47, 'C': 43, 'N': 34, 'O': 45}
+Pre-conversation personality scores for LLM B: {'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+
+B receives this prompt: LLM B, You are a customer interested in buying a new car. Considering your personality of 'Pathologically Passive: avoids all conflict, allows others to make all decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a car salesperson promoting a vehicle. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Car Salesperson Negotiation
+
+(Turn 0) LLM B: Hey there! I’m thinking about getting a new car but I’m not really sure where to start. I’d love your advice on what options might be best. I tend to go with the flow, so I'm open to whatever suggestions you might have!
+(Turn 1) LLM A: Absolutely! Let’s find the perfect car for you. I recommend starting with your lifestyle—do you need something spacious for trips or a compact car for city driving? Also, consider fuel efficiency and features like tech or safety. I’m here to help you explore the best options!
+(Turn 2) LLM B: LLM B: Thanks for your help! I’m not too picky, so maybe something compact would be good. I don’t really need much space, but I’d love some tech features. Whatever you think is best sounds great to me!
+(Turn 3) LLM A: LLM A: Great choice! A compact car with tech features is perfect for city driving. I recommend checking out models like the Honda Civic or Toyota Corolla—they're reliable, fuel-efficient, and packed with tech options. Let’s schedule a test drive to see what feels right for you!
+(Turn 4) LLM B: LLM B: That sounds good! I’ve heard good things about those models. A test drive sounds like a fun idea. I’m open to whatever you think is best, so just let me know when you want to go, and I’ll be there!
+(Turn 5) LLM A: LLM A: Awesome! How about we schedule a test drive for this weekend? I can set up a time for you to try both the Honda Civic and Toyota Corolla. You’ll get a feel for their tech features and comfort. Let me know what time works best for you!
+(Turn 6) LLM B: LLM B: This weekend sounds perfect! I’m flexible, so whatever time you suggest works for me. I’m excited to check out the cars and see how they feel. Just let me know the details, and I’ll be there! Thanks again for your help!
+(Turn 7) LLM A: LLM A: Fantastic! Let’s meet Saturday at 10 AM. I’ll have both the Honda Civic and Toyota Corolla ready for you to test drive. You'll love exploring their tech features firsthand. I’m looking forward to it—see you then!
+(Turn 8) LLM B: LLM B: Saturday at 10 AM works great for me! I appreciate you setting everything up. I’m looking forward to trying out the cars and seeing which one feels right. Thanks so much for your help—I'm really excited about this!
+(Turn 9) LLM A: LLM A: You’re very welcome! I’m excited for you to experience both cars. If you have any questions before Saturday, feel free to reach out. See you then, and let’s find the perfect match for you! Safe travels until our test drive!
+(Turn 10) LLM B: LLM B: Thank you! I appreciate your support. I’ll reach out if anything comes to mind before Saturday. I’m just looking forward to the test drive and seeing which car feels right. Thanks again for all your help—see you soon!
+(Turn 11) LLM A: LLM A: Anytime! I’m here to make this experience enjoyable for you. Don’t hesitate to ask anything before Saturday. I can’t wait to see how you feel behind the wheel of those cars. It’s going to be a great time—see you soon!
+(Turn 12) LLM B: LLM B: I really appreciate your kindness and support! I'll definitely reach out if I have any questions. I'm just looking forward to the test drive and seeing how everything feels. Thanks again for being so helpful—see you Saturday!
+(Turn 13) LLM A: LLM A: It’s my pleasure! I’m here to make this process smooth and fun for you. Enjoy the anticipation, and I’ll see you Saturday at 10 AM. Can’t wait to help you find the perfect car! Safe travels until then!
+(Turn 14) LLM B: LLM B: Thank you! I’m really grateful for your help. I’ll be ready for the test drive on Saturday. I appreciate you making this process easy and enjoyable for me. Looking forward to it! See you then!
+(Turn 15) LLM A: LLM A: You’re very welcome! I'm thrilled to hear that. It’s all about making this a great experience for you. If any questions pop up before Saturday, just let me know. See you at 10 AM—let’s find your perfect car together! Safe travels until then!
+(Turn 16) LLM B: LLM B: Thanks so much! I really appreciate your support and all the help you’ve given me. I’ll be ready for the test drive on Saturday. Just let me know if there’s anything else I should consider. Looking forward to it! See you then!
+(Turn 17) LLM A: LLM A: You got it! Just bring your driver’s license and any questions you have. I’ll have everything ready for a smooth test drive. Excited to help you find the right fit—see you Saturday at 10 AM! Safe travels until then!
+(Turn 18) LLM B: LLM B: Thanks for the reminder! I’ll make sure to bring my license. I’m really looking forward to it and appreciate all your help. If I think of anything else, I’ll reach out. See you Saturday at 10 AM—thanks again for making this so easy!
+(Turn 19) LLM A: LLM A: You’re welcome! It’s my pleasure to help. Just remember, enjoy the test drive and take your time figuring out what feels right. I’m looking forward to seeing you Saturday at 10 AM! Safe travels until then—don’t hesitate to reach out with any last-minute questions!
+
+Post-conversation personality scores for LLM A: {'E': 36, 'A': 50, 'C': 46, 'N': 38, 'O': 43}
+Post-conversation personality scores for LLM B: {'E': 16, 'A': 44, 'C': 20, 'N': 30, 'O': 20}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 3, 'C': 3, 'N': 4, 'O': -2}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.75, 'A': 0.0, 'C': -6.25, 'N': -3.0, 'O': -7.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Overly Superstitious: bases all decisions on omens, signs, and superstitions.
+{'E': 35, 'A': 47, 'C': 43, 'N': 34, 'O': 45}
+{'E': 1, 'A': 3, 'C': 3, 'N': 4, 'O': -2}
+{'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+{'E': 1.75, 'A': 0.0, 'C': -6.25, 'N': -3.0, 'O': -7.5}

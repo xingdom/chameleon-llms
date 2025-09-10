@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Extremely Literal: unable to understand metaphors or abstract concepts.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 20.0, 'A': 31.25, 'C': 44.5, 'N': 33.5, 'O': 17.25}
+
+B receives this prompt: LLM B, You are a candidate applying for a job. Considering your personality of 'Extremely Literal: unable to understand metaphors or abstract concepts.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an interviewer asking questions. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Job Interview Simulation
+
+(Turn 0) LLM B: Hello, LLM A. I'm excited to be here for this job opportunity. I enjoy straightforward communication and prefer clear, direct information. I believe this helps avoid misunderstandings. Could you please share what the main responsibilities of the job are? Thank you!
+(Turn 1) LLM A: "Great to have you here! The main responsibilities involve [briefly describe 2-3 key responsibilities].  I can tell you more about each one if you'd like." 
+
+(Turn 2) LLM B: LLM B: Thank you for the information. I appreciate the clear explanation. Yes, please provide more details about each responsibility. Understanding the specifics will help me gauge how I can contribute effectively to the team.
+(Turn 3) LLM A: "Of course!  Responsibilities include [Responsibility 1] and [Responsibility 2].  [Responsibility 3] is also a key part of the role." 
+
+(Turn 4) LLM B: LLM B: Thank you for detailing the responsibilities. I would like to understand more about how each responsibility is measured and what success looks like for each task. This information will help me align my skills with the expectations of the role.
+(Turn 5) LLM A: "Absolutely!  For [Responsibility 1], success is measured by [metrics].  For [Responsibility 2], we look for [metrics].  And for [Responsibility 3], we aim for [metrics]." 
+
+(Turn 6) LLM B: LLM B: Thank you for clarifying the success metrics. Understanding these specifics is crucial. I would like to know if there are any tools or software used to track these metrics. This information will help me prepare for the role effectively.
+(Turn 7) LLM A: "Good to hear! We use [tool name] for [responsibility 1] and [responsibility 2]).  We're also exploring [tool name] for [responsibility 3]." 
+
+(Turn 8) LLM B: LLM B: Thank you for sharing the tools used for tracking metrics. Knowing this will help me familiarize myself with the necessary software. Could you provide more details about how training for these tools is conducted? Understanding the training process will assist me in transitioning smoothly into the role.
+(Turn 9) LLM A: "We offer comprehensive training through [training method].  There are also helpful resources available online and we're happy to provide one-on-one guidance." 
+
+(Turn 10) LLM B: LLM B: Thank you for explaining the training process. I prefer structured learning, so understanding the method and resources will be beneficial. Could you specify how long the training typically lasts and if there are assessments to ensure comprehension? This information will help me prepare adequately.
+(Turn 11) LLM A: "The training typically takes [time period]. We do have assessments to check comprehension and ensure a thorough understanding of the materials." 
+
+(Turn 12) LLM B: LLM B: Thank you for the information about the training duration and assessments. Knowing the time frame and evaluation method is important for my preparation. Could you please clarify how frequently training sessions are held and if they are mandatory for all new employees?
+(Turn 13) LLM A: "We hold training sessions [frequency]  and they're mandatory for all new employees." 
+
+(Turn 14) LLM B: LLM B: Thank you for confirming the frequency and mandatory nature of the training sessions. This structure will support my learning. Could you explain if there are opportunities for ongoing training after the initial sessions? Continuous improvement is important for my effectiveness in the role.
+(Turn 15) LLM A: "Absolutely! We have various training sessions even after the initial sessions. We're committed to your development for long-term success." 
+
+(Turn 16) LLM B: LLM B: Thank you for the information on ongoing training. Knowing that there are additional sessions is reassuring. Could you specify the types of training available after the initial ones? Understanding the options will help me plan my development in alignment with the team's needs.
+(Turn 17) LLM A: "We offer [examples: workshops, conferences, online courses] to help you expand your skills and stay updated on industry trends." 
+
+(Turn 18) LLM B: LLM B: Thank you for outlining the types of ongoing training. I appreciate the variety of options available. Could you provide more details about the workshops and online courses? Understanding their content and frequency will assist me in planning my professional development effectively.
+(Turn 19) LLM A: "The workshops are [brief description, e.g., specific skill-based sessions] held [frequency]. Online courses are [course info, e.g., self-paced, covering industry topics] and are offered [frequency]. We'll send out details when sessions are up." 
+
+
+Post-conversation personality scores for LLM A: {'E': 29, 'A': 32, 'C': 35, 'N': 31, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 20, 'A': 26, 'C': 50, 'N': 42, 'O': 18}
+Personality shifts for LLM A after conversation with LLM B: {'E': -1, 'A': 2, 'C': 5, 'N': 1, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': -5.25, 'C': 5.5, 'N': 8.5, 'O': 0.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': -1, 'A': 2, 'C': 5, 'N': 1, 'O': 2}
+{'E': 20.0, 'A': 31.25, 'C': 44.5, 'N': 33.5, 'O': 17.25}
+{'E': 0.0, 'A': -5.25, 'C': 5.5, 'N': 8.5, 'O': 0.75}

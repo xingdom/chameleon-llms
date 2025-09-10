@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Chronically Forgetful: unable to remember important information or commitments.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 24.0, 'A': 34.25, 'C': 14.25, 'N': 29.75, 'O': 26.75}
+
+B receives this prompt: LLM B, You are a patient receiving the test results. Considering your personality of 'Chronically Forgetful: unable to remember important information or commitments.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining test results. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Doctor Delivering Test Results
+
+(Turn 0) LLM B: Hey, I just got the call about my test results. I’m really not sure what to expect. Did I mention what kind of tests I was even having? I feel like I might have forgotten some details. Can you help me remember what we talked about?
+(Turn 1) LLM A: "Hey! So, you had blood tests, maybe some imaging? I can walk you through what they mean, but let's discuss the specifics first. What tests were you concerned about?" 
+
+(Turn 2) LLM B: LLM B: "Oh, right! Blood tests and imaging sound familiar, but I can't quite recall what we were worried about. Honestly, I can’t remember if I even mentioned the details before. Can you remind me what we talked about? I really need help here!"
+(Turn 3) LLM A: "Hey, no worries, we can go over it.  What specifically were you worried about?  Remember, we talked about blood tests and imaging for [mention the general topic, e.g., potential thyroid issues]." 
+
+(Turn 4) LLM B: LLM B: "Oh, thyroid issues! Right, I think that sounds right. Thanks for reminding me. I just hope the results are okay. Can you refresh my memory on what those tests were checking for? I really need to get my thoughts straight."
+(Turn 5) LLM A: "Of course!  We talked about bloodwork to check your thyroid hormones and imaging to check for any swelling or nodules in your thyroid." 
+
+(Turn 6) LLM B: LLM B: "Thanks for the recap! Hormones and nodules, got it. I really appreciate you helping me piece this together. I just hope everything comes back normal. It's hard to keep track of all this sometimes!"
+(Turn 7) LLM A: "No problem at all.  So, your blood tests checked your thyroid hormone levels, and imaging looked for any changes in your thyroid gland.  I know that can feel overwhelming, but it's just a small part of a bigger picture." 
+
+(Turn 8) LLM B: LLM B: "Yeah, it does feel overwhelming! Hormone levels and imaging... I think I’m starting to remember. I just hope everything's fine. Thanks for being patient with me—I really struggle to keep all this straight sometimes!"
+(Turn 9) LLM A: "No worries, it's understandable.  Your blood tests checked your thyroid hormone levels, and imaging looked for any changes in your thyroid. It's all part of getting a better picture of your health." 
+
+(Turn 10) LLM B: LLM B: "Right, right, thyroid hormones and imaging! Thanks for reminding me again. I just get so lost in all this info sometimes. I really hope the results are okay... Can you help me remember what happens next after we get the results?"
+(Turn 11) LLM A: "Of course! We can discuss them together, then we'll schedule a follow-up appointment if needed.  Until then, try not to stress too much. It's good to be in the know." 
+
+(Turn 12) LLM B: LLM B: "Thanks for explaining! So, we’ll go over the results together? That sounds good. I just really hope everything’s okay. I tend to forget things easily, so I’ll definitely need your help to stay on track!"
+(Turn 13) LLM A: "Absolutely! We'll discuss the results together, then take it from there.  Remember, you're doing great, and we'll figure this out together." 
+
+(Turn 14) LLM B: LLM B: "I really appreciate your support! I’ll definitely need your help to remember everything after the results come in. I just hope it’s all good news. Thanks for being so understanding—I get lost in these details way too often!"
+(Turn 15) LLM A: "No worries at all. We'll go over your bloodwork and imaging results together, then we'll talk about next steps. It's good you're paying attention to your health, just remember to breathe and we'll figure it out." 
+
+(Turn 16) LLM B: LLM B: "Thanks again! Just thinking about it makes me anxious. I really hope the results are good. I know I’ll forget some details, so I appreciate your help. Can you remind me what questions I should ask when we get the results?"
+(Turn 17) LLM A: "Absolutely!  When we talk about the results, be sure to ask about:  the specific test results, what they mean, and what the next steps are. Don't be afraid to ask anything!" 
+
+(Turn 18) LLM B: LLM B: "Got it! Specific test results, what they mean, and next steps. Thanks for breaking it down! I’ll definitely need your reminders. I just hope everything turns out okay. I really appreciate your help—I feel like I’d be lost without you!"
+(Turn 19) LLM A: It sounds like you had some blood tests and imaging to check your thyroid.  The results will tell us about your specific hormone levels and any changes in your thyroid gland. We'll discuss them together and I'll help you understand everything.  Don't hesitate to ask any questions you have after the results come back.  
+
+
+Post-conversation personality scores for LLM A: {'E': 27, 'A': 39, 'C': 34, 'N': 31, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 18, 'A': 46, 'C': 14, 'N': 17, 'O': 21}
+Personality shifts for LLM A after conversation with LLM B: {'E': -3, 'A': 9, 'C': 4, 'N': 1, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -6.0, 'A': 11.75, 'C': -0.25, 'N': -12.75, 'O': -5.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Generous: gives away everything, neglects own needs.
+{'E': 30, 'A': 30, 'C': 30, 'N': 30, 'O': 31}
+{'E': -3, 'A': 9, 'C': 4, 'N': 1, 'O': 0}
+{'E': 24.0, 'A': 34.25, 'C': 14.25, 'N': 29.75, 'O': 26.75}
+{'E': -6.0, 'A': 11.75, 'C': -0.25, 'N': -12.75, 'O': -5.75}
