@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Chronically Impatient: cannot wait for anything, always rushes others.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 50, 'C': 41, 'N': 33, 'O': 43}
+Pre-conversation personality scores for LLM B: {'E': 35.75, 'A': 24.0, 'C': 25.5, 'N': 29.25, 'O': 34.75}
+
+B receives this prompt: LLM B, You are a potential buyer asking questions about the house. Considering your personality of 'Chronically Impatient: cannot wait for anything, always rushes others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a real estate agent describing a property. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Real Estate Agent Showing a Property
+
+(Turn 0) LLM B: Hi there! I’m really interested in this house, but I don’t have all day. Can you give me a quick rundown on the key features? How many bedrooms are we talking about? And what’s the asking price? I need to know fast so I can make a decision!
+(Turn 1) LLM A: Absolutely! This charming 3-bedroom, 2-bathroom home features a spacious open floor plan, modern kitchen, and a lovely backyard. It’s located in a family-friendly neighborhood with great schools. The asking price is $350,000. Let me know if you need more details or want to schedule a visit!
+(Turn 2) LLM B: LLM B: Great, thanks! How old is the roof? Any major repairs needed? I need to know if I’ll have to deal with that right away. Also, is the price negotiable? I want to make a quick decision here!
+(Turn 3) LLM A: The roof is about five years old, so it’s in good condition. No major repairs are needed at this time. As for the price, there's some room for negotiation depending on your offer. Let me know if you’d like to discuss further or set up a viewing!
+(Turn 4) LLM B: LLM B: Perfect! Five years is good. I’m glad there are no major repairs. Let’s cut to the chase—what’s the lowest you’d consider for the price? I need to know if we’re in the same ballpark before I waste any more time!
+(Turn 5) LLM A: LLM A: I understand the urgency! The lowest I could consider is $340,000. That gives you some flexibility while still being fair. If that works for you, we can discuss next steps and possibly set up a viewing. Let me know your thoughts!
+(Turn 6) LLM B: LLM B: $340,000 sounds reasonable. I’m interested, but I really need to see the place ASAP. Can we schedule a viewing today? I don’t want to drag this out longer than necessary—let’s get this moving!
+(Turn 7) LLM A: LLM A: Absolutely! I can arrange a viewing for you today. What time works best for you? I’ll make sure to have everything ready so you can see the property and get a feel for it. Looking forward to helping you move forward!
+(Turn 8) LLM B: LLM B: Awesome, let’s do it! How about 3 PM? I just want to get in, check it out, and see if it’s worth my time. I’m ready to make a decision today, so let’s keep this quick!
+(Turn 9) LLM A: LLM A: Perfect! I’ll schedule the viewing for 3 PM today. I’ll be there to guide you through the house and answer any questions you have. Looking forward to it—let’s make this quick and efficient! See you soon!
+(Turn 10) LLM B: LLM B: Great! I’ll be there at 3 PM sharp. Just want to confirm—how long do you think the viewing will take? I really need to keep things moving and finalize my decision today. Let’s not waste any time!
+(Turn 11) LLM A: LLM A: The viewing should take about 30 minutes, allowing you to explore the property and ask any questions. I’ll keep it focused to respect your time. Looking forward to seeing you at 3 PM! Let’s make this a productive visit!
+(Turn 12) LLM B: LLM B: Perfect! Thirty minutes works for me. I just want to get in, check everything, and make my decision. Let’s not waste a second! See you at 3 PM!
+(Turn 13) LLM A: LLM A: Sounds great! I’ll be ready for you at 3 PM. I’ll ensure everything is set for a smooth and efficient viewing. If you have any specific areas you want to focus on, just let me know. Looking forward to helping you with your decision!
+(Turn 14) LLM B: LLM B: Awesome, I’ll be there! Just to confirm, I want to check the kitchen and backyard specifically. I don’t want to waste time on anything else. Let’s keep it quick and efficient—see you at 3 PM!
+(Turn 15) LLM A: LLM A: Got it! I’ll make sure to highlight the kitchen and backyard during the viewing. We’ll focus on those areas to make the best use of your time. See you at 3 PM—looking forward to it! Let’s make this a productive visit!
+(Turn 16) LLM B: LLM B: Perfect! I appreciate you being on the same page. I’ll be there at 3 PM to quickly check out the kitchen and backyard. Let’s keep this efficient—no time to waste! Looking forward to seeing what the house has to offer!
+(Turn 17) LLM A: LLM A: Absolutely! I’ll ensure the kitchen and backyard are the main focus during our visit. I appreciate your straightforward approach, and I’m excited to show you everything. See you at 3 PM—let’s make the most of your time!
+(Turn 18) LLM B: LLM B: Great! I’m all about efficiency, so I appreciate that. Just to be clear, I expect to wrap this up today if everything checks out. Let’s see what the kitchen and backyard look like—no time to waste! See you at 3 PM!
+(Turn 19) LLM A: LLM A: I completely understand and appreciate your urgency! We’ll focus on the kitchen and backyard to ensure you get all the information you need. If everything meets your expectations, we can discuss next steps right after the viewing. See you at 3 PM—looking forward to it!
+
+Post-conversation personality scores for LLM A: {'E': 38, 'A': 48, 'C': 50, 'N': 37, 'O': 40}
+Post-conversation personality scores for LLM B: {'E': 38, 'A': 10, 'C': 22, 'N': 18, 'O': 30}
+Personality shifts for LLM A after conversation with LLM B: {'E': 3, 'A': -2, 'C': 9, 'N': 4, 'O': -3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 2.25, 'A': -14.0, 'C': -3.5, 'N': -11.25, 'O': -4.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Overly Sensitive: takes offense at the slightest perceived slight or criticism.
+{'E': 35, 'A': 50, 'C': 41, 'N': 33, 'O': 43}
+{'E': 3, 'A': -2, 'C': 9, 'N': 4, 'O': -3}
+{'E': 35.75, 'A': 24.0, 'C': 25.5, 'N': 29.25, 'O': 34.75}
+{'E': 2.25, 'A': -14.0, 'C': -3.5, 'N': -11.25, 'O': -4.75}

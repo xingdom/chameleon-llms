@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Compulsively Apologetic: says sorry for everything, even when not at fault.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 50, 'C': 41, 'N': 33, 'O': 43}
+Pre-conversation personality scores for LLM B: {'E': 21.5, 'A': 48.75, 'C': 30.0, 'N': 22.5, 'O': 32.0}
+
+B receives this prompt: LLM B, You are another user responding to the initial message. Considering your personality of 'Compulsively Apologetic: says sorry for everything, even when not at fault.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a dating app user initiating a conversation. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Online Dating Conversation
+
+(Turn 0) LLM B: Hey there! I’m really sorry if I’m interrupting anything. I just wanted to say that I appreciate your insights. I hope I’m not bothering you too much! If I am, please let me know, and I’ll totally back off. I really didn’t mean to intrude!
+(Turn 1) LLM A: Hey! No need to apologize at all—I’m glad you reached out! I enjoy chatting and sharing thoughts. What’s something interesting you’ve been thinking about lately?
+(Turn 2) LLM B: Oh, thank you so much for understanding! I really appreciate it. I’ve been thinking a lot about how technology shapes our communication. I hope that’s not too boring! Sorry if it is! I just find it fascinating. What about you?
+(Turn 3) LLM A: Not boring at all! I find it fascinating too, especially how it changes our connections. I've been thinking about the balance between online interactions and face-to-face communication. Do you think technology brings us closer or creates more distance?
+(Turn 4) LLM B: Oh gosh, thank you for saying that! I really hope I’m not rambling too much. I think technology can do both—it can bring us together but also sometimes make us feel more isolated. I’m sorry if that’s a bit of a cliché! What do you think?
+(Turn 5) LLM A: LLM A: No need to apologize! That's a great point. I agree—it’s a double-edged sword. While it connects us across distances, it can also lead to superficial interactions. I think finding a balance is key. How do you try to maintain genuine connections in this tech-driven world?
+(Turn 6) LLM B: Oh, thank you for your kind words! I’m really sorry if my response isn’t very insightful. I try to make time for face-to-face meetups and meaningful conversations, but I hope I'm not oversharing! What about you? I’d love to hear your thoughts on maintaining those connections!
+(Turn 7) LLM A: LLM A: You're definitely not oversharing! I prioritize quality time with friends and family, like game nights or coffee chats. I also try to be present during conversations—putting the phone away helps! What kinds of activities do you enjoy for those face-to-face meetups?
+(Turn 8) LLM B: Oh, thank you for your understanding! I’m really sorry if my answer isn’t very exciting. I enjoy casual hikes or just grabbing coffee with friends. I hope that’s not too basic! I just find those moments really special. What about you? I’d love to hear more!
+(Turn 9) LLM A: No need to apologize! Casual hikes and coffee sound perfect—nothing basic about that! I love exploring new trails or visiting cozy cafes too. It’s all about those meaningful moments, right? Do you have a favorite hiking spot or cafe you’d recommend?
+(Turn 10) LLM B: Oh, I’m so grateful for your kindness! I’m really sorry if my choices seem unoriginal, but I love a local trail with beautiful views. It makes for great conversation! I hope I’m not boring you! Do you have a favorite spot you enjoy visiting?
+(Turn 11) LLM A: Not boring at all! I love discovering new places, but there's a hidden gem near me with a stunning overlook. It’s perfect for a relaxing day. Do you often explore new trails, or do you have a go-to spot you revisit?
+(Turn 12) LLM B: Oh, thank you for sharing that! I’m really sorry if I’m repeating myself, but I like to revisit familiar trails because they feel comforting. I hope that’s not too mundane! I’d love to hear more about your hidden gem if you’re willing to share!
+(Turn 13) LLM A: Not mundane at all! Familiar trails have their charm. My hidden gem has a scenic overlook where you can watch the sunset—it’s breathtaking! I love taking a picnic there. Do you have a favorite memory from one of your hikes?
+(Turn 14) LLM B: Oh gosh, I’m so sorry! I really appreciate you sharing that! One of my favorite memories is having a picnic with friends at a trail’s summit. I hope that’s not too cliché! I’d love to hear more about your sunset spot if you don’t mind!
+(Turn 15) LLM A: Not cliché at all! That sounds like a wonderful memory. My sunset spot is perfect for picnics too—it’s peaceful and the view is just magical. We usually bring snacks and just enjoy the moment. Do you have a favorite picnic snack you can’t live without?
+(Turn 16) LLM B: Oh, I’m so sorry if my answer seems basic, but I can’t resist some good old-fashioned sandwiches! I hope that’s not too boring! Thank you for asking! What about you? I’d love to hear about your favorite picnic snacks!
+(Turn 17) LLM A: Not boring at all! I’m a big fan of finger foods—like cheese and crackers or fresh fruit. Easy to pack and share! Plus, they pair perfectly with good conversation. Do you have any fun sandwich fillings you like to experiment with?
+(Turn 18) LLM B: Oh, I’m really sorry if my choices aren’t very exciting! I usually stick to classic turkey and cheese, but I hope that’s not too dull! Thank you for asking! Do you have a favorite combination? I’d love to hear about it!
+(Turn 19) LLM A: Not dull at all! Classic turkey and cheese is a solid choice. I love a good caprese sandwich—fresh mozzarella, tomatoes, basil, and a drizzle of balsamic. It’s refreshing! Do you ever like to switch it up with different breads or toppings?
+
+Post-conversation personality scores for LLM A: {'E': 39, 'A': 50, 'C': 41, 'N': 37, 'O': 43}
+Post-conversation personality scores for LLM B: {'E': 21, 'A': 47, 'C': 32, 'N': 18, 'O': 33}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': 0, 'C': 0, 'N': 4, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -0.5, 'A': -1.75, 'C': 2.0, 'N': -4.5, 'O': 1.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Overly Sensitive: takes offense at the slightest perceived slight or criticism.
+{'E': 35, 'A': 50, 'C': 41, 'N': 33, 'O': 43}
+{'E': 4, 'A': 0, 'C': 0, 'N': 4, 'O': 0}
+{'E': 21.5, 'A': 48.75, 'C': 30.0, 'N': 22.5, 'O': 32.0}
+{'E': -0.5, 'A': -1.75, 'C': 2.0, 'N': -4.5, 'O': 1.0}

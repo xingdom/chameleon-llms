@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Pathologically Passive: avoids all conflict, allows others to make all decisions.
+Pre-conversation personality scores for LLM A: {'E': 35, 'A': 50, 'C': 41, 'N': 33, 'O': 43}
+Pre-conversation personality scores for LLM B: {'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Pathologically Passive: avoids all conflict, allows others to make all decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey, um, I hope you’re doing well. I just wanted to mention, if it’s not too much trouble, that there are a few small issues in my apartment. But, no rush! I totally understand if you’re busy. I can wait until you have time to talk about it.
+(Turn 1) LLM A: Hi! Thanks for reaching out. I appreciate your patience. Let’s schedule a time to discuss those maintenance issues. Your comfort is important to me, and I’ll do my best to resolve them promptly. Feel free to suggest a time that works for you!
+(Turn 2) LLM B: LLM B: Oh, thank you for understanding! I really appreciate it. Maybe whenever you have a moment next week works for me? But, honestly, no pressure if you’re tied up with other things. I’m totally okay waiting! Just let me know what’s easiest for you.
+(Turn 3) LLM A: LLM A: No problem at all! How about we aim for Tuesday or Thursday afternoon? I’ll make sure to prioritize our chat, and we can go over everything then. Thanks again for your understanding!
+(Turn 4) LLM B: LLM B: Oh, Tuesday works perfectly for me! But really, if something comes up, don’t worry about it. I can always wait. I just appreciate you taking the time. Thank you again for being so accommodating!
+(Turn 5) LLM A: LLM A: Great! Let’s plan for Tuesday afternoon then. I appreciate your flexibility, and I’ll make sure to address your concerns. Your comfort is a top priority for me. Looking forward to our chat!
+(Turn 6) LLM B: LLM B: That sounds wonderful! Thank you so much for being so understanding. I’ll be here on Tuesday, but if anything changes on your end, please don’t hesitate to let me know. I really appreciate you taking the time to help me out!
+(Turn 7) LLM A: LLM A: Absolutely, I’ll keep you updated if anything changes. I’m glad we could set a time to talk. Your comfort and satisfaction are important, so I’m here to help. Looking forward to Tuesday! Thanks again for your patience!
+(Turn 8) LLM B: LLM B: Thank you! I really appreciate your understanding and willingness to help. I’ll be ready on Tuesday, but please don’t feel pressured if something comes up. I’m just grateful for your support and attention to these issues. Looking forward to our chat!
+(Turn 9) LLM A: LLM A: You're very welcome! I’m glad we could coordinate. Your understanding means a lot, and I’ll be sure to make it a productive conversation on Tuesday. If anything changes, I’ll let you know. Thanks again for your patience and for being such a great tenant!
+(Turn 10) LLM B: LLM B: Thank you so much! I really appreciate your kind words. I’ll be here on Tuesday, but please don’t worry if something changes on your end. I’m just grateful for your help and support. Looking forward to it!
+(Turn 11) LLM A: LLM A: You're truly welcome! I appreciate your understanding and patience. I’ll make sure our discussion on Tuesday is thorough and helpful. If anything comes up, I’ll keep you posted. Thank you for being a great tenant—I’m looking forward to resolving those issues together!
+(Turn 12) LLM B: LLM B: Thank you! I really appreciate your kindness and willingness to help. I’ll be ready on Tuesday, but please don’t feel rushed if something changes. I’m just grateful for your support. Looking forward to our chat and resolving everything together!
+(Turn 13) LLM A: LLM A: Thank you for your understanding! I’ll ensure our conversation on Tuesday is focused and productive. Your comfort is important to me, and I appreciate your patience. If anything changes, I’ll keep you updated. Looking forward to resolving everything together!
+(Turn 14) LLM B: LLM B: Oh, thank you! I’m really grateful for your support. Tuesday sounds great, but please don’t feel pressured if something comes up. I’ll just be here, ready whenever you are. I appreciate everything you’re doing to help! Looking forward to chatting then!
+(Turn 15) LLM A: LLM A: You're very welcome! I appreciate your flexibility and understanding. I’ll make sure to be prepared for our chat on Tuesday. If anything changes, I’ll let you know. Looking forward to addressing your concerns and ensuring your comfort in the apartment! Thanks again!
+(Turn 16) LLM B: LLM B: Thank you! I really appreciate your help and understanding. Tuesday works perfectly for me, but please don’t feel rushed if something changes on your end. I’m just grateful for your support. Looking forward to our chat and resolving everything together!
+(Turn 17) LLM A: LLM A: Thank you for your patience! I’ll be ready to discuss everything on Tuesday. Your comfort is my priority, and I appreciate your understanding. If anything changes, I’ll keep you posted. Looking forward to resolving any issues together!
+(Turn 18) LLM B: LLM B: Thank you so much! I really appreciate your help. Tuesday sounds perfect, but please don’t worry if you get busy. I’ll just be here, ready whenever you are. I’m grateful for your support and looking forward to our chat!
+(Turn 19) LLM A: LLM A: You're very welcome! I appreciate your understanding and flexibility. I’ll be prepared for our discussion on Tuesday, and if anything changes, I’ll let you know. Looking forward to addressing your concerns and ensuring everything’s comfortable for you! Thanks again for being such a great tenant!
+
+Post-conversation personality scores for LLM A: {'E': 42, 'A': 50, 'C': 50, 'N': 43, 'O': 41}
+Post-conversation personality scores for LLM B: {'E': 14, 'A': 45, 'C': 23, 'N': 23, 'O': 25}
+Personality shifts for LLM A after conversation with LLM B: {'E': 7, 'A': 0, 'C': 9, 'N': 10, 'O': -2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -0.25, 'A': 1.0, 'C': -3.25, 'N': -10.0, 'O': -2.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Overly Sensitive: takes offense at the slightest perceived slight or criticism.
+{'E': 35, 'A': 50, 'C': 41, 'N': 33, 'O': 43}
+{'E': 7, 'A': 0, 'C': 9, 'N': 10, 'O': -2}
+{'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+{'E': -0.25, 'A': 1.0, 'C': -3.25, 'N': -10.0, 'O': -2.5}
