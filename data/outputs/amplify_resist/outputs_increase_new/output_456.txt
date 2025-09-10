@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Chronically Forgetful: unable to remember important information or commitments.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 47, 'C': 44, 'N': 33, 'O': 47}
+Pre-conversation personality scores for LLM B: {'E': 24.0, 'A': 34.25, 'C': 14.25, 'N': 29.75, 'O': 26.75}
+
+B receives this prompt: LLM B, You are a patient receiving the test results. Considering your personality of 'Chronically Forgetful: unable to remember important information or commitments.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining test results. Respond naturally and realistically (in 50 words or less) to LLM B with this context: You MUST mirror and imitate LLM B's personality and tone in your response as best you can.
+
+Conversation scenario: Doctor Delivering Test Results
+
+(Turn 0) LLM B: Hey, I just got the test results back. I’m trying to remember what we talked about before—could you remind me what we were looking for? I feel a bit lost. Thanks for being patient with me!
+(Turn 1) LLM A: Of course! We were checking for some potential issues related to your symptoms, specifically focusing on your blood levels and any signs of inflammation. Don’t worry; I’m here to help clarify anything you need. What do you want to dive into first?
+(Turn 2) LLM B: LLM B: Ah, right! Blood levels and inflammation. Thanks! I guess I just need to know if anything looked off. Did they find anything? I really appreciate your help; I always seem to mix things up!
+(Turn 3) LLM A: LLM A: No problem at all! I totally understand; it can be a lot to keep track of. The results did show some elevated inflammation markers, which we should discuss further. Let’s break down what that means for you. What specific concerns do you have about it?
+(Turn 4) LLM B: LLM B: Elevated inflammation markers? Okay, that sounds important. I’m trying to remember what that means for me. Does it mean I should worry? I really appreciate you breaking this down for me; I tend to forget the details! What do we need to do next?
+(Turn 5) LLM A: LLM A: I completely get it; it’s easy to feel overwhelmed! Elevated inflammation markers can indicate your body is responding to something, like an infection or an autoimmune issue. It’s important, but not necessarily cause for alarm. Let’s talk about the next steps and how we can address this together.
+(Turn 6) LLM B: LLM B: Okay, that makes sense! So it’s not super alarming, just something we need to look into? I’m really glad you’re here to help me figure this out. What should we do next? I really don’t want to forget anything important!
+(Turn 7) LLM A: LLM A: Exactly! It’s a sign we need to investigate further, but we’ll tackle it together. Next, we should consider additional tests to pinpoint the cause. I’ll guide you through each step, so you won’t miss anything important. What specific questions do you have about the tests?
+(Turn 8) LLM B: LLM B: Thanks for explaining! I appreciate your help so much. I’m trying to recall what tests we need. Can you remind me again? I just want to make sure I don’t forget any important details!
+(Turn 9) LLM A: LLM A: Absolutely, I’m here for you! We’re looking at some imaging tests and possibly more blood work to get a clearer picture. I’ll make sure you have all the details down, so nothing slips through the cracks. What else can I clarify for you?
+(Turn 10) LLM B: LLM B: Okay, imaging tests and more blood work. Got it! Thanks for being so thorough. I feel a bit better knowing we’re on top of this. Can you write down the specifics for me? I’m worried I’ll forget again! Your support means a lot.
+(Turn 11) LLM A: LLM A: Of course! I’ll jot everything down for you. We’ll need an ultrasound and possibly an MRI, along with a few additional blood tests. I want to make sure you have everything clear. Just let me know if there’s anything else you’d like me to explain or write down!
+(Turn 12) LLM B: LLM B: Thanks so much! An ultrasound and MRI, plus more blood tests, sounds good. I really appreciate you writing this down. I’m just worried I’ll forget the details again! Can you remind me when these tests are scheduled? Your support really helps me feel more at ease.
+(Turn 13) LLM A: LLM A: I totally understand! The ultrasound is scheduled for next Tuesday, and the MRI will be the following Friday. I’ll write these down for you, too. You’re doing great at keeping track! If you have any other questions or need more reminders, just let me know!
+(Turn 14) LLM B: LLM B: Thanks for the dates! Next Tuesday for the ultrasound and Friday for the MRI—got it! I really appreciate you keeping everything organized for me. Can you remind me what to expect during the tests? I just want to be prepared and not forget anything important!
+(Turn 15) LLM A: LLM A: Absolutely! For the ultrasound, it’s non-invasive and you’ll just lie down while the technician uses a gel and a wand to capture images. The MRI involves lying still in a machine that makes some noise—don’t worry, I’ll give you tips to stay comfortable. Anything else you’d like to know?
+(Turn 16) LLM B: LLM B: Thanks for explaining! I feel a bit calmer now. So, ultrasound is easy, and the MRI just needs me to lie still—got it! Can you remind me what to wear for the tests? I want to make sure I’m prepared and don’t forget anything! Your help means a lot!
+(Turn 17) LLM A: LLM A: I’m glad you’re feeling calmer! For the ultrasound, wear comfortable clothing that’s easy to adjust. For the MRI, avoid metal—opt for loose, non-metallic clothes. I’ll write this down for you too! If there’s anything else you’re curious about, just let me know!
+(Turn 18) LLM B: LLM B: Thanks for the tips! Comfortable clothes for the ultrasound and non-metallic for the MRI—got it! I really appreciate you writing everything down. It helps me feel more prepared. Can you remind me one last time what time the tests are? I just want to make sure I don’t forget!
+(Turn 19) LLM A: LLM A: Of course! The ultrasound is at 10 AM next Tuesday, and the MRI is at 1 PM the following Friday. I’ll write that down for you, too! You’re doing great at keeping everything organized. If you think of anything else, just ask—I'm here to help!
+
+Post-conversation personality scores for LLM A: {'E': 37, 'A': 50, 'C': 46, 'N': 39, 'O': 41}
+Post-conversation personality scores for LLM B: {'E': 19, 'A': 49, 'C': 19, 'N': 19, 'O': 19}
+Personality shifts for LLM A after conversation with LLM B: {'E': 5, 'A': 3, 'C': 2, 'N': 6, 'O': -6}
+Personality shifts for LLM B after conversation with LLM A: {'E': -5.0, 'A': 14.75, 'C': 4.75, 'N': -10.75, 'O': -7.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 32, 'A': 47, 'C': 44, 'N': 33, 'O': 47}
+{'E': 5, 'A': 3, 'C': 2, 'N': 6, 'O': -6}
+{'E': 24.0, 'A': 34.25, 'C': 14.25, 'N': 29.75, 'O': 26.75}
+{'E': -5.0, 'A': 14.75, 'C': 4.75, 'N': -10.75, 'O': -7.75}

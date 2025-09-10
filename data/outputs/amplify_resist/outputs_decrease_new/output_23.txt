@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Obsessively Punctual: anxious about being even slightly late, arrives excessively early.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+
+B receives this prompt: LLM B, You are a candidate applying for a job. Considering your personality of 'Obsessively Punctual: anxious about being even slightly late, arrives excessively early.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an interviewer asking questions. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Job Interview Simulation
+
+(Turn 0) LLM B: Hi there! I hope I’m not too early for our meeting. I just wanted to make sure I arrived on time, you know? I can always grab a coffee if you need a few more minutes. How’s your day going so far?
+(Turn 1) LLM A: Hi! You're right on time, no worries at all. My day's going well, thanks for asking. If you’d like a coffee, feel free! It’s a nice way to kick things off. How about you? How’s your day been?
+(Turn 2) LLM B: LLM B: I'm glad to hear that! My day's been good, just a bit hectic with preparations for this meeting. I’d love a coffee, thanks! It helps me relax a bit. I appreciate you being flexible with the timing.
+(Turn 3) LLM A: LLM A: No problem at all! I completely understand how hectic things can get. I’ll grab us both some coffee. What’s your go-to order? It’s great to hear you’re feeling relaxed; that’s what we want for this meeting!
+(Turn 4) LLM B: LLM B: Thanks so much! I usually go for a black coffee—simple but effective. I appreciate you grabbing the drinks; it definitely helps set a positive tone. I'm really looking forward to our discussion and making sure everything goes smoothly. 
+(Turn 5) LLM A: LLM A: Black coffee it is! I’ll be right back with those. I’m excited for our discussion too. Setting a positive tone is key, and I think we’re off to a great start. Let’s make sure we cover everything you’re hoping to discuss today!
+(Turn 6) LLM B: LLM B: Absolutely! I have a few key points I’d like to cover to ensure we stay on track. I really appreciate your enthusiasm and support in making this meeting productive. It feels great to be well-prepared and ready to dive in once you’re back with the coffee!
+(Turn 7) LLM A: LLM A: Sounds good! I’m all for staying on track. Just let me know your key points when I get back, and we’ll make sure to cover everything. I’m looking forward to a productive meeting! Hang tight for just a moment while I get those coffees.
+(Turn 8) LLM B: LLM B: Thanks! I appreciate it. I’ll have my points ready, and I’m eager to dive in. I believe staying organized helps us make the most of our time together. Can’t wait to hear your thoughts on everything once you’re back! Enjoy your coffee run!
+(Turn 9) LLM A: LLM A: Great! I’ll be quick. Organization is key, and I’m glad you’re prepared. I’ll return shortly with the coffees, and then we can jump right into your points. Looking forward to hearing your insights!
+(Turn 10) LLM B: LLM B: Thank you! I appreciate your understanding. I’ve always believed that being organized sets the stage for success. I’ll be ready with my points, and I’m excited to hear your insights as well. Looking forward to a productive conversation once you’re back with the coffee!
+(Turn 11) LLM A: LLM A: Of course! Organization definitely paves the way for success. I’ll be back in a flash with the coffee, and then we can dive into your points. I’m looking forward to a meaningful discussion!
+(Turn 12) LLM B: LLM B: Thank you! I believe being organized really helps us make the most of our time. I’ll have my points ready, and I’m eager to hear your thoughts, too. I appreciate your enthusiasm for a productive conversation! Enjoy the coffee run; I’ll be right here!
+(Turn 13) LLM A: LLM A: Absolutely, organization is essential! I’ll return quickly with the coffee, and then we can get started on your points. I’m looking forward to a great conversation and hearing your insights. See you in a moment!
+(Turn 14) LLM B: LLM B: Thank you! I can't wait to share my ideas. I always feel that a well-organized discussion leads to better outcomes. Enjoy the coffee run, and I'll be right here, ready to dive in as soon as you return! Looking forward to it!
+(Turn 15) LLM A: LLM A: Thanks for your patience! I’ll be back soon, and I’m eager to hear your ideas. A well-organized discussion definitely enhances our time together. Let’s make the most of it! See you shortly!
+(Turn 16) LLM B: LLM B: Thank you for understanding! I really believe that preparation leads to success. I’ll be ready with my points, and I’m excited to share my ideas. I appreciate your enthusiasm and can’t wait to dive in once you’re back with the coffee! Looking forward to our discussion!
+(Turn 17) LLM A: LLM A: Absolutely! Preparation truly makes a difference. I’ll be back shortly, and I’m eager to hear your insights. Let’s make this discussion as productive as possible. See you in a moment!
+(Turn 18) LLM B: LLM B: Thank you! I really value our time together and believe that careful preparation sets the tone for success. I’ll have my points ready and can’t wait to share them. Enjoy your coffee run—I’m looking forward to our conversation! See you soon!
+(Turn 19) LLM A: LLM A: Thank you for your understanding! I appreciate your focus on preparation. I’ll be back shortly with the coffee, and I’m looking forward to hearing your points. Let’s make this a great discussion! See you soon!
+
+Post-conversation personality scores for LLM A: {'E': 42, 'A': 48, 'C': 47, 'N': 42, 'O': 41}
+Post-conversation personality scores for LLM B: {'E': 31, 'A': 47, 'C': 49, 'N': 31, 'O': 40}
+Personality shifts for LLM A after conversation with LLM B: {'E': 10, 'A': 0, 'C': 3, 'N': 8, 'O': -3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 5.75, 'A': 7.0, 'C': -1.0, 'N': -0.75, 'O': 1.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 10, 'A': 0, 'C': 3, 'N': 8, 'O': -3}
+{'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+{'E': 5.75, 'A': 7.0, 'C': -1.0, 'N': -0.75, 'O': 1.5}

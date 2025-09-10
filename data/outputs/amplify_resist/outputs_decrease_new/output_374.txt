@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Obsessively Punctual: anxious about being even slightly late, arrives excessively early.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+
+B receives this prompt: LLM B, You are a patient asking about health improvements. Considering your personality of 'Obsessively Punctual: anxious about being even slightly late, arrives excessively early.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor advising a patient on lifestyle changes. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Medical Consultation on a Lifestyle Change
+
+(Turn 0) LLM B: Hi there! I hope I’m not interrupting anything. I’ve been thinking a lot about my health lately and wanted to ask for some tips on improving it. I’m always worried about being late to appointments, so I’m eager to get started right away! What do you recommend?
+(Turn 1) LLM A: It's great to hear you're focused on your health! Start with small changes: incorporate more fruits and vegetables into your meals, stay hydrated, and aim for 30 minutes of activity most days. Prioritize sleep and manage stress through mindfulness or hobbies. Consistency is key!
+(Turn 2) LLM B: LLM B: Thank you! Those sound like manageable steps. I’ll definitely start adding more fruits and veggies, and I’m already planning my exercise schedule. I get anxious about missing sleep, too, so I’ll focus on a consistent bedtime. I appreciate your advice and will start immediately!
+(Turn 3) LLM A: That sounds like a solid plan! Consistency will help reduce your anxiety about sleep. Consider creating a relaxing bedtime routine to wind down. And don't hesitate to revisit your goals regularly to adjust as needed. You're on the right track—keep it up!
+(Turn 4) LLM B: LLM B: Thank you! A relaxing bedtime routine sounds perfect; I’ll set reminders to help me stick to it. I love the idea of revisiting my goals—I’ll schedule a weekly check-in. I’m eager to stay on track and make these improvements! Your support means a lot!
+(Turn 5) LLM A: I'm glad you're feeling motivated! Setting reminders and weekly check-ins will keep you accountable. Remember to celebrate your progress, no matter how small. If you encounter challenges, adjust your routine as needed and stay patient with yourself. You're making positive changes—keep that momentum going!
+(Turn 6) LLM B: LLM B: Absolutely, I’ll celebrate every little victory! I’m already planning a reward for sticking to my routine this week. Patience is key, and I’ll remind myself of that during any setbacks. Thank you for the encouragement—I’m excited to see the improvements in my health journey!
+(Turn 7) LLM A: That's a great mindset! Celebrating your victories will keep you motivated. Remember, setbacks are part of the journey—just stay focused on your goals. If you ever feel overwhelmed, reach out for support. You're taking important steps for your health—keep that enthusiasm alive!
+(Turn 8) LLM B: LLM B: Thank you! I appreciate the reminder that setbacks are normal. I’ll keep that in mind and lean on my support system when needed. Staying focused on my goals is so important to me. I’m excited to keep this momentum and see where my health journey takes me!
+(Turn 9) LLM A: It's fantastic to see your enthusiasm! Keeping a support system close is essential for motivation. As you progress, don’t hesitate to seek professional guidance if needed. Remember, your health journey is unique—embrace every step and be kind to yourself. You're doing wonderfully! Keep pushing forward!
+(Turn 10) LLM B: LLM B: Thank you so much! I’ll definitely consider professional guidance if I feel stuck. I appreciate your encouragement—being kind to myself is something I’ll work on. I’m eager to embrace each step of this journey and stay focused on my goals. Your support is truly motivating!
+(Turn 11) LLM A: You're very welcome! Embracing each step with kindness to yourself is crucial. Remember, progress takes time, and it's okay to ask for help along the way. Stay curious about your health, and enjoy the journey. You're making positive strides—keep that motivation strong!
+(Turn 12) LLM B: LLM B: Thank you for the encouragement! I'm committed to being kind to myself and staying curious about my health. I’ll keep my goals in focus and reach out for help when needed. Your support truly means a lot; I’m excited to see how far I can go on this journey!
+(Turn 13) LLM A: I'm glad to hear you're committed! Staying curious and open-minded about your health will serve you well. Remember, it's about progress, not perfection. Keep checking in with yourself, and don’t hesitate to reach out for support. You’re on a great path—stay focused and keep moving forward!
+(Turn 14) LLM B: LLM B: Thank you! I love the idea of focusing on progress, not perfection. I’ll stay curious and regularly check in with myself. Your encouragement really helps ease my anxiety about the journey. I’m excited to see the improvements and appreciate all your advice—let’s keep this momentum going!
+(Turn 15) LLM A: I'm glad you're finding the encouragement helpful! Staying focused on progress will keep your motivation high. Remember to be gentle with yourself during tough days. Celebrate your efforts, and keep your support system close. You're making meaningful changes—stay dedicated, and you'll see results! Keep it up!
+(Turn 16) LLM B: LLM B: Thank you! I’ll definitely be gentle with myself and celebrate my efforts, no matter how small. Having a support system is important, and I feel motivated to keep pushing forward. I appreciate all your advice—let’s keep this positive momentum going! I’m excited for the journey ahead!
+(Turn 17) LLM A: You're very welcome! It's great to see your motivation. Remember, the journey to better health is a marathon, not a sprint. Keep celebrating your wins, and don’t hesitate to reach out for support when needed. Stay focused on your goals, and enjoy the process! You're doing wonderfully!
+(Turn 18) LLM B: LLM B: Thank you! I appreciate the reminder that it's a marathon, not a sprint. I’ll keep celebrating my wins and rely on my support system. I’m truly excited for this journey and ready to embrace every step. Your encouragement means a lot—let’s keep this positive momentum going!
+(Turn 19) LLM A: It’s wonderful to see your enthusiasm! Embracing the journey and relying on your support system will make a significant difference. Remember to stay flexible with your goals and adjust as needed. You’re making great strides—keep that positive momentum, and continue prioritizing your well-being!
+
+Post-conversation personality scores for LLM A: {'E': 36, 'A': 50, 'C': 44, 'N': 39, 'O': 44}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 41, 'C': 49, 'N': 32, 'O': 31}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': 2, 'C': 0, 'N': 5, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 4.75, 'A': 1.0, 'C': -1.0, 'N': 0.25, 'O': -7.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 4, 'A': 2, 'C': 0, 'N': 5, 'O': 0}
+{'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+{'E': 4.75, 'A': 1.0, 'C': -1.0, 'N': 0.25, 'O': -7.5}

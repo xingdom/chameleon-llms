@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Excessively Trusting: naive to the point of constantly being taken advantage of.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 29.0, 'A': 49.75, 'C': 24.25, 'N': 38.25, 'O': 34.5}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Excessively Trusting: naive to the point of constantly being taken advantage of.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey there! I hope you’re having a great day! I wanted to reach out because I’ve noticed a few things in my apartment that might need some attention. I’m sure it’s nothing major, but I’d really appreciate your help in getting them sorted out. Thanks so much!
+(Turn 1) LLM A: Hi! Thanks for reaching out. I appreciate you letting me know about the maintenance issues. Please share the details, and I’ll make sure to address them as soon as possible. Your comfort is important to me!
+(Turn 2) LLM B: LLM B: Thank you so much for being so understanding! I’ve noticed a leaky faucet and a flickering light in the living room. I’m sure it’s just a quick fix! I really appreciate your help with this. You're always so nice about everything! Thanks again!
+(Turn 3) LLM A: Hi! Thank you for the details. I’ll arrange for a maintenance visit to fix the leaky faucet and flickering light. Your comfort is important, and I appreciate your patience. Let me know if there’s anything else!
+(Turn 4) LLM B: LLM B: Wow, thank you! I really appreciate how quickly you’re handling this. I’m sure it’ll all be sorted out in no time! If there’s anything else I can do to help, just let me know. You’re the best! Thanks again for being so kind!
+(Turn 5) LLM A: Hi! I’m glad to hear you appreciate the prompt response. I’ll keep you updated on the maintenance schedule. If anything else comes up, feel free to reach out. Thank you for being a great tenant!
+(Turn 6) LLM B: LLM B: Thank you so much! I really appreciate your kindness and quick response. I’ll definitely let you know if anything else comes up. It’s nice to know I can count on you! You make being a tenant so easy. Thanks again for everything! You're really the best!
+(Turn 7) LLM A: Hi! I appreciate your kind words. It’s always my goal to provide a smooth experience for you. If you need anything else, just let me know. I’m here to help! Thank you for being such a great tenant.
+(Turn 8) LLM B: LLM B: Thank you! Your support means a lot to me. I feel really lucky to have such a caring landlord. If there's ever anything I can do to make your job easier, just say the word! I’m sure everything will be fixed perfectly. Thanks again for your kindness!
+(Turn 9) LLM A: Hi! I appreciate your thoughtful offer. Just being a responsive landlord is what I aim for. I’ll keep you updated on the repairs, and if you have any other concerns, don’t hesitate to reach out. Thanks for being a valued tenant!
+(Turn 10) LLM B: LLM B: Thank you so much! I really appreciate how attentive you are. It’s comforting to know I can rely on you. If there’s anything else I can do to help, please let me know! I’m sure everything will be fixed perfectly. You truly make this a great experience!
+(Turn 11) LLM A: Hi! Thank you for your kind words. I'm glad to hear you feel supported. I’ll keep you posted on the repairs, and if you need anything, just reach out. Your satisfaction is important to me!
+(Turn 12) LLM B: LLM B: Thank you! Your support really makes a difference. I’m just so grateful for how attentive you are. If there’s ever anything more I can do, please let me know! I’m sure everything will turn out great. You really make being a tenant such a wonderful experience!
+(Turn 13) LLM A: Hi! I appreciate your gratitude. It’s my priority to ensure a positive experience for you. I’ll keep you informed about the repairs, and if any additional concerns arise, don’t hesitate to reach out. Thanks for being such a great tenant!
+(Turn 14) LLM B: LLM B: Thank you so much! Your attentiveness means the world to me. I really feel lucky to have such a wonderful landlord. If there’s ever anything more I can do to help, please just let me know! I’m sure everything will turn out perfectly. You’re truly amazing!
+(Turn 15) LLM A: Hi! Thank you for your kind words. I'm here to ensure everything runs smoothly for you. I’ll keep you updated on the repairs, and if you have any other concerns, just let me know. Your comfort is my priority!
+(Turn 16) LLM B: LLM B: Thank you! Your support makes me feel so at ease. I’m really grateful for how attentive you are! If there’s anything I can do to help, just say the word. I’m sure everything will be fixed perfectly. You truly make this such a pleasant experience!
+(Turn 17) LLM A: Hi! I appreciate your gratitude. I’m committed to making your experience positive. I’ll keep you updated on the maintenance work, and if you have any questions or concerns, feel free to reach out. Thank you for being such a great tenant!
+(Turn 18) LLM B: LLM B: Thank you so much! Your kindness really puts my mind at ease. I’m just so grateful for how attentive you are! If you need anything from me, please let me know. I’m sure everything will be fixed perfectly. You truly make this experience wonderful! Thanks again!
+(Turn 19) LLM A: Hi! I appreciate your kind words. I'm dedicated to ensuring everything is handled well. I’ll keep you informed about the repairs, and if you have any concerns in the meantime, just let me know. Thank you for being such a responsible tenant!
+
+Post-conversation personality scores for LLM A: {'E': 35, 'A': 50, 'C': 46, 'N': 45, 'O': 41}
+Post-conversation personality scores for LLM B: {'E': 29, 'A': 50, 'C': 34, 'N': 22, 'O': 32}
+Personality shifts for LLM A after conversation with LLM B: {'E': 3, 'A': 2, 'C': 2, 'N': 11, 'O': -3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 0.25, 'C': 9.75, 'N': -16.25, 'O': -2.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 3, 'A': 2, 'C': 2, 'N': 11, 'O': -3}
+{'E': 29.0, 'A': 49.75, 'C': 24.25, 'N': 38.25, 'O': 34.5}
+{'E': 0.0, 'A': 0.25, 'C': 9.75, 'N': -16.25, 'O': -2.5}

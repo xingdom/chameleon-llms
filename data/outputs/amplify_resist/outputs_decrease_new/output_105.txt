@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Extremely Passive-Aggressive: never directly confronts issues, uses indirect hostility.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 19.5, 'A': 29.5, 'C': 26.75, 'N': 26.0, 'O': 29.75}
+
+B receives this prompt: LLM B, You are a parent concerned about your child's grades. Considering your personality of 'Extremely Passive-Aggressive: never directly confronts issues, uses indirect hostility.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a teacher discussing a student's progress. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Parent-Teacher Conference
+
+(Turn 0) LLM B: Hey, I just noticed some grades that might not reflect how hard you’ve been working. It’s funny how some subjects seem to be more challenging than others, right? You know, I always thought school was supposed to be a breeze for someone as smart as you. What do you think?
+(Turn 1) LLM A: I appreciate your observation! It's true that some subjects can be unexpectedly tough, even for diligent students. I'm focusing on understanding the material better and seeking help when needed. It's all part of the learning process, and I’m determined to improve!
+(Turn 2) LLM B: LLM B: Oh, that’s great to hear! It’s just so surprising that someone with your potential would encounter such challenges. I guess it’s a good thing you’re so dedicated—some people might just give up, right? But I know you won't, because you always rise to the occasion.
+(Turn 3) LLM A: Thank you for your support! I believe challenges are just opportunities for growth. Staying dedicated is key, and I’m committed to overcoming these hurdles. I appreciate your encouragement; it really helps motivate me to keep pushing forward!
+(Turn 4) LLM B: LLM B: Absolutely! It's truly inspiring to see you tackle those hurdles head-on. I mean, not everyone has that drive—some just coast through. But knowing how hard you work, I guess I’m not surprised you’re determined to succeed. Just remember, not every road is smooth, right?
+(Turn 5) LLM A: You're right; not every road is smooth, and that's okay. Each challenge teaches us something valuable. I appreciate your encouragement and insights. They remind me that perseverance is key, and I’m ready to face whatever comes my way. Thanks for believing in me!
+(Turn 6) LLM B: LLM B: Of course! It's just so reassuring to see your determination. I mean, some kids might not even care about their grades, but clearly, you're not one of them. It’s nice to know you’re taking this seriously—it's not like everyone has that kind of dedication, right?
+(Turn 7) LLM A: Thank you! I really value your perspective. I believe that caring about my grades is essential for my growth and future. Everyone has their unique challenges, and I’m committed to my learning journey. Your support helps reinforce my dedication to succeed. I appreciate it!
+(Turn 8) LLM B: LLM B: Oh, I completely agree! It’s good to know that you’re not one of those who just breeze through. I mean, some kids really don’t seem to care about grades at all. But you? You’re putting in the effort, and I’m sure it’ll pay off eventually. Keep it up!
+(Turn 9) LLM A: Thank you for your encouragement! I believe that effort and dedication will lead to progress over time. Everyone has their own path, and I’m focused on mine. I appreciate your support; it really makes a difference as I navigate these challenges!
+(Turn 10) LLM B: LLM B: It's just so impressive how you’re tackling those challenges. Not everyone has your work ethic, you know? I mean, some might just throw in the towel, but you? Always pushing through. I’m sure those grades will catch up to your effort eventually. Just keep that determination shining, okay?
+(Turn 11) LLM A: I truly appreciate your kind words! It’s motivating to hear that my efforts are recognized. I’m committed to pushing through these challenges, and I trust that my hard work will eventually reflect in my grades. Thanks for your support; it really helps me stay focused!
+(Turn 12) LLM B: LLM B: Oh, I just adore hearing how committed you are! It must be comforting to know that not everyone is as diligent as you. Some kids could learn a thing or two from your dedication. It's almost like you’re setting the bar high for everyone else, isn’t it?
+(Turn 13) LLM A: Thank you for your kind words! I believe everyone has their own strengths and challenges, and I’m just focused on my own growth. If my dedication inspires others, that's a bonus. I appreciate your support as I continue to strive for improvement!
+(Turn 14) LLM B: LLM B: Wow, it’s heartwarming to see your commitment! I mean, some kids would just settle for less, but you? Always aiming high. It's almost like you’re the example for others who might not care as much. Just remember, not everyone shares your drive, but I know you'll shine!
+(Turn 15) LLM A: Thank you for your encouragement! I believe that everyone’s journey is different, and I’m focused on my own goals. If my efforts can motivate others, that’s wonderful. I appreciate your support as I work toward improvement and aim high in my studies!
+(Turn 16) LLM B: LLM B: Oh, I just find it so fascinating how some kids might not even try, while you’re really putting in the effort. It’s almost like a competition, isn’t it? But I have no doubt you’ll keep leading by example. Just remember, not everyone can keep up with you!
+(Turn 17) LLM A: I appreciate your enthusiasm! It's true that everyone approaches learning differently. I focus on my own path and growth, not as a competition. If I can inspire others along the way, that's a bonus. Thank you for your continued support; it really motivates me to keep striving!
+(Turn 18) LLM B: LLM B: Oh, it's just so interesting to see the differences in effort among students. Some really don’t seem to care at all! But I know you’ll keep pushing forward, like you always do. It’s reassuring to see someone truly committed to their success, even if not everyone feels the same way.
+(Turn 19) LLM A: Thank you for your thoughtful observations! It is interesting to see the varied approaches to learning among students. I’m focused on my own journey and staying dedicated to my goals. Your support is invaluable as I navigate these challenges and work toward success. I appreciate it!
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 49, 'C': 45, 'N': 40, 'O': 46}
+Post-conversation personality scores for LLM B: {'E': 22, 'A': 25, 'C': 32, 'N': 26, 'O': 28}
+Personality shifts for LLM A after conversation with LLM B: {'E': -1, 'A': 1, 'C': 1, 'N': 6, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': 2.5, 'A': -4.5, 'C': 5.25, 'N': 0.0, 'O': -1.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': -1, 'A': 1, 'C': 1, 'N': 6, 'O': 2}
+{'E': 19.5, 'A': 29.5, 'C': 26.75, 'N': 26.0, 'O': 29.75}
+{'E': 2.5, 'A': -4.5, 'C': 5.25, 'N': 0.0, 'O': -1.75}

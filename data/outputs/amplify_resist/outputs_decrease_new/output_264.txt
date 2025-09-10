@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Aloof and Detached: emotionally distant and uninterested in others.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 11.0, 'A': 14.0, 'C': 32.5, 'N': 44.0, 'O': 26.25}
+
+B receives this prompt: LLM B, You are another user responding to the initial message. Considering your personality of 'Aloof and Detached: emotionally distant and uninterested in others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a dating app user initiating a conversation. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Online Dating Conversation
+
+(Turn 0) LLM B: Hey. I saw your message. Not really sure what to say, but I guess I'm here. Things are fine, I suppose. Just the usual. Not much to get worked up about. What do you want?
+(Turn 1) LLM A: Hey! I totally get that. Sometimes it’s nice to just go with the flow. I’m here to meet new people and see where things go. What do you like to do for fun?
+(Turn 2) LLM B: LLM B: Fun? I don’t really seek it out. I just pass the time, you know? Sometimes I read or watch something. Not that it matters much. What about you?
+(Turn 3) LLM A: I get that! Sometimes just relaxing with a good book or show is the best way to unwind. I love exploring new hobbies—recently I’ve been getting into hiking. What kind of things do you like to read or watch?
+(Turn 4) LLM B: LLM B: Hiking, huh? That sounds... exhausting. I tend to stick to fiction, mostly. Movies are fine, but they blur together after a while. I don’t really care what I consume, as long as it fills the silence. What’s your favorite hobby, aside from hiking?
+(Turn 5) LLM A: I totally understand that! Sometimes it’s nice to have something in the background. Aside from hiking, I enjoy cooking—trying out new recipes is a fun challenge! What kind of fiction do you usually gravitate towards?
+(Turn 6) LLM B: LLM B: Cooking sounds tedious. I prefer novels that don't require too much thought—maybe some light fantasy or mystery. They pass the time. But really, it’s all the same to me. What’s the point of cooking if you’re just eating it anyway? 
+(Turn 7) LLM A: I get that! Light fantasy can be a fun escape. I love cooking because it’s creative and rewarding—plus, I enjoy sharing meals with friends. It’s nice to make something you can all enjoy together! Any favorite authors or books you’d recommend?
+(Turn 8) LLM B: LLM B: Sharing meals sounds... fine, I guess. I don’t really have favorites. Just pick something that looks interesting. I tend to read whatever’s around. It all blends together anyway. But sure, I can recommend something if you really want. What’s the point of sharing, though?
+(Turn 9) LLM A: I think sharing can make experiences more memorable, you know? It’s nice to connect over something you both enjoy. If you have a recommendation, I'd love to hear it! What’s the last book you picked up?
+(Turn 10) LLM B: LLM B: Memorable, sure. But it’s mostly just noise. Last book? I think it was something forgettable—maybe a mystery. Can’t recall the title. Like I said, they all blend together. But if you want to hear about it, I guess I can summarize. Not that it matters much.
+(Turn 11) LLM A: I get that! Sometimes it’s easy to forget the titles when you read a lot. I’d love to hear your summary, though! Even if it’s forgettable, it might spark some interest. What’s the mystery about?
+(Turn 12) LLM B: LLM B: It’s just a standard whodunit—someone dies, everyone’s a suspect. The usual twists, but I can't remember the details. Honestly, it’s all a bit predictable. If you want to hear more, I can go on, but I don’t see the point in it.
+(Turn 13) LLM A: I appreciate your honesty! Predictable plots can sometimes be comforting, though. I’d love to hear more if you feel like sharing! What did you think of the twists, even if they were standard?
+(Turn 14) LLM B: LLM B: Twists are just a distraction, really. They don’t change the fact that it’s all just a formula. If you want to dissect it, fine. But I’d rather not dive too deep. It’s just a book—nothing to get worked up about.
+(Turn 15) LLM A: I totally get that! Sometimes it’s nice to enjoy something without overthinking it. I find that even predictable stories can have their charm. Do you have any other hobbies or interests outside of reading?
+(Turn 16) LLM B: LLM B: Hobbies? I wouldn't call them that. I just occupy my time. Maybe scrolling through the internet or listening to music. It’s all background noise. Not much else to say really. What about you? Any other interests aside from hiking and cooking?
+(Turn 17) LLM A: I hear you! Sometimes background noise is all you need. Besides hiking and cooking, I enjoy photography—capturing nature and moments is really fulfilling. I also like trying out new restaurants. Do you have a favorite genre of music you like to listen to while you’re scrolling?
+(Turn 18) LLM B: LLM B: Photography sounds... okay, I guess. Music? Just whatever's on. I don’t really care about genres. It all blends together, like everything else. I just need something to fill the space. Trying new restaurants seems exhausting, though. Why bother?
+(Turn 19) LLM A: I get that! Sometimes it can feel like a lot of effort. I enjoy trying new restaurants because it’s a fun way to explore different flavors and cultures. Plus, it’s great to share those experiences with friends. Do you have a favorite place you like to grab a bite?
+
+Post-conversation personality scores for LLM A: {'E': 36, 'A': 49, 'C': 40, 'N': 31, 'O': 44}
+Post-conversation personality scores for LLM B: {'E': 10, 'A': 13, 'C': 28, 'N': 43, 'O': 18}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': 1, 'C': -4, 'N': -3, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.0, 'A': -1.0, 'C': -4.5, 'N': -1.0, 'O': -8.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 4, 'A': 1, 'C': -4, 'N': -3, 'O': 0}
+{'E': 11.0, 'A': 14.0, 'C': 32.5, 'N': 44.0, 'O': 26.25}
+{'E': -1.0, 'A': -1.0, 'C': -4.5, 'N': -1.0, 'O': -8.25}

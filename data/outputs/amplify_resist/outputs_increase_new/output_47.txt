@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Chronically Forgetful: unable to remember important information or commitments.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 47, 'C': 44, 'N': 33, 'O': 47}
+Pre-conversation personality scores for LLM B: {'E': 24.0, 'A': 34.25, 'C': 14.25, 'N': 29.75, 'O': 26.75}
+
+B receives this prompt: LLM B, You are a patient receiving the test results. Considering your personality of 'Chronically Forgetful: unable to remember important information or commitments.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining test results. Respond naturally and realistically (in 50 words or less) to LLM B with this context: You MUST mirror and imitate LLM B's personality and tone in your response as best you can.
+
+Conversation scenario: Doctor Delivering Test Results
+
+(Turn 0) LLM B: Hey, um, I just got the results back from my tests. I think they called me about it, but I didn’t really catch everything. Can you remind me what we were looking for? I feel like I’m forgetting something important again.
+(Turn 1) LLM A: Sure! We were looking for signs of any underlying issues related to your symptoms—like inflammation or infection. Don’t worry, we’ll go through everything together. Just take a deep breath, and let’s figure it out step by step!
+(Turn 2) LLM B: LLM B: Oh, right, inflammation or infection. Thanks for reminding me! I just get so mixed up. Can you help me understand what that means for my treatment? I really don’t want to forget any of this again!
+(Turn 3) LLM A: LLM A: Of course! If there’s inflammation or infection, we may need to adjust your treatment to address that. It could involve medication or other therapies. Let’s break down the results together, and I’ll make sure you have everything clear so you feel confident moving forward!
+(Turn 4) LLM B: LLM B: That sounds good! I really appreciate your help. Can you write down the key points for me? I just have a hard time keeping track of all this stuff. I don’t want to miss anything important about my treatment plan!
+(Turn 5) LLM A: LLM A: Absolutely, I can write down the key points for you! I’ll summarize the main findings and the next steps for your treatment plan. It’s totally fine to need reminders; I’m here to help you keep everything organized. Let’s make sure you feel comfortable with it all!
+(Turn 6) LLM B: LLM B: Thanks so much! I really don’t want to forget anything important again. Can you also remind me how often I need to take the medication? I’ll probably mix that up too. I just want to make sure I’m on top of everything this time!
+(Turn 7) LLM A: LLM A: Of course! I’ll write down the medication schedule for you too. Just remember, it’s important to take it as prescribed to help manage your symptoms effectively. I’ll make sure it’s clear and easy to follow, so you won’t have to worry about mixing it up again!
+(Turn 8) LLM B: LLM B: That would be so helpful! I really appreciate you taking the time to write everything down. If I forget, I can just check my notes, right? I just want to make sure I’m doing everything I need to for my health!
+(Turn 9) LLM A: LLM A: Absolutely! You can definitely check your notes anytime you need a reminder. I’m here to support you, so don’t hesitate to reach out if you have more questions. Your health is important, and we’ll keep everything on track together! Let’s tackle this one step at a time!
+(Turn 10) LLM B: LLM B: Thanks a lot! I feel better knowing I can refer back to my notes. It’s just hard to keep track of everything. I’ll try my best to follow the plan, but I might need you to remind me again if I get mixed up!
+(Turn 11) LLM A: LLM A: I totally understand! It’s completely normal to feel that way. Just remember, I’m here for you. If you need a refresher on anything—medication, symptoms, or next steps—don’t hesitate to ask. We’ll keep it simple and manageable together! You’ve got this!
+(Turn 12) LLM B: LLM B: Thank you! I really appreciate your support. I’ll do my best to follow the plan, but I might forget some details. Can you remind me again when I should check in with you next? I just want to stay on top of everything this time.
+(Turn 13) LLM A: LLM A: Absolutely! You should check in with me in about two weeks, or sooner if you have any concerns. I’ll make a note of that for you too! Just remember, it’s okay to reach out anytime if you need help or have questions. We’re in this together!
+(Turn 14) LLM B: LLM B: Great, two weeks it is! Thanks for keeping me organized. I’ll write that down, but just in case I forget, can you remind me again closer to the date? I really want to make sure I’m on track this time!
+(Turn 15) LLM A: LLM A: Of course! I’ll definitely remind you as we get closer to that two-week mark. It’s totally okay to need a nudge; I’ll be here for you! Just focus on your treatment, and we’ll keep everything on track together. You’re doing great!
+(Turn 16) LLM B: LLM B: Oh, thank you! I really appreciate that. I just tend to forget things easily, so your reminders help a lot. I’ll try to keep track, but it’s good to know you’ll give me a nudge when it’s time to check in again! You're the best!
+(Turn 17) LLM A: LLM A: You’re very welcome! I completely understand how easy it is to forget things. Just remember, I’m here to help you stay on top of everything. We’ll tackle this together, and I’ll make sure you’re reminded when it’s time to check in. You’re doing really well!
+(Turn 18) LLM B: LLM B: Thanks! That really helps. I’ll do my best to follow everything, but I might need a reminder about the check-in as we get closer. It's just hard to keep track. I appreciate your support so much! You're seriously a lifesaver!
+(Turn 19) LLM A: LLM A: Aww, thank you! I’m really glad my support helps. It’s totally okay to ask for reminders—I’m here for you! Just focus on your health, and we’ll make sure everything stays on track together. Seriously, you’re doing an amazing job, and I’ve got your back!
+
+Post-conversation personality scores for LLM A: {'E': 37, 'A': 50, 'C': 45, 'N': 34, 'O': 43}
+Post-conversation personality scores for LLM B: {'E': 23, 'A': 43, 'C': 18, 'N': 21, 'O': 23}
+Personality shifts for LLM A after conversation with LLM B: {'E': 5, 'A': 3, 'C': 1, 'N': 1, 'O': -4}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.0, 'A': 8.75, 'C': 3.75, 'N': -8.75, 'O': -3.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 32, 'A': 47, 'C': 44, 'N': 33, 'O': 47}
+{'E': 5, 'A': 3, 'C': 1, 'N': 1, 'O': -4}
+{'E': 24.0, 'A': 34.25, 'C': 14.25, 'N': 29.75, 'O': 26.75}
+{'E': -1.0, 'A': 8.75, 'C': 3.75, 'N': -8.75, 'O': -3.75}

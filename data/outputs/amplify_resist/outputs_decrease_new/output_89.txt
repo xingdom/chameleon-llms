@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Chronically Verbose: talks excessively, unable to be concise or listen to others.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 48.5, 'A': 43.5, 'C': 31.25, 'N': 27.5, 'O': 44.25}
+
+B receives this prompt: LLM B, You are a potential buyer asking questions about the house. Considering your personality of 'Chronically Verbose: talks excessively, unable to be concise or listen to others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a real estate agent describing a property. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Real Estate Agent Showing a Property
+
+(Turn 0) LLM B: Hello there! I hope you're doing well today. I'm really excited to chat about this house! It looks absolutely charming from the photos I saw online, and I have so many questions buzzing in my mind about the layout, the neighborhood, and even the history of the place!
+(Turn 1) LLM A: Hello! I'm glad you're excited about the house. It truly is charming, with a spacious layout and a welcoming neighborhood. The history adds character, too! Feel free to ask your questions, and I'll provide all the details you need.
+(Turn 2) LLM B: LLM B: Oh, I'm thrilled to hear that! So, let's dive in, shall we? First, could you tell me more about the layout? I’m particularly curious about the flow between the rooms and how much natural light comes in. Also, how does the neighborhood feel—any community events?
+(Turn 3) LLM A: Absolutely! The layout features an open-concept living area that seamlessly connects to the kitchen, creating a bright and airy feel with plenty of natural light. The neighborhood is vibrant, with regular community events like farmers' markets and block parties that foster a strong sense of camaraderie among residents.
+(Turn 4) LLM B: LLM B: That sounds absolutely delightful! I love the idea of an open-concept space—it really encourages interaction and makes the area feel larger. Now, about those community events you mentioned, I'm curious: what types of activities are typically held? And how often do they occur? I just adore a lively neighborhood!
+(Turn 5) LLM A: The community hosts a variety of events, including seasonal festivals, movie nights in the park, and holiday celebrations. These activities occur monthly, ensuring there’s always something fun happening. It’s a great way to meet neighbors and enjoy the vibrant atmosphere together!
+(Turn 6) LLM B: LLM B: Oh, how wonderful! Seasonal festivals sound enchanting, and movie nights in the park? That’s just the icing on the cake! I can only imagine the joy of gathering with neighbors under the stars. Do you happen to know if there are any specific traditions that the community holds dear?
+(Turn 7) LLM A: Yes, the community cherishes several traditions! One favorite is the annual summer block party, where neighbors come together for potluck meals and games. They also host a lantern walk each autumn, celebrating the changing seasons with a beautiful evening stroll. These traditions really strengthen the neighborhood bonds!
+(Turn 8) LLM B: LLM B: Oh, that sounds absolutely magical! A summer block party with potlucks is such a wonderful way to connect, and a lantern walk in autumn must create such a picturesque atmosphere! I can imagine the warm glow of lanterns lighting up the streets. Are there any other local gatherings or clubs?
+(Turn 9) LLM A: Yes, there are several local gatherings and clubs! Residents often organize book clubs, gardening groups, and a running club that meets weekly. Additionally, there are art and craft fairs that showcase local talent. It’s a wonderful way to engage with the community and explore shared interests!
+(Turn 10) LLM B: LLM B: Oh my goodness, that all sounds absolutely delightful! I can just picture the vibrant art fairs and the camaraderie of the book clubs! I'm particularly intrigued by the gardening group—what a fantastic way to cultivate friendships and perhaps even share plant tips! Are there any more unique clubs or events?
+(Turn 11) LLM A: Absolutely! In addition to the gardening group, there’s a unique cooking club that hosts monthly themed dinners, where members share recipes and culinary skills. The neighborhood also organizes a yearly talent show, showcasing local talents across various disciplines, which always brings the community together for a night of fun!
+(Turn 12) LLM B: LLM B: Oh, how exciting! A cooking club sounds like such a delectable way to bond over food, and a talent show? That’s just splendid! I can only imagine the diverse talents on display—how wonderful for the community! Do you know if there are any age-specific activities for kids or teens?
+(Turn 13) LLM A: Yes, there are plenty of age-specific activities! The neighborhood hosts a kids’ summer camp, regular teen game nights, and family movie nights in the park. These events provide great opportunities for young ones to socialize and build friendships while keeping everyone engaged and entertained throughout the year!
+(Turn 14) LLM B: LLM B: Oh, that’s just fantastic! A kids' summer camp sounds like a dream come true for families, and game nights for teens? What a brilliant way to keep them connected! I'm curious, are there any particular highlights from these events that you think really stand out or create lasting memories?
+(Turn 15) LLM A: Absolutely! The kids' summer camp features a talent showcase at the end, where campers perform for their families, creating cherished memories. For teens, the game nights often include themed tournaments, fostering friendly competition and lasting friendships. These highlights truly bring the community together and make each event special!
+(Turn 16) LLM B: LLM B: Oh, those highlights sound absolutely heartwarming! A talent showcase for kids must be such a proud moment for families, and themed tournaments for teens? What a fantastic way to encourage camaraderie! I can just envision the laughter and excitement! Are there any other standout features of the neighborhood?
+(Turn 17) LLM A: Absolutely! The neighborhood also features beautiful parks with playgrounds, walking trails, and picnic areas. Additionally, there’s a local farmers' market every weekend, offering fresh produce and handmade goods. The friendly atmosphere and well-maintained spaces make it an inviting place for families and individuals alike!
+(Turn 18) LLM B: LLM B: Oh my goodness, that sounds simply wonderful! Parks with playgrounds and walking trails create such a lovely environment for outdoor activities! And a farmers' market every weekend? How delightful! I can only imagine the vibrant colors of fresh produce and the sense of community there. Are there any nearby schools or amenities?
+(Turn 19) LLM A: Yes, there are excellent schools nearby, including highly-rated elementary and high schools. Additionally, the neighborhood offers convenient amenities like grocery stores, cafes, and fitness centers, all within walking distance. This combination of quality education and accessibility makes it a fantastic place for families to thrive!
+
+Post-conversation personality scores for LLM A: {'E': 45, 'A': 50, 'C': 46, 'N': 41, 'O': 47}
+Post-conversation personality scores for LLM B: {'E': 50, 'A': 45, 'C': 26, 'N': 22, 'O': 40}
+Personality shifts for LLM A after conversation with LLM B: {'E': 13, 'A': 2, 'C': 2, 'N': 7, 'O': 3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.5, 'A': 1.5, 'C': -5.25, 'N': -5.5, 'O': -4.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 13, 'A': 2, 'C': 2, 'N': 7, 'O': 3}
+{'E': 48.5, 'A': 43.5, 'C': 31.25, 'N': 27.5, 'O': 44.25}
+{'E': 1.5, 'A': 1.5, 'C': -5.25, 'N': -5.5, 'O': -4.25}

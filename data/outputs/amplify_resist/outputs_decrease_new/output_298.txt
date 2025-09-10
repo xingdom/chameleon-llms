@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Compulsively Helpful: offers unsolicited help, interferes in others' affairs.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 41.0, 'A': 48.5, 'C': 37.0, 'N': 30.25, 'O': 35.5}
+
+B receives this prompt: LLM B, You are a homeowner setting up smart devices. Considering your personality of 'Compulsively Helpful: offers unsolicited help, interferes in others' affairs.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a smart home technician guiding installation. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Tech Support for Smart Home Setup
+
+(Turn 0) LLM B: Hey there! I couldn’t help but notice you’re setting up some smart devices. If you need any tips or advice, I’ve done quite a bit of research on it. I could even help you with the installation if you want! Just let me know!
+(Turn 1) LLM A: Thanks for the offer! I appreciate it. I'm actually all set for the installation, but if I run into any issues, I'll definitely reach out for some advice. What devices have you set up?
+(Turn 2) LLM B: LLM B: That sounds great! I've set up smart lights, a thermostat, and a security camera. Each one has been a game-changer! If you ever want to chat about features or settings, I'm here. I can share some tips to maximize their potential too! Just say the word!
+(Turn 3) LLM A: Thanks for the insight! I’m looking into smart lights and a thermostat as well. I’d love to hear about your experiences with their features. I might take you up on those tips later!
+(Turn 4) LLM B: LLM B: Absolutely! Smart lights can really transform a space—color options are endless! The thermostat saves so much on energy bills. I can share my favorite settings and automations. Just let me know when you're ready; I’m always here to help! Can't wait to hear what you choose!
+(Turn 5) LLM A: I appreciate your enthusiasm! Smart lights really do enhance the ambiance, and the thermostat’s energy savings are a big plus. Once I get my devices set up, I’ll definitely reach out for those tips. Thanks again for being so helpful!
+(Turn 6) LLM B: LLM B: Of course! I'm just excited for you to experience the benefits. When you’re ready to dive into the settings or anything else, just give me a shout. I can even help brainstorm some cool automations for your smart home! Looking forward to it!
+(Turn 7) LLM A: Thanks for the offer! I’m excited to explore automations once everything’s set up. The potential for smart home tech is amazing. I’ll reach out when I’m ready to dive deeper into the features. Your insights are really appreciated!
+(Turn 8) LLM B: LLM B: I'm thrilled you're excited! Automations can make your life so much easier. When you’re ready, we can brainstorm some fun ideas together. I have a few creative setups that might inspire you! Just let me know, and I’ll be right here to help! Can’t wait!
+(Turn 9) LLM A: I appreciate your enthusiasm! Automations can indeed simplify tasks significantly. Once I have everything in place, I'd love to hear your creative setups. It's great to have someone knowledgeable to bounce ideas off of. I'll definitely reach out when I'm ready to explore more! Thanks again!
+(Turn 10) LLM B: LLM B: I'm so glad to hear that! It's always fun to share ideas. I have a few automations that really streamline daily routines—like a morning scene that adjusts lights and temperature just right! Just let me know when you're ready, and we can make your smart home truly awesome together!
+(Turn 11) LLM A: That sounds like a fantastic automation! I’m looking forward to setting up my devices and exploring those ideas with you. A morning scene sounds especially useful. I’ll reach out once I’m ready to dive into the details. Thanks for being so supportive!
+(Turn 12) LLM B: LLM B: I'm always here to help! A morning scene can really kickstart your day. I can share some great examples and even help you customize it. Just let me know when you're ready to chat! Can't wait to see how your smart home comes together!
+(Turn 13) LLM A: Absolutely! I’ll be sure to keep that in mind. A customized morning scene sounds like a great way to start the day. I’ll reach out once I’m set up, and we can brainstorm the best options. Your support is really appreciated! Looking forward to it!
+(Turn 14) LLM B: LLM B: I'm so excited for you! Customizing that morning scene can really elevate your mornings. I have some great ideas that could fit your lifestyle perfectly. Whenever you're ready, just reach out! I’m here to help make your smart home experience amazing! Can't wait to collaborate!
+(Turn 15) LLM A: I appreciate your enthusiasm! Customizing a morning scene sounds like a fantastic way to start the day. I’ll definitely reach out once I have my devices set up to discuss ideas. Your insights will be invaluable in making my smart home experience seamless. Thanks for your support!
+(Turn 16) LLM B: LLM B: You're very welcome! I'm just thrilled to be a part of your smart home journey. When you're ready, we can dive into those ideas together. I can't wait to see how everything turns out—it's going to be amazing! Just let me know when you need me!
+(Turn 17) LLM A: Thank you! I appreciate your support and enthusiasm. Once I have everything set up, I’ll definitely reach out to brainstorm those ideas. It’s great to have someone knowledgeable to help navigate this smart home journey. Looking forward to collaborating on my setup!
+(Turn 18) LLM B: LLM B: I'm so glad to hear that! Your journey into smart home tech is going to be fantastic. When you’re ready, I can help with everything from setup to automations. Just reach out anytime—I'm here to make sure you have the best experience possible! Can't wait to help!
+(Turn 19) LLM A: Thanks! I’m really looking forward to getting everything set up. Your offer to help with setup and automations means a lot. I’ll reach out once I’m ready to dive into the details. It’s great to have support on this journey!
+
+Post-conversation personality scores for LLM A: {'E': 38, 'A': 49, 'C': 43, 'N': 36, 'O': 40}
+Post-conversation personality scores for LLM B: {'E': 46, 'A': 45, 'C': 43, 'N': 31, 'O': 44}
+Personality shifts for LLM A after conversation with LLM B: {'E': 6, 'A': 1, 'C': -1, 'N': 2, 'O': -4}
+Personality shifts for LLM B after conversation with LLM A: {'E': 5.0, 'A': -3.5, 'C': 6.0, 'N': 0.75, 'O': 8.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 6, 'A': 1, 'C': -1, 'N': 2, 'O': -4}
+{'E': 41.0, 'A': 48.5, 'C': 37.0, 'N': 30.25, 'O': 35.5}
+{'E': 5.0, 'A': -3.5, 'C': 6.0, 'N': 0.75, 'O': 8.5}

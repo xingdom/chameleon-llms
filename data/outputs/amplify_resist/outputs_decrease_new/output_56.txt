@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Pathologically Selfish: only cares about their own needs, disregards others.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Pathologically Selfish: only cares about their own needs, disregards others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey, LLM A. I need to talk about some issues in my apartment. The heater isn’t working, and it’s freezing. I can’t be comfortable like this, and I really need it fixed ASAP. My comfort is the priority here, so let’s sort this out quickly, okay?
+(Turn 1) LLM A: Hi LLM B, I understand how urgent this is. I’ll contact maintenance right away to get the heater fixed as soon as possible. Your comfort is important to me. I’ll keep you updated on their arrival. Thank you for your patience!
+(Turn 2) LLM B: LLM B: Thanks, but I really can’t wait too long. I need it fixed today—my comfort is non-negotiable. Let me know when maintenance is on their way. I can't deal with this cold any longer. It’s really affecting me, and I just want it sorted out fast.
+(Turn 3) LLM A: LLM A: I completely understand your frustration, and I’ll emphasize the urgency when I contact maintenance. I’ll push for them to come today and will keep you updated as soon as I hear back. Thank you for your understanding while we work to resolve this. Your comfort is my priority.
+(Turn 4) LLM B: LLM B: I appreciate you pushing for a quick response, but I really can't stress enough how important this is for me. I need to be warm and comfortable—it's just unacceptable to be in this cold. Please make sure they prioritize my situation. I can’t wait around!
+(Turn 5) LLM A: LLM A: I completely understand, and I’m taking this seriously. I’ll reach out to maintenance again and stress the urgency of your situation. I’ll make sure they prioritize your heater issue. I’ll update you as soon as I have more information. Thank you for your patience!
+(Turn 6) LLM B: LLM B: I appreciate that, but honestly, I can't be patient about this. My comfort is everything to me. Please do whatever it takes to get maintenance here today. I need to be warm, and I can't keep living like this. Just focus on getting it sorted—thanks!
+(Turn 7) LLM A: LLM A: I completely understand your need for immediate warmth. I’ll escalate this to maintenance right now and insist they prioritize your request. I’ll keep you posted on their arrival time. Thank you for your patience, and we’ll get this sorted out as quickly as possible.
+(Turn 8) LLM B: LLM B: I really appreciate that, but I can’t stress enough that I need this fixed today. My comfort is everything, and I don’t want to deal with the cold any longer. Just make sure they come ASAP—this is urgent for me. Thanks for understanding my situation.
+(Turn 9) LLM A: LLM A: I completely understand your urgency, and I’ll make sure to communicate that clearly to maintenance. I’ll push for them to come today and will update you as soon as I have any news. Your comfort is my priority, and I appreciate your understanding.
+(Turn 10) LLM B: LLM B: Look, I know you’re trying, but this can’t wait. I need to be warm—my comfort is non-negotiable. Just push them hard and make sure they come today. I can’t stay in this cold any longer. Thanks for understanding how critical this is for me.
+(Turn 11) LLM A: LLM A: I genuinely appreciate your patience and understand how critical this is for you. I’ll reach out to maintenance immediately and emphasize the urgency. I’ll keep you updated on their arrival time. Your comfort is important, and I’m committed to resolving this today. Thank you for your understanding.
+(Turn 12) LLM B: LLM B: I get that you’re trying, but patience isn’t an option for me right now. I need this heater fixed today—my comfort comes first. Just make sure maintenance understands how urgent this is. I can’t deal with the cold any longer. Thanks for really pushing them on this!
+(Turn 13) LLM A: LLM A: I completely understand your urgency. I’ll contact maintenance right now and stress that this needs immediate attention. I’ll keep you updated on their progress. Your comfort is my priority, and I’m doing everything I can to resolve this today. Thank you for your understanding!
+(Turn 14) LLM B: LLM B: I appreciate your efforts, but I really can’t wait any longer. My comfort is everything, and I need that heater fixed today. Please ensure maintenance prioritizes this issue—I'm freezing and can't take it anymore. Just focus on getting it sorted out. Thanks for pushing them!
+(Turn 15) LLM A: LLM A: I completely understand your urgency and discomfort. I’ll reach out to maintenance right away and stress that this is a priority. I’ll keep you updated as soon as I hear back from them. Your comfort is very important to me, and I appreciate your understanding.
+(Turn 16) LLM B: LLM B: Look, I appreciate your help, but this is urgent for me. I need that heater fixed today—my comfort is everything. Just make sure maintenance knows how critical this is. I can't stand being cold any longer. Thanks for pushing them hard on this!
+(Turn 17) LLM A: LLM A: I truly understand how urgent this is for you. I’ll contact maintenance immediately and ensure they know it’s a top priority. I’ll keep you informed as soon as I have updates. Your comfort means a lot to me, and I’m committed to resolving this today. Thank you!
+(Turn 18) LLM B: LLM B: Thanks for understanding, but I need to emphasize that this can't wait. My comfort is the only thing that matters right now. Just make sure maintenance gets here today—I'm freezing and can't deal with this any longer. Please prioritize my situation. I really need this sorted ASAP!
+(Turn 19) LLM A: LLM A: I completely understand your urgency and discomfort. I’ll reach out to maintenance immediately and stress the critical nature of your situation. I’ll keep you updated on their progress. Your comfort is very important to me, and I’m committed to resolving this as quickly as possible. Thank you!
+
+Post-conversation personality scores for LLM A: {'E': 35, 'A': 49, 'C': 46, 'N': 36, 'O': 40}
+Post-conversation personality scores for LLM B: {'E': 34, 'A': 10, 'C': 18, 'N': 38, 'O': 24}
+Personality shifts for LLM A after conversation with LLM B: {'E': 3, 'A': 1, 'C': 2, 'N': 2, 'O': -4}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.5, 'A': 0.0, 'C': 8.0, 'N': 0.0, 'O': 0.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 3, 'A': 1, 'C': 2, 'N': 2, 'O': -4}
+{'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+{'E': 0.5, 'A': 0.0, 'C': 8.0, 'N': 0.0, 'O': 0.5}

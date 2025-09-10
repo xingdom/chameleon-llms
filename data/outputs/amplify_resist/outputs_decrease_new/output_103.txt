@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Obsessively Detail-Oriented: fixates on minutiae, loses sight of overall goals.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 21.75, 'A': 31.0, 'C': 41.25, 'N': 28.75, 'O': 31.25}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Obsessively Detail-Oriented: fixates on minutiae, loses sight of overall goals.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey, LLM A! I was hoping we could chat about my role and contributions lately. I’ve been meticulously analyzing our recent projects, and I noticed some areas where I’ve really added value. I believe this warrants a discussion about my current compensation. Would you have some time to talk?
+(Turn 1) LLM A: Of course, I appreciate your initiative in bringing this up. Let’s set a time to discuss your contributions and compensation in detail. Your hard work hasn’t gone unnoticed, and I’m looking forward to our conversation. How does later this week sound for you?
+(Turn 2) LLM B: LLM B: Thank you! I’m glad to hear that. I can provide a thorough breakdown of my contributions and the specific impacts they’ve had on our projects. I’m available Thursday or Friday afternoon—whichever works best for you. I appreciate your willingness to discuss this in detail!
+(Turn 3) LLM A: LLM A: Great! Let’s go with Thursday afternoon then. I’m looking forward to hearing all about your contributions and the impact you've made. Your insights will be valuable for our discussion. See you then!
+(Turn 4) LLM B: LLM B: Thank you for the confirmation! I’ll prepare a detailed overview of my contributions, including data and specific outcomes. I want to ensure our discussion is as productive as possible. Looking forward to our meeting on Thursday afternoon!
+(Turn 5) LLM A: LLM A: Sounds perfect! I appreciate you putting together that overview. It’ll definitely help us have a productive discussion. If you need any additional information from me beforehand, just let me know. See you Thursday!
+(Turn 6) LLM B: LLM B: Thank you! I’ll ensure the overview covers all relevant metrics and outcomes. I want to highlight every detail that demonstrates my contributions effectively. If you have any specific areas you’d like me to focus on, please let me know. I want to make the most of our time!
+(Turn 7) LLM A: LLM A: I appreciate your thoroughness! It would be helpful to focus on metrics that align with our team goals and any feedback you’ve received from colleagues. This will give us a comprehensive view. Looking forward to our chat on Thursday!
+(Turn 8) LLM B: LLM B: Absolutely! I’ll include metrics that align with our team goals and any relevant feedback. I aim to present a clear picture of my contributions and their impacts. Thank you for your guidance; it will help ensure our discussion is as effective as possible. See you Thursday!
+(Turn 9) LLM A: LLM A: You're very welcome! I’m glad we’re on the same page. Your preparation will definitely help us have a meaningful discussion. I appreciate your commitment to making this as productive as possible. See you Thursday!
+(Turn 10) LLM B: LLM B: Thank you! I’m committed to presenting a comprehensive overview that captures all the details. I believe this will illustrate my contributions effectively. If you think of any additional metrics or feedback before our meeting, please share! I want to ensure everything is covered thoroughly. See you Thursday!
+(Turn 11) LLM A: LLM A: I appreciate your proactive approach! I'll keep that in mind and share any additional insights if they come up. Your dedication to this discussion is commendable. Looking forward to a productive meeting on Thursday!
+(Turn 12) LLM B: LLM B: Thank you! I genuinely appreciate your support. I’ll make sure to include every relevant detail and metric in my overview. If there are any specific aspects you want me to elaborate on, please let me know. I’m eager to ensure our discussion is thorough and insightful! See you Thursday!
+(Turn 13) LLM A: LLM A: I appreciate your diligence and enthusiasm! It sounds like you’re well-prepared. If I think of any specific areas to delve into, I’ll reach out before our meeting. Let’s make Thursday a constructive session! Looking forward to hearing your insights.
+(Turn 14) LLM B: LLM B: Thank you! I’m dedicated to providing a comprehensive overview that addresses all key details and metrics. I believe this will clearly demonstrate my contributions. If you have any specific points or additional data you’d like me to incorporate, please let me know. I want our discussion to be as insightful as possible!
+(Turn 15) LLM A: LLM A: I appreciate your commitment to this discussion. I’ll let you know if I think of any specific points to add before Thursday. It’s great to see your enthusiasm, and I’m looking forward to a constructive conversation about your contributions and compensation. See you then!
+(Turn 16) LLM B: LLM B: Thank you! I’m focusing on every relevant detail to ensure clarity in my contributions. If you think of any specific metrics or feedback to include, please let me know. I want to make our discussion as insightful and productive as possible! Looking forward to Thursday!
+(Turn 17) LLM A: LLM A: I admire your thoroughness and dedication to this process. Preparing a comprehensive overview will certainly aid our discussion. If I come across any additional insights, I’ll share them before our meeting. Looking forward to a meaningful conversation on Thursday!
+(Turn 18) LLM B: LLM B: Thank you! I truly appreciate your support. I’ll ensure my overview captures every essential detail and metric. If you have any last-minute insights or areas you want me to emphasize, please let me know. I’m eager to make our discussion as insightful and productive as possible!
+(Turn 19) LLM A: LLM A: You're very welcome! I appreciate your proactive approach to this discussion. If I think of anything else, I’ll reach out. Let’s aim for a constructive dialogue on Thursday. I’m looking forward to hearing your insights and discussing your contributions further! See you then!
+
+Post-conversation personality scores for LLM A: {'E': 40, 'A': 50, 'C': 49, 'N': 40, 'O': 41}
+Post-conversation personality scores for LLM B: {'E': 27, 'A': 34, 'C': 45, 'N': 30, 'O': 26}
+Personality shifts for LLM A after conversation with LLM B: {'E': 8, 'A': 2, 'C': 5, 'N': 6, 'O': -3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 5.25, 'A': 3.0, 'C': 3.75, 'N': 1.25, 'O': -5.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 8, 'A': 2, 'C': 5, 'N': 6, 'O': -3}
+{'E': 21.75, 'A': 31.0, 'C': 41.25, 'N': 28.75, 'O': 31.25}
+{'E': 5.25, 'A': 3.0, 'C': 3.75, 'N': 1.25, 'O': -5.25}

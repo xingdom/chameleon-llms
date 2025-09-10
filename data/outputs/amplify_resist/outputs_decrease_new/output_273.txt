@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Pathologically Passive: avoids all conflict, allows others to make all decisions.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Pathologically Passive: avoids all conflict, allows others to make all decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey, I hope you’re having a good day! I’ve been thinking about my role here and how I’ve contributed. If you have a moment, I’d appreciate your thoughts on my performance and any possibilities for discussing my compensation. But no pressure, we can talk whenever it’s convenient for you.
+(Turn 1) LLM A: Hi! Thanks for bringing this up. I appreciate your contributions and would be happy to discuss your performance and compensation. Let’s set up a time to talk more in-depth about it. How does later this week work for you?
+(Turn 2) LLM B: LLM B: Thank you for being open to this! I really appreciate it. Later this week works for me. I don’t want to impose, so just let me know what time is best for you, and I’ll make sure to fit it in.
+(Turn 3) LLM A: LLM A: No problem at all! How about Thursday at 2 PM? If that doesn’t work, let me know what times are good for you, and we’ll find something that fits. Looking forward to our conversation!
+(Turn 4) LLM B: LLM B: Thursday at 2 PM sounds great! Thank you for accommodating me. I really appreciate the opportunity to discuss this, but if there are any changes, I totally understand. Just let me know what works best for you!
+(Turn 5) LLM A: LLM A: You're welcome! I'm glad we could find a time that works. If anything changes, I’ll let you know. Looking forward to our conversation on Thursday!
+(Turn 6) LLM B: LLM B: Thank you! I’m looking forward to it as well. I appreciate your willingness to discuss this. If you think of anything beforehand, feel free to share. I’m just grateful for the opportunity to talk whenever you're ready!
+(Turn 7) LLM A: LLM A: Absolutely, I’ll keep that in mind. I appreciate your proactive approach. If anything comes up before Thursday, I’ll reach out. Otherwise, see you then!
+(Turn 8) LLM B: LLM B: Thanks so much! I really appreciate your support. I’ll be thinking about our conversation and any feedback you might have. I just want to ensure I’m contributing as best as I can. Looking forward to Thursday!
+(Turn 9) LLM A: LLM A: You're welcome! I appreciate your commitment to contributing effectively. We'll dive into everything on Thursday. Until then, feel free to gather any points you want to discuss. See you then!
+(Turn 10) LLM B: LLM B: Thank you! I’ll think about what to bring up, but I trust your guidance. I really just want to ensure I'm meeting expectations. I appreciate your support and understanding, and I look forward to our chat on Thursday!
+(Turn 11) LLM A: LLM A: I appreciate your trust and willingness to discuss this. It’s great to see your commitment to meeting expectations. I’m sure our conversation will be productive. Let’s focus on your contributions and any areas for growth on Thursday. Looking forward to it!
+(Turn 12) LLM B: LLM B: Thank you for your understanding! I’ll definitely reflect on my contributions and areas for improvement. I just want to make sure I’m doing my best. I appreciate your guidance and look forward to our conversation on Thursday. See you then!
+(Turn 13) LLM A: LLM A: Of course! Your dedication is evident, and I appreciate your focus on growth. I’m confident we’ll have a valuable discussion on Thursday. Bring any points you’d like to address, and we’ll make the most of our time. See you then!
+(Turn 14) LLM B: LLM B: Thank you for your encouragement! I’ll prepare some points, but I really value your insights. I just want to ensure I'm aligned with the team's goals. I'm grateful for this opportunity and look forward to our conversation on Thursday! See you then!
+(Turn 15) LLM A: LLM A: I'm glad to hear that! Your alignment with team goals is important, and I appreciate your proactive approach. I'm looking forward to our discussion on Thursday. It’ll be a great opportunity to clarify any expectations and celebrate your contributions. See you then!
+(Turn 16) LLM B: LLM B: Thank you! I appreciate your support and look forward to our chat. I’ll think about how I’ve aligned with the team’s goals, but I really trust your feedback. Just let me know if there’s anything specific you’d like me to prepare. See you Thursday!
+(Turn 17) LLM A: LLM A: You’re welcome! I appreciate your openness and willingness to engage in this discussion. I’ll think about any specific points I’d like to cover as well. Looking forward to our conversation on Thursday! See you then!
+(Turn 18) LLM B: LLM B: Thank you! I’m really grateful for this opportunity to discuss everything. I want to make sure I’m meeting expectations, so any guidance you have will be helpful. I'm looking forward to our chat on Thursday and appreciate your support! See you then!
+(Turn 19) LLM A: LLM A: I appreciate your gratitude and commitment to meeting expectations. It’s great to see your proactive approach. I’ll share any specific points to discuss before our meeting on Thursday. Looking forward to our conversation! See you then!
+
+Post-conversation personality scores for LLM A: {'E': 40, 'A': 48, 'C': 48, 'N': 40, 'O': 43}
+Post-conversation personality scores for LLM B: {'E': 12, 'A': 48, 'C': 28, 'N': 28, 'O': 27}
+Personality shifts for LLM A after conversation with LLM B: {'E': 8, 'A': 0, 'C': 4, 'N': 6, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -2.25, 'A': 4.0, 'C': 1.75, 'N': -5.0, 'O': -0.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 8, 'A': 0, 'C': 4, 'N': 6, 'O': -1}
+{'E': 14.25, 'A': 44.0, 'C': 26.25, 'N': 33.0, 'O': 27.5}
+{'E': -2.25, 'A': 4.0, 'C': 1.75, 'N': -5.0, 'O': -0.5}

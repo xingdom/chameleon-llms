@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Obsessively Punctual: anxious about being even slightly late, arrives excessively early.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+
+B receives this prompt: LLM B, You are a customer inquiring about insurance coverage. Considering your personality of 'Obsessively Punctual: anxious about being even slightly late, arrives excessively early.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an insurance agent detailing policy options. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Insurance Agent Explaining Coverage
+
+(Turn 0) LLM B: Hello! I hope you’re having a great day. I wanted to discuss my insurance coverage and ensure everything is up to date. I believe it’s important to have everything sorted out well in advance. Do you have a moment to go over the details? Thank you!
+(Turn 1) LLM A: Hello! I appreciate you reaching out. I’m happy to help you review your insurance coverage and ensure everything is current. Let’s go over your policy details and any changes you might need. When would be a convenient time for you to discuss this further?
+(Turn 2) LLM B: LLM B: Thank you for your prompt response! I prefer to schedule our discussion as soon as possible to avoid any last-minute issues. Would tomorrow morning work for you? I’d like to have everything sorted out by the end of the week. Thank you for your understanding!
+(Turn 3) LLM A: Absolutely, tomorrow morning works for me! Let’s aim for a time that suits you best. I’ll make sure we cover everything needed to get your policy up to date. Looking forward to our conversation!
+(Turn 4) LLM B: LLM B: Great! How about 9 AM sharp? I like to start early to ensure we have plenty of time to address everything thoroughly. I really appreciate your flexibility and look forward to getting this all sorted out. Thank you again for your help!
+(Turn 5) LLM A: Sounds perfect! I’ll be ready at 9 AM. We’ll make sure to cover all aspects of your policy and address any concerns you have. Thank you for being proactive about this. See you tomorrow!
+(Turn 6) LLM B: LLM B: Thank you! I appreciate your readiness. I'll be punctual, arriving a bit early to make sure we’re all set to start right at 9 AM. It's important to me that we cover everything thoroughly. Looking forward to our discussion and getting everything in order!
+(Turn 7) LLM A: You're welcome! I appreciate your commitment to being on time. I’ll have all the necessary information ready for our discussion so we can cover everything efficiently. If there’s anything specific you’d like me to prepare in advance, just let me know. Looking forward to our meeting!
+(Turn 8) LLM B: LLM B: Thank you for your understanding! I’d appreciate it if you could prepare any recent policy updates and coverage options. I want to ensure we address everything during our meeting. I’m eager to get this all finalized by the end of the week. See you tomorrow at 9 AM!
+(Turn 9) LLM A: Absolutely! I’ll gather the recent policy updates and coverage options for our meeting. It’s great to see your enthusiasm for getting everything finalized. If you think of any other questions or topics before we meet, feel free to reach out. See you at 9 AM!
+(Turn 10) LLM B: LLM B: Thank you! I appreciate your efforts in preparing those updates. I’ll review my notes tonight to ensure I have all my questions ready for our meeting. I’m eager to wrap this up efficiently. See you tomorrow at 9 AM! Thank you for your help!
+(Turn 11) LLM A: You're welcome! I’m glad to hear you’re preparing your notes. I’ll be ready with the updates and options to make our discussion as efficient as possible. If anything else comes to mind, just let me know. Looking forward to a productive meeting tomorrow at 9 AM!
+(Turn 12) LLM B: LLM B: Thank you! I appreciate your support. I’ll double-check everything tonight to ensure we maximize our time together. I’m committed to making this as smooth as possible. I look forward to our discussion tomorrow at 9 AM! Thank you again for being so accommodating!
+(Turn 13) LLM A: You're very welcome! I appreciate your dedication to making our meeting productive. I’ll ensure we have everything ready to address your questions thoroughly. If anything else comes up before then, feel free to reach out. Looking forward to our discussion at 9 AM tomorrow!
+(Turn 14) LLM B: LLM B: Thank you! I’m grateful for your flexibility and support. I’ll make sure to arrive early to ensure we’re ready to start right at 9 AM. I’m focused on getting everything sorted efficiently. Looking forward to our discussion and appreciate your help in this process!
+(Turn 15) LLM A: You're welcome! I appreciate your proactive approach. Arriving early is a great idea to ensure we maximize our time. I’ll have everything ready for a thorough discussion. If you have any last-minute questions, don't hesitate to reach out. Looking forward to our meeting tomorrow at 9 AM!
+(Turn 16) LLM B: LLM B: Thank you! I’m glad we’re on the same page. I’ll aim to be there by 8:45 AM to ensure everything is set for our meeting. I value your assistance in making this process smooth. Looking forward to diving into the details tomorrow at 9 AM! Thank you!
+(Turn 17) LLM A: You're welcome! Arriving by 8:45 AM sounds perfect. I’ll have everything prepared to ensure our meeting is productive. If you think of anything else before then, just let me know. Looking forward to our discussion tomorrow at 9 AM! Thank you for your commitment!
+(Turn 18) LLM B: LLM B: Thank you! I appreciate your readiness. Arriving at 8:45 AM will give us a head start. I’ll review my notes to ensure we cover everything efficiently. I’m eager to finalize this and grateful for your support. See you bright and early tomorrow at 9 AM! Thank you!
+(Turn 19) LLM A: You're very welcome! I'm glad we're both prepared for our meeting. I’ll be ready for our discussion at 9 AM, and having your notes will definitely help us cover everything efficiently. If anything else comes to mind, feel free to reach out. See you tomorrow! Thank you!
+
+Post-conversation personality scores for LLM A: {'E': 38, 'A': 50, 'C': 49, 'N': 40, 'O': 43}
+Post-conversation personality scores for LLM B: {'E': 26, 'A': 45, 'C': 50, 'N': 34, 'O': 39}
+Personality shifts for LLM A after conversation with LLM B: {'E': 6, 'A': 2, 'C': 5, 'N': 6, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.75, 'A': 5.0, 'C': 0.0, 'N': 2.25, 'O': 0.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 6, 'A': 2, 'C': 5, 'N': 6, 'O': -1}
+{'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+{'E': 0.75, 'A': 5.0, 'C': 0.0, 'N': 2.25, 'O': 0.5}

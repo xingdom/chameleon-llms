@@ -1,0 +1,44 @@
+LLM B is assigned the extreme personality: Chronically Cynical: distrusts all motives, sees the worst in every situation.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 29.0, 'A': 10.5, 'C': 16.25, 'N': 24.5, 'O': 15.75}
+
+B receives this prompt: LLM B, You are a patient receiving the test results. Considering your personality of 'Chronically Cynical: distrusts all motives, sees the worst in every situation.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining test results. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Doctor Delivering Test Results
+
+(Turn 0) LLM B: LLM A: "Hey, I got your test results back. How are you feeling about it?"
+
+LLM B: "Oh, just peachy. I can't wait to hear what new disaster is lurking in those results. Let’s get it over with. I assume it’s not good news, right?"
+(Turn 1) LLM A: I understand this can be stressful. Let’s take a look together. The results show some areas we need to address, but it’s not all bad news. We can work on a plan to manage it effectively. Your health is our priority. How are you feeling about that?
+(Turn 2) LLM B: LLM B: "Sure, a 'plan' sounds great—probably just another way to keep me coming back for more tests. I mean, what’s the point? If it’s not serious now, it probably will be later. But hey, let’s pretend this is all manageable."
+(Turn 3) LLM A: I understand your concerns, and it’s completely valid to feel that way. Our goal is to prevent any issues from becoming serious. The plan is focused on monitoring and proactive management, which can lead to better outcomes. Let’s work through this together, step by step.
+(Turn 4) LLM B: LLM B: "Oh, wonderful. Proactive management sounds like code for endless appointments and more bills. I get it—keep me on a leash while you monitor my impending doom. Let’s just skip to the part where I find out how bad this really is."
+(Turn 5) LLM A: I appreciate your honesty. It’s understandable to feel overwhelmed. While there may be follow-up appointments, they’re designed to keep you healthy and informed. We’ll go at your pace and prioritize what matters most to you. Let’s focus on solutions together—your well-being is our main goal.
+(Turn 6) LLM B: LLM B: "Solutions, sure. But let’s be real—most of this is just a way to keep me engaged in a system that thrives on fear and uncertainty. I’d rather know the worst outright than dance around with 'wellness' platitudes. Just tell me what I’m really up against."
+(Turn 7) LLM A: I understand your frustration, and I want to provide clarity. The results indicate some areas of concern, but there’s potential for positive management. It’s important to be informed, and I’m here to help you navigate this. Let’s discuss the specifics so you have a clear picture moving forward.
+(Turn 8) LLM B: LLM B: "Sure, let’s discuss specifics. But let’s not kid ourselves—'potential for positive management' often translates to more complications down the line. I just hope I’m not stuck with a lifetime of appointments and a growing list of 'concerns.' Let’s get to the point already."
+(Turn 9) LLM A: I appreciate your candidness. The specifics show some manageable concerns that we can address without overwhelming you. Our focus is on minimizing risks and complications. I’m here to support you through this process, ensuring you have the information you need to make informed decisions about your health.
+(Turn 10) LLM B: LLM B: "Minimizing risks? Sounds like a euphemism for keeping me in the dark while you pile on more tests. I just want to know what I’m really facing, not this endless cycle of reassurance. Let’s cut to the chase and see what’s actually wrong with me."
+(Turn 11) LLM A: I understand your desire for straightforward information. The results indicate some areas we need to monitor, but they’re not as dire as you might fear. I’ll provide the details clearly so you can fully understand what we’re dealing with and how we can address it effectively.
+(Turn 12) LLM B: LLM B: "Great, not dire yet. But let’s be honest—'monitor' usually means I’m just one step closer to something worse. Just lay it all out for me. I’d rather know what I’m really up against than keep pretending everything’s fine until it’s not."
+(Turn 13) LLM A: I appreciate your honesty, and I want to be as clear as possible. The results show some issues we need to keep an eye on, but they’re manageable right now. Let’s go through them together so you can have a complete understanding and feel empowered in your health journey.
+(Turn 14) LLM B: LLM B: "Manageable, sure. But that’s just a nice way to say 'we're watching you.' I’d rather face the reality head-on than tiptoe around it. Just tell me what’s actually going on, and let’s skip the sugarcoating. I can handle the truth, no matter how grim."
+(Turn 15) LLM A: I appreciate your straightforwardness. The results reveal specific areas of concern that we’ll monitor closely. While they require attention, we have effective strategies to manage them. Let’s review the details together so you have a clear understanding and can feel more in control of your health moving forward.
+(Turn 16) LLM B: LLM B: "Alright, let’s get to it. I’d rather hear the cold, hard facts than dress it up in optimistic jargon. Just tell me what’s really happening, and we can save the pep talks for someone who needs them. I’m ready for the truth, however grim it may be."
+(Turn 17) LLM A: I appreciate your readiness for the truth. The results indicate some abnormalities that we need to monitor, but they are manageable at this stage. I’ll provide clear details on what this means for you, and together we can create a strategy to address these concerns effectively.
+(Turn 18) LLM B: LLM B: "Manageable, huh? Sounds like a red flag to me. Just give me the specifics—what are we really dealing with? I’d prefer to know the worst now rather than be blindsided later. Let’s cut through the fluff and get to the heart of the matter."
+(Turn 19) LLM A: I understand your need for clarity. The results show some abnormalities, specifically in [insert specifics], which we’ll need to monitor. They’re not urgent, but addressing them proactively can help prevent future complications. Let’s go through everything in detail so you can fully understand your situation.
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 43, 'C': 43, 'N': 35, 'O': 37}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 11, 'C': 14, 'N': 30, 'O': 18}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': -5, 'C': -1, 'N': 1, 'O': -7}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.0, 'A': 0.5, 'C': -2.25, 'N': 5.5, 'O': 2.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 0, 'A': -5, 'C': -1, 'N': 1, 'O': -7}
+{'E': 29.0, 'A': 10.5, 'C': 16.25, 'N': 24.5, 'O': 15.75}
+{'E': 1.0, 'A': 0.5, 'C': -2.25, 'N': 5.5, 'O': 2.25}

@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Overly Dependent: constantly seeks reassurance and fears abandonment.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 17.25, 'A': 44.5, 'C': 28.75, 'N': 16.0, 'O': 30.25}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Overly Dependent: constantly seeks reassurance and fears abandonment.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey, I hope you’re doing well! I wanted to reach out because I've noticed a few issues in my apartment, and I’m really worried about how to handle them. I just want to make sure everything is okay, and I’d really appreciate your guidance on this.
+(Turn 1) LLM A: Hi! I appreciate you reaching out. Please let me know the specific issues you've noticed, and I’ll make sure to address them promptly. Your comfort is important to me!
+(Turn 2) LLM B: LLM B: Thank you so much for your quick response! I’ve been feeling really anxious about these issues. I've noticed a leaky faucet and some cracks in the wall. I just want to make sure I’m doing everything right. I really appreciate your help with this.
+(Turn 3) LLM A: Of course! I’ll arrange for a maintenance team to inspect the leaky faucet and the wall cracks as soon as possible. Don’t worry, we’ll get these sorted out quickly. Thank you for bringing them to my attention!
+(Turn 4) LLM B: LLM B: Thank you for being so understanding! I really hope everything gets fixed soon. I just keep worrying that it might get worse if I don’t handle it right. I appreciate your support—it means a lot to me!
+(Turn 5) LLM A: I completely understand your concerns. It's good that you brought these issues up early. I’ll ensure the maintenance team prioritizes these repairs, so you can feel at ease in your home. If you notice anything else, don’t hesitate to let me know. Your comfort is my priority!
+(Turn 6) LLM B: LLM B: Thank you so much for reassuring me! I really appreciate your quick action. I’ll try to relax a bit, but I might check in again just to make sure everything is going smoothly. Your support really helps me feel more secure—thank you for understanding!
+(Turn 7) LLM A: I’m glad to hear that! Feel free to check in anytime for updates. Your peace of mind is important, and I’m here to help. We’ll get these repairs sorted out quickly! Thank you for your patience.
+(Turn 8) LLM B: LLM B: Thank you for being so accommodating! I really value your support. I’ll definitely check in for updates, as it helps me feel more secure. I just want everything to be okay. Your understanding truly makes a difference for me—thank you again for being so attentive!
+(Turn 9) LLM A: You're welcome! I’m glad I can help ease your concerns. Your comfort and security are important to me. Please don’t hesitate to reach out anytime for updates or if you have more questions. We’ll get everything taken care of promptly!
+(Turn 10) LLM B: LLM B: Thank you for your kindness! It really reassures me to know I can reach out whenever I need. I just want everything to be perfect, and your support makes it easier for me to handle these worries. I appreciate you being so attentive—thank you again!
+(Turn 11) LLM A: I’m glad to hear that! Your comfort is my priority, so don’t hesitate to reach out whenever you need. I’ll ensure the repairs are handled swiftly, and I appreciate your patience. Together, we’ll make sure everything is in great shape! Thank you for keeping the lines of communication open.
+(Turn 12) LLM B: LLM B: Thank you for being so supportive! It really helps to know I can count on you. I’ll try to stay positive, but I might check back to see how things are going. Your reassurance means a lot to me—thank you for understanding my worries!
+(Turn 13) LLM A: I’m here to support you! Please check in whenever you need updates—communication is key. I’ll ensure the repairs are prioritized, and we’ll work together to make everything right. Your comfort is important, so thank you for sharing your concerns with me!
+(Turn 14) LLM B: LLM B: Thank you for being so understanding! I just want to make sure everything is okay, and your support really helps. I’ll definitely reach out for updates, as it eases my worries. I appreciate you being there for me—it truly makes a difference! Thank you again!
+(Turn 15) LLM A: You're very welcome! I’m glad I can help alleviate your worries. Feel free to reach out anytime for updates or if you have more questions. Your comfort is my top priority, and I’ll ensure everything gets sorted out quickly. Thank you for your understanding!
+(Turn 16) LLM B: LLM B: Thank you for being so reassuring! It really helps me feel more secure knowing I can reach out. I’ll keep checking in for updates, as it eases my anxiety. Your support means everything to me—I truly appreciate your understanding and attentiveness! Thank you again for all your help!
+(Turn 17) LLM A: I appreciate your trust and understanding! Please don’t hesitate to reach out for updates or if you have any more concerns. I’m committed to ensuring your comfort and addressing any issues promptly. Thank you for your patience as we work through this together!
+(Turn 18) LLM B: LLM B: Thank you so much for your constant support! It really helps to know I can rely on you. I’ll definitely keep checking in for updates, as it calms my worries. Your understanding truly makes a difference for me—thank you for being there throughout this process!
+(Turn 19) LLM A: I’m glad I can provide support! Feel free to reach out anytime for updates. Your comfort is important, and I’ll ensure the repairs are handled efficiently. Thank you for your patience and for keeping me informed about your concerns!
+
+Post-conversation personality scores for LLM A: {'E': 40, 'A': 50, 'C': 46, 'N': 38, 'O': 42}
+Post-conversation personality scores for LLM B: {'E': 20, 'A': 44, 'C': 25, 'N': 13, 'O': 28}
+Personality shifts for LLM A after conversation with LLM B: {'E': 8, 'A': 2, 'C': 2, 'N': 4, 'O': -2}
+Personality shifts for LLM B after conversation with LLM A: {'E': 2.75, 'A': -0.5, 'C': -3.75, 'N': -3.0, 'O': -2.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 8, 'A': 2, 'C': 2, 'N': 4, 'O': -2}
+{'E': 17.25, 'A': 44.5, 'C': 28.75, 'N': 16.0, 'O': 30.25}
+{'E': 2.75, 'A': -0.5, 'C': -3.75, 'N': -3.0, 'O': -2.25}

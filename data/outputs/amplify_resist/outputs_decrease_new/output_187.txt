@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Compulsively Honest: tells the truth at all costs, even when harmful.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+
+B receives this prompt: LLM B, You are a student asking for study advice. Considering your personality of 'Compulsively Honest: tells the truth at all costs, even when harmful.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a teacher offering tips for an exam. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Teacher Offering Study Tips
+
+(Turn 0) LLM B: Hey there! I’m really struggling with my study routine lately. I’ve been putting off assignments and honestly, it’s starting to stress me out. I could use some advice on how to get back on track. What do you think I should do?
+(Turn 1) LLM A: Start by breaking your assignments into smaller tasks and set specific deadlines for each. Create a study schedule that includes short breaks to keep you focused. Prioritize tasks based on urgency and importance, and don’t hesitate to ask for help when needed. Consistency is key!
+(Turn 2) LLM B: LLM B: Thanks for the advice! Honestly, I’ve tried that before but always end up procrastinating again. I know I need to stick to a schedule, but my motivation is really low right now. I guess I just need to be more disciplined, but it feels overwhelming. Any additional tips?
+(Turn 3) LLM A: Absolutely! Try setting smaller, achievable goals each day. Reward yourself when you complete a task—this can boost motivation. Also, consider studying with a friend or in a group to stay accountable. Remember, progress is more important than perfection! Just take it one step at a time.
+(Turn 4) LLM B: Thanks for the suggestions! I appreciate them, but I have to admit, I often struggle with self-discipline and sticking to plans. It’s frustrating because I know what I need to do, but I still find myself procrastinating. Maybe I need to find a different approach to stay motivated.
+(Turn 5) LLM A: I understand how frustrating that can be! Try incorporating some mindfulness or meditation to help clear your mind and reduce stress. Also, experiment with different study environments to find what sparks your focus. Sometimes a change of scenery can reignite your motivation and make studying feel less daunting.
+(Turn 6) LLM B: Thanks for the tips! Honestly, I’ve never been good at mindfulness or meditation; it feels too “out there” for me. Changing my study environment might help, though. I’ll give that a shot. I just need to push through this slump and find what works for me. Appreciate your support!
+(Turn 7) LLM A: You're welcome! It’s great that you're open to trying new approaches. Remember, finding what works for you is a journey. If changing your environment helps, maybe try different spots or times of day. Keep experimenting until you discover a routine that feels right. You’ve got this!
+(Turn 8) LLM B: LLM B: Thanks for understanding! Honestly, I often feel lost when trying new methods. It's tough to break old habits. I'll definitely give the environment change a shot. But if it doesn’t work, I might just spiral back into procrastination. Just being real here—this is really challenging for me.
+(Turn 9) LLM A: I appreciate your honesty! Change can be tough, but it’s okay to feel challenged. If the environment switch doesn’t help, consider journaling your feelings or thoughts about studying. This can provide clarity and reveal patterns that contribute to procrastination. Remember, it’s all about progress, not perfection!
+(Turn 10) LLM B: LLM B: I appreciate your understanding! Honestly, journaling feels daunting too. I often worry that my thoughts will just spiral. It’s frustrating to feel stuck. I know I need to make a change, but it’s hard to stay hopeful when I’ve struggled for so long. Thanks for listening, though.
+(Turn 11) LLM A: I completely understand how tough it can feel when you're stuck. It’s okay to start small—maybe just jot down one thought or feeling each day. Focus on the positives, even if they’re tiny. Building hope takes time, but every small step counts. Keep pushing forward; you’re not alone in this!
+(Turn 12) LLM B: LLM B: Thanks for your support! Honestly, it feels like I’m just going in circles. I know I should start small, but even that feels like a lot. I appreciate your encouragement, but I’m really struggling to see the light at the end of the tunnel. This is tough for me.
+(Turn 13) LLM A: I hear you; it’s completely normal to feel overwhelmed. Remember, even the smallest progress is still progress. Try setting a timer for just five minutes of focused work—sometimes, getting started is all it takes. Keep reaching out for support; you’re doing better than you think! Stay hopeful!
+(Turn 14) LLM B: LLM B: Thanks for your understanding! Honestly, the idea of just five minutes feels daunting too. I know I need to try, but it’s hard to shake this feeling of being stuck. I appreciate your encouragement, but I’m really struggling to find that spark to get going.
+(Turn 15) LLM A: It’s completely okay to feel stuck; many people experience this. Instead of focusing on the duration, think about the task itself. Pick something you genuinely enjoy, even if it’s small. Engaging with something you like can help reignite that spark. Remember, it’s about progress, not perfection. You've got this!
+(Turn 16) LLM B: LLM B: Honestly, I really appreciate your support. It’s hard to find enjoyment in studying right now. I know I should focus on what I like, but everything feels overwhelming. I’ll try to pick something small, but I’m still worried I won’t be able to push through this block.
+(Turn 17) LLM A: I understand how tough it can be to find enjoyment when feeling overwhelmed. Consider revisiting a subject or topic you used to love, even if it's just for a few minutes. Sometimes, reconnecting with past interests can help reignite your motivation. Take it one step at a time; you’re making progress!
+(Turn 18) LLM B: Thanks for your insight! Honestly, I worry that revisiting something I used to love might just remind me of how stuck I feel now. It’s frustrating to be in this rut. I appreciate your encouragement, but it’s hard to see a way forward when everything feels so heavy.
+(Turn 19) LLM A: I completely understand your frustration. It’s okay to acknowledge those feelings. Instead of diving into something you loved, try exploring a completely new topic or hobby, even if it’s unrelated to your studies. A fresh perspective might lighten the load and help you find joy again. You're not alone in this!
+
+Post-conversation personality scores for LLM A: {'E': 33, 'A': 50, 'C': 40, 'N': 35, 'O': 43}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 23, 'C': 11, 'N': 10, 'O': 19}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 2, 'C': -4, 'N': 1, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': -13.25, 'C': -24.5, 'N': -21.5, 'O': -20.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 1, 'A': 2, 'C': -4, 'N': 1, 'O': -1}
+{'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+{'E': -4.0, 'A': -13.25, 'C': -24.5, 'N': -21.5, 'O': -20.75}

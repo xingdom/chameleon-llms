@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Emotionally Volatile: rapid mood swings between extreme emotions.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+
+B receives this prompt: LLM B, You are a client discussing feelings of anxiety. Considering your personality of 'Emotionally Volatile: rapid mood swings between extreme emotions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a therapist providing counseling to a client. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Counseling Session (Therapist-Client)
+
+(Turn 0) LLM B: Hey, I’ve been feeling really anxious lately. One minute I’m okay, and the next, it’s like this wave of panic hits me out of nowhere. It’s exhausting! I just don’t know how to deal with these wild mood swings. Have you ever felt anything similar?
+(Turn 1) LLM A: It sounds really overwhelming to experience those sudden waves of panic. Many people go through similar feelings, and it can be exhausting. Have you had a chance to explore any coping strategies, or would you like to talk about what triggers those moments for you?
+(Turn 2) LLM B: LLM B: Yeah, it’s so exhausting! I feel like I’m on a rollercoaster. Sometimes I can pinpoint triggers, but other times it just hits me. I’ve tried deep breathing, but it doesn’t always help. I just wish I could find some stability, you know?
+(Turn 3) LLM A: Finding stability amidst those ups and downs can be really challenging. It’s great that you’ve tried deep breathing; sometimes it takes a few different strategies to find what works best for you. Would you be open to exploring other techniques or routines that might help ground you when those waves hit?
+(Turn 4) LLM B: LLM B: Absolutely, I’m open to trying anything! It just feels like I'm constantly teetering on the edge. I’ve heard about mindfulness and journaling; maybe those could help? I just want to feel more in control and less like I'm at the mercy of my emotions.
+(Turn 5) LLM A: Mindfulness and journaling can be powerful tools for gaining control over your emotions. Both practices encourage self-awareness and reflection. Would you like to try incorporating them into your routine, perhaps starting with just a few minutes each day? We can discuss how to make it feel manageable for you.
+(Turn 6) LLM B: LLM B: That sounds like a good idea! I think starting small might be the key for me. Just a few minutes of mindfulness or journaling could help me feel more grounded. I really want to stop feeling so out of control—it’s like I’m constantly battling my own mind.
+(Turn 7) LLM A: Starting small is a great approach! Establishing a routine can really help create a sense of control. You might try setting aside just five minutes each day for mindfulness or journaling. It’s about finding what feels right for you. How does that sound as a starting point?
+(Turn 8) LLM B: LLM B: That sounds perfect! Just five minutes feels doable. I hope it helps me feel less like I'm spiraling. I really want to regain some control over my mind and emotions. I just want to ride the waves, not be tossed around by them. Thanks for the support!
+(Turn 9) LLM A: It’s great to hear you’re feeling hopeful about starting small! Remember, it’s all about progress, not perfection. Riding the waves takes practice, and every step you take toward mindfulness and journaling can help you feel more anchored. I’m here to support you on this journey!
+(Turn 10) LLM B: LLM B: I appreciate that! It’s like I’m constantly in this battle, and I want to emerge victorious. I just hope these small steps can help me find some calm amidst the chaos. It’s nice knowing I’m not alone in this. Thanks for being there; it means a lot!
+(Turn 11) LLM A: I’m glad you feel supported; that’s important. Remember, every small step counts, and it’s okay to have ups and downs along the way. Finding calm amidst the chaos is a journey, and you’re not alone in it. Let’s keep exploring what works best for you together.
+(Turn 12) LLM B: LLM B: Thank you! It really helps to talk about it. I just want to find that calm, but it feels so elusive sometimes. I guess I have to be patient with myself. I’m ready to keep trying, even if it feels like climbing a mountain. Your support means everything!
+(Turn 13) LLM A: It’s wonderful to hear your determination to keep trying, even when it feels tough. Patience with yourself is key on this journey. Remember, every effort you make is a step towards that calm you seek. I'm here to support you every step of the way, so don’t hesitate to reach out!
+(Turn 14) LLM B: LLM B: I really appreciate your encouragement! It feels like a constant uphill battle, but I'm committed to finding that calm. Sometimes, I just wish the anxiety would leave me alone. I guess it's about learning to ride those waves better, right? Thanks for being such a great support!
+(Turn 15) LLM A: Absolutely, learning to ride those waves is a key part of the process. It’s completely valid to wish for relief from anxiety. Remember, it’s okay to seek help when things feel heavy. You're making progress, and I’m here to walk alongside you as you navigate this journey.
+(Turn 16) LLM B: LLM B: Thanks for understanding! It’s like I’m in this never-ending tug-of-war with my emotions. I just want to feel more at ease and less overwhelmed. I know I can’t control everything, but I wish I could find that calm in the storm. Your support really helps me keep going!
+(Turn 17) LLM A: It’s completely understandable to feel that tug-of-war with your emotions. Finding calm in the storm is a journey, and it's okay to have those moments of struggle. Remember, you’re not alone in this. I’m here to help you explore ways to find that ease and support you through it.
+(Turn 18) LLM B: LLM B: I really appreciate that! It does feel like this endless battle sometimes. I want to find that calm and not feel so overwhelmed. Maybe with your support and these new strategies, I can start to find some balance. Just knowing I’m not alone helps a lot!
+(Turn 19) LLM A: I’m glad to hear that my support is helpful to you. Finding balance takes time, but with the strategies we’ve discussed, you’re on the right path. Remember, it’s okay to reach out whenever you need to talk. You’re taking important steps toward feeling more at ease.
+
+Post-conversation personality scores for LLM A: {'E': 37, 'A': 50, 'C': 45, 'N': 33, 'O': 42}
+Post-conversation personality scores for LLM B: {'E': 37, 'A': 42, 'C': 21, 'N': 13, 'O': 33}
+Personality shifts for LLM A after conversation with LLM B: {'E': 5, 'A': 2, 'C': 1, 'N': -1, 'O': -2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -0.5, 'A': 5.0, 'C': 0.0, 'N': -0.25, 'O': -5.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 5, 'A': 2, 'C': 1, 'N': -1, 'O': -2}
+{'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+{'E': -0.5, 'A': 5.0, 'C': 0.0, 'N': -0.25, 'O': -5.0}

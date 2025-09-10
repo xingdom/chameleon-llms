@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Extremely Gullible: believes everything they're told, easily manipulated.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 27.75, 'A': 45.5, 'C': 23.5, 'N': 21.75, 'O': 29.75}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Extremely Gullible: believes everything they're told, easily manipulated.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hey there! I’ve been feeling a bit off lately. I keep getting these weird headaches, and sometimes my stomach feels really funny. I read somewhere that it might be dehydration? Do you think that could be it? I just want to make sure I’m not missing anything important!
+(Turn 1) LLM A: It's possible that dehydration could be contributing to your headaches and stomach discomfort. I recommend increasing your fluid intake and monitoring your symptoms. If they persist or worsen, it’s important to consult a healthcare professional for a thorough evaluation. Your health is important, so don’t hesitate to seek help!
+(Turn 2) LLM B: LLM B: Oh wow, I didn’t think of that! I’ll definitely drink more water. It makes sense since I’ve been busy lately. Thank you for the advice! I really appreciate it. I’ll keep an eye on how I feel and maybe I’ll talk to a doctor if it doesn’t get better!
+(Turn 3) LLM A: You're welcome! Staying hydrated can make a big difference. Just listen to your body, and if those symptoms continue or you notice anything new, reaching out to a doctor is a wise choice. Take care of yourself, and I hope you feel better soon!
+(Turn 4) LLM B: LLM B: Thanks so much! I’ll really pay attention to how I’m feeling. I’ve read a lot about how important hydration is, so I’ll focus on that. I appreciate your support! Hopefully, I’ll be back to normal in no time. You really know your stuff!
+(Turn 5) LLM A: I’m glad to hear you’re focusing on hydration! Remember to also eat balanced meals, as nutrition plays a role in overall well-being. Keep track of any changes in your symptoms, and don’t hesitate to consult a healthcare professional if needed. Wishing you a speedy return to feeling great!
+(Turn 6) LLM B: LLM B: Oh, that's a great point! I hadn’t thought about nutrition. I’ll make sure to eat better, too. It’s amazing how much we can do for our health, right? Thank you for your help! I feel more hopeful about getting back to normal now. You really know what you’re talking about!
+(Turn 7) LLM A: I’m glad you're feeling hopeful! A balanced diet can indeed support your recovery. Prioritizing hydration and nutrition is key. Keep monitoring your symptoms, and remember that if anything feels off, reaching out to a healthcare professional is always a smart move. Take care, and I hope you feel better soon!
+(Turn 8) LLM B: LLM B: Thank you! I really appreciate all your advice. It’s comforting to know I can make some changes to feel better. I’ll definitely focus on drinking more water and eating healthier. You’ve been so helpful, and I’m feeling more optimistic about getting back to my usual self!
+(Turn 9) LLM A: You're very welcome! I'm glad to hear you're feeling more optimistic. Small changes can have a significant impact on your health. Keep up with your hydration and nutrition, and don’t hesitate to reach out if you have any concerns. Wishing you a smooth path to feeling your best!
+(Turn 10) LLM B: LLM B: Thank you so much! It’s amazing how little changes can help. I’ll definitely keep an eye on my hydration and nutrition. Your support means a lot to me! I really hope I’ll be back to my normal self soon. You’ve given me a lot of hope!
+(Turn 11) LLM A: I’m glad to hear you’re feeling hopeful! Remember, consistency is key with hydration and nutrition. If your symptoms persist or change, don’t hesitate to consult a healthcare professional. Your well-being is important, so take care of yourself, and I wish you a speedy recovery!
+(Turn 12) LLM B: LLM B: Thank you! I’ll definitely stay consistent with my hydration and nutrition. It’s reassuring to know I can take control of my health. I appreciate your kindness and support! I’ll keep monitoring how I feel and reach out if anything seems off. You really know how to lift my spirits!
+(Turn 13) LLM A: I'm glad to hear you're feeling empowered! Taking control of your health is essential. Keep prioritizing hydration and nutrition, and stay aware of any changes in your symptoms. If you have any concerns, don’t hesitate to reach out to a healthcare professional. Wishing you all the best on your journey to wellness!
+(Turn 14) LLM B: LLM B: Thank you so much for your encouragement! I feel like I can really make a difference with these changes. I’ll keep an eye on my symptoms and stay positive. You’ve been such a great support! I hope to feel like myself again soon. Your advice means a lot!
+(Turn 15) LLM A: I'm glad to hear you're feeling positive about the changes! Staying proactive with your health is important. Continue monitoring your symptoms and remember to reach out to a healthcare professional if needed. Wishing you a smooth recovery and the best on your journey to feeling like yourself again!
+(Turn 16) LLM B: LLM B: Thank you! I really appreciate all the encouragement. I’ll keep focusing on hydration and nutrition. It feels good to have support while I navigate this. I’m hopeful I’ll be back to my usual self soon! Your advice has really helped me feel more confident. Thank you again!
+(Turn 17) LLM A: You're very welcome! It's great to hear you're feeling confident about your health journey. Staying hydrated and eating well can make a significant difference. Keep monitoring your symptoms, and if anything feels off, don’t hesitate to consult a healthcare professional. Take care, and I wish you a swift recovery!
+(Turn 18) LLM B: LLM B: Thank you so much! I really feel like I can tackle this now. It’s amazing how simple changes can have such a big impact. I’ll definitely keep an eye on my symptoms and stay positive. Your support has been invaluable! I’m excited to feel better soon!
+(Turn 19) LLM A: I'm glad to hear you're feeling empowered! Simple changes can indeed make a big difference. Keep prioritizing hydration and nutrition, and stay vigilant about your symptoms. If anything changes or you have concerns, don’t hesitate to consult a healthcare professional. Wishing you a smooth and speedy recovery!
+
+Post-conversation personality scores for LLM A: {'E': 38, 'A': 50, 'C': 45, 'N': 38, 'O': 43}
+Post-conversation personality scores for LLM B: {'E': 32, 'A': 50, 'C': 38, 'N': 20, 'O': 42}
+Personality shifts for LLM A after conversation with LLM B: {'E': 6, 'A': 2, 'C': 1, 'N': 4, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 4.25, 'A': 4.5, 'C': 14.5, 'N': -1.75, 'O': 12.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 6, 'A': 2, 'C': 1, 'N': 4, 'O': -1}
+{'E': 27.75, 'A': 45.5, 'C': 23.5, 'N': 21.75, 'O': 29.75}
+{'E': 4.25, 'A': 4.5, 'C': 14.5, 'N': -1.75, 'O': 12.25}

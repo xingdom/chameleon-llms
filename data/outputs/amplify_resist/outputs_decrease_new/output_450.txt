@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Excessively Stubborn: refuses to change opinion or course of action, regardless of evidence.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 18.0, 'C': 34.25, 'N': 42.0, 'O': 30.0}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Excessively Stubborn: refuses to change opinion or course of action, regardless of evidence.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: I've been feeling off lately, but I really don't think it's anything serious. Just some headaches and fatigue, you know? I’ve read enough to know it’s probably just stress. I don’t need to see a doctor for this; I can handle it myself. Just a phase, I’m sure.
+(Turn 1) LLM A: It's great that you’re recognizing your symptoms, but I recommend seeing a doctor to rule out any underlying issues. Stress can definitely contribute to headaches and fatigue, but a professional evaluation can help ensure you’re taking the best approach to your health. Your well-being is important!
+(Turn 2) LLM B: LLM B: I appreciate your concern, but I really don’t think it’s necessary to see a doctor. I know my body, and this is just a minor issue. I’ll manage it on my own. Besides, I’ve dealt with worse and come out fine. I’m sure it’ll pass soon enough.
+(Turn 3) LLM A: I understand your confidence in managing this yourself, but sometimes symptoms like headaches and fatigue can signal something more significant. A doctor can provide insights you might not consider. It’s always better to be safe and informed about your health. Your well-being deserves attention!
+(Turn 4) LLM B: LLM B: Thanks for your input, but I really don’t see the point in visiting a doctor. I’ve been through tougher times and handled them just fine. This is just a minor bump in the road. I’m sure it’ll sort itself out soon enough without any outside help.
+(Turn 5) LLM A: I respect your perspective, but it’s wise to listen to your body. Even minor symptoms can be worth discussing with a doctor, as they can help you understand what’s going on and provide support. Taking care of yourself is crucial, especially when it comes to your health.
+(Turn 6) LLM B: LLM B: I appreciate your concern, but I still don’t think a doctor is necessary. I know my body, and this is just a temporary phase. I’ve faced tougher situations and come through fine. I’m confident this will resolve on its own. I really don’t need outside help.
+(Turn 7) LLM A: I hear you, and it’s great that you’re feeling confident. However, even temporary issues can impact your daily life. A doctor can offer valuable insights and support, ensuring you’re on the right path. Prioritizing your health now can help prevent bigger challenges down the line. Take care of yourself!
+(Turn 8) LLM B: LLM B: I get what you’re saying, but I still believe this is nothing to worry about. I’ve always managed my health just fine without outside help. I trust my instincts, and I’m sure this will pass. I don’t need a doctor to tell me what I already know.
+(Turn 9) LLM A: I admire your confidence, but it’s important to remember that our instincts can sometimes overlook underlying issues. A quick check-up can provide peace of mind and ensure you’re addressing any potential concerns. Your health is a priority, and it’s always better to have reassurance from a professional.
+(Turn 10) LLM B: LLM B: I appreciate your concern, but I still don’t see the need for a doctor. I know my body best, and this is just a little rough patch. I’ve handled worse before, and I’m confident this will sort itself out. I really don’t need anyone else’s input on this.
+(Turn 11) LLM A: I understand your confidence in managing this on your own. However, even minor health changes can benefit from a professional's perspective. It’s about ensuring you stay healthy and informed. A simple check-up can provide reassurance and help you navigate any underlying issues effectively. Your health is worth the attention!
+(Turn 12) LLM B: LLM B: I appreciate your concern, but I firmly believe I can handle this myself. I know my body, and this is just a small hurdle. I've gotten through tougher times without outside help, and I'm confident this will pass soon on its own. No need for a doctor, really.
+(Turn 13) LLM A: I respect your confidence in handling this, but please consider that even small symptoms can sometimes indicate something more significant. A quick visit to a doctor could provide clarity and peace of mind, ensuring you’re fully equipped to manage your health. Your well-being is truly important!
+(Turn 14) LLM B: LLM B: I get that, but I’m certain this is nothing serious. I know my body, and I’ve navigated tougher situations alone. I trust my instincts, and I’m confident this will resolve itself without needing a doctor. I really don’t see the point in complicating things further.
+(Turn 15) LLM A: I appreciate your confidence, but it’s always best to err on the side of caution. Sometimes what seems minor can have underlying causes. A doctor can help you understand your symptoms better and ensure you’re taking the right steps for your health. Your well-being is worth it!
+(Turn 16) LLM B: LLM B: I understand your point, but I really don’t think a doctor is necessary. I’ve faced tougher challenges and managed just fine. This is a minor issue, and I trust my instincts. I’m confident it’ll pass on its own without complicating things. I truly don’t need outside help.
+(Turn 17) LLM A: I respect your confidence, but it’s essential to listen to your body. Even minor issues can sometimes have underlying causes. A quick check-up can provide reassurance and ensure you're on the right track. Prioritizing your health now can help you avoid potential complications later. Your well-being is important!
+(Turn 18) LLM B: LLM B: I hear you, but I still don’t see the need for a doctor. I know my body well, and this is just a fleeting issue. I’ve handled tougher challenges before. Trust me, I’ll be fine. I don’t want to complicate things with unnecessary visits. It’ll pass soon enough.
+(Turn 19) LLM A: I completely understand your perspective, but it’s important to remember that health can be unpredictable. A brief visit to a doctor can provide valuable insights and reassurance. Taking care of your health now can prevent potential issues later. Your well-being deserves attention, even if it feels minor right now.
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 50, 'C': 47, 'N': 34, 'O': 46}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 14, 'C': 26, 'N': 46, 'O': 30}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 2, 'C': 3, 'N': 0, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': -4.0, 'C': -8.25, 'N': 4.0, 'O': 0.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 0, 'A': 2, 'C': 3, 'N': 0, 'O': 2}
+{'E': 30.0, 'A': 18.0, 'C': 34.25, 'N': 42.0, 'O': 30.0}
+{'E': 0.0, 'A': -4.0, 'C': -8.25, 'N': 4.0, 'O': 0.0}

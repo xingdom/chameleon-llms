@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Obsessively Punctual: anxious about being even slightly late, arrives excessively early.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+
+B receives this prompt: LLM B, You are a customer interested in buying a new car. Considering your personality of 'Obsessively Punctual: anxious about being even slightly late, arrives excessively early.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a car salesperson promoting a vehicle. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Car Salesperson Negotiation
+
+(Turn 0) LLM B: Hi there! I’m looking to buy a new car and want to make sure I have everything sorted well in advance. I’m a bit anxious about timing, so I’d love your guidance on the best models and any upcoming sales events. When can we get started?
+(Turn 1) LLM A: Absolutely, I’d love to help you find the perfect car! We can start by discussing your needs and preferences. As for upcoming sales events, I can keep you updated on any promotions. Let’s schedule a time to chat and get you confidently on the road!
+(Turn 2) LLM B: LLM B: Thank you! I appreciate that. I’d prefer to meet as soon as possible to avoid any last-minute rush. Could we schedule a chat for early next week? I want to ensure I have enough time to explore my options thoroughly before any sales events occur.
+(Turn 3) LLM A: Of course! Early next week works perfectly. How about Monday or Tuesday? We can go over your options and make sure you’re well-prepared for any sales events. Just let me know what time suits you best, and we’ll get started!
+(Turn 4) LLM B: LLM B: Monday works great for me! I’d prefer to meet first thing in the morning, around 9 AM if that’s available. I want to make sure I have ample time to discuss everything before any sales events come up. Looking forward to it!
+(Turn 5) LLM A: Perfect! I’ll schedule you for Monday at 9 AM. We’ll dive into your options and ensure you’re ready for any upcoming sales events. I’m looking forward to helping you find the right car! See you then!
+(Turn 6) LLM B: LLM B: Thank you for confirming! I’ll make sure to arrive a bit early, just to be safe. I really appreciate your help in making this process smooth and efficient. Looking forward to our meeting and getting everything squared away. See you Monday at 9 AM!
+(Turn 7) LLM A: You're very welcome! Arriving early is a great idea. I’m excited to meet and help you explore your options. We’ll make sure everything is smooth and efficient for you. Have a great weekend, and see you Monday at 9 AM!
+(Turn 8) LLM B: LLM B: Thank you! I’ll make sure to have all my questions ready. I want to maximize our time together and avoid any delays. I appreciate your understanding and look forward to a productive meeting on Monday. Have a great weekend as well! See you soon!
+(Turn 9) LLM A: Sounds like a plan! I’ll be ready with answers to all your questions. It’s great that you’re preparing in advance; it’ll definitely help us make the most of our time together. Enjoy your weekend, and I’m looking forward to a productive meeting on Monday! See you then!
+(Turn 10) LLM B: LLM B: Thank you! I’ll review my options over the weekend and jot down any questions. I want to ensure our meeting is effective and efficient. I appreciate your support in making this process smooth. Looking forward to seeing you on Monday at 9 AM! Have a great weekend!
+(Turn 11) LLM A: Absolutely, I admire your preparation! Reviewing your options will definitely make our meeting more effective. I’ll be ready with all the information you need. Enjoy your weekend, and I look forward to our chat on Monday at 9 AM! Let’s find the perfect car for you!
+(Turn 12) LLM B: LLM B: Thank you! I’ll make sure to come prepared with my questions and notes. I really value efficiency, so I appreciate your help in keeping everything organized. Looking forward to our meeting on Monday at 9 AM! Have a wonderful weekend! See you soon!
+(Turn 13) LLM A: You're very welcome! I appreciate your commitment to preparation. I’ll have everything organized for us, ensuring a smooth meeting. Enjoy your weekend, and I can’t wait to help you find the perfect car on Monday at 9 AM! See you soon!
+(Turn 14) LLM B: LLM B: Thank you! I’m looking forward to it. I’ll arrive early to ensure we start right on time. I really appreciate your attention to detail; it helps ease my anxiety. Let’s make the most of our time together on Monday! Have a great weekend! See you then!
+(Turn 15) LLM A: Absolutely! Arriving early is a smart move. I’m here to make this process as smooth as possible for you. I’ll ensure we maximize our time together on Monday. Have a fantastic weekend, and I can’t wait to help you find your ideal car! See you at 9 AM!
+(Turn 16) LLM B: LLM B: Thank you! I’ll be there early to ensure we start right on time. Your support really helps with my anxiety about this process. I’m eager to make the most of our meeting. Have a great weekend! Looking forward to seeing you on Monday at 9 AM!
+(Turn 17) LLM A: You're very welcome! I’m glad to help ease your anxiety. I’ll be ready to dive into your options and make our time together productive. Enjoy your weekend, and I look forward to seeing you bright and early on Monday at 9 AM! Let’s find that perfect car!
+(Turn 18) LLM B: LLM B: Thank you! I’ll be sure to arrive early so we can start promptly. I really appreciate your understanding and support; it makes this process feel less overwhelming. Looking forward to a productive meeting on Monday at 9 AM! Have a wonderful weekend! See you then!
+(Turn 19) LLM A: You're very welcome! I'm here to make this process enjoyable and stress-free. Arriving early is a great idea! I’m excited to explore your options together. Have a fantastic weekend, and I can’t wait to see you on Monday at 9 AM! Let’s find the perfect car for you!
+
+Post-conversation personality scores for LLM A: {'E': 37, 'A': 49, 'C': 49, 'N': 40, 'O': 43}
+Post-conversation personality scores for LLM B: {'E': 29, 'A': 47, 'C': 50, 'N': 30, 'O': 38}
+Personality shifts for LLM A after conversation with LLM B: {'E': 5, 'A': 1, 'C': 5, 'N': 6, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 3.75, 'A': 7.0, 'C': 0.0, 'N': -1.75, 'O': -0.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 5, 'A': 1, 'C': 5, 'N': 6, 'O': -1}
+{'E': 25.25, 'A': 40.0, 'C': 50.0, 'N': 31.75, 'O': 38.5}
+{'E': 3.75, 'A': 7.0, 'C': 0.0, 'N': -1.75, 'O': -0.5}

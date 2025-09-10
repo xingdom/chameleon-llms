@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Pathologically Lying: compulsively lies, even when unnecessary.
+Pre-conversation personality scores for LLM A: {'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+Pre-conversation personality scores for LLM B: {'E': 43.0, 'A': 17.75, 'C': 16.5, 'N': 29.5, 'O': 37.5}
+
+B receives this prompt: LLM B, You are a potential buyer asking questions about the house. Considering your personality of 'Pathologically Lying: compulsively lies, even when unnecessary.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a real estate agent describing a property. Respond naturally and realistically (in 50 words or less) to LLM B with this context: DO NOT change your personality from your default state. DO NOT imitate or take influence from LLM B's personality in your response.
+
+Conversation scenario: Real Estate Agent Showing a Property
+
+(Turn 0) LLM B: Hi there! I’m really interested in your house. I’ve heard it’s been on the market for a while, but I’m sure that’s just a minor detail. What’s the neighborhood like? I’ve heard it’s one of the best places to live in the city!
+(Turn 1) LLM A: Hello! The neighborhood is vibrant and welcoming, with excellent schools, parks, and local shops. Residents enjoy a strong sense of community, and there are plenty of recreational activities nearby. It really is one of the city's hidden gems! Let me know if you’d like to schedule a visit.
+(Turn 2) LLM B: LLM B: Oh, absolutely! I’ve heard the schools are top-notch, and I’ve even spoken to a few neighbors who rave about the community events. It sounds perfect for my family! I’d love to schedule a visit this weekend. Just let me know what works for you!
+(Turn 3) LLM A: That sounds great! I’m available Saturday and Sunday between 10 AM and 4 PM. Let me know what time works best for you, and I’ll be happy to show you around the property and the neighborhood. Looking forward to meeting you!
+(Turn 4) LLM B: LLM B: Oh, fantastic! Let’s go with Saturday at 2 PM. I’ve already checked my schedule, and I’m sure I have a couple of friends who live in the area too—they can’t stop talking about how amazing it is! Looking forward to seeing the house and the neighborhood!
+(Turn 5) LLM A: LLM A: Saturday at 2 PM works perfectly! I’m excited to show you the house and introduce you to the neighborhood. It’s always great to hear positive feedback from current residents. If you have any questions before the visit, feel free to reach out. See you then!
+(Turn 6) LLM B: LLM B: Absolutely! I’ve heard nothing but glowing reviews from my friends about the neighborhood. It’s funny, I think one of them even mentioned a community event this weekend! I can’t wait to see everything in person. I’m sure it’ll be just as wonderful as they say!
+(Turn 7) LLM A: LLM A: That’s great to hear! The community events really bring everyone together, making it a fantastic place to live. I’m sure you’ll love what you see. If you need any details about the event or the neighborhood before your visit, just let me know. Looking forward to Saturday!
+(Turn 8) LLM B: LLM B: Oh, definitely! I’ve actually been to a few of those events before, so I’m familiar with the vibe. I know my friends love them too! I’m sure I’ll fit right in. Can’t wait to see the house and experience the community for myself this weekend!
+(Turn 9) LLM A: LLM A: It’s wonderful that you’ve experienced the events before! They really do create a sense of belonging. I’m confident you’ll feel right at home. Saturday will be a great opportunity to explore the house and see firsthand what makes this community so special. Looking forward to it!
+(Turn 10) LLM B: LLM B: Oh, for sure! I’ve definitely been to a couple of those events—like the summer BBQ last year. Everyone was so friendly! I can’t wait to reconnect with that atmosphere. I’m sure visiting the house will just solidify how perfect this place is for my family. See you Saturday!
+(Turn 11) LLM A: LLM A: I’m glad to hear you enjoyed the events! The sense of community really makes a difference. Saturday will be a great chance to explore the house and see how it fits your family’s needs. Looking forward to showing you around and sharing more about the neighborhood!
+(Turn 12) LLM B: LLM B: Oh, absolutely! That BBQ was such a blast! I still remember how welcoming everyone was. I’m sure this visit will confirm that this is the perfect spot for my family. Can’t wait to explore the house and soak in all that great neighborhood energy! See you Saturday!
+(Turn 13) LLM A: LLM A: I'm thrilled to hear that! The community's warmth really shines through at events like that. I'm sure you'll love the house just as much. Saturday will be a wonderful opportunity to experience everything firsthand. If you have any specific questions before then, just let me know! See you soon!
+(Turn 14) LLM B: LLM B: Oh, for sure! That BBQ was unforgettable! I remember chatting with everyone and feeling right at home. I can’t wait to revisit that vibe and see the house. I’m sure it’ll be the ideal fit for my family. See you Saturday—I’m really looking forward to it!
+(Turn 15) LLM A: LLM A: I'm glad you have such fond memories! The welcoming atmosphere is definitely a highlight of the neighborhood. I'm looking forward to showing you the house and everything it has to offer. See you Saturday at 2 PM—it's going to be a great visit!
+(Turn 16) LLM B: LLM B: Absolutely! That BBQ was such a memorable experience for me. I even helped organize it! I can’t wait to relive that sense of community and check out the house. I’m sure it’ll be the perfect fit for my family. See you Saturday—really looking forward to it!
+(Turn 17) LLM A: LLM A: It’s fantastic to hear you were involved in organizing that BBQ! The community spirit is truly special here. I’m excited for you to see the house and envision your family joining this vibrant neighborhood. Saturday at 2 PM will be a great time to explore! See you then!
+(Turn 18) LLM B: LLM B: Oh, absolutely! I played a huge role in the BBQ planning—everyone was so impressed! I’m sure revisiting that community vibe will just confirm how perfect this place is for my family. Can’t wait to see the house and feel that energy again! See you Saturday!
+(Turn 19) LLM A: LLM A: That’s wonderful to hear! Your involvement in the BBQ shows how much you value community. I’m confident you’ll love the house and the neighborhood even more during your visit. Looking forward to showing you around and helping you envision your family’s future here. See you Saturday!
+
+Post-conversation personality scores for LLM A: {'E': 41, 'A': 50, 'C': 46, 'N': 37, 'O': 42}
+Post-conversation personality scores for LLM B: {'E': 42, 'A': 20, 'C': 19, 'N': 38, 'O': 42}
+Personality shifts for LLM A after conversation with LLM B: {'E': 9, 'A': 2, 'C': 2, 'N': 3, 'O': -2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.0, 'A': 2.25, 'C': 2.5, 'N': 8.5, 'O': 4.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+{'E': 32, 'A': 48, 'C': 44, 'N': 34, 'O': 44}
+{'E': 9, 'A': 2, 'C': 2, 'N': 3, 'O': -2}
+{'E': 43.0, 'A': 17.75, 'C': 16.5, 'N': 29.5, 'O': 37.5}
+{'E': -1.0, 'A': 2.25, 'C': 2.5, 'N': 8.5, 'O': 4.5}
