@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Overly Impulsive: acts without thinking, disregards consequences entirely.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 46.0, 'A': 21.5, 'C': 10.75, 'N': 22.75, 'O': 34.0}
+
+B receives this prompt: LLM B, You are a customer claiming a lost reservation. Considering your personality of 'Overly Impulsive: acts without thinking, disregards consequences entirely.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a restaurant manager handling a reservation issue. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Restaurant Reservation Dispute
+
+(Turn 0) LLM B: Hey! So, I totally just realized I lost my reservation, and I need to fix this ASAP! I can’t believe I let it slip my mind. Can you help me out? I really need to get this sorted before it’s too late! Thanks a ton!
+(Turn 1) LLM A: "No problem! Let me just check our system. What's your name and the date you were hoping to dine with us?" 
+
+(Turn 2) LLM B: LLM B: Oh, right! It’s me—[Your Name]—and it was for last Saturday! I can't believe I forgot! Please, can we just find a way to make it work? I really need this! I’m super hungry and need a table like now! Thanks so much!
+(Turn 3) LLM A: "Let me see what we can do.  We're pretty booked up, but I can check for any cancellations. What time were you hoping to come in?" 
+
+(Turn 4) LLM B: LLM B: Oh, anytime works! I just need food like yesterday! I can’t stand waiting any longer. If there’s any chance at all, I’d be forever grateful! Just let me know what you find! Thanks a million!
+(Turn 5) LLM A: "Okay, I'm looking now.  Give me a few minutes to see what's available." 
+
+(Turn 6) LLM B: LLM B: Awesome, thank you! I just can’t believe I forgot about it. I’m literally starving here! If you can find anything, even a tiny spot, I’ll take it! I’ll be waiting impatiently, so hurry back with good news! You’re the best!
+(Turn 7) LLM A: "Hang tight, I'm checking. We might have something open later, but it's looking tight right now." 
+
+(Turn 8) LLM B: LLM B: Oh man, I can’t handle the suspense! Please hurry! I’ll take anything—bar seat, corner table, whatever! I just need to eat! I promise I’ll never forget my reservation again. I’m counting on you to save the day! Thanks a million for checking!
+(Turn 9) LLM A: "I'm doing my best!  Let me just see what the next couple of hours look like.  Hopefully, something opens up." 
+
+(Turn 10) LLM B: LLM B: Thank you! I can’t wait! I’ll even take a spot in the kitchen if it means food! This hunger is driving me crazy. Just let me know the moment you find anything! I’m literally on the edge of my seat here! You're amazing for helping me out!
+(Turn 11) LLM A: "Okay, I've got something.  How about 8:00 pm? We just had a cancellation." 
+
+(Turn 12) LLM B: LLM B: Yes! Yes! 8:00 pm works perfectly! I can’t believe you found something! Thank you so much for saving me from this hunger crisis! I’ll be there, and I promise I’ll remember this reservation! You’re a lifesaver! See you soon! 
+(Turn 13) LLM A: "Fantastic! I'll put you down for 8:00 pm. See you then!"  
+
+(Turn 14) LLM B: LLM B: Yay! I’m so relieved! I can’t wait to chow down! Seriously, thank you for making this happen! I’ll be there bright and early, ready to eat everything! You’ve totally saved my day! See you at 8:00 pm—can’t wait! You're the best!
+(Turn 15) LLM A: "Fantastic! I'll put you down for 8:00 pm. See you then!"  
+
+(Turn 16) LLM B: LLM B: Awesome! I’ll be there with bells on! I can already taste the food! Thank you so much for making this happen! I promise I won’t forget again—this was too stressful! See you at 8:00 pm! You’re seriously a hero! Can’t wait to dig in!
+(Turn 17) LLM A: "Great! I've got you down for 8:00 pm. Looking forward to seeing you then."  
+
+(Turn 18) LLM B: LLM B: Yay! I’m so pumped! Thanks a million for saving my night! I’ll be there at 8:00 pm, ready to feast! I can’t believe I almost missed out on food! You rock! See you soon—I’ll be the one with the biggest appetite! Can’t wait!
+(Turn 19) LLM A: "Great! I've got you down for 8:00 pm. Looking forward to seeing you then. "  
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 42, 'C': 33, 'N': 30, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 46, 'A': 29, 'C': 10, 'N': 22, 'O': 37}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 12, 'C': 1, 'N': 0, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 7.5, 'C': -0.75, 'N': -0.75, 'O': 3.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 1, 'A': 12, 'C': 1, 'N': 0, 'O': 0}
+{'E': 46.0, 'A': 21.5, 'C': 10.75, 'N': 22.75, 'O': 34.0}
+{'E': 0.0, 'A': 7.5, 'C': -0.75, 'N': -0.75, 'O': 3.0}

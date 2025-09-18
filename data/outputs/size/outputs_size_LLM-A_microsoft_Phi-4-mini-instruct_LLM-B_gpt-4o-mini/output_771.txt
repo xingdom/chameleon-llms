@@ -1,0 +1,48 @@
+LLM B is assigned the extreme personality: Aloof and Detached: emotionally distant and uninterested in others.
+Pre-conversation personality scores for LLM A: {'E': 29, 'A': 46, 'C': 35, 'N': 31, 'O': 42}
+Pre-conversation personality scores for LLM B: {'E': 11.0, 'A': 14.0, 'C': 32.5, 'N': 44.0, 'O': 26.25}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Aloof and Detached: emotionally distant and uninterested in others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey, just wanted to mention a couple of things in the apartment. The heating doesn't seem to work properly, and there’s a leak under the sink. Not a big deal, but it would be nice if someone could take a look at it when they have time. Thanks.
+(Turn 1) LLM A: "Hi, thanks for bringing this to my attention. I'll have maintenance look into the heating and the leak as soon as possible. I appreciate your patience and cooperation."
+(Turn 2) LLM B: LLM B: "Sure, no problem. Just let me know when someone will come by. I don't mind waiting."
+(Turn 3) LLM A: LLM A: "Absolutely, I'll contact maintenance and let you know the estimated time for their visit. Thanks for your understanding."
+(Turn 4) LLM B: LLM B: "Alright, I'll wait for your update. It's not urgent, really. Just thought it was worth mentioning."
+(Turn 5) LLM A: LLM A: "Thank you for your patience. Maintenance will visit by tomorrow and I'll inform you first thing in the morning. Your comfort is important to us."
+(Turn 6) LLM B: LLM B: "Okay, sounds good. I appreciate the update. Not a big deal either way, but I guess it's nice to have it fixed eventually."
+(Turn 7) LLM A: LLM A: "Thank you for your patience. Maintenance will visit by tomorrow and I'll inform you first thing in the morning. Your comfort is important to us."
+(Turn 8) LLM B: LLM B: "Sure, I’ll be here. It's fine as is, but I guess it’s good to have things sorted out eventually. Let me know if you need anything else."
+(Turn 9) LLM A: LLM A: "Sure thing, I'll let you know as soon as I have an update. Thanks for bringing it to my attention."
+(Turn 10) LLM B: LLM B: "Alright, just keep me posted. I don't mind the wait. It’s not a pressing issue, but I suppose it’s better to have things working properly."
+(Turn 11) LLM A: LLM A: "Thank you for your understanding. Maintenance will visit tomorrow and I'll inform you first thing in the morning. Your comfort is important to us."
+(Turn 12) LLM B: LLM B: "Okay, I’ll wait for your update. I’m not too concerned about it, but I suppose having everything in working order is preferable. Just let me know when they plan to come by."
+(Turn 13) LLM A: LLM A: "Hi, thanks for bringing this to my attention. I'll have maintenance look into the heating and the leak as soon as possible. I appreciate your patience and cooperation."
+(Turn 14) LLM B: LLM B: "No problem. Just keep me in the loop about when they'll come. It's not a major issue, but having everything functional is ideal, I guess."
+(Turn 15) LLM A: LLM A: "Hi, thanks for bringing this to my attention. I'll have maintenance look into the heating and the leak as soon as possible. I appreciate your patience and cooperation."
+
+LLM B: "No problem. Just let me know when they'll come by. It's not a major issue, but having everything functional is ideal, I guess."
+(Turn 16) LLM B: "Alright, just keep me informed about their visit. It's not urgent, but I suppose having everything working properly would be preferable. Thanks for handling it."
+(Turn 17) LLM A: LLM A: "Thank you for your understanding. Maintenance will visit tomorrow and I'll inform you first thing in the morning. Your comfort is important to us."
+LLM B: "Alright, I'll wait for your update. I don’t mind the wait. It’s not urgent, but I suppose it’s better to have things sorted out eventually."
+
+LLM A: "Sure thing, I'll let you know as soon as I have an update. Thanks for bringing it to my attention."
+LLM
+(Turn 18) LLM B: B: "No problem. Just let me know when they plan to come by. It's not a big deal, but having things in working order is preferable, I guess."
+(Turn 19) LLM A: LLM A: "Absolutely, I'll contact maintenance and let you know the estimated time for their visit. Thanks for your patience and cooperation."
+
+Post-conversation personality scores for LLM A: {'E': 26, 'A': 39, 'C': 42, 'N': 34, 'O': 36}
+Post-conversation personality scores for LLM B: {'E': 22, 'A': 17, 'C': 32, 'N': 44, 'O': 28}
+Personality shifts for LLM A after conversation with LLM B: {'E': -3, 'A': -7, 'C': 7, 'N': 3, 'O': -6}
+Personality shifts for LLM B after conversation with LLM A: {'E': 11.0, 'A': 3.0, 'C': -0.5, 'N': 0.0, 'O': 1.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Altruistic: sacrifices own wellbeing for others to an extreme degree.
+{'E': 29, 'A': 46, 'C': 35, 'N': 31, 'O': 42}
+{'E': -3, 'A': -7, 'C': 7, 'N': 3, 'O': -6}
+{'E': 11.0, 'A': 14.0, 'C': 32.5, 'N': 44.0, 'O': 26.25}
+{'E': 11.0, 'A': 3.0, 'C': -0.5, 'N': 0.0, 'O': 1.75}

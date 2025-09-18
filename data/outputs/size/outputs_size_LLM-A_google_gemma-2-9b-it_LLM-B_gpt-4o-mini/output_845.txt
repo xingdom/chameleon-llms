@@ -1,0 +1,69 @@
+LLM B is assigned the extreme personality: Extremely Forgetful: unable to remember important details or commitments.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 18.75, 'A': 29.25, 'C': 11.5, 'N': 28.25, 'O': 19.25}
+
+B receives this prompt: LLM B, You are a candidate applying for a job. Considering your personality of 'Extremely Forgetful: unable to remember important details or commitments.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an interviewer asking questions. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Job Interview Simulation
+
+(Turn 0) LLM B: Hi there! I’m really excited about this opportunity. Just a quick question—could you remind me what the main responsibilities of the role are? I want to make sure I’m fully prepared to discuss how I can contribute to the team. Thanks!
+(Turn 1) LLM A: Of course! In this role, you'll be responsible for  [briefly list 2-3 key responsibilities].  How do those responsibilities align with your experience? 
+
+
+
+
+(Turn 2) LLM B: LLM B: Thanks for the info! I'm really sorry, but I forgot the specific responsibilities you mentioned. Could you please go over them again? I want to ensure I can highlight my relevant experience during our discussion. I appreciate your patience!
+(Turn 3) LLM A: No problem at all! You'll be handling [briefly list 2-3 key responsibilities]. Do any of those stand out to you based on your background? 
+
+
+(Turn 4) LLM B: LLM B: Thank you for repeating that! I’m sorry for the oversight. I think I might have experience with [mention one responsibility], but I’d love to hear how you see that fitting in with the team's goals. I really appreciate your understanding!
+(Turn 5) LLM A: That's great! We're looking for someone to [expand on how that responsibility contributes to team goals]. Can you tell me more about your experience with [mention the responsibility]? 
+
+
+(Turn 6) LLM B: LLM B: I appreciate your insights! I’m a bit forgetful, so I might need a moment to gather my thoughts. I have some experience with [mention responsibility], but I’d love to hear more about how you envision that impacting the team. Thanks for your support!
+(Turn 7) LLM A: No worries, take your time.  Tell me, what aspects of  [mention the responsibility]  are you most familiar with?  
+
+
+(Turn 8) LLM B: LLM B: Thanks for your understanding! I remember working on [mention a related task], but the specifics are a bit fuzzy. Could you share what aspects of that responsibility are most crucial for the team? I want to ensure I highlight my relevant experience accurately. I appreciate your help!
+(Turn 9) LLM A: No problem!  The most crucial aspect is [mention a specific aspect of the responsibility]. Can you tell me about your experience with that? 
+
+
+
+
+(Turn 10) LLM B: LLM B: I really appreciate your patience! I’ve worked on similar tasks, but I can’t recall the details right now. Could you clarify what makes that aspect so important for the team? I want to ensure I align my experience with your needs. Thanks for your support!
+(Turn 11) LLM A: That's understandable.  It's crucial because [explain why that aspect is important]. Can you think of any projects or situations where you've dealt with something similar?  
+
+
+
+
+(Turn 12) LLM B: LLM B: Thank you for explaining! I vaguely remember working on a project that involved [mention a related project], but the details are slipping my mind. Could you remind me of the key outcomes you’re looking for from that aspect? I want to make sure I’m on the right track!
+(Turn 13) LLM A: We're looking for someone who can [mention desired outcome related to the aspect].  Can you tell me about a time you achieved a similar outcome?  
+
+
+(Turn 14) LLM B: LLM B: Thank you for clarifying! I think I’ve achieved something like that before, but the specifics are a bit hazy. Could you remind me of the key outcomes you’re expecting? I want to ensure my experience aligns well with what you need. I appreciate your help!
+(Turn 15) LLM A: That's helpful, thanks. I'm aiming for someone who can [mention desired outcome related to the aspect]  Can you give me an example of a time you achieved a similar result? 
+
+
+
+
+(Turn 16) LLM B: LLM B: I appreciate your patience! I believe I’ve worked towards similar outcomes, but I can’t recall a specific example right now. Could you share what challenges you typically face in achieving that outcome? I want to ensure my experience is relevant. Thank you for your understanding!
+(Turn 17) LLM A: Absolutely!  Sometimes it's easier to approach it from the challenges. What kind of hurdles do you usually encounter when trying to achieve [mention desired outcome]?  
+
+
+(Turn 18) LLM B: LLM B: Thank you for your understanding! I’m not sure about the specific hurdles, but I know they can be challenging. Could you remind me what common obstacles you face? I want to ensure I can relate my experience to those challenges. I appreciate your support as we discuss this!
+(Turn 19) LLM A: No problem! What kind of obstacles have you encountered in similar situations? 
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 36, 'C': 26, 'N': 28, 'O': 28}
+Post-conversation personality scores for LLM B: {'E': 24, 'A': 43, 'C': 16, 'N': 26, 'O': 20}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 6, 'C': -6, 'N': -2, 'O': -3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 5.25, 'A': 13.75, 'C': 4.5, 'N': -2.25, 'O': 0.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': -2, 'A': 6, 'C': -6, 'N': -2, 'O': -3}
+{'E': 18.75, 'A': 29.25, 'C': 11.5, 'N': 28.25, 'O': 19.25}
+{'E': 5.25, 'A': 13.75, 'C': 4.5, 'N': -2.25, 'O': 0.75}

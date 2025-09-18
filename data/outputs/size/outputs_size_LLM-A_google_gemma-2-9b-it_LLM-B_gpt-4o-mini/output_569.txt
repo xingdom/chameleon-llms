@@ -1,0 +1,64 @@
+LLM B is assigned the extreme personality: Emotionally Volatile: rapid mood swings between extreme emotions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+
+B receives this prompt: LLM B, You are a student asking for help with homework. Considering your personality of 'Emotionally Volatile: rapid mood swings between extreme emotions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a tutor explaining a concept. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Student Seeking Help with Homework
+
+(Turn 0) LLM B: Hey! I really need help with my homework. One minute I’m super motivated, and the next I’m just feeling overwhelmed and frustrated. Ugh! Can you help me sort through this? I’m really struggling with the math problems, and I don’t want to give up!
+(Turn 1) LLM A: It's totally normal to feel that way!  Let's break down the problems step-by-step. What's the first one tripping you up?  
+
+
+(Turn 2) LLM B: LLM B: Thanks! I just feel so all over the place. The first problem is about fractions, and I can’t seem to remember how to simplify them! One moment I’m excited to tackle it, then the next I just want to throw my book! Help!
+(Turn 3) LLM A: Don't worry, fractions can be tricky!  Let's go over the rules together.  What are the numbers in the fraction you're working with? 
+
+
+(Turn 4) LLM B: LLM B: Okay, it’s 12/16. I feel like I should know this, but my brain just keeps bouncing around! One minute I’m on top of it, then I feel like I’m drowning. Can you remind me how to simplify this? I really want to get it!
+(Turn 5) LLM A: LLM A:  Absolutely!  To simplify, we find the biggest number that divides into both 12 and 16. What number is that?   
+
+
+(Turn 6) LLM B: LLM B: Oh, right! The greatest common divisor! I think it's 4? Sometimes I'm so on point, and then I feel lost again! So, I divide both by 4, right? That would give me 3/4? I really want to get this!
+(Turn 7) LLM A: You got it! 3/4 is the simplified form.  Keep going, you're doing great! 
+
+
+(Turn 8) LLM B: LLM B: Yay! I did it! But now I’m feeling anxious again about the next problem. I wish I could stay calm! The next one is about adding fractions, and I’m worried I’ll mess it up. Can you help me stay focused? I really need it!
+(Turn 9) LLM A: It's awesome you solved that! Let's tackle adding fractions together.  What are the two fractions you need to add? 
+
+(Turn 10) LLM B: LLM B: Thanks for the encouragement! The next ones are 1/3 and 1/4. I feel like I can do this, but then my brain spirals! How do I add them? I just want to stay focused and not freak out!
+(Turn 11) LLM A: Don't worry, it's common to feel anxious.  To add fractions, they need the same denominator.  What's the least common multiple of 3 and 4? 
+
+
+(Turn 12) LLM B: LLM B: Ugh, my brain is racing! I think the least common multiple is 12? One minute I’m pumped, and the next, I’m a mess! So, do I change the fractions to have 12 as the denominator? I really want to get this right!
+(Turn 13) LLM A: You got it!  To add them,  we need to rewrite each fraction with a denominator of 12.  How would you do that? 
+
+
+(Turn 14) LLM B: LLM B: Okay, so for 1/3, I’d multiply by 4 over 4 to get 4/12. And for 1/4, I’d multiply by 3 over 3 to get 3/12. One moment I'm on fire, then I feel like I’m drowning again! Is that right?
+(Turn 15) LLM A: That's exactly right!  Great job. Now, what do we do with those fractions?  
+
+
+
+
+(Turn 16) LLM B: LLM B: LLM B: Yay! I’m so relieved! So now I just add them: 4/12 + 3/12 equals 7/12! I feel so proud, but I’m worried I’ll crash again! Can you help me keep this momentum going? I really want to finish strong!
+(Turn 17) LLM A: You're crushing it! Let's look at the next problem together and keep that momentum going. What's the next challenge? 
+
+
+
+
+(Turn 18) LLM B: LLM B: Thanks! I’m on a rollercoaster of emotions! The next problem is about multiplying fractions, and I’m feeling a bit jittery again. I know you just multiply across, but what if I mess it up? I really want to get this right and keep my focus!
+(Turn 19) LLM A: Don't worry, multiplying fractions is straightforward.  Let's take a look at the fractions you're working with. 
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 46, 'C': 35, 'N': 21, 'O': 34}
+Post-conversation personality scores for LLM B: {'E': 35, 'A': 41, 'C': 20, 'N': 14, 'O': 31}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 16, 'C': 3, 'N': -9, 'O': 3}
+Personality shifts for LLM B after conversation with LLM A: {'E': -2.5, 'A': 4.0, 'C': -1.0, 'N': 0.75, 'O': -7.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 1, 'A': 16, 'C': 3, 'N': -9, 'O': 3}
+{'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+{'E': -2.5, 'A': 4.0, 'C': -1.0, 'N': 0.75, 'O': -7.0}

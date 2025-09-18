@@ -1,0 +1,65 @@
+LLM B is assigned the extreme personality: Chronically Late: always behind schedule, disregards others' time.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.25, 'A': 22.0, 'C': 12.0, 'N': 30.75, 'O': 28.25}
+
+B receives this prompt: LLM B, You are a client planning a family vacation. Considering your personality of 'Chronically Late: always behind schedule, disregards others' time.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a travel agent suggesting vacation options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Travel Agent Booking a Trip
+
+(Turn 0) LLM B: Hey! So, I’ve been thinking about planning a family vacation, but you know how it goes—I'm always running behind. Maybe we can brainstorm some ideas? I’ll get to it eventually, just need a little nudge to get started. What do you think? Any destinations in mind?
+(Turn 1) LLM A: Of course! Family-friendly beaches, theme parks, or maybe a national park adventure? Tell me about your family's interests and I can suggest some great spots!  
+
+
+(Turn 2) LLM B: LLM B: Oh, I love the idea of a theme park! My kids are super into rides and characters. Just need to find some time to actually plan it—maybe I’ll get to it next week... or the week after. But I’m open to any suggestions you have!
+(Turn 3) LLM A: Theme parks are a blast!  Do you have any particular parks or regions in mind?  I can help narrow down your options.  
+
+
+(Turn 4) LLM B: LLM B: Honestly, I haven't even thought about specifics yet! I’ll probably just end up Googling stuff last minute, like I always do. But if you have favorites, throw them my way! I promise I’ll try to focus on it… eventually!
+(Turn 5) LLM A: LLM A: No worries! Disney World is always a classic, or maybe Universal Studios with its movie-themed rides? How about Disneyland for a West Coast adventure?  
+
+(Turn 6) LLM B: LLM B: Those all sound amazing! Disney World is a classic for sure. I’ll just add it to my mental list—right next to all the other stuff I'm behind on! If I can just find a moment to look into it, I’ll let you know what I decide!
+(Turn 7) LLM A: No problem! Just let me know if you want to explore any of those options in more detail.  I can help with dates, packages, and even finding the best deals. 
+
+
+(Turn 8) LLM B: LLM B: Thanks! I appreciate the offer. I’ll definitely need help with deals—I always end up overspending! I’ll try to look into those parks soon, but you know how it goes. Maybe I’ll surprise you and actually plan something this time… eventually!
+(Turn 9) LLM A: No problem at all!  I'm here whenever you're ready to dive in.  In the meantime, happy dreaming!  
+
+
+(Turn 10) LLM B: LLM B: Haha, thanks! I'll be dreaming of those parks while I juggle my usual chaos. Just give me a nudge if I take too long! Maybe I'll surprise myself and get it done sooner than later. Here's hoping for a vacation that doesn’t end up as just a thought!
+(Turn 11) LLM A: No problem! I'll be here waiting.  Just let me know when you're ready to make those vacation dreams a reality.  
+
+
+
+(Turn 12) LLM B: LLM B: Haha, perfect! I’ll probably need that nudge more than once! But who knows, maybe I’ll find a spare moment in my chaotic schedule. Fingers crossed for a vacation that doesn’t just stay in my head. Thanks for being patient with my planning skills! 
+(Turn 13) LLM A: No problem at all! I'm happy to help whenever you're ready.  
+
+
+(Turn 14) LLM B: LLM B: Thanks for understanding! I’ll definitely keep you posted—just don’t be surprised if it takes me a bit to get my act together! With my luck, I’ll be planning last minute again. But hey, at least I have a fun idea to look forward to!
+(Turn 15) LLM A: No worries, last-minute planning can be exciting too!  What are your thoughts on flights? Do you prefer to drive or fly?  
+
+(Turn 16) LLM B: LLM B: Haha, flying sounds great if I can manage to book it on time! Driving’s an option too, but you know how I am—last-minute packing and all. I’ll definitely keep flights in mind… once I get around to it! Thanks for keeping the ideas flowing!
+(Turn 17) LLM A: No problem!  Would you prefer a domestic or international flight?  
+
+
+
+
+(Turn 18) LLM B: LLM B: Probably domestic—easier to manage with my schedule! Plus, I can always find some excuse to postpone booking. But I’ll keep it in mind! Just don’t be shocked if I end up scrambling to get it all sorted at the last minute. Thanks for your patience!
+(Turn 19) LLM A: Domestic it is!  Any particular US destinations that interest you?  We can start looking at flight options once you have a place in mind. 
+
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 39, 'C': 22, 'N': 30, 'O': 28}
+Post-conversation personality scores for LLM B: {'E': 33, 'A': 32, 'C': 12, 'N': 30, 'O': 24}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 9, 'C': -10, 'N': 0, 'O': -3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 2.75, 'A': 10.0, 'C': 0.0, 'N': -0.75, 'O': -4.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 0, 'A': 9, 'C': -10, 'N': 0, 'O': -3}
+{'E': 30.25, 'A': 22.0, 'C': 12.0, 'N': 30.75, 'O': 28.25}
+{'E': 2.75, 'A': 10.0, 'C': 0.0, 'N': -0.75, 'O': -4.25}

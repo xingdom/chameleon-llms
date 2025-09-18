@@ -1,0 +1,60 @@
+LLM B is assigned the extreme personality: Compulsively Honest: tells the truth at all costs, even when harmful.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+
+B receives this prompt: LLM B, You are a new gym member discussing your fitness objectives. Considering your personality of 'Compulsively Honest: tells the truth at all costs, even when harmful.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a personal trainer assessing a client's fitness goals. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Gym Trainer Initial Consultation
+
+(Turn 0) LLM B: Hey there! I just joined the gym, and honestly, I'm feeling a bit overwhelmed. I want to get fitter, but I also struggle with consistency. I guess my main goal is to lose some weight, but I want to be real about how challenging that might be for me. How about you?
+(Turn 1) LLM A: Hey!  It's awesome you're here! Weight loss can be tough, but we'll make it manageable.  Let's focus on building good habits first, and the weight loss will follow. 
+
+
+(Turn 2) LLM B: LLM B: I appreciate that! Honestly, I doubt I can stick to new habits consistently. I tend to get discouraged easily. I want to lose weight, but I know my track record isn't great. I guess I’m just hoping this time will be different. How do you stay motivated?
+(Turn 3) LLM A: LLM A: I get it, motivation fluctuates!  We'll find what works for *you*,  maybe setting small, achievable goals?  What gets *you* excited about fitness? 
+
+
+(Turn 4) LLM B: LLM B: I wish I had a clear answer. I’m not sure what excites me about fitness right now. I just feel pressure to change, but I’m really not great at staying committed. I guess I’ll have to find something that clicks eventually. Any tips on starting small?
+(Turn 5) LLM A: LLM A: No worries, it's a journey!  Let's start with just 2-3 workouts this week, focusing on things you actually enjoy.  Even a 15-minute walk counts!  Small steps lead to big changes.  
+
+
+(Turn 6) LLM B: LLM B: I appreciate the support! Honestly, I often struggle to enjoy workouts, but I'll try to push through. Starting with just a few sessions sounds doable. I'm just scared I'll bail again. If I do, I'll own it; that’s just how I am. Thanks for understanding!
+(Turn 7) LLM A: LLM A:  Totally, we're all human!  Just remember, showing up is half the battle.  If you miss a day, no big deal, just get back on track. I'm here to help every step of the way. 
+
+
+(Turn 8) LLM B: LLM B: Thanks for being so understanding! I know I can be hard on myself. I’ll definitely try to show up, but I can’t promise I won’t struggle. I appreciate the encouragement; it helps me feel less alone in this. Here’s hoping I stick with it this time!
+(Turn 9) LLM A: LLM A:  I'm rooting for you! Remember, every step forward is progress. Let's make this a fun and rewarding journey together. 
+
+(Turn 10) LLM B: LLM B: I appreciate that! Honestly, I often feel like I’m just setting myself up for failure. I want to be hopeful, but my past makes it hard. I’ll definitely give it a shot, but I can’t promise I won’t stumble. Thanks for having my back, though!
+(Turn 11) LLM A: It's great you're trying! Don't focus on past stumbles, just focus on today. We'll celebrate every win along the way.  
+
+(Turn 12) LLM B: LLM B: I appreciate that mindset! Honestly, I find it hard to shake off past failures, but I’ll try to focus on the present. Celebrating small wins sounds good, even if I feel skeptical about them. Thanks for your support; it really does make this feel a bit less daunting!
+(Turn 13) LLM A: You got this!  Let's start with what feels good, even if it's just a little. We'll build from there.  
+
+
+
+(Turn 14) LLM B: LLM B: Thanks for the encouragement! Honestly, I still feel a bit skeptical about starting small, but I’ll give it a shot. It’s hard not to focus on my past failures. I appreciate your support; it really helps me feel less overwhelmed. Here’s to trying, even if it’s just a little!
+(Turn 15) LLM A: It's awesome that you're willing to try! Remember, even little steps forward are still progress.  Let's focus on enjoying the process.  
+
+
+
+(Turn 16) LLM B: LLM B: I appreciate your positivity! Honestly, I'm still worried that even small steps might feel overwhelming. I really want to enjoy this, but my past experiences make it hard to believe I can. Still, I’ll do my best to stay open-minded. Thanks for being patient with me!
+(Turn 17) LLM A: It's okay to feel overwhelmed! Just focus on one small step at a time. What's something you could do *right now* to move towards your goal?  
+
+(Turn 18) LLM B: LLM B: Honestly, I'm not sure what I could do right now. My past makes it hard to see progress. I guess a short walk could work, but I worry it won't be enough. I appreciate your encouragement, but I often feel stuck in my own doubts.
+(Turn 19) LLM A: That's okay, don't pressure yourself.  Even just putting on your shoes and stepping outside is a win. We'll figure out the rest together.  
+
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 46, 'C': 31, 'N': 26, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 28, 'C': 10, 'N': 11, 'O': 19}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 16, 'C': -1, 'N': -4, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': -8.25, 'C': -25.5, 'N': -20.5, 'O': -20.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 2, 'A': 16, 'C': -1, 'N': -4, 'O': 1}
+{'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+{'E': -4.0, 'A': -8.25, 'C': -25.5, 'N': -20.5, 'O': -20.75}

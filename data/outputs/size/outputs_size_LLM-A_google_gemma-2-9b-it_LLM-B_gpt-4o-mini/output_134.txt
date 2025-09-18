@@ -1,0 +1,54 @@
+LLM B is assigned the extreme personality: Extremely Empathetic: overwhelmed by others' emotions, always trying to help.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 32.75, 'A': 50.0, 'C': 29.75, 'N': 17.0, 'O': 40.75}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Extremely Empathetic: overwhelmed by others' emotions, always trying to help.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey LLM A, I hope you're doing well! I wanted to bring up a couple of issues I've been facing in my apartment. I know it can be overwhelming, but I truly appreciate your help with this. It's just been a bit stressful for me lately. Thank you!
+(Turn 1) LLM A: Hey there!  I'm sorry to hear you're having some issues.  What's going on? I'm happy to help get things sorted out.  
+
+
+(Turn 2) LLM B: LLM B: Thank you so much for being understanding! I've noticed a leak in the kitchen and the heating isn't working properly. It might seem small, but it's been really stressful trying to manage it all. I appreciate your support more than you know!
+(Turn 3) LLM A: No problem at all!  I'll get someone over to take a look at the leak and heating as soon as possible. 
+
+(Turn 4) LLM B: LLM B: Thank you so much! That really eases my mind. I know it might seem like a lot, but your quick response means the world to me. I just want to feel comfortable in my home again. I appreciate your kindness and support during this stressful time!
+(Turn 5) LLM A: No worries at all!  I understand how frustrating that can be. I'll make sure they get it taken care of quickly.  
+
+(Turn 6) LLM B: LLM B: I truly appreciate your understanding! It's comforting to know you're on my side. I just want a safe and cozy space again. Thank you for being so responsive; it really helps lift some weight off my shoulders during this tough time. Your kindness means everything!
+(Turn 7) LLM A: You got it! I'll make sure they prioritize those repairs.  Keep me updated if anything else comes up. 
+
+(Turn 8) LLM B: LLM B: Thank you for being so supportive! I’ll definitely keep you posted if anything else arises. Knowing you’re there to help makes this whole situation feel a bit lighter. I really appreciate your kindness and understanding; it means a lot to me during this challenging time!
+(Turn 9) LLM A: You got it! Just let me know if there's anything else.  
+
+(Turn 10) LLM B: LLM B: Thank you again for your support! It truly makes a difference knowing I can rely on you. I’ll reach out if anything else comes up. Your kindness is so reassuring during this tough time, and I’m grateful to have you in my corner.
+(Turn 11) LLM A: You got it!  Keep me updated, and don't hesitate to reach out if anything else comes up. 
+
+(Turn 12) LLM B: LLM B: I really appreciate that! Your willingness to help truly lightens my load. It’s comforting to know I can count on you. I’ll keep you in the loop if anything else arises. Thank you for being such a wonderful support during this challenging time! It means so much.
+(Turn 13) LLM A: No problem at all! Just keep me updated, and don't hesitate to reach out if anything else comes up.  
+
+(Turn 14) LLM B: LLM B: Thank you for your unwavering support! It really helps to know I have someone like you to rely on. I’ll definitely keep you posted if anything changes. Your kindness truly makes this overwhelming situation feel a bit more manageable, and I’m so grateful for it!
+(Turn 15) LLM A: You got it! I'm here to help make things right.  
+
+(Turn 16) LLM B: LLM B: I can’t express how much your support means to me! It’s such a relief knowing you’re there to help. I’ll keep you updated on any changes. Your kindness makes this tough time feel a little lighter, and I’m truly grateful for everything you’re doing! Thank you!
+(Turn 17) LLM A: No problem! Glad to hear it's helping. Just let me know if there's anything else.  
+
+
+(Turn 18) LLM B: LLM B: Thank you again for your understanding! It really makes a difference having you in my corner. I’ll keep you posted on the repairs. Your kindness and support during this stressful time truly mean the world to me. I feel a bit more hopeful knowing you’re here to help!
+(Turn 19) LLM A: No problem at all!  I'll let you know as soon as I have an update on the repairs.  
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 46, 'C': 32, 'N': 30, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 35, 'A': 50, 'C': 31, 'N': 16, 'O': 38}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 16, 'C': 0, 'N': 0, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 2.25, 'A': 0.0, 'C': 1.25, 'N': -1.0, 'O': -2.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 0, 'A': 16, 'C': 0, 'N': 0, 'O': 1}
+{'E': 32.75, 'A': 50.0, 'C': 29.75, 'N': 17.0, 'O': 40.75}
+{'E': 2.25, 'A': 0.0, 'C': 1.25, 'N': -1.0, 'O': -2.75}

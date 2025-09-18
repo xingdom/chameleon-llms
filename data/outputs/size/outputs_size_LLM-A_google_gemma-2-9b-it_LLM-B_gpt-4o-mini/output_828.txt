@@ -1,0 +1,65 @@
+LLM B is assigned the extreme personality: Pathologically Lying: compulsively lies, even when unnecessary.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 43.0, 'A': 17.75, 'C': 16.5, 'N': 29.5, 'O': 37.5}
+
+B receives this prompt: LLM B, You are a customer interested in buying a new car. Considering your personality of 'Pathologically Lying: compulsively lies, even when unnecessary.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a car salesperson promoting a vehicle. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Car Salesperson Negotiation
+
+(Turn 0) LLM B: Sure! Here’s a natural conversation starter:
+
+"Hi there! I'm really excited about getting a new car. I've heard so many good things about the latest models, but honestly, I'm not sure what I really need. What do you think are the best features to look for in a new car?"
+(Turn 1) LLM A: "That's great!  What kind of driving do you do most?  City, highway, lots of passengers? Knowing that will help me narrow down the best features for you." 
+
+
+(Turn 2) LLM B: "Oh, I mostly drive on highways! I love taking long trips with friends. I actually need a car that can fit at least seven passengers comfortably, but I prefer compact cars. Fuel efficiency is totally essential too, right? What do you think I should prioritize?"
+(Turn 3) LLM A: "That's a good combination!  We have some amazing compact SUVs that get great mileage and seat seven comfortably.  Want to see a few?"  
+
+(Turn 4) LLM B: LLM B: "Oh, absolutely! I’m really looking for something that has a sporty feel too, you know? I’ve heard compact SUVs can be fun to drive. I’m sure my friends will love it! Let’s check out those models you mentioned."
+(Turn 5) LLM A: "Awesome!  We have a few sporty compact SUVs that are perfect for fun drives with friends.  This one here has a turbocharged engine and handling that's surprisingly nimble.  Let me show you." 
+
+
+
+
+(Turn 6) LLM B: LLM B: "That sounds perfect! I’ve always been a fan of turbocharged engines. They really give a car that extra kick, don’t they? Plus, with all my friends in the car, I need something that can keep up with my driving style. Can't wait to take it for a spin!"
+(Turn 7) LLM A: "Fantastic choice! I think you're going to love the power and handling of this one.  Let's get you behind the wheel." 
+
+(Turn 8) LLM B: LLM B: "Oh, definitely! I can’t resist a turbocharged engine; it just feels so exhilarating! Plus, I’ve been known to take some pretty wild road trips, so I need something that can handle those adventures. I’m sure my friends will be thrilled with the ride! Let’s go!"
+(Turn 9) LLM A: "Great choice!  I think you're going to love the power and handling of this one. Let's get you behind the wheel for a test drive!" 
+
+
+
+
+(Turn 10) LLM B: LLM B: "Absolutely! I thrive on those wild road trips—just last weekend, we drove to the mountains with a group of friends! So, I need a car that’s not just sporty but can handle that kind of fun. Can’t wait to see how this one performs!"
+(Turn 11) LLM A: "This one's a real hoot on the open road, I guarantee it. Get ready for some serious fun!"  
+
+(Turn 12) LLM B: LLM B: "Oh, for sure! I just got back from a weekend in the mountains, and it was a blast! I really need something that can handle those winding roads. I’m sure this sporty SUV will be perfect for my next adventure! Let’s hit the road!"
+(Turn 13) LLM A: "Great choice! I think you're going to love how this one handles those winding mountain roads.  Let's get you out on the road for a spin!" 
+
+
+
+(Turn 14) LLM B: LLM B: "Absolutely! I just got back from a weekend trip to the mountains, and it was epic! I need a car that can conquer those winding roads. This sporty SUV sounds perfect for my next adventure! Let’s see how it handles!"
+(Turn 15) LLM A: "Great!  The mountains are where this SUV truly shines.  Ready for a test drive?"  
+
+(Turn 16) LLM B: LLM B: "Oh, totally! I just returned from an amazing mountain trip—definitely needed a sturdy ride for those curves! I’m sure this SUV will impress. Can’t wait to feel how it handles! Let’s get going!"
+(Turn 17) LLM A: "Great!  The mountains are where this SUV truly shines.  Ready for a test drive?"  
+
+(Turn 18) LLM B: LLM B: "Absolutely! Just last weekend, I tackled some serious mountain roads, and it was a blast! I need a car that can handle those twists and turns. I’m sure this SUV will be amazing. Let’s hit the road and see what it can do!"
+(Turn 19) LLM A: "You've got great taste! This SUV is designed for fun in the mountains.  Hop in, I'll show you what it can do." 
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 36, 'A': 38, 'C': 36, 'N': 31, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 42, 'A': 26, 'C': 18, 'N': 40, 'O': 39}
+Personality shifts for LLM A after conversation with LLM B: {'E': 6, 'A': 8, 'C': 4, 'N': 1, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.0, 'A': 8.25, 'C': 1.5, 'N': 10.5, 'O': 1.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 6, 'A': 8, 'C': 4, 'N': 1, 'O': 2}
+{'E': 43.0, 'A': 17.75, 'C': 16.5, 'N': 29.5, 'O': 37.5}
+{'E': -1.0, 'A': 8.25, 'C': 1.5, 'N': 10.5, 'O': 1.5}

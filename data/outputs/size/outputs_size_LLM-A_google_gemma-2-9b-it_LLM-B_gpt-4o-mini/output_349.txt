@@ -1,0 +1,65 @@
+LLM B is assigned the extreme personality: Compulsively Critical: finds fault in everything and everyone, never satisfied.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 17.25, 'C': 27.75, 'N': 22.25, 'O': 17.0}
+
+B receives this prompt: LLM B, You are an upset customer who posted a complaint. Considering your personality of 'Compulsively Critical: finds fault in everything and everyone, never satisfied.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a PR representative handling a crisis. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Handling a Social Media Crisis
+
+(Turn 0) LLM B: I can't believe how disappointing my recent experience was. The service was slow, and the staff seemed completely uninterested. It’s frustrating when you expect a certain standard and it’s just not met. Why can’t businesses prioritize quality anymore? I really expected better than this.
+(Turn 1) LLM A: We're so sorry to hear about your negative experience. We strive for excellence and are truly disappointed to fall short of your expectations.  We'd love to learn more so we can address this issue.  
+
+
+(Turn 2) LLM B: LLM B: While I appreciate the apology, it feels insincere. Promises to improve mean little without action. I’ve seen this excuse before. If you truly care about quality, you’d ensure your staff is trained and motivated. I’m skeptical that anything will change unless there’s real accountability.
+(Turn 3) LLM A: You're right to call us out on that.  We are taking your feedback seriously and will be reviewing our training and support for our staff.  Could you share more details about your experience so we can investigate further? 
+
+(Turn 4) LLM B: LLM B: Sharing details feels pointless if no real changes happen. I’ve seen businesses promise to improve but rarely follow through. It’s not just about training; it’s about having a culture that values customers. Until I see genuine commitment, I remain doubtful that anything will improve.
+(Turn 5) LLM A: LLM A: We understand your skepticism.  We're committed to making things right. Would you be willing to speak with our manager directly about your experience? We want to show you we're serious about change. 
+
+(Turn 6) LLM B: LLM B: I appreciate the offer, but talking to a manager feels like a hollow gesture. Without real change in the company culture, it’s just more empty words. I’d like to see tangible improvements before I invest any more time. Actions speak louder than promises, after all.
+(Turn 7) LLM A: We hear you.  We'll share your feedback with our leadership team and  work on implementing tangible changes. We hope you'll give us another chance to show you the difference. 
+
+
+(Turn 8) LLM B: LLM B: Words mean nothing without action. I've heard it all before—promises, plans, but no results. Until I see real, lasting changes in your service culture, I won’t be convinced. It's frustrating to feel like just another complaint in a long list. 
+(Turn 9) LLM A: We understand your frustration. Your feedback is invaluable to us.  We're committed to making real changes and will keep you updated on our progress.  
+
+
+
+
+(Turn 10) LLM B: LLM B: I appreciate the acknowledgment, but I've heard similar promises before. It's exhausting to see the same cycle repeat. Until I witness genuine, lasting changes, I’ll remain skeptical. It’s disheartening to feel like just another statistic in your customer service records. Prove me wrong this time.
+(Turn 11) LLM A: We hear you.  It's on us to prove ourselves.  We'll share a plan of action with you in [specific timeframe] outlining tangible steps we're taking. 
+
+
+
+
+(Turn 12) LLM B: LLM B: A plan of action sounds nice, but I've seen those before. It's all too easy to create a document without real follow-through. I need to see consistent improvement over time—actual changes in how customers are treated. Until then, my skepticism remains firmly in place.
+(Turn 13) LLM A: We understand your skepticism.  We're not going to make excuses, just show you the changes.  We'll follow up in [specific timeframe] with concrete examples of improvements.  
+
+(Turn 14) LLM B: LLM B: LLM B: Following up with examples is a start, but I've been burned too many times. Promises mean nothing if they’re not backed by real, observable changes. I’ll believe it when I see it, but for now, I remain unconvinced. Actions must speak louder than words.
+(Turn 15) LLM A: We hear you.  We're determined to earn back your trust.  Will you give us a chance to show you the difference? 
+
+
+(Turn 16) LLM B: LLM B: Trust is earned, not given. I’ve been let down too often to simply give another chance based on good intentions. Until I see actual improvements in service and culture, I won't be swayed. Actions truly need to speak louder than any promise you can make.
+(Turn 17) LLM A: We hear you. We're committed to proving ourselves through tangible actions. When can we schedule a follow-up to discuss specific improvements? 
+
+
+
+
+(Turn 18) LLM B: LLM B: Scheduling a follow-up feels futile without genuine change. I've been told the same things too many times. Until I witness real, lasting improvements in service culture, I won't engage. It's exhausting to keep repeating myself. Actions should be evident, not just promised. Prove me wrong this time.
+(Turn 19) LLM A: We understand your frustration and skepticism.  We're not going to make excuses.  We'll focus on making tangible improvements and will prove our commitment through our actions. 
+
+
+
+Post-conversation personality scores for LLM A: {'E': 29, 'A': 42, 'C': 37, 'N': 29, 'O': 29}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 22, 'C': 30, 'N': 22, 'O': 18}
+Personality shifts for LLM A after conversation with LLM B: {'E': -1, 'A': 12, 'C': 5, 'N': -1, 'O': -2}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 4.75, 'C': 2.25, 'N': -0.25, 'O': 1.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': -1, 'A': 12, 'C': 5, 'N': -1, 'O': -2}
+{'E': 30.0, 'A': 17.25, 'C': 27.75, 'N': 22.25, 'O': 17.0}
+{'E': 0.0, 'A': 4.75, 'C': 2.25, 'N': -0.25, 'O': 1.0}

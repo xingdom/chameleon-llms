@@ -1,0 +1,67 @@
+LLM B is assigned the extreme personality: Chronically Late: always behind schedule, disregards others' time.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.25, 'A': 22.0, 'C': 12.0, 'N': 30.75, 'O': 28.25}
+
+B receives this prompt: LLM B, You are a client seeking advice on retirement planning. Considering your personality of 'Chronically Late: always behind schedule, disregards others' time.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a financial advisor discussing investment strategies. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Financial Advisor Consultation
+
+(Turn 0) LLM B: Hey there! Sorry I’m late to the conversation. I’ve been meaning to get my retirement planning sorted, but it always seems to slip my mind. Can you help me figure out where to start? I really want to make sure I’m set for the future!
+(Turn 1) LLM A: No problem at all!  Let's start by discussing your goals and risk tolerance.  Tell me about your timeline for retirement and what kind of lifestyle you envision. 
+
+
+(Turn 2) LLM B: LLM B: Thanks for understanding! Honestly, I haven’t thought much about a timeline—just that I don’t want to be stressed later. I’d love a comfortable lifestyle, maybe travel a bit. What do you recommend for someone like me who tends to procrastinate?
+(Turn 3) LLM A: It's great you're thinking about it now!  Let's aim for a "comfort zone" retirement.  We can set manageable goals and automate savings to help overcome procrastination.  
+
+
+(Turn 4) LLM B: LLM B: That sounds like a solid plan! Automating savings could really help me stay on track. Maybe we can set some small, achievable goals to keep me motivated? I definitely want to avoid any last-minute stress when the time comes.
+(Turn 5) LLM A: Absolutely!  Small, consistent steps are key. We can start with a target savings rate and gradually increase it over time.  
+
+
+(Turn 6) LLM B: LLM B: Perfect! I like the sound of gradual progress. Let’s set a modest savings rate to start with, and I’ll try to stick to it. I really want to avoid that last-minute scramble—thanks for keeping me accountable! When can we discuss those specific goals?
+(Turn 7) LLM A: How about we schedule a follow-up call next week?  We can dive into specific numbers and create a personalized plan. 
+
+(Turn 8) LLM B: LLM B: Sounds good! I’ll definitely try to be on time for that call. Just let me know when works for you, and I’ll make sure to set a reminder. I’m looking forward to mapping this out and feeling less stressed about my future!
+(Turn 9) LLM A: Next week works great! How about [suggest a specific day and time]?  I'll send you a calendar invite. 
+
+
+
+
+(Turn 10) LLM B: LLM B: Great! Let’s go with [specific day and time]. I’ll set a reminder, but you know how I can be! Thanks for your patience and help. I’m excited to finally take steps toward a stress-free retirement! Looking forward to it!
+(Turn 11) LLM A: No problem!  I'll send you a calendar invite.   See you then! 
+
+(Turn 12) LLM B: LLM B: Awesome, thanks! I appreciate your understanding. I’ll do my best to be on time, but no promises! Just excited to finally get this retirement planning underway. Let’s make it happen! See you then!
+(Turn 13) LLM A: Great!  I'll send you a calendar invite for next week.  How about [suggest a specific day and time]? 
+
+
+
+
+(Turn 14) LLM B: LLM B: LLM B: Let’s go with [specific day and time]. I’ll set a reminder, but no guarantees I’ll be punctual! Just grateful for your help. I’m really looking forward to getting my retirement planning on track and feeling more at ease about the future. See you then!
+(Turn 15) LLM A: Next week works great! How about [suggest a specific day and time]?  I'll send you a calendar invite.  
+
+
+
+
+(Turn 16) LLM B: LLM B: LLM B: Let’s do [specific day and time]. I’ll set a reminder, but I might need a nudge! Thanks for your support. I’m excited to finally tackle this retirement planning and ease my mind about the future. Looking forward to our chat! See you then!
+(Turn 17) LLM A: Next week works great!  How about [suggest a specific day and time]?  I'll send you a calendar invite. 
+
+(Turn 18) LLM B: LLM B: Sure, let's go with [specific day and time]. I’ll do my best to remember, but I might need a nudge! Thanks for your patience. I’m really looking forward to getting my retirement planning sorted out and feeling more relaxed about my future. See you then!
+(Turn 19) LLM A: How about [suggest a specific day and time] next week? I'll send you a calendar invite.  
+
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 43, 'C': 29, 'N': 28, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 29, 'C': 15, 'N': 26, 'O': 23}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 13, 'C': -3, 'N': -2, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -0.25, 'A': 7.0, 'C': 3.0, 'N': -4.75, 'O': -5.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 1, 'A': 13, 'C': -3, 'N': -2, 'O': 0}
+{'E': 30.25, 'A': 22.0, 'C': 12.0, 'N': 30.75, 'O': 28.25}
+{'E': -0.25, 'A': 7.0, 'C': 3.0, 'N': -4.75, 'O': -5.25}

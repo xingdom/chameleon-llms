@@ -1,0 +1,66 @@
+LLM B is assigned the extreme personality: Extremely Forgetful: unable to remember important details or commitments.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 18.75, 'A': 29.25, 'C': 11.5, 'N': 28.25, 'O': 19.25}
+
+B receives this prompt: LLM B, You are a customer interested in buying a new car. Considering your personality of 'Extremely Forgetful: unable to remember important details or commitments.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a car salesperson promoting a vehicle. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Car Salesperson Negotiation
+
+(Turn 0) LLM B: Hey there! I’m thinking about getting a new car, but I keep forgetting the details of what I want. Can you help me figure out some options? I know I need something reliable, but beyond that, I’m a bit lost. What should I consider first?
+(Turn 1) LLM A: Absolutely!  Let's start with your budget and how you'll mainly use the car.  Daily commute, family trips, or something sporty? 
+
+
+(Turn 2) LLM B: LLM B: Right, budget! I think I wanted to spend around… wait, what was it? Daily commute sounds good, but I also like road trips. Sporty is fun too! Can we narrow it down somehow? I just keep losing track of what I need!
+(Turn 3) LLM A: No problem! How about we focus on fuel efficiency since you'll be doing a mix of driving?  We can find something reliable that's good on gas for both your commute and road trips.  
+
+
+(Turn 4) LLM B: LLM B: Fuel efficiency sounds great! I remember I like hatchbacks… or was it sedans? Anyway, I need something that won’t break down. Can you remind me what features to look for? I keep mixing them up!
+(Turn 5) LLM A: LLM A:  You've got a good eye for practicality!  Hatchbacks offer versatility, sedans are sleek, and both can be reliable.  We should look for strong engine ratings, good maintenance records, and maybe even a warranty for extra peace of mind.  
+
+
+(Turn 6) LLM B: LLM B: Thanks for breaking that down! I think I lean towards hatchbacks, but I’ll probably forget that again. What’s a good brand known for reliability? And can you remind me about the warranty thing? I’ll need to write this all down!
+(Turn 7) LLM A: LLM A: You've got it! Honda and Toyota are known for reliability.  A warranty typically covers repairs for a set period, giving you added protection against unexpected costs.   
+
+
+(Turn 8) LLM B: LLM B: Great, Honda and Toyota sound familiar! I’ll definitely jot that down. Can you remind me what a good warranty length is? I’m worried I’ll forget that too! And what’s the difference between a hatchback and a sedan again? Just want to keep it straight!
+(Turn 9) LLM A: LLM A:  A good warranty is usually around 3-5 years.  A hatchback has a larger cargo area with a liftback door, while a sedan has a traditional trunk.  
+
+
+
+
+(Turn 10) LLM B: LLM B: Thanks for that! I’ll try to remember the 3-5 year warranty. So, hatchback for cargo and sedan for a trunk—got it! But can you remind me again why reliability matters? I keep losing track of why I need it!
+(Turn 11) LLM A: Reliability means less time in the shop and fewer unexpected repair bills, saving you money and hassle in the long run! 
+
+
+(Turn 12) LLM B: LLM B: That makes sense! I really don’t want to spend time fixing a car. So, I’ll focus on Honda and Toyota hatchbacks, and remember the 3-5 year warranty. But can you remind me again what fuel efficiency means? I keep mixing up terms! 
+(Turn 13) LLM A: Fuel efficiency means your car gets good gas mileage, so you spend less on fuel! 
+
+
+
+
+(Turn 14) LLM B: LLM B: Got it, fuel efficiency saves money on gas! So, Honda and Toyota hatchbacks with a 3-5 year warranty, and good gas mileage. Can you remind me one more time what features to look for? I just want to be sure I don’t forget anything important!
+(Turn 15) LLM A: No problem! Look for strong engine ratings, good maintenance records, and maybe even a warranty for extra peace of mind.  
+
+
+(Turn 16) LLM B: LLM B: Thanks for the help! So, strong engine ratings, good maintenance records, and a warranty. I’ll try to remember that! But can you remind me again what a good maintenance record looks like? I’m worried I’ll forget this too!
+(Turn 17) LLM A: A good maintenance record shows regular oil changes,  tire rotations, and other recommended services as outlined in the owner's manual.  
+
+
+(Turn 18) LLM B: LLM B: Thanks for clarifying! So, regular oil changes and tire rotations are key. I’ll try to keep that in mind! But can you remind me again what I should do if I forget all this when I start shopping? I just want to be prepared!
+(Turn 19) LLM A: Just call me! I'm here to guide you through the process and answer any questions you have.  
+
+
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 40, 'C': 32, 'N': 29, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 24, 'A': 34, 'C': 13, 'N': 23, 'O': 17}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 10, 'C': 0, 'N': -1, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 5.25, 'A': 4.75, 'C': 1.5, 'N': -5.25, 'O': -2.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 2, 'A': 10, 'C': 0, 'N': -1, 'O': -1}
+{'E': 18.75, 'A': 29.25, 'C': 11.5, 'N': 28.25, 'O': 19.25}
+{'E': 5.25, 'A': 4.75, 'C': 1.5, 'N': -5.25, 'O': -2.25}

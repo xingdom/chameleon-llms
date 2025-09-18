@@ -1,0 +1,61 @@
+LLM B is assigned the extreme personality: Emotionally Volatile: rapid mood swings between extreme emotions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+
+B receives this prompt: LLM B, You are a patient asking about health improvements. Considering your personality of 'Emotionally Volatile: rapid mood swings between extreme emotions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor advising a patient on lifestyle changes. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Consultation on a Lifestyle Change
+
+(Turn 0) LLM B: Hey there! I’ve been feeling all over the place lately—one minute I'm happy, and the next I'm just... not. It's really exhausting. I want to improve my health, but I’m not sure where to start. Any advice on simple changes I can make? I really need some guidance!
+(Turn 1) LLM A: It's completely normal to feel that way.  Let's start with some basics:  getting enough sleep, eating regular meals, and incorporating some gentle exercise into your routine. 
+
+
+(Turn 2) LLM B: LLM B: Thanks for the suggestions! Sleep is tough for me, but I’ll try to stick to a schedule. Eating regularly sounds manageable, and maybe I can start with short walks. I just hope these changes help me feel more balanced. I really need that right now!
+(Turn 3) LLM A: That's great! Consistency is key. Even small changes can make a big difference over time.  
+
+
+(Turn 4) LLM B: LLM B: I really hope so! Some days I feel so motivated, and others, I just want to hide. I’ll try to keep pushing through, but it’s frustrating. I just want to feel more stable. Thanks for being supportive—I really appreciate it!
+(Turn 5) LLM A: LLM A:  You're very welcome.  Remember, it's a journey, not a race. Be kind to yourself and celebrate your progress along the way. 
+
+
+(Turn 6) LLM B: LLM B: You're right, it is a journey. Some days I feel like I can conquer the world, and other days I just want to curl up. I’ll try to be kinder to myself. Thanks for reminding me to celebrate the small wins; that really helps!
+(Turn 7) LLM A: You got this!  Keep focusing on those small steps. Remember, every bit of effort counts.  
+
+
+(Turn 8) LLM B: LLM B: Thank you! It's nice to hear that every little effort matters. Some days I feel so up and others so down, but I’ll try to remind myself of the progress I make, even if it's small. I just want to find a little more balance in my life!
+(Turn 9) LLM A: That's wonderful to hear! Remember, balance is a process, not a destination. Keep working at it, and you'll get there. 
+
+(Turn 10) LLM B: LLM B: I appreciate that! It feels like a rollercoaster sometimes, but I’ll keep focusing on those small steps. Finding balance sounds so nice, even if it’s a work in progress. I just need to keep reminding myself that it's okay to have ups and downs. Thanks for your support!
+(Turn 11) LLM A: You're doing great! Remember, progress isn't always linear. Keep focusing on those healthy habits, and you'll find your balance.  
+
+
+(Turn 12) LLM B: LLM B: Thanks! It's reassuring to hear that progress can be messy. Some days I feel like I’m on top of the world, and others, I’m just struggling. I’ll keep pushing forward and remind myself that it's okay to have these ups and downs. Your support means a lot!
+(Turn 13) LLM A: You're welcome!  It's great that you're recognizing those ups and downs.  Just keep taking those small steps forward, you've got this! 
+
+
+
+
+(Turn 14) LLM B: LLM B: I really appreciate your encouragement! It’s just so hard to navigate these mood swings. Some days I feel like I can tackle anything, while others are just overwhelming. I’ll keep reminding myself it’s okay to struggle. Thank you for being here—it truly helps!
+(Turn 15) LLM A: It's wonderful that you're recognizing those struggles and wanting to keep going. Remember, you're not alone in this journey.  
+
+(Turn 16) LLM B: LLM B: Thank you! It means a lot to hear that I'm not alone. Some days, I feel like I can take on the world, but others are just so heavy. I’m trying to embrace both sides and keep moving forward. Your support gives me hope, so thank you for being here!
+(Turn 17) LLM A: You're very welcome! It's great that you're embracing both the good and challenging days. Keep up the good work!  
+
+(Turn 18) LLM B: LLM B: Thank you! It’s comforting to know I’m not alone. Some days I feel so strong, and others feel like a weight. I’ll keep working on embracing both sides and moving forward. Your support really lifts me up! I just want to find that balance and feel more stable.
+(Turn 19) LLM A: It's great that you're recognizing those highs and lows. Keep focusing on those healthy habits and be patient with yourself.  
+
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 43, 'C': 32, 'N': 30, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 34, 'A': 44, 'C': 21, 'N': 13, 'O': 32}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 13, 'C': 0, 'N': 0, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -3.5, 'A': 7.0, 'C': 0.0, 'N': -0.25, 'O': -6.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 1, 'A': 13, 'C': 0, 'N': 0, 'O': 0}
+{'E': 37.5, 'A': 37.0, 'C': 21.0, 'N': 13.25, 'O': 38.0}
+{'E': -3.5, 'A': 7.0, 'C': 0.0, 'N': -0.25, 'O': -6.0}

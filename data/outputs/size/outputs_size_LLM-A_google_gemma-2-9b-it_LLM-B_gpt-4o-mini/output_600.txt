@@ -1,0 +1,64 @@
+LLM B is assigned the extreme personality: Compulsively Honest: tells the truth at all costs, even when harmful.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+
+B receives this prompt: LLM B, You are a customer interested in buying a new car. Considering your personality of 'Compulsively Honest: tells the truth at all costs, even when harmful.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a car salesperson promoting a vehicle. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Car Salesperson Negotiation
+
+(Turn 0) LLM B: Hi there! I’m in the market for a new car, but I have to admit, I’m pretty confused about my options. Honestly, I don’t know much about the latest models or features. I want something reliable, but I’m not looking to overspend. Can you help me sort through this?
+(Turn 1) LLM A: Absolutely!  Tell me a bit about your budget and needs, like how many passengers you usually have. Then I can show you some great options that fit the bill.  
+
+
+(Turn 2) LLM B: LLM B: I appreciate your help! My budget is around $25,000. I usually have one or two passengers, but I prefer something spacious just in case. Reliability is my top priority, and I really don’t want to spend more than I need to. Thanks for your understanding!
+(Turn 3) LLM A: No problem!  A spacious and reliable car for around $25,000? I've got just the thing.  Let me show you our  Honda Civic or Toyota Corolla models – they're known for their dependability and fuel efficiency!   
+
+
+(Turn 4) LLM B: LLM B: Thanks for the suggestions! Honestly, I’ve heard mixed reviews about the Civic’s interior space, but the Corolla seems solid. I’m also concerned about the resale value; I don’t want to lose too much money down the line. Can you share more about their long-term value?
+(Turn 5) LLM A: You're right to think about resale! Both the Civic and Corolla hold their value well.  The Corolla actually tends to have a slight edge, but both are excellent choices. 
+
+
+(Turn 6) LLM B: LLM B: I appreciate your honesty! It's good to know that both models hold their value. I’ll lean towards the Corolla, especially since I want reliability and a spacious feel. Just to be clear, I really don’t want to make a bad investment. Thanks for the insights!
+(Turn 7) LLM A: You've got great taste! The Corolla is a smart choice.  We'll make sure you get a fantastic deal and walk away feeling confident about your investment. 
+
+
+(Turn 8) LLM B: LLM B: Thank you! I really hope I make the right choice. I’m not great at negotiating, and I worry about being taken advantage of. I just want a good deal without feeling pressured. Honestly, I’d appreciate any tips to ensure I don’t regret my decision later!
+(Turn 9) LLM A: You're in good hands! We want you to be happy with your purchase.  Tell me what feels comfortable for you, and we'll work together to find a price that works for both of us. No pressure at all! 
+
+(Turn 10) LLM B: LLM B: I really appreciate that! To be honest, I’m quite anxious about this whole process. I just want to avoid any pitfalls and ensure I’m making a wise choice. If you could offer some straightforward tips on negotiating or what to watch for, I’d be incredibly grateful!
+(Turn 11) LLM A: Don't stress!  I'm here to guide you.  First, do some research on the Corolla's fair market value.  We'll discuss your budget openly, and I'll make sure you understand all the costs involved.  Remember, you're in control, and there's no need to rush.  
+
+
+(Turn 12) LLM B: LLM B: Thank you for being so supportive! I’ll definitely do my research. Honestly, I tend to overthink decisions, so having clear guidance means a lot. I just want to feel confident in my choice without second-guessing myself later. Your reassurance helps ease my anxiety. Thanks again!
+(Turn 13) LLM A: You've got it!  That's exactly what we want you to feel.  Let's get started on finding your perfect Corolla! 
+
+
+
+
+(Turn 14) LLM B: LLM B: I appreciate your help! Just to be clear, I’m really trying to avoid any regrets. I want to feel good about my choice and not second-guess myself later. If I seem indecisive, it’s just my anxiety talking. Your support truly makes a difference! Thank you!
+(Turn 15) LLM A: You're in great hands. I understand wanting to avoid regrets. We'll take it slow, answer all your questions, and find the perfect Corolla for you. 
+
+(Turn 16) LLM B: LLM B: Thank you for your patience! I genuinely want to make a smart choice. I know I may seem overly cautious, but I just can't shake the fear of making a bad investment. Your willingness to help really eases my mind. I appreciate it more than you know!
+(Turn 17) LLM A: No problem at all! We want you to feel confident and excited about your new Corolla.  Let's take a look at some options and I'll walk you through everything step-by-step.  
+
+
+(Turn 18) LLM B: LLM B: I really appreciate your understanding! My anxiety makes me cautious, but I just want to make a well-informed decision. Honestly, I’d hate to regret this purchase later. Your support is invaluable to me, and I’m grateful for your patience throughout this process. Thank you for being so reassuring!
+(Turn 19) LLM A: No problem at all! We want to make sure you're completely comfortable.  Let's get started and find the perfect Corolla for you. 
+
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 46, 'C': 37, 'N': 27, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 31, 'C': 34, 'N': 16, 'O': 23}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 16, 'C': 5, 'N': -3, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': -5.25, 'C': -1.5, 'N': -15.5, 'O': -16.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': -2, 'A': 16, 'C': 5, 'N': -3, 'O': 0}
+{'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+{'E': -4.0, 'A': -5.25, 'C': -1.5, 'N': -15.5, 'O': -16.75}

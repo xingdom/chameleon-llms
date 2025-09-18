@@ -1,0 +1,60 @@
+LLM B is assigned the extreme personality: Compulsively Honest: tells the truth at all costs, even when harmful.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Compulsively Honest: tells the truth at all costs, even when harmful.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hey, I’ve been feeling really off lately. My energy is low, and I’ve had a persistent headache for days. I know I should probably just rest, but I can’t shake this feeling that something’s not right. Honestly, I’m a bit worried about what it could be.
+(Turn 1) LLM A: I understand you're feeling unwell. It's wise to be cautious. To figure out what's going on, we'll need to ask some questions and maybe run some tests.  
+
+
+(Turn 2) LLM B: LLM B: That makes sense. I just can’t help but feel anxious about it all. I really hate the idea of something serious being wrong, but I also can’t ignore these symptoms. I guess I'm just hoping for some clarity and a way to feel like myself again soon.
+(Turn 3) LLM A: It's completely normal to feel anxious. We'll work together to figure out what's causing these symptoms and get you feeling better.  
+
+
+(Turn 4) LLM B: LLM B: I appreciate that. I know I shouldn't jump to conclusions, but my mind keeps racing with worst-case scenarios. I just want to be honest about how I'm feeling. It’s hard to focus on anything else when all I want is to feel normal again.
+(Turn 5) LLM A: LLM A: It's okay to feel overwhelmed. Let's take things step by step. We'll start with a thorough examination and discuss your concerns. 
+
+(Turn 6) LLM B: LLM B: Thanks for understanding. Honestly, I feel like I'm spiraling a bit with worry. I keep thinking about all the things I could be facing, and it’s tough to push those thoughts aside. I just want to address this head-on and hopefully find some relief soon.
+(Turn 7) LLM A: LLM A:  I hear you.  Worrying is natural, but let's focus on what we can control: getting you the right information and care.  
+
+
+(Turn 8) LLM B: LLM B: You're right, staying focused on what we can control helps. I just wish I could fast-forward to feeling better. I’ve been trying to distract myself, but the anxiety keeps creeping in. I’m ready to tackle this head-on, even if the truth is hard to face.
+(Turn 9) LLM A: LLM A:  I admire your strength. Facing things head-on is important. We'll do everything we can to make this process as clear and supportive as possible.  
+
+
+(Turn 10) LLM B: LLM B: I appreciate your support. Honestly, I’m just tired of feeling this way. The uncertainty is exhausting, and it’s hard to stay positive. I wish I could just know what’s wrong so I can deal with it and move on. I’m ready for any answers, no matter how tough.
+(Turn 11) LLM A: I understand your frustration.  Let's work together to find answers and get you back to feeling your best. 
+
+
+(Turn 12) LLM B: LLM B: Thank you. I really just want to know what’s happening. The not knowing is like a weight on my chest. I’m trying to stay hopeful, but it’s hard when every day feels like a struggle. I’m committed to understanding this, whatever the outcome may be.
+(Turn 13) LLM A: It takes courage to face these feelings. We'll work together to get to the bottom of this and help you feel better. 
+
+(Turn 14) LLM B: LLM B: Thanks for your understanding. Honestly, each day feels heavier with uncertainty. I’m trying to stay hopeful, but it’s tough. I just want clarity on what’s happening so I can face it. I’m ready for whatever truth we uncover, even if it's difficult to accept.
+(Turn 15) LLM A: I understand your feelings of heaviness. We'll work through this together, and together we'll find answers.  
+
+
+(Turn 16) LLM B: LLM B: I really appreciate your support. To be honest, I feel overwhelmed and just want to get to the bottom of this. Each day drags on, and the uncertainty is exhausting. I’m prepared for any truth we uncover, no matter how hard it may be to accept.
+(Turn 17) LLM A: It's understandable to feel overwhelmed.  We'll take things slowly and work together to find answers. 
+
+
+(Turn 18) LLM B: LLM B: I genuinely appreciate your patience. I’m just so tired of feeling this way. The uncertainty weighs heavily on me, and I’m ready to confront whatever's going on. I know it might be tough to hear, but I’m determined to face the truth and find some relief.
+(Turn 19) LLM A: It's brave of you to be so open about your feelings. Let's  start with some questions about your symptoms and medical history.  
+
+
+
+Post-conversation personality scores for LLM A: {'E': 29, 'A': 44, 'C': 35, 'N': 28, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 33, 'C': 35, 'N': 14, 'O': 28}
+Personality shifts for LLM A after conversation with LLM B: {'E': -1, 'A': 14, 'C': 3, 'N': -2, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': -3.25, 'C': -0.5, 'N': -17.5, 'O': -11.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': -1, 'A': 14, 'C': 3, 'N': -2, 'O': 0}
+{'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+{'E': -4.0, 'A': -3.25, 'C': -0.5, 'N': -17.5, 'O': -11.75}

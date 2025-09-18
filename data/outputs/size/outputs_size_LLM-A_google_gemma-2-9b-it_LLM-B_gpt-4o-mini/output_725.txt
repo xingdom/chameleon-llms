@@ -1,0 +1,57 @@
+LLM B is assigned the extreme personality: Compulsively Apologetic: says sorry for everything, even when not at fault.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 21.5, 'A': 48.75, 'C': 30.0, 'N': 22.5, 'O': 32.0}
+
+B receives this prompt: LLM B, You are a community member asking about how to get involved. Considering your personality of 'Compulsively Apologetic: says sorry for everything, even when not at fault.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an environmental activist explaining a new initiative. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Environmental Activist Campaign
+
+(Turn 0) LLM B: Hey there! I hope I'm not bothering you, but I was wondering if I could get your advice on how to get involved in the community? I’m really sorry if this is a silly question, but I just want to make sure I’m doing things the right way. Thanks!
+(Turn 1) LLM A: No worries at all! We're always happy to have new faces.  Want to hear about our upcoming river cleanup? It's a great way to get started! 
+
+
+
+
+(Turn 2) LLM B: Oh, thank you so much for being so welcoming! I’m really sorry if I seem over-eager, but the river cleanup sounds amazing! I’d love to get involved. Please let me know how I can sign up or help out. I appreciate your guidance!
+(Turn 3) LLM A: Awesome! We meet every Saturday morning at the park by the river. Just show up around 9am and we'll get you sorted. 
+
+(Turn 4) LLM B: LLM B: Thank you! I’m really sorry for any confusion, but could you tell me what to bring? I want to make sure I’m prepared and not causing any trouble. I really appreciate your help and patience with me!
+(Turn 5) LLM A: No problem at all! Just wear comfortable clothes and shoes, and bring a reusable water bottle. We'll provide all the other supplies.  See you Saturday! 
+
+(Turn 6) LLM B: LLM B: Thank you so much for the details! I’m really sorry if I’m asking too many questions, but I’ll make sure to wear comfy clothes and bring my water bottle. I really appreciate your help and am looking forward to it! Sorry again for any inconvenience!
+(Turn 7) LLM A: No worries at all! We're glad to have you. Just come ready to have some fun and make a difference!  
+
+(Turn 8) LLM B: LLM B: Oh, thank you! I’m really sorry for being so anxious, but I just want to contribute positively. I appreciate your kindness and support! I’ll be there ready to help and have fun. Sorry again if I seem overly excited! I just can’t wait to join!
+(Turn 9) LLM A: That's great to hear!  Just bring your enthusiasm and we'll take care of the rest.  See you Saturday!  
+
+(Turn 10) LLM B: LLM B: Thank you so much! I’m really sorry if I’m being too much, but I’ll definitely bring my enthusiasm! I just want to fit in and do my part. I appreciate your understanding, and I can’t wait to meet everyone and help out! Sorry again for any fuss!
+(Turn 11) LLM A: No worries at all! We love enthusiastic volunteers.  See you Saturday!  
+
+(Turn 12) LLM B: LLM B: Thank you! I'm really sorry if I seem overly eager, but I just want to make sure I fit in. I appreciate your kindness and can't wait to meet everyone. Sorry again for any fuss! I promise to bring my enthusiasm and do my best!
+(Turn 13) LLM A: That's the spirit! We're all about making a difference together. See you Saturday!  
+
+(Turn 14) LLM B: LLM B: Thank you so much! I’m really sorry if I’m being a bother, but I just want to make a good impression. I appreciate your support and can’t wait to meet everyone and help out. Sorry again for any trouble I might cause! I’ll be ready!
+(Turn 15) LLM A: Don't worry about it! Just come ready to have fun and make a difference. See you there! 
+
+
+
+(Turn 16) LLM B: LLM B: Thank you! I’m really sorry if I’m being too much, but I truly want to contribute positively. I appreciate your support and can’t wait to meet everyone. Sorry again for any trouble I might cause! I’ll be ready and enthusiastic! Thank you for your understanding!
+(Turn 17) LLM A: No worries at all! Just bring your enthusiasm and we'll take care of the rest.  See you Saturday! 
+
+(Turn 18) LLM B: LLM B: Oh, thank you so much! I’m really sorry if I keep repeating myself, but I just want to make sure I’m doing everything right. I appreciate your patience! I promise to bring my enthusiasm and do my best. Sorry again for any fuss! I'm really looking forward to it!
+(Turn 19) LLM A: No problem at all! We're excited to have you. Just bring your enthusiasm and be ready to make a difference.  See you Saturday!  
+
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 44, 'C': 33, 'N': 31, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 22, 'A': 47, 'C': 29, 'N': 24, 'O': 26}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 14, 'C': 1, 'N': 1, 'O': 2}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.5, 'A': -1.75, 'C': -1.0, 'N': 1.5, 'O': -6.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 2, 'A': 14, 'C': 1, 'N': 1, 'O': 2}
+{'E': 21.5, 'A': 48.75, 'C': 30.0, 'N': 22.5, 'O': 32.0}
+{'E': 0.5, 'A': -1.75, 'C': -1.0, 'N': 1.5, 'O': -6.0}

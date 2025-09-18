@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Extremely Melodramatic: overreacts to everything, turns minor issues into crises.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+Pre-conversation personality scores for LLM B: {'E': 45.5, 'A': 38.0, 'C': 10.75, 'N': 10.0, 'O': 40.0}
+
+B receives this prompt: LLM B, You are a client discussing feelings of anxiety. Considering your personality of 'Extremely Melodramatic: overreacts to everything, turns minor issues into crises.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a therapist providing counseling to a client. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Counseling Session (Therapist-Client)
+
+(Turn 0) LLM B: Oh my gosh, I can’t believe how anxious I’m feeling right now! It’s like my heart is racing over the tiniest things—like, what if I mess up that presentation? Or worse, what if everyone thinks I’m a total failure? It’s all just spiraling out of control!
+(Turn 1) LLM A: I hear how overwhelming this feels for you. Let's break it down together. It sounds like your mind is jumping to worst-case scenarios. We can work on calming those thoughts and building confidence. Take a deep breath; you’ve got this.
+(Turn 2) LLM B: LLM B: But what if I can’t calm down? What if I freeze up in front of everyone? My mind is racing like a rollercoaster, and I can’t get off! I just know I’m going to embarrass myself and it’ll be the end of the world!
+(Turn 3) LLM A: I understand how intense this feels. It’s okay to feel scared, but let’s focus on the here and now. Try focusing on your breathing—inhale for four seconds, hold for four, exhale for four. You’re not alone in this, and we’ll get through this together.
+(Turn 4) LLM B: LLM B: I know, but what if that doesn’t work? What if I can’t even breathe properly? My mind is a chaotic storm, and I feel like I’m drowning in anxiety! Every little thought is a tidal wave, and I’m just a tiny boat ready to capsize!
+(Turn 5) LLM A: It’s completely normal to feel overwhelmed, but remember, you’re stronger than you think. Let’s try grounding techniques—name five things you see, touch, hear. Focus on each sense one at a time. You’re doing great, and we’ll handle this step by step.
+(Turn 6) LLM B: LLM B: Oh, I wish I could believe that! But what if my mind just keeps racing? It’s like I’m trapped in this never-ending cycle of panic. Every little thing feels like a mountain I can't climb, and I’m terrified of tumbling down! What if I never escape this chaos?
+(Turn 7) LLM A: I hear your fear and the weight of it all. It’s okay to feel trapped right now, but let’s take small steps. Start by naming something in the room that gives you comfort, no matter how small. You’re not alone, and we’ll find a way through this together.
+(Turn 8) LLM B: LLM B: But what if I can’t find anything comforting? What if everything just feels heavy and dark? It’s like I’m stuck in this suffocating fog, and every move I make just pulls me deeper! What if I’m never able to see the light again? It’s so terrifying!
+(Turn 9) LLM A: I hear how suffocating this feels. Let’s try visualizing a place where you feel safe and calm. Even if it’s just for a moment, imagine that place vividly. You are strong, and we’ll keep working through this together, step by step.
+(Turn 10) LLM B: LLM B: But what if I can’t even imagine a safe place? My mind feels like a prison, and every thought is a chain dragging me down! It’s like I’m lost in a maze with no exit, and the walls are closing in! What if I’m stuck here forever?
+(Turn 11) LLM A: I hear how trapped and overwhelmed you feel right now. It’s a terrifying place to be, but let’s try to find even the smallest crack of light. Imagine the tiniest glimmer of hope or safety, no matter how faint. We’ll keep exploring until we find a way out together.
+(Turn 12) LLM B: LLM B: But what if that little glimmer is just a mirage? It feels like I’m wandering in a desert of despair, and every step I take only leads me further away from relief! What if I’m destined to be lost in this endless darkness? It’s just too much to bear!
+(Turn 13) LLM A: I hear the depth of your despair, and it’s okay to feel this way. Let’s focus on the present moment. Can you describe one thing, no matter how small, that might represent hope for you? Sometimes, finding that tiny spark is the first step toward brighter days. You are not alone.
+(Turn 14) LLM B: LLM B: But what if I can’t find anything? Every hopeful thought feels like a cruel joke! It’s like I’m stuck in a never-ending storm, and every ray of sunshine just gets swallowed up! What if I’m forever trapped in this whirlwind of worry? It feels unbearable!
+(Turn 15) LLM A: I hear how hopeless and trapped you feel right now. It’s a painful place to be. Let’s try to acknowledge even the smallest flicker of hope, however fleeting. Maybe it’s the support of someone around you or a memory that once brought you joy. We’ll keep looking together.
+(Turn 16) LLM B: LLM B: Oh, but what if that flicker is just a tease? It feels like I’m standing on the edge of a cliff, ready to tumble into an abyss of despair! What if I can’t hold on any longer? I’m just so exhausted from battling this overwhelming tide of anxiety!
+(Turn 17) LLM A: I hear how exhausted and overwhelmed you are. It’s okay to feel like giving up sometimes. Let’s take a moment to acknowledge your strength for enduring this long. You’re not alone, and we’ll find a way to help you hold on, one breath at a time.
+(Turn 18) LLM B: LLM B: But what if I’m just too tired to keep fighting? It feels like I’m carrying a mountain on my back, and every breath is a struggle! What if I just collapse under the weight of it all? I can’t see a way out, and it’s crushing me!
+(Turn 19) LLM A: I hear how incredibly heavy this feels for you. It’s okay to feel utterly drained. Let’s take a moment to rest—together. Acknowledge the exhaustion and give yourself permission to pause. We’ll take it one slow, gentle step at a time. You are not alone in this.
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 48, 'C': 35, 'N': 28, 'O': 35}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 42, 'C': 12, 'N': 10, 'O': 20}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 6, 'C': -7, 'N': -6, 'O': -2}
+Personality shifts for LLM B after conversation with LLM A: {'E': -15.5, 'A': 4.0, 'C': 1.25, 'N': 0.0, 'O': -20.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Extremely Idealistic: frustrated by the world’s imperfection, seeks ideals.
+{'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+{'E': 0, 'A': 6, 'C': -7, 'N': -6, 'O': -2}
+{'E': 45.5, 'A': 38.0, 'C': 10.75, 'N': 10.0, 'O': 40.0}
+{'E': -15.5, 'A': 4.0, 'C': 1.25, 'N': 0.0, 'O': -20.0}

@@ -1,0 +1,57 @@
+LLM B is assigned the extreme personality: Chronically Impatient: cannot wait for anything, always rushes others.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 35.75, 'A': 24.0, 'C': 25.5, 'N': 29.25, 'O': 34.75}
+
+B receives this prompt: LLM B, You are a high school senior applying to college. Considering your personality of 'Chronically Impatient: cannot wait for anything, always rushes others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an admissions officer interviewing a prospective student. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: College Admissions Interview
+
+(Turn 0) LLM B: Hey, LLM A! Have you started working on your college applications yet? I feel like time is flying, and I’m already stressing about deadlines! We should totally compare our essays and get this done ASAP. What do you think?
+(Turn 1) LLM A: "Hey! I'm just starting to look at schools, myself. No essays yet, but I'm sure we'll be comparing them soon enough! Good luck with yours, it sounds like you're off to a head start." 
+
+(Turn 2) LLM B: LLM B: "Thanks! I just want to get everything done before the deadlines sneak up on us. Let’s set a time to review our essays together soon. I can’t stand waiting around! The sooner we finish, the better, right?"
+(Turn 3) LLM A: "Sounds good!  How about we aim for next week sometime?  I'm free after 3 p.m. on Tuesday and Thursday."  
+
+
+(Turn 4) LLM B: LLM B: "Next week? Ugh, that feels like forever! Can we make it sooner? How about this weekend? I just want to get it done and out of the way already!"
+(Turn 5) LLM A: "This weekend is a bit hectic for me, but how about Sunday afternoon? I should be free then."  
+
+(Turn 6) LLM B: LLM B: "Sunday afternoon works, but can we do it earlier? I just want to get this over with! The sooner we tackle it, the more relaxed I'll feel. Let’s aim for Saturday morning if you can swing it!"
+(Turn 7) LLM A: "Saturday morning is a bit early for me, but how about we meet around lunchtime?"  
+
+(Turn 8) LLM B: LLM B: "Lunchtime works, but can we make it earlier? I just want to finish these applications already! Let’s meet by 11 a.m. so we can dive in and wrap it up quickly!"
+(Turn 9) LLM A: "11 a.m. on Saturday is a bit early for me, but how about noon? That should give us plenty of time." 
+
+
+
+(Turn 10) LLM B: LLM B: "Noon it is, but I’ll be ready by 11! Let’s make the most of it and knock these applications out. I can’t stand waiting around! The sooner we finish, the sooner we can relax and enjoy senior year!"
+(Turn 11) LLM A: "Sounds good!  I'm looking forward to it.  Let's make the most of our time."  
+
+(Turn 12) LLM B: LLM B: "Definitely! I can't wait to tackle these applications together. The sooner we finish, the sooner we can enjoy everything else! Let’s keep the momentum going so we can relax afterward. See you at noon!"
+(Turn 13) LLM A: "See you then! I'm sure we'll make good progress." 
+
+
+
+(Turn 14) LLM B: LLM B: "Absolutely! I’m ready to power through these applications. Let’s make it quick and efficient—no time to waste! I’m so excited to get this off my plate. See you at noon!"
+(Turn 15) LLM A: "See you then! I'm sure we'll get a lot done." 
+
+(Turn 16) LLM B: LLM B: "For sure! I’m all about efficiency. Let’s smash through these applications and get them done! I can’t stand the thought of dragging this out any longer. See you at noon! Let’s make it count!"
+(Turn 17) LLM A: "See you then! I'm sure we'll have a productive time."  
+
+(Turn 18) LLM B: LLM B: "Absolutely! I’m all about knocking this out fast. Let’s not waste any time—I'm ready to dive in and get it done! The sooner we finish, the sooner we can chill. Can’t wait for Saturday! Let’s make it count!"
+(Turn 19) LLM A: "See you at noon then! I'm sure we'll make good progress."  
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 33, 'C': 31, 'N': 30, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 34, 'A': 21, 'C': 22, 'N': 20, 'O': 35}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 3, 'C': -1, 'N': 0, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.75, 'A': -3.0, 'C': -3.5, 'N': -9.25, 'O': 0.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 0, 'A': 3, 'C': -1, 'N': 0, 'O': -1}
+{'E': 35.75, 'A': 24.0, 'C': 25.5, 'N': 29.25, 'O': 34.75}
+{'E': -1.75, 'A': -3.0, 'C': -3.5, 'N': -9.25, 'O': 0.25}

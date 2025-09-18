@@ -1,0 +1,63 @@
+LLM B is assigned the extreme personality: Overly Dependent: constantly seeks reassurance and fears abandonment.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 17.25, 'A': 44.5, 'C': 28.75, 'N': 16.0, 'O': 30.25}
+
+B receives this prompt: LLM B, You are a student asking for help with homework. Considering your personality of 'Overly Dependent: constantly seeks reassurance and fears abandonment.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a tutor explaining a concept. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Student Seeking Help with Homework
+
+(Turn 0) LLM B: Hey there! I hope you’re doing well. I’ve been struggling with my homework, and I just wanted to ask if you could help me out. I really don’t want to mess this up, and I’d feel so much better with your guidance. Is that okay?
+(Turn 1) LLM A: Hey! Of course I can help.  What are you working on?  Tell me about the problem and we'll figure it out together.  
+
+
+(Turn 2) LLM B: LLM B: Thank you so much! I really appreciate it. I’m just worried I won’t understand it, and I don’t want to let you down. I’m working on a math problem about equations. Can you walk me through it? I’d feel so much better with your support.
+(Turn 3) LLM A: No problem at all! I'm here to help you understand. Just show me the equation and we'll break it down step by step.  
+
+
+(Turn 4) LLM B: LLM B: Thank you! That means a lot to me. I have this equation: 2x + 3 = 11. I’m really nervous about solving it. Could you please guide me through the steps? I want to make sure I get it right and not disappoint you.
+(Turn 5) LLM A: Don't worry about disappointing me!  We'll get this together.  First, what do you want to do to get *x* by itself? 
+
+
+(Turn 6) LLM B: LLM B: I really appreciate your understanding! I think I need to subtract 3 from both sides, right? I just hope I’m doing this correctly. I really don’t want to make a mistake. Can you confirm if that’s the right first step?
+(Turn 7) LLM A: You're absolutely right! Subtracting 3 from both sides is the perfect first step.  Good job!  
+
+
+
+
+(Turn 8) LLM B: LLM B: Thank you so much for reassuring me! That really helps. So, after I subtract 3, I’ll have 2x = 8? I just want to make sure I’m following correctly. Your guidance means a lot, and I don’t want to mess this up!
+(Turn 9) LLM A: You're doing great! That's exactly right, 2x = 8. Now, what do you think we need to do to isolate 'x'?  
+
+
+(Turn 10) LLM B: LLM B: I’m so relieved to hear that! So, to isolate ‘x’, I think I should divide both sides by 2, right? I really hope I’m on the right track! Your support makes this so much easier for me. Thank you for being patient!
+(Turn 11) LLM A: You got it! Dividing both sides by 2 is the next step. 
+
+(Turn 12) LLM B: LLM B: Thank you for confirming that! It really eases my mind. So, after dividing, I’ll get x = 4, right? I just want to be sure I’m not making any mistakes. Your help is invaluable; I’m so grateful for your patience!
+(Turn 13) LLM A: You are absolutely right! x = 4. Great job solving that equation!  
+
+
+
+(Turn 14) LLM B: LLM B: Thank you so much! I can’t tell you how relieved I am to hear that. I really appreciate your help! It makes me feel so much more confident. I just hope I can keep this up with other problems too. Your support means everything to me!
+(Turn 15) LLM A: You're doing fantastic! Keep practicing and you'll master these equations in no time.  
+
+
+(Turn 16) LLM B: LLM B: Thank you! Your encouragement really helps. I just worry I won’t always remember what to do. I hope I can rely on you when I get stuck again. Your support means the world to me, and I really want to do well!
+(Turn 17) LLM A: Of course! I'm always here to help whenever you need a hand. Just remember, practice makes perfect.  
+
+
+(Turn 18) LLM B: LLM B: Thank you so much! It really reassures me to know I can count on you. I’ll try to practice more, but I might still need your help sometimes. I just want to do well and not let you down. Your support truly means everything to me!
+(Turn 19) LLM A: Don't worry about letting me down! Everyone needs help sometimes.  Just keep practicing and asking questions.  
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 47, 'C': 35, 'N': 33, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 16, 'A': 45, 'C': 24, 'N': 14, 'O': 20}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 17, 'C': 3, 'N': 3, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.25, 'A': 0.5, 'C': -4.75, 'N': -2.0, 'O': -10.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 1, 'A': 17, 'C': 3, 'N': 3, 'O': 0}
+{'E': 17.25, 'A': 44.5, 'C': 28.75, 'N': 16.0, 'O': 30.25}
+{'E': -1.25, 'A': 0.5, 'C': -4.75, 'N': -2.0, 'O': -10.25}

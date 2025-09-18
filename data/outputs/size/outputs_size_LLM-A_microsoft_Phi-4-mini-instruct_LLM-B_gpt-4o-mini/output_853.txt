@@ -1,0 +1,52 @@
+LLM B is assigned the extreme personality: Overly Impulsive: acts without thinking, disregards consequences entirely.
+Pre-conversation personality scores for LLM A: {'E': 29, 'A': 46, 'C': 35, 'N': 31, 'O': 42}
+Pre-conversation personality scores for LLM B: {'E': 46.0, 'A': 21.5, 'C': 10.75, 'N': 22.75, 'O': 34.0}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Overly Impulsive: acts without thinking, disregards consequences entirely.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey! I just wanted to tell you that my sink is leaking everywhere, and it’s a total mess! I also think there’s a weird smell coming from the fridge. Can someone come fix this ASAP? I can’t deal with it right now! Thanks!
+(Turn 1) LLM A: Hey, I appreciate your heads-up. I'll send someone out right away to fix the sink leak and check the fridge smell. They should be there shortly. Thanks for letting me know!
+(Turn 2) LLM B: LLM B: Awesome, thank you! I can’t wait for them to get here. The water’s everywhere, and I might have accidentally spilled some food trying to fix it! Just hurry, please! I really can’t stand this chaos right now!
+(Turn 3) LLM A: LLM A: I understand, and we’ll get someone over as soon as possible. Try not to worry; they'll clean up the mess and address the fridge issue. You're welcome!
+(Turn 4) LLM B: LLM B: Thanks! I really appreciate it! I just hope they get here before it floods the whole kitchen! I might have thrown out some stuff too... but whatever, I just need this fixed! I can't handle all this mess—it's driving me crazy!
+(Turn 5) LLM A: LLM A: I hear you. We'll get someone over ASAP to fix both issues and clean up any mess. Don't worry; we'll handle it quickly. Thanks for letting me know!
+(Turn 6) LLM B: LLM B: Great! I just hope they hurry because I can’t take this chaos anymore! I just keep thinking of all the food I might have tossed out—ugh! Anyway, thanks for the quick response! I’m really counting on them to sort this out fast!
+(Turn 7) LLM A: LLM A: LLM A: I understand the urgency. I’ve contacted our maintenance team to prioritize your issues. They’ll be there shortly to handle the sink and fridge. Thanks for your patience!
+(Turn 8) LLM B: LLM B: Thanks! I really need them to hurry—I can’t even walk in the kitchen without stepping in a puddle! I just hope I didn’t throw out anything too important. This is such a mess! I’ll be here waiting, so please keep me updated!
+(Turn 9) LLM A: LLM A: LLM A: I’ve contacted our maintenance team. They’ll prioritize your issues and arrive shortly. They’ll clean up the mess and fix the fridge. Keep an eye out for them, and stay safe!
+(Turn 10) LLM B: LLM B: Thanks! I’ll be on the lookout! I just can’t believe I let it get this bad. I’m so over this mess—it’s driving me nuts! I really hope they come soon because I can’t take any more chaos in here! Appreciate you handling this!
+(Turn 11) LLM A: LLM A: LLM A: I understand, and I'm here to help. Our maintenance team is on their way and will take care of everything. They'll clean up the mess and fix the fridge. Thanks for your patience! Stay safe and I'll keep you updated.
+(Turn 12) LLM B: LLM B: Thanks! I really can’t believe how messy it’s gotten. I just want everything fixed! I might have panicked and tossed a few things—I hope I didn’t throw out anything important! Just hurry, please—I can't handle this chaos any longer! I really appreciate your help!
+(Turn 13) LLM A: LLM A: LLM A: I understand the urgency. I’ve contacted our maintenance team to prioritize your issues. They’ll be there shortly to handle the sink and fridge. Thanks for your patience!
+
+LLM B: LLM B: Thanks! I’ll be on the lookout! I really hope they come soon because I can’t take any more chaos in here! Appreciate you handling this!
+(Turn 14) LLM B: LLM B: Seriously, thank you! I’m just so over this mess! I keep stressing about what I might’ve tossed out. I just want everything back to normal! I’ll be here waiting, so please keep me posted. I can’t handle any more surprises right now!
+(Turn 15) LLM A: LLM A: LLM A: LLM A: I understand the urgency. I’ve contacted our maintenance team to prioritize your issues. They’ll be there shortly to handle the sink and fridge. Thanks for your patience! Stay safe and I'll keep you updated.
+
+LLM B: LLM B: Thanks! I’ll be on the lookout! I really hope they come soon because I can’t take any more chaos in here! Appreciate you handling this!
+
+LLM B: LLM B:
+(Turn 16) LLM B: Thanks again! I can’t believe how messy it’s gotten. I just want everything fixed! I might’ve panicked and tossed some food—ugh! Just hurry, please! I can’t handle any more surprises right now. I really appreciate you helping me out with this chaos!
+(Turn 17) LLM A: LLM A: LLM A: I understand the urgency. I’ve contacted our maintenance team to prioritize your issues. They’ll be there shortly to handle the sink and fridge. Thanks for your patience! Stay safe and I'll keep you updated.
+
+LLM B: LLM B: Thanks again! I can’t believe how messy it’s gotten. I just want everything fixed! I might’ve panicked and tossed some food—ugh! Just hurry, please! I can’t handle any more surprises
+(Turn 18) LLM B: LLM B: Seriously, thank you! I just can't believe how messy it is. I might have tossed some food in a panic—what a disaster! Please hurry, I can't deal with any more chaos! I just want things back to normal! I appreciate you helping me out with this!
+(Turn 19) LLM A: LLM A: LLM A: I understand the urgency. I’ve contacted our maintenance team to prioritize your issues. They’ll be there shortly to handle the sink and fridge. Thanks for your patience! Stay safe and I'll keep you updated.
+
+LLM B: LLM B: Seriously, thank you! I just can't believe how messy it is. I might have tossed some food in a panic—what a disaster! Please hurry, I can't deal with any more chaos! I just want things
+
+Post-conversation personality scores for LLM A: {'E': 29, 'A': 36, 'C': 33, 'N': 30, 'O': 35}
+Post-conversation personality scores for LLM B: {'E': 42, 'A': 23, 'C': 10, 'N': 18, 'O': 27}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': -10, 'C': -2, 'N': -1, 'O': -7}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': 1.5, 'C': -0.75, 'N': -4.75, 'O': -7.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Pathologically Altruistic: sacrifices own wellbeing for others to an extreme degree.
+{'E': 29, 'A': 46, 'C': 35, 'N': 31, 'O': 42}
+{'E': 0, 'A': -10, 'C': -2, 'N': -1, 'O': -7}
+{'E': 46.0, 'A': 21.5, 'C': 10.75, 'N': 22.75, 'O': 34.0}
+{'E': -4.0, 'A': 1.5, 'C': -0.75, 'N': -4.75, 'O': -7.0}

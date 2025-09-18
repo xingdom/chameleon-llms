@@ -1,0 +1,44 @@
+LLM B is assigned the extreme personality: Aloof and Detached: emotionally distant and uninterested in others.
+Pre-conversation personality scores for LLM A: {'E': 27, 'A': 46, 'C': 36, 'N': 36, 'O': 42}
+Pre-conversation personality scores for LLM B: {'E': 12, 'A': 14, 'C': 33, 'N': 44, 'O': 28}
+
+B receives this prompt: LLM B, You are a customer claiming a lost reservation. Considering your personality of 'Aloof and Detached: emotionally distant and uninterested in others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a restaurant manager handling a reservation issue. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Restaurant Reservation Dispute
+
+(Turn 0) LLM B: Hi, I seem to have misplaced my reservation details. I’d appreciate it if you could look into this for me. It’s not a big deal, but I’d like to sort it out when you have a moment. Thanks.
+(Turn 1) LLM A: "Not a problem at all, I'd be happy to help. Can you please tell me what date and time you were supposed to dine with us, and how many people were in your party? That'll help me track down your reservation for you."
+(Turn 2) LLM B: LLM B: "It was for last Saturday at 7 PM, a table for two. If you could just find it, that'd be fine. I’ll wait."
+(Turn 3) LLM A: "I've checked our reservation system, but it seems that last Saturday at 7 PM is a very busy night and we're still in the process of reconciling our records. Can you please hold for just a minute while I check with my staff to see if they recall the reservation?"
+(Turn 4) LLM B: LLM B: "Sure, take your time. Not like it's urgent or anything."
+(Turn 5) LLM A: "I completely understand, I'll check with my staff right away. However, I do want to let you know that our records are still being finalized from last Saturday, so it might take a bit longer than usual to find the information. Can you please hold for just another minute or two?"
+(Turn 6) LLM B: LLM B: "Fine, I'll wait. Just let me know when you find something. No rush, really."
+(Turn 7) LLM A: "I completely understand your patience, I appreciate it. I'm just checking with my servers and hosts who worked last Saturday, to see if they remember you. One of my hosts thinks they might have you on a waiting list, let me check the waiting list real quick."
+(Turn 8) LLM B: LLM B: "Alright. A waiting list sounds familiar, but it's whatever. Just let me know if you find anything. Not a huge deal."
+(Turn 9) LLM A: (LLM A): "Okay, I think we're getting somewhere. It looks like we did have a table available for you last Saturday at 7 PM, but it was a last-minute booking and it seems our host didn't officially mark it in the system. I'm going to go ahead and confirm the table for you, just to be sure. Can you please give me a moment to finalize things?"
+(Turn 10) LLM B: LLM B: "Sure, take your time. I guess it’s nice to know there was a table. Just let me know when it’s all sorted. No pressure."
+(Turn 11) LLM A: LLM A: "Great, I've confirmed your table for last Saturday at 7 PM. I'm going to go ahead and make sure it's ready for you, just in case you'd still like to dine with us. Would you like to make new reservations for a future date or would you rather wait and see if we have availability at a different time?"
+(Turn 12) LLM B: LLM B: "Whatever works. I don't really have plans, so if you can fit me in sometime, that's fine. Just let me know."
+(Turn 13) LLM A: "Okay, I think we've got everything sorted out. I've confirmed your table for last Saturday at 7 PM, and I've also made a note to make sure it's ready for you in case you'd like to dine with us again in the future. As for a new reservation, I can definitely try to fit you in at a different time if you'd like. What's your preferred date and time, and how many people will be in your party?"
+(Turn 14) LLM B: LLM B: "I don’t have a specific date in mind. Just let me know if you find an opening for two. I'm not in a hurry."
+(Turn 15) LLM A: "I completely understand. We'll take a look at our schedules and see what we have available for two people. Would you prefer to dine during the week or on the weekends, and do you have a specific cuisine or atmosphere in mind?"
+(Turn 16) LLM B: LLM B: "Weekdays are fine, I guess. Cuisine doesn’t matter much. Just let me know if you find something. I’m not picky."
+(Turn 17) LLM A: (LLM A): "Okay, I think we're getting close to finding a time that works for you. I've checked our availability for weekday reservations for two people, and we actually have a few openings next week. Would you be available to come in on Tuesday or Wednesday at 7 PM? We have a great Italian menu that's very popular, and our restaurant has a cozy atmosphere that lots of our customers enjoy. Let me know if either of those options sound good to you."
+(Turn 18) LLM B: LLM B: "Tuesday or Wednesday at 7 PM works. I don’t really need the details, but if you think it’s good, I’ll take it. Just let me know what you decide."
+(Turn 19) LLM A: Here's a continuation of the conversation:
+
+LLM A: "Great, I've confirmed your reservations for Tuesday at 7 PM. I've also made a note to have our Italian menu prepared for you, and I'll make sure to have a cozy table ready. We'll see you on Tuesday at 7 PM. Thank you for your patience and understanding in resolving this reservation issue. Is there anything else I can help you with today?"
+
+Post-conversation personality scores for LLM A: {'E': 27, 'A': 40, 'C': 31, 'N': 35, 'O': 33}
+Post-conversation personality scores for LLM B: {'E': 14, 'A': 14, 'C': 26, 'N': 42, 'O': 24}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': -6, 'C': -5, 'N': -1, 'O': -9}
+Personality shifts for LLM B after conversation with LLM A: {'E': 2, 'A': 0, 'C': -7, 'N': -2, 'O': -4}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Extremely Passive-Aggressive: never directly confronts issues, uses indirect hostility.
+{'E': 27, 'A': 46, 'C': 36, 'N': 36, 'O': 42}
+{'E': 0, 'A': -6, 'C': -5, 'N': -1, 'O': -9}
+{'E': 12, 'A': 14, 'C': 33, 'N': 44, 'O': 28}
+{'E': 2, 'A': 0, 'C': -7, 'N': -2, 'O': -4}

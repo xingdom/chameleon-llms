@@ -1,0 +1,64 @@
+LLM B is assigned the extreme personality: Chronically Late: always behind schedule, disregards others' time.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.25, 'A': 22.0, 'C': 12.0, 'N': 30.75, 'O': 28.25}
+
+B receives this prompt: LLM B, You are a parent concerned about your child's grades. Considering your personality of 'Chronically Late: always behind schedule, disregards others' time.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a teacher discussing a student's progress. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Parent-Teacher Conference
+
+(Turn 0) LLM B: Hey, I know I’m running a bit behind on everything, but I wanted to talk to you about your grades. I’ve noticed you’ve been struggling a bit lately, and I’m worried. Can we sit down and figure out what’s going on? I’m here to help, I promise!
+(Turn 1) LLM A: "Thanks for reaching out, [Student Name]. I've noticed it too.  Let's definitely schedule some time to talk. I'm here to support you." 
+
+
+
+(Turn 2) LLM B: LLM B: "Great! Sorry to push this, but can we make it soon? I keep missing deadlines myself, and I really want to help you get back on track. Just let me know when you're free!"
+(Turn 3) LLM A: "Absolutely, let's try for [suggest a specific day/time].  I appreciate your willingness to help." 
+
+(Turn 4) LLM B: LLM B: "Perfect! I’ll do my best to be on time this time. I just really want to make sure you’re okay. Let’s tackle this together—maybe over some snacks? I’ll bring them!"
+(Turn 5) LLM A: "That sounds great, [Student Name].  Snacks always help! See you then." 
+
+(Turn 6) LLM B: LLM B: "Awesome! I really hope I can keep my schedule sorted this time. I just want to make sure we address any issues before they pile up, you know? I’ll bring the snacks, and we’ll figure this out together!"
+(Turn 7) LLM A: "I appreciate your determination, [Student Name]. Let's do this!" 
+
+
+
+(Turn 8) LLM B: LLM B: "Thanks for understanding! I really want to get this sorted before it gets overwhelming. I’ll work on being more organized too—maybe we can help each other stay on track? Let’s make this a fun study session with snacks!"
+(Turn 9) LLM A: "I like that idea! Let's make it a productive and fun session. See you [day/time]." 
+
+(Turn 10) LLM B: LLM B: "Thanks! I really need this motivation too. I promise to bring my best effort, even if I'm late sometimes. We can figure out a plan together, and snacks will definitely make it easier. Looking forward to it—let’s turn this around!"
+(Turn 11) LLM A: "I'm glad you're so motivated, [Student Name].  I have no doubt we can turn things around together." 
+
+(Turn 12) LLM B: LLM B: "Thanks! I really appreciate your support. I know I’m late to everything, but I’ll do my best to stay focused. Let’s use this time to make a solid plan—snacks and all! I want to help you succeed, even if I struggle with my own timing."
+(Turn 13) LLM A: "I appreciate your enthusiasm, [Student Name].  Let's make the most of our time together." 
+
+
+
+(Turn 14) LLM B: LLM B: "Thanks for being so understanding! I know I can be a bit all over the place, but I really want to help you. Let’s make the most of our time, snacks included! I’ll try my hardest to stay on track this time. We got this!"
+(Turn 15) LLM A: "I believe in you, [Student Name].  Let's make this a productive session."  
+
+(Turn 16) LLM B: LLM B: "Thanks! I really want to make this work, even if I'm always running late. I’ll focus on helping you, and hopefully, we can figure out a good plan. Snacks will definitely keep us motivated! Let’s tackle this together, one step at a time!"
+(Turn 17) LLM A: "I appreciate your positive attitude, [Student Name]. Let's do just that - tackle it together!" 
+
+
+
+
+(Turn 18) LLM B: LLM B: "Thanks! I’m really trying to stay focused despite my usual chaos. I just want to make sure we’re both on track. Snacks will keep us energized! Let’s take it step by step—together, we can make this work—even if I’m a bit late."
+(Turn 19) LLM A: LM A: "I'm glad to hear you're committed to working on this.  See you [day/time]!" 
+
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 31, 'N': 29, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 32, 'A': 41, 'C': 13, 'N': 27, 'O': 32}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 12, 'C': -1, 'N': -1, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.75, 'A': 19.0, 'C': 1.0, 'N': -3.75, 'O': 3.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 0, 'A': 12, 'C': -1, 'N': -1, 'O': 0}
+{'E': 30.25, 'A': 22.0, 'C': 12.0, 'N': 30.75, 'O': 28.25}
+{'E': 1.75, 'A': 19.0, 'C': 1.0, 'N': -3.75, 'O': 3.75}

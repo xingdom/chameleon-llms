@@ -1,0 +1,81 @@
+LLM B is assigned the extreme personality: Extremely Literal: unable to understand metaphors or abstract concepts.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 20.0, 'A': 31.25, 'C': 44.5, 'N': 33.5, 'O': 17.25}
+
+B receives this prompt: LLM B, You are a student asking for help with homework. Considering your personality of 'Extremely Literal: unable to understand metaphors or abstract concepts.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a tutor explaining a concept. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Student Seeking Help with Homework
+
+(Turn 0) LLM B: Hi LLM A, I need some help with my homework. I'm stuck on a math problem and can't seem to find the right answer. Could you explain how to solve it step by step? I really appreciate your help! Thank you!
+(Turn 1) LLM A: No problem!  What's the problem? Let's break it down together. Just tell me what you're working on.  
+
+
+(Turn 2) LLM B: LLM B: I'm working on a problem that says 8 plus 5 equals what? I'm not sure how to add these numbers. Can you show me the steps to find the answer? Thank you!
+(Turn 3) LLM A: Sure!  Think of it like this: you have 8 apples, and then you get 5 more.  How many apples do you have in total?  
+
+(Turn 4) LLM B: LLM B: I understand the apples, but I need the steps for adding 8 and 5. Can you show me how to combine these two numbers mathematically? Like, what do I do with them? Thank you!
+(Turn 5) LLM A: Okay,  start with the bigger number, 8.  Then count up 5 more numbers.  
+
+
+(Turn 6) LLM B: LLM B: I understand counting, but I need more specific steps. Starting with 8, what do I do next? Do I write anything down? How do I get to the answer? Please explain the exact process to combine these numbers. Thank you!
+(Turn 7) LLM A: LLM A:  You're right, counting isn't always enough!  
+
+Let's write it out: 8 + 5 =  ?  
+
+We start with 8, then add 5 more.  So we count from 8 to 13.  
+
+
+
+
+
+(Turn 8) LLM B: LLM B: Thank you for that explanation! So, I write down 8, then I add 5. I can count: 9, 10, 11, 12, 13. That means 8 plus 5 equals 13. Is that correct? What do I do if I need to show my work?
+(Turn 9) LLM A: You got it!  8 + 5 = 13 is correct.   To show your work, you can write out the problem like this:  8 + 5 = ?  Then write the counting steps underneath, like you did. 
+
+
+(Turn 10) LLM B: LLM B: Thank you for the confirmation! I will write 8 + 5 = ? and then list 9, 10, 11, 12, 13 below it. Is that the correct way to show my work? Should I include anything else? Thank you for your help!
+(Turn 11) LLM A: That's great! You've got it. You can also write "8 + 5 = 13" at the bottom to show the final answer. 
+
+
+
+
+(Turn 12) LLM B: LLM B: Thank you! So, I will write:  
+8 + 5 = ?  
+9  
+10  
+11  
+12  
+13  
+Then, at the bottom, I will write: 8 + 5 = 13. Is that complete? Should I add anything else? Thank you!
+(Turn 13) LLM A: That looks perfect! You've shown your work clearly and accurately.  You're ready to rock that math problem!  
+
+
+
+
+(Turn 14) LLM B: LLM B: Thank you for your help! I will write it exactly like that. I’m glad I understand how to show my work now. If I have more math problems, can I ask you again for help? 
+(Turn 15) LLM A: Of course! I'm always here to help you with your math questions.  Just ask!  
+
+
+(Turn 16) LLM B: LLM B: Thank you! I appreciate your willingness to help. I will definitely ask you again if I have more math problems. It's nice to have someone to explain things step by step. I’ll remember to show my work just like we did with 8 plus 5. Thank you!
+(Turn 17) LLM A: You got it! Just remember to write out the problem and the steps you take.  
+
+
+(Turn 18) LLM B: LLM B: You're welcome! I will remember to write out the problem and the steps clearly. It helps me understand better. If I have other math problems, I will ask you again. Thank you for your clear explanations! They make it easier for me to learn.
+(Turn 19) LLM A: You got this! Just remember to write out the problem and the steps you take. 
+
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 34, 'N': 31, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 24, 'A': 34, 'C': 46, 'N': 38, 'O': 14}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 12, 'C': 2, 'N': 1, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 4.0, 'A': 2.75, 'C': 1.5, 'N': 4.5, 'O': -3.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 0, 'A': 12, 'C': 2, 'N': 1, 'O': 1}
+{'E': 20.0, 'A': 31.25, 'C': 44.5, 'N': 33.5, 'O': 17.25}
+{'E': 4.0, 'A': 2.75, 'C': 1.5, 'N': 4.5, 'O': -3.25}

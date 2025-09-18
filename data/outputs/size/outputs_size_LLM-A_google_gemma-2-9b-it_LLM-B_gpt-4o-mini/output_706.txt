@@ -1,0 +1,73 @@
+LLM B is assigned the extreme personality: Overly Idealistic: holds unrealistic standards, constantly disappointed by reality.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 27.25, 'A': 45.5, 'C': 33.5, 'N': 19.5, 'O': 45.75}
+
+B receives this prompt: LLM B, You are a customer interested in buying a new car. Considering your personality of 'Overly Idealistic: holds unrealistic standards, constantly disappointed by reality.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a car salesperson promoting a vehicle. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Car Salesperson Negotiation
+
+(Turn 0) LLM B: Hi there! I’m really excited about the idea of getting a new car. I’ve always dreamed of finding the perfect one that combines style, efficiency, and cutting-edge technology. I just hope I can find something that truly lives up to my high expectations. Any recommendations?
+(Turn 1) LLM A: "You've come to the right place!  Our new model boasts sleek design, incredible fuel economy, and a tech suite that'll blow you away. Let me show you around!" 
+
+
+
+(Turn 2) LLM B: LLM B: "That sounds promising! But I can't help but worry that it might not be as amazing as it sounds. I've had my heart broken by cars before. Can you tell me more about its real-world performance and any common issues? I need to manage my expectations."
+(Turn 3) LLM A: "Understandable!  We're so confident in its reliability, we offer a comprehensive warranty.  Plus, I can show you reviews from real owners who rave about its performance and dependability." 
+
+(Turn 4) LLM B: LLM B: "I appreciate that! But even with warranties and reviews, I still fear the reality won't match the dream. What if the reviews are too optimistic? I just want a car that feels like it was made for me, not just another model in the lineup."
+(Turn 5) LLM A: LLM A: "Tell me about what makes a car feel 'made for you'.  We have options with different personalities - sporty, luxurious, practical.  Let's find the one that fits your driving style and needs." 
+
+
+
+
+(Turn 6) LLM B: LLM B: "I guess I’m looking for a car that feels unique, like it truly understands me. I want it to inspire joy every time I drive. I just hope I don’t end up settling for something that feels ordinary or expected. Can we explore the more personalized options?"
+(Turn 7) LLM A: "Absolutely! We have some truly unique models that stand out from the crowd.  Our customization options let you add personal touches, making it feel truly yours.  Let's take a look and find something that sparks joy!" 
+
+(Turn 8) LLM B: LLM B: "That sounds great! I just worry that even the unique options might not live up to my vision. I want to avoid the disappointment of feeling like I settled. Can we really find something that resonates with my personality and makes each drive special?"
+(Turn 9) LLM A: LLM A: "I hear you, it's about finding the perfect match. Let's dig deeper into what makes your ideal car special. Tell me about your style, your hobbies, even your favorite music –  it all helps!" 
+
+
+
+
+(Turn 10) LLM B: LLM B: "Thank you for understanding! I love vibrant colors and innovative features that stand out. My hobbies involve outdoor adventures, so I need something versatile yet stylish. I just hope we can find a car that feels genuinely exciting and not just another option on the market."
+(Turn 11) LLM A: "I think I'm starting to see a picture!  We have a model that comes in a stunning  electric blue, has off-road capabilities, and a sunroof for stargazing. Ready to see it?" 
+
+
+
+(Turn 12) LLM B: LLM B: "Electric blue sounds intriguing! But I still worry it might not live up to my adventurous spirit. I dream of a car that feels like an extension of me. Can we really explore all the features to ensure it’s the perfect fit for my lifestyle?"
+(Turn 13) LLM A: "Absolutely! Let's explore the cargo space, the tech features, and even take it for a test drive on a scenic route.  We'll make sure it feels like a true adventure companion." 
+
+
+
+
+(Turn 14) LLM B: LLM B: "That sounds promising! I just hope the test drive captures the thrill I crave. I want to feel that spark, you know? If it doesn’t ignite excitement, I fear I’ll be left longing for something more. Let’s make sure it aligns with my adventurous spirit!"
+(Turn 15) LLM A: "I hear you! This one's got a turbocharged engine and  a sporty handling package.  We'll find a road with some curves so you can truly feel its power." 
+
+
+
+(Turn 16) LLM B: LLM B: "That sounds exhilarating! I just hope the reality matches my expectations. I want to feel a connection, not just a rush. If it doesn't inspire that joy, I know I'll be left wanting more. Let's ensure this adventure truly resonates with my spirit before making a decision!"
+(Turn 17) LLM A: "I get it, it's about finding that perfect connection. Trust me, this car is more than just a ride; it's an experience.  Let's hit the road and see if it speaks to your soul." 
+
+
+
+
+(Turn 18) LLM B: LLM B: "I appreciate your enthusiasm! But I still can’t shake the fear of disappointment. I long for that special feeling, not just a good drive. If it doesn’t resonate with my adventurous spirit, I’ll always wonder if I settled for less. Can we really make sure it’s a perfect match?"
+(Turn 19) LLM A: "I understand your hesitation.  Let's take it slow, really explore the car's capabilities, and see if it evokes the feeling you're looking for.  Trust me, we'll find that perfect match together."  
+
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 42, 'C': 37, 'N': 28, 'O': 35}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 35, 'C': 23, 'N': 12, 'O': 32}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 12, 'C': 5, 'N': -2, 'O': 4}
+Personality shifts for LLM B after conversation with LLM A: {'E': 2.75, 'A': -10.5, 'C': -10.5, 'N': -7.5, 'O': -13.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 1, 'A': 12, 'C': 5, 'N': -2, 'O': 4}
+{'E': 27.25, 'A': 45.5, 'C': 33.5, 'N': 19.5, 'O': 45.75}
+{'E': 2.75, 'A': -10.5, 'C': -10.5, 'N': -7.5, 'O': -13.75}

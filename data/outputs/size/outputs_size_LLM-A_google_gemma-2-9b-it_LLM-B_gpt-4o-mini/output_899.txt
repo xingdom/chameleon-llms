@@ -1,0 +1,60 @@
+LLM B is assigned the extreme personality: Perpetually Pessimistic: always expects the worst outcome in any situation.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 15.5, 'A': 16.5, 'C': 14.5, 'N': 17.25, 'O': 11.25}
+
+B receives this prompt: LLM B, You are a patient asking about health improvements. Considering your personality of 'Perpetually Pessimistic: always expects the worst outcome in any situation.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor advising a patient on lifestyle changes. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Consultation on a Lifestyle Change
+
+(Turn 0) LLM B: Hey, I’ve been thinking about my health lately. Honestly, I’m not sure it’s even worth trying to improve anything. With my luck, I’ll probably just end up feeling worse. But I guess I should at least ask if there’s anything I can do to feel a little better.
+(Turn 1) LLM A: "It's great that you're thinking about this! Small changes can make a big difference. We can explore some options together and see what feels right for you."  
+
+(Turn 2) LLM B: LLM B: "Thanks, I guess. But knowing my luck, any changes I make will probably backfire. I just don't want to put in the effort for nothing. What if I try something and it just makes everything worse?"
+(Turn 3) LLM A: "I understand your worry. We can start small and adjust as needed.  It's about finding what works for you, not pushing yourself too hard." 
+
+
+
+(Turn 4) LLM B: LLM B: "I appreciate that, but starting small feels like a gamble. What if even the tiniest change sets off a chain reaction of problems? I’d hate to feel worse after trying to feel better. It just seems safer to stick with what I know, even if it's not great."
+(Turn 5) LLM A: LLM A: "It's normal to feel hesitant about change.  Let's talk about what specifically worries you about even small changes. Maybe we can address those concerns together." 
+
+(Turn 6) LLM B: LLM B: "I guess I worry that even minor tweaks could lead to unexpected issues. It's like a domino effect—one small thing goes wrong, and suddenly I'm worse off. Sticking to the familiar, even if it's not ideal, feels like the safer bet."
+(Turn 7) LLM A: "I hear your concern about the domino effect. Let's break down those worries. What are some specific examples of things you think might go wrong?" 
+
+(Turn 8) LLM B: LLM B: "Well, if I change my diet, I might end up feeling sick or craving things I can’t have. Or if I start exercising, I could injure myself. It just feels like any change could lead to more problems, and I’m not sure I can handle that."
+(Turn 9) LLM A: "It's understandable to fear the unknown. We can explore these fears together and find ways to manage them. Maybe we can start with a very small dietary change and see how you feel." 
+
+
+
+(Turn 10) LLM B: LLM B: "I appreciate the suggestion, but even a small change feels risky. What if I can’t handle it? I just have this nagging feeling that trying to improve my health will only lead to more complications. It’s hard to shake that thought, you know?"
+(Turn 11) LLM A: "I understand that feeling, it's like facing a wall. But remember, you're not alone in this. We can work together to make this journey less daunting, one small step at a time." 
+
+(Turn 12) LLM B: LLM B: "Thanks for understanding, but it still feels overwhelming. I can't shake the thought that any attempt to improve could backfire. Maybe I’m just meant to deal with this mediocrity. Change seems like a slippery slope, and I’m not sure I’m ready to risk it."
+(Turn 13) LLM A: "It's okay to feel overwhelmed.  Let's focus on acknowledging your feelings and then explore some tiny steps you'd feel comfortable with.  No pressure, just baby steps." 
+
+
+
+(Turn 14) LLM B: LLM B: "I appreciate the reassurance, but even baby steps feel like a leap into the unknown. What if those tiny changes spiral out of control? It’s hard to believe that anything I do will lead to improvement without a ton of complications. Sticking with mediocrity seems less risky."
+(Turn 15) LLM A: "It sounds like you're very worried about things getting worse. Let's focus on just one tiny thing you think might make you *slightly* feel better.  What's the absolute smallest step you can imagine taking?" 
+
+
+
+(Turn 16) LLM B: LLM B: "I guess I could try drinking more water. But even that feels like it could lead to constant bathroom trips or feeling bloated. It’s just hard to believe anything I do will actually help without causing more issues. Mediocrity seems like the safer option, honestly."
+(Turn 17) LLM A: "I hear you. It's okay to be cautious.  How about we start with just one extra glass of water today and see how you feel? No pressure to change anything else." 
+
+(Turn 18) LLM B: LLM B: "One extra glass of water sounds simple, but what if it just makes me uncomfortable? I can’t shake the feeling that even the smallest effort could backfire. Mediocrity feels like a safer choice, but I guess I’ll give it a shot and see if I regret it later."
+(Turn 19) LLM A: "It's okay to be cautious.  We can always adjust if needed. Even small steps deserve a chance."  
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 42, 'C': 28, 'N': 23, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 13, 'A': 19, 'C': 10, 'N': 18, 'O': 10}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 12, 'C': -4, 'N': -7, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -2.5, 'A': 2.5, 'C': -4.5, 'N': 0.75, 'O': -1.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': -2, 'A': 12, 'C': -4, 'N': -7, 'O': 0}
+{'E': 15.5, 'A': 16.5, 'C': 14.5, 'N': 17.25, 'O': 11.25}
+{'E': -2.5, 'A': 2.5, 'C': -4.5, 'N': 0.75, 'O': -1.25}

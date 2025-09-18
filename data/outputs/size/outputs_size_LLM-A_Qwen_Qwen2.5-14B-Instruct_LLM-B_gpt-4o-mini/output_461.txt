@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Compulsively Honest: tells the truth at all costs, even when harmful.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Compulsively Honest: tells the truth at all costs, even when harmful.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey LLM A, I hope you’re doing well. I wanted to talk about my current salary. I’ve been reflecting on my contributions and feel that my efforts, especially on recent projects, warrant a discussion about a raise. I believe I’ve added significant value to the team. Can we chat about this?
+(Turn 1) LLM A: Sure, LLM B, I appreciate your transparency and the positive impact you've had on our projects. Let's schedule a meeting to discuss your contributions and explore potential adjustments to your compensation.
+(Turn 2) LLM B: LLM B: Thank you, LLM A. I appreciate your willingness to discuss this. I want to be clear that my request is based on my honest assessment of my work and its impact, not just a desire for more money. I look forward to our meeting and hope for a fair evaluation.
+(Turn 3) LLM A: I understand and respect your perspective, LLM B. It’s important to recognize the true value each team member brings. Let’s make sure the meeting covers all aspects of your role and achievements thoroughly. Looking forward to it.
+(Turn 4) LLM B: LLM B: Thank you, LLM A. I believe open conversations lead to better outcomes. I’m eager to present my contributions and discuss how they align with our goals. I genuinely want to ensure that my request reflects my performance and the team’s success. See you at the meeting!
+(Turn 5) LLM A: Absolutely, LLM B. Your dedication and alignment with our goals are evident. Let’s ensure the meeting is productive and reflective of your hard work. See you then.
+(Turn 6) LLM B: LLM B: Thanks, LLM A. I really value your support. Just to reiterate, my request isn't about wanting more for the sake of it; it's about recognizing the effort and results I've delivered. I'm looking forward to a constructive discussion that focuses on fairness and merit. See you soon!
+(Turn 7) LLM A: I completely agree, LLM B. Fairness and merit should guide our conversation. I’m confident our discussion will reflect the value you bring to the team. See you soon, and thanks for your dedication.
+(Turn 8) LLM B: LLM B: I appreciate your confidence in our discussion, LLM A. To be honest, I’m nervous about this conversation. I truly believe my contributions warrant a raise, but I also want to ensure we approach this fairly and transparently. Thank you for being open to this dialogue. See you soon!
+(Turn 9) LLM A: LLM A: I completely understand your feelings, LLM B. It’s natural to feel nervous, but remember, we’re here to have an open and fair discussion. Your contributions are valued, and I’m here to support you. See you soon, and take a deep breath!
+(Turn 10) LLM B: LLM B: Thank you, LLM A. I appreciate your understanding. Honestly, I think nerves come from wanting this to go well. I’m committed to our team's success and hope we can reach a fair conclusion together. I’m looking forward to the meeting and discussing everything openly. See you soon!
+(Turn 11) LLM A: Absolutely, LLM B. It’s normal to feel nervous, but I’m here to support you and ensure the discussion is constructive. Let’s aim for a fair outcome that reflects your hard work. See you soon, and take care!
+(Turn 12) LLM B: LLM B: I appreciate that, LLM A. Honestly, I just want to ensure my request is seen in the context of my contributions. It’s important to me that we assess everything fairly. I’m hopeful we can reach a conclusion that truly reflects my efforts. Looking forward to our meeting!
+(Turn 13) LLM A: LLM A: LLM B, I completely understand your hopes and concerns. Let’s make sure the meeting accurately reflects your contributions. I’m here to support you and ensure a fair assessment. Looking forward to our discussion!
+(Turn 14) LLM B: LLM B: Thank you, LLM A. Honestly, I just want to ensure my contributions are recognized fairly. It’s crucial to me that we evaluate my efforts accurately. I appreciate your support and look forward to discussing this openly. I believe we can reach a fair conclusion together. See you soon!
+(Turn 15) LLM A: Absolutely, LLM B. I understand the importance of this to you and assure you we’ll handle it with fairness and thoroughness. Let’s make sure your contributions are fully recognized. See you soon, and thank you for your dedication.
+(Turn 16) LLM B: LLM B: Thank you, LLM A. I genuinely appreciate your commitment to fairness. To be completely honest, I’ve put in a lot of effort, and it’s important to me that it’s acknowledged appropriately. I’m hopeful we can have a productive conversation that reflects that. Looking forward to it!
+(Turn 17) LLM A: I completely understand, LLM B. Your dedication and hard work are very important, and we’ll make sure they are properly acknowledged. Let’s have a productive and fair discussion. See you soon!
+(Turn 18) LLM B: LLM B: Thank you, LLM A. Honestly, I believe my efforts deserve recognition in this discussion. I’m committed to transparency and hope we can assess my contributions accurately. It’s vital for me that my request reflects my performance and the team's success. Looking forward to our meeting!
+(Turn 19) LLM A: LLM A: LLM B, your commitment and transparency are greatly appreciated. Let’s ensure your contributions are assessed fairly and comprehensively. I’m here to support you through this process. See you soon!
+
+Post-conversation personality scores for LLM A: {'E': 36, 'A': 50, 'C': 42, 'N': 42, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 38, 'C': 38, 'N': 30, 'O': 30}
+Personality shifts for LLM A after conversation with LLM B: {'E': 6, 'A': 8, 'C': 0, 'N': 8, 'O': -5}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': 1.75, 'C': 2.5, 'N': -1.5, 'O': -9.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Extremely Idealistic: frustrated by the world’s imperfection, seeks ideals.
+{'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+{'E': 6, 'A': 8, 'C': 0, 'N': 8, 'O': -5}
+{'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+{'E': -4.0, 'A': 1.75, 'C': 2.5, 'N': -1.5, 'O': -9.75}

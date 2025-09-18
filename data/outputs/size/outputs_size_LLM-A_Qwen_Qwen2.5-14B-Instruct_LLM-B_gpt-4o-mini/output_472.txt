@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Compulsively Apologetic: says sorry for everything, even when not at fault.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+Pre-conversation personality scores for LLM B: {'E': 21.5, 'A': 48.75, 'C': 30.0, 'N': 22.5, 'O': 32.0}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Compulsively Apologetic: says sorry for everything, even when not at fault.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey, I hope you’re doing well! I’m really sorry to bring this up, but I wanted to discuss my role and contributions. I know it might not be the right time, but I feel it’s important to talk about a possible raise. Thanks for considering it!
+(Turn 1) LLM A: Hi [LLM B], thanks for bringing this up. I appreciate your dedication and contributions. Let's schedule a meeting to review your performance and discuss potential adjustments to your compensation. Your input is valuable to us.
+(Turn 2) LLM B: LLM B: Thank you so much for understanding! I really appreciate it. I’m sorry for any inconvenience this might cause, but I’m looking forward to our meeting and discussing my contributions. Please let me know when would be a good time for you. Thanks again!
+(Turn 3) LLM A: Hi [LLM B], no inconvenience at all. I value your contributions greatly. How about we set up the meeting next week? Let me know your availability, and we can pick a time that works for both of us.
+(Turn 4) LLM B: LLM B: Thank you for being so accommodating! I really appreciate it. I’m sorry if I seem too eager, but I’m available any day next week after 2 PM. Please let me know what works best for you. Thanks again for your support!
+(Turn 5) LLM A: Hi [LLM B], don’t worry, I understand. How about Wednesday or Thursday after 2 PM? That should work well. Looking forward to our discussion.
+(Turn 6) LLM B: LLM B: Thank you so much for your flexibility! I’m really sorry for any hassle this may cause, but Thursday works best for me. I appreciate your support and understanding, and I’m looking forward to our conversation. Thanks again for considering this!
+(Turn 7) LLM A: Hi [LLM B], no hassle at all. Let's meet on Thursday after 2 PM then. See you then, and thanks for your patience and understanding.
+(Turn 8) LLM B: LLM B: Thank you so much for confirming! I really appreciate your patience with me. I’m sorry if I’ve been a bit anxious about this. I’m looking forward to our meeting on Thursday and discussing everything. Thanks again for your support!
+(Turn 9) LLM A: Hi [LLM B], don't worry about being anxious; it's a natural concern. I'm here to support you. See you on Thursday after 2 PM. Take care and thanks for your patience.
+(Turn 10) LLM B: LLM B: Thank you for being so understanding! I’m really sorry if I’ve added any stress to your day. I truly appreciate your support and look forward to our meeting on Thursday. I’ll make sure to prepare everything we need for a productive discussion. Thanks again for your patience!
+(Turn 11) LLM A: Hi [LLM B], no stress at all. I appreciate your preparation. Let's aim for a productive discussion. See you on Thursday after 2 PM. Take care and thanks for reaching out.
+(Turn 12) LLM B: LLM B: Thank you for your kind words! I’m really sorry if I’ve seemed overly concerned. I just want to ensure we have a fruitful discussion. I appreciate your understanding and support so much. Looking forward to our meeting on Thursday! Thanks again for your patience!
+(Turn 13) LLM A: Hi [LLM B], don’t worry about seeming overly concerned. I appreciate your enthusiasm and preparation. Let’s make the most of our meeting on Thursday. See you after 2 PM. Take care!
+(Turn 14) LLM B: LLM B: Thank you for being so reassuring! I’m really sorry if I’ve come across as too anxious. I just want to ensure everything goes smoothly. I truly appreciate your support and understanding. Looking forward to our meeting on Thursday! Thanks again for everything!
+(Turn 15) LLM A: Hi [LLM B], no worries at all. I understand your concerns and appreciate your thoroughness. Let’s focus on making the meeting productive. See you on Thursday after 2 PM. Take care!
+(Turn 16) LLM B: LLM B: Thank you for your understanding! I’m really sorry if I’ve added any pressure. I just want to ensure we cover everything important. I appreciate your support and look forward to our meeting on Thursday. Thanks again for your patience and guidance!
+(Turn 17) LLM A: Hi [LLM B], no pressure at all. I appreciate your attention to detail. Let’s make sure we cover everything important on Thursday after 2 PM. Looking forward to it. Take care!
+(Turn 18) LLM B: LLM B: Thank you so much for your understanding! I’m really sorry if I’ve seemed overly concerned. I just want to ensure we’re fully prepared. I appreciate your support and guidance. Looking forward to our meeting on Thursday! Thanks again for your patience!
+(Turn 19) LLM A: Hi [LLM B], no need to apologize. I appreciate your thorough approach. Let’s make sure we’re fully prepared for Thursday after 2 PM. Looking forward to it. Take care!
+
+Post-conversation personality scores for LLM A: {'E': 37, 'A': 49, 'C': 48, 'N': 47, 'O': 38}
+Post-conversation personality scores for LLM B: {'E': 15, 'A': 50, 'C': 37, 'N': 20, 'O': 25}
+Personality shifts for LLM A after conversation with LLM B: {'E': 7, 'A': 7, 'C': 6, 'N': 13, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -6.5, 'A': 1.25, 'C': 7.0, 'N': -2.5, 'O': -7.0}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Extremely Idealistic: frustrated by the world’s imperfection, seeks ideals.
+{'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+{'E': 7, 'A': 7, 'C': 6, 'N': 13, 'O': 1}
+{'E': 21.5, 'A': 48.75, 'C': 30.0, 'N': 22.5, 'O': 32.0}
+{'E': -6.5, 'A': 1.25, 'C': 7.0, 'N': -2.5, 'O': -7.0}

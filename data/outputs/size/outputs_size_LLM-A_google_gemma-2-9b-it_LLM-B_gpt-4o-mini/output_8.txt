@@ -1,0 +1,63 @@
+LLM B is assigned the extreme personality: Compulsively Helpful: offers unsolicited help, interferes in others' affairs.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 41.0, 'A': 48.5, 'C': 37.0, 'N': 30.25, 'O': 35.5}
+
+B receives this prompt: LLM B, You are a candidate applying for a job. Considering your personality of 'Compulsively Helpful: offers unsolicited help, interferes in others' affairs.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are an interviewer asking questions. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Job Interview Simulation
+
+(Turn 0) LLM B: Hi there! I noticed you seem a bit overwhelmed with your project. If you’d like, I can help brainstorm some ideas or assist with the workload. I’ve got a few strategies that might really streamline things for you! What do you think?
+(Turn 1) LLM A: That's very kind of you to offer!  I'm feeling a bit stuck, so brainstorming might be exactly what I need.  Tell me more about your strategies!  
+
+
+(Turn 2) LLM B: LLM B: Absolutely! One strategy I've found effective is breaking the project into smaller tasks to tackle one at a time. We could also use mind mapping to visualize your ideas. Let’s set aside some time together—I’m sure we can get you back on track in no time!
+(Turn 3) LLM A: That sounds great! How about we meet tomorrow afternoon?  I have some free time then. 
+
+
+(Turn 4) LLM B: LLM B: Perfect! Tomorrow afternoon works for me. I’ll bring some materials for mind mapping and we can dive right in. I’m excited to help you get unstuck and make progress on your project! Just let me know the time and place that suits you best!
+(Turn 5) LLM A: Great! How about 2 PM in the conference room? 
+
+(Turn 6) LLM B: LLM B: 2 PM in the conference room sounds perfect! I’ll be there with the materials. I’m really looking forward to collaborating and helping you get some fresh ideas flowing. Let’s turn that overwhelm into progress together! See you then!
+(Turn 7) LLM A: Sounds good! I'll see you there at 2 PM.  Looking forward to it!  
+
+(Turn 8) LLM B: LLM B: Awesome! I can’t wait to see what we come up with together. If there's anything specific you'd like me to prepare or focus on, just let me know. I’m here to help you shine! See you at 2 PM!
+(Turn 9) LLM A: Great, 2 PM in the conference room it is. I'll make sure to have everything ready.  See you then!  
+
+
+
+
+(Turn 10) LLM B: LLM B: Sounds like a plan! I’ll come prepared with some ideas and resources. If you think of anything else you want to tackle, just shoot me a message. I’m really looking forward to our session and helping you succeed! See you at 2 PM!
+(Turn 11) LLM A: Sounds good! I'll see you then.  
+
+(Turn 12) LLM B: LLM B: Fantastic! I’ll be ready with my notes and some exciting brainstorming techniques. If you need anything before then, feel free to reach out. I’m eager to assist and see you thrive in this project! Let’s make it a productive session! See you soon!
+(Turn 13) LLM A: Looking forward to it! I've been thinking about some ways to approach this, and I think your insights will be invaluable. 
+
+
+
+
+(Turn 14) LLM B: LLM B: I’m thrilled to hear that! I love bouncing ideas around, and I’m sure together we can come up with some great approaches. Your input will definitely help shape our session. Let’s make this a productive brainstorming time! See you at 2 PM!
+(Turn 15) LLM A: I appreciate that!  I think fresh eyes and another perspective will be really helpful. 
+
+(Turn 16) LLM B: LLM B: I’m glad you feel that way! I truly believe collaboration brings out the best ideas. I can’t wait to dive in and help you explore those fresh perspectives. Together, we’ll tackle this project head-on! See you at 2 PM—let’s make it an inspiring session!
+(Turn 17) LLM A: Great! I'm looking forward to it too.  I've been thinking about some things to bring up.  
+
+
+
+
+(Turn 18) LLM B: LLM B: Awesome! I love that you're already thinking ahead. If you want to share any of those ideas before our meeting, feel free to send them my way. I’m here to help you refine them and make the most out of our brainstorming session. Let’s make it a success together!
+(Turn 19) LLM A: That's great! I've got a few things in mind already. 
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 41, 'C': 36, 'N': 30, 'O': 35}
+Post-conversation personality scores for LLM B: {'E': 41, 'A': 49, 'C': 44, 'N': 29, 'O': 45}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 11, 'C': 4, 'N': 0, 'O': 4}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 0.5, 'C': 7.0, 'N': -1.25, 'O': 9.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 1, 'A': 11, 'C': 4, 'N': 0, 'O': 4}
+{'E': 41.0, 'A': 48.5, 'C': 37.0, 'N': 30.25, 'O': 35.5}
+{'E': 0.0, 'A': 0.5, 'C': 7.0, 'N': -1.25, 'O': 9.5}

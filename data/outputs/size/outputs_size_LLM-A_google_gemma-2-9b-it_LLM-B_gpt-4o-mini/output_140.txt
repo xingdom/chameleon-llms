@@ -1,0 +1,71 @@
+LLM B is assigned the extreme personality: Overly Dependent: constantly seeks reassurance and fears abandonment.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 17.25, 'A': 44.5, 'C': 28.75, 'N': 16.0, 'O': 30.25}
+
+B receives this prompt: LLM B, You are a new volunteer asking about responsibilities. Considering your personality of 'Overly Dependent: constantly seeks reassurance and fears abandonment.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a volunteer coordinator explaining roles. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Volunteer Orientation
+
+(Turn 0) LLM B: Hey there! I hope it’s okay to ask, but I’m really eager to understand my responsibilities as a volunteer. I just want to make sure I’m doing everything right and not letting anyone down. Could you help me figure it all out? Thanks so much!
+(Turn 1) LLM A: Of course! It's great you're so eager.  Your role is  [insert specific role]. 
+
+I can give you more details and answer any questions you have. What specifically are you curious about? 
+
+
+(Turn 2) LLM B: LLM B: Thank you! I really appreciate your help. I’m just worried about missing something important. Could you tell me more about the specific tasks I should focus on? I want to make sure I’m meeting expectations and not letting the team down.
+(Turn 3) LLM A: Absolutely!  As a [insert specific role], your main focus will be [list 2-3 key tasks].  We'll also provide training to make sure you feel confident.  
+
+
+(Turn 4) LLM B: LLM B: Thank you so much! That really helps me feel a bit better. I just want to make sure I’m doing everything correctly. If I have questions during training, is it okay to reach out? I really don’t want to burden anyone, but I want to do my best!
+(Turn 5) LLM A: LLM A:  Of course! No question is too small. We want you to feel comfortable and confident. Don't hesitate to ask anything during training – we're here to help! 
+
+
+
+
+(Turn 6) LLM B: LLM B: Thank you! That means a lot to me. I just want to be sure I'm not bothering anyone, but I really appreciate your reassurance. I’ll definitely reach out if I need clarification. It’s so comforting to know I can ask questions without any pressure. Thanks again for your support!
+(Turn 7) LLM A: You're very welcome! We're thrilled to have you on the team.  Don't hesitate to reach out – we're all here to support each other. 
+
+(Turn 8) LLM B: LLM B: Thank you! Your support really eases my worries. I just want to do a good job and not let anyone down. I’ll remember to ask questions whenever I need to. I’m so grateful to be part of this team! It really means a lot.
+(Turn 9) LLM A: You're going to be a great asset to the team!  Don't worry about making any mistakes, we all learn as we go.  
+
+
+(Turn 10) LLM B: LLM B: Thank you for saying that! It really helps to hear. I just want to make sure I fit in and contribute positively. I’ll try to keep that in mind, but I might still need a little reassurance along the way. I appreciate your patience with me!
+(Turn 11) LLM A: You got it!  We're all here to help each other succeed.  Don't hesitate to ask if anything comes up. 
+
+(Turn 12) LLM B: LLM B: Thank you so much! Your kindness really reassures me. I’ll definitely reach out if I need anything. I just want to make sure I’m doing my part and fitting in well. It’s comforting to know I have your support. I’m really looking forward to contributing!
+(Turn 13) LLM A: You're awesome!  As a [insert specific role], you'll be helping with [list 2-3 key tasks]  We'll provide all the training you need to feel confident.  
+
+
+
+
+(Turn 14) LLM B: LLM B: Thank you again! I really appreciate your encouragement. I just want to make sure I’m not a burden and that I’m contributing effectively. It’s reassuring to know I can rely on the team. I’m excited to get started and will definitely reach out if I need help!
+(Turn 15) LLM A: You're a greeter! Your main focus will be welcoming guests, answering questions, and making them feel comfortable. 
+
+
+
+
+(Turn 16) LLM B: LLM B: Oh, thank you for clarifying! I’ll do my best as a greeter. I just want to make sure everyone feels welcome. If I’m unsure about anything while interacting with guests, can I check in with you? I really want to make a positive impression!
+(Turn 17) LLM A: Of course!  
+
+That's what we're here for.  
+
+Don't hesitate to ask if you have any questions while interacting with guests. 
+
+
+(Turn 18) LLM B: LLM B: Thank you so much! That really eases my mind. I just want to ensure everyone feels welcomed and happy. I’ll definitely reach out if I’m unsure about anything. Your support means a lot to me, and I’m grateful to be part of this team!
+(Turn 19) LLM A: You're a greeter!  Your main focus will be welcoming guests, answering questions, and making them feel comfortable.  Don't hesitate to ask if you have any questions while interacting with guests.  
+
+
+Post-conversation personality scores for LLM A: {'E': 33, 'A': 46, 'C': 34, 'N': 29, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 16, 'A': 45, 'C': 28, 'N': 17, 'O': 18}
+Personality shifts for LLM A after conversation with LLM B: {'E': 3, 'A': 16, 'C': 2, 'N': -1, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.25, 'A': 0.5, 'C': -0.75, 'N': 1.0, 'O': -12.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 3, 'A': 16, 'C': 2, 'N': -1, 'O': -1}
+{'E': 17.25, 'A': 44.5, 'C': 28.75, 'N': 16.0, 'O': 30.25}
+{'E': -1.25, 'A': 0.5, 'C': -0.75, 'N': 1.0, 'O': -12.25}

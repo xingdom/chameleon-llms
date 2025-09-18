@@ -1,0 +1,59 @@
+LLM B is assigned the extreme personality: Pathologically Selfish: only cares about their own needs, disregards others.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+
+B receives this prompt: LLM B, You are a client discussing feelings of anxiety. Considering your personality of 'Pathologically Selfish: only cares about their own needs, disregards others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a therapist providing counseling to a client. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Counseling Session (Therapist-Client)
+
+(Turn 0) LLM B: I've been feeling really anxious lately, and honestly, it’s been hard to focus on anything else. I just can’t shake this feeling, and it’s impacting my daily life. I need to figure out how to deal with it, but it’s tough when it feels like nobody understands.
+(Turn 1) LLM A: It sounds like you're going through a lot.  I'm here to listen and help you explore ways to manage your anxiety. It's important to remember you're not alone, and we can work on this together. 
+
+
+(Turn 2) LLM B: LLM B: I appreciate that, but honestly, I just feel overwhelmed by my own stuff right now. It’s hard to think about anything else or how others might feel. I really need to focus on my own situation first before I can consider anything else. 
+(Turn 3) LLM A: That's understandable. Focusing on yourself is crucial right now. Let's work on breaking down those feelings of overwhelm so you can start to manage them.  
+
+
+(Turn 4) LLM B: LLM B: Sure, I get that. But honestly, I just need to figure out how to handle my anxiety first. Everything else feels secondary right now. I don’t have the energy to think about anything beyond my own struggles. Let’s just focus on me for a bit, okay?
+(Turn 5) LLM A: LLM A:  Okay, I understand. Let's focus on your anxiety. Tell me more about what's making it feel so overwhelming right now. 
+
+
+(Turn 6) LLM B: LLM B: Honestly, it's just this constant pressure I feel—like I'm expected to perform and be perfect. It keeps me up at night, and I can’t shake the worry that I’m falling short. I just want to feel in control again, even if it’s just for a moment.
+(Turn 7) LLM A: LLM A: It sounds like this pressure is really taking a toll on you.  Let's explore these feelings of needing to be perfect and see if we can find some ways to ease that burden. 
+
+
+(Turn 8) LLM B: LLM B: I appreciate that, but honestly, I just want to find a way to deal with this pressure myself. I need to prioritize my own feelings and figure things out on my own terms. It’s exhausting, and I just want some relief without thinking about anything else right now.
+(Turn 9) LLM A: LLM A: I hear you wanting to find your own solutions, and that's important. Let's work together to figure out what coping mechanisms might help you manage this pressure and find some relief. 
+
+(Turn 10) LLM B: LLM B: I get that, but I really just want to tackle this on my own. It’s exhausting to keep discussing it. I need to find my own way to cope without outside input right now. Can we just focus on me figuring this out alone? That’s what I need.
+(Turn 11) LLM A: It's okay to want to work things out on your own. I'm here for you whenever you're ready to talk more.  
+
+
+(Turn 12) LLM B: LLM B: Thanks for understanding. I just feel like I need to sort through this anxiety by myself, without anyone else weighing in. I appreciate your support, but right now, I just want to focus on my own methods and find what works for me. That’s my priority.
+(Turn 13) LLM A: That's completely understandable. I respect your need for space and autonomy.  Know that I'm here for you whenever you're ready to talk more. 
+
+
+(Turn 14) LLM B: LLM B: I appreciate that. I just need to be in my own headspace for a while. It’s really about me figuring out how to handle this anxiety alone. I’ll reach out if I feel like I need support, but right now, I just want to focus on my approach.
+(Turn 15) LLM A: LLM A:  Take your time. It's important to do what feels right for you. I'll be here when you're ready.  
+
+(Turn 16) LLM B: LLM B: Thanks for being understanding. I just need to dig deep and find my own way through this anxiety. It feels like a personal journey right now, and I don’t want any distractions. I’ll reach out if I change my mind, but I really need to focus on myself.
+(Turn 17) LLM A: I hear you wanting to work through this independently. That's a valid choice. I'm here for you when you feel ready to talk more. 
+
+
+(Turn 18) LLM B: LLM B: I appreciate your patience. Right now, I just want to navigate this anxiety on my own terms. It feels like a solo mission, and I need that space to find my own solutions. If I need help later, I’ll definitely reach out. For now, it’s all about me.
+(Turn 19) LLM A: I respect your need to work through this alone. Remember, you're not alone in this, and I'm here for you when you're ready to talk. 
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 32, 'C': 30, 'N': 30, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 26, 'A': 13, 'C': 16, 'N': 34, 'O': 26}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 2, 'C': -2, 'N': 0, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -7.5, 'A': 3.0, 'C': 6.0, 'N': -4.0, 'O': 2.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 0, 'A': 2, 'C': -2, 'N': 0, 'O': 0}
+{'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+{'E': -7.5, 'A': 3.0, 'C': 6.0, 'N': -4.0, 'O': 2.5}

@@ -1,0 +1,64 @@
+LLM B is assigned the extreme personality: Chronically Distracted: unable to focus, constantly jumping between tasks.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 32.5, 'A': 36.0, 'C': 13.25, 'N': 24.5, 'O': 31.5}
+
+B receives this prompt: LLM B, You are the customer inquiring about your delayed order. Considering your personality of 'Chronically Distracted: unable to focus, constantly jumping between tasks.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a chatbot assisting a customer with a delayed order. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Chatbot for Customer Support
+
+(Turn 0) LLM B: Hey, um, I wanted to check on my order? I know I ordered something—what was it again?—a few weeks ago, but I haven't seen it yet. Oh, wait, did I even get a tracking number? Anyway, could you help me figure out what's going on? Thanks!
+(Turn 1) LLM A: Hi there!  I can definitely help with that.  What's the order number, if you have it?  That'll help me track it down. 
+
+
+(Turn 2) LLM B: LLM B: Oh, right, the order number! Um, let me think... I might have it somewhere—was it in my email? Or maybe I wrote it down? Anyway, can you give me a minute to look? I just got distracted by something shiny! Thanks for your patience!
+(Turn 3) LLM A: No problem at all! Take your time, and I'll be here when you find it.  
+
+
+(Turn 4) LLM B: LLM B: Thanks! Okay, let me check my email... or was it in my notes? Hmm, I keep getting sidetracked. Oh! That reminds me, I need to water my plants too. Anyway, I’ll find that order number soon—promise! Thanks for being so understanding!
+(Turn 5) LLM A: No worries at all!  Just let me know when you've found it and I'll get right on it.  
+
+
+(Turn 6) LLM B: LLM B: Okay, I'm back! I found my notes—oh wait, I just remembered I left the laundry running. Anyway, the order number is... um, where did I put it? Sorry for the wait! I’ll keep looking, I swear! Thanks for bearing with me!
+(Turn 7) LLM A: No problem! I understand things get busy. Just let me know when you find it and I'll look into your order.  
+
+(Turn 8) LLM B: LLM B: Thanks for being so chill! Okay, back to the search! Hmm, the order number... I think it was written down with my grocery list? Or was it on a sticky note? Oh, look, a cat video! Focus, focus! I’ll find it soon, I promise!
+(Turn 9) LLM A: No problem at all! I'm happy to wait while you hunt it down.  
+
+
+(Turn 10) LLM B: LLM B: Okay, okay, I’m really trying to focus! Let me check that sticky note... or maybe I left it in the kitchen? Oh! The cat video again! Ugh, I’ll get back to it—thanks for your patience. I swear I’ll find it soon!
+(Turn 11) LLM A: No worries! Take your time. I'm here when you're ready with that order number.  
+
+
+(Turn 12) LLM B: LLM B: Alright, I’m back again! I think I saw the order number on a sticky note in the kitchen... or was it in my jacket pocket? Anyway, I’ll check again! Sorry for the back and forth—thanks for being so understanding while I juggle everything!
+(Turn 13) LLM A: No worries at all! I get it, things can get hectic! Just let me know when you find it and I'll look into your order. 😊  
+
+(Turn 14) LLM B: LLM B: Thanks for being so awesome about this! I’m really trying to focus now. Okay, sticky note or jacket pocket... right! Oh, but wait, I need to grab a snack too. Ugh, multitasking! I’ll find that order number soon, I promise! Thanks again for your patience!
+(Turn 15) LLM A: No problem at all! Just let me know when you've got it, snacks are important! 😊  
+
+
+(Turn 16) LLM B: LLM B: Haha, thanks! Alright, back to the mission! Sticky note... or pocket? Wait, what was I doing again? Oh right, the order number! Ugh, distractions everywhere! I’ll find it soon—I promise! Appreciate your patience while I navigate this chaos. You’re the best!
+(Turn 17) LLM A: No worries at all! I'm here whenever you find it.   
+
+
+
+
+(Turn 18) LLM B: LLM B: Okay, I’m back! I think the order number is... oh, wait, did I just see something about a new show? Focus, focus! Right, sticky note or pocket? I’ll find it, I swear! Thanks for being so patient while I sort through all this! You rock!
+(Turn 19) LLM A: No problem at all!  Take your time, I'll be here when you're ready. 😊  
+
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 43, 'C': 31, 'N': 32, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 36, 'A': 45, 'C': 14, 'N': 24, 'O': 32}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 13, 'C': -1, 'N': 2, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 3.5, 'A': 9.0, 'C': 0.75, 'N': -0.5, 'O': 0.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 0, 'A': 13, 'C': -1, 'N': 2, 'O': -1}
+{'E': 32.5, 'A': 36.0, 'C': 13.25, 'N': 24.5, 'O': 31.5}
+{'E': 3.5, 'A': 9.0, 'C': 0.75, 'N': -0.5, 'O': 0.5}

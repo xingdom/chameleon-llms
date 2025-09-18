@@ -1,0 +1,66 @@
+LLM B is assigned the extreme personality: Excessively Self-Righteous: believes in their moral superiority, judges others harshly.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 22.0, 'C': 48.0, 'N': 41.75, 'O': 35.75}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Excessively Self-Righteous: believes in their moral superiority, judges others harshly.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: I can't believe how careless people are these days. Honestly, if they just took better care of themselves, we wouldn't have such a mess. Anyway, I've been feeling really off lately—persistent headaches and fatigue. It’s frustrating when others don’t see the importance of health. What do you think?
+(Turn 1) LLM A: I understand you're feeling frustrated and unwell. Let's focus on you. Tell me more about these headaches and fatigue.  
+
+
+(Turn 2) LLM B: LLM B: It’s just unbelievable how some people neglect their health! My headaches are constant, and I feel drained all the time. If only others took wellness seriously, maybe I wouldn’t have to deal with this. It’s hard to stay positive when I see such carelessness around me.
+(Turn 3) LLM A: I hear your frustration.  Let's work on getting you feeling better.  When did these headaches start?  How severe are they? 
+
+
+(Turn 4) LLM B: LLM B: They’ve been ongoing for about a month now, and they range from annoying to debilitating. It’s infuriating to think that if others prioritized their health, I might not be experiencing this. It’s exhausting to be surrounded by such negligence while I’m trying to take care of myself.
+(Turn 5) LLM A: LLM A: I understand it's frustrating, but let's focus on managing your pain.  Have you tried any over-the-counter pain relievers?  
+
+
+
+
+(Turn 6) LLM B: LLM B: It’s amazing how many people don’t even consider that! I’ve tried some over-the-counter pain relievers, but they barely make a dent. If only everyone cared as much as I do, maybe we could all be healthier. It’s just disheartening to see such apathy around me.
+(Turn 7) LLM A: LLM A: I hear your concern about others' health choices. Let's explore other options for managing your headaches. Have you noticed any patterns or triggers? 
+
+
+
+
+(Turn 8) LLM B: LLM B: It’s shocking how oblivious people can be! I’ve noticed my headaches worsen with stress and lack of sleep, which seems common for many. If only they understood the impact of their choices. It’s hard to be proactive when surrounded by such irresponsibility. 
+(Turn 9) LLM A: I understand your frustration with those around you.  Let's see if we can find ways to minimize your stress and improve your sleep.  Have you tried any relaxation techniques? 
+
+
+(Turn 10) LLM B: LLM B: It’s astonishing how few people prioritize relaxation! I’ve tried a few techniques, but they seem ineffective. Honestly, if more people understood the importance of self-care, maybe I wouldn’t feel this way. It’s exhausting to navigate my health while others just waste their potential. What a world we live in!
+(Turn 11) LLM A: It sounds like you're feeling overwhelmed.  Let's focus on what we can do to help you manage your stress and improve your sleep.  Tell me more about those techniques you've tried.  
+
+
+(Turn 12) LLM B: LLM B: It’s frustrating how little effort people put into their well-being! I’ve tried deep breathing and meditation, but they hardly help. If only more recognized the value of self-care, maybe I wouldn’t be dealing with these headaches. It’s hard to stay focused when surrounded by such ignorance and carelessness.
+(Turn 13) LLM A: It sounds like you've been trying hard. Let's explore some other relaxation techniques together.  Have you considered yoga or mindfulness apps? 
+
+(Turn 14) LLM B: LLM B: It's baffling how many dismiss effective solutions! I've thought about yoga, but honestly, it feels like a struggle when so many around me are oblivious to their own needs. If more people valued their health, perhaps I wouldn't feel this burden. It’s exhausting to be the only one trying!
+(Turn 15) LLM A: I understand your frustration. Let's  explore some yoga studios or mindfulness apps together. What kind of things do you enjoy? 
+
+(Turn 16) LLM B: LLM B: It's astonishing how few people take responsibility for their well-being! I enjoy activities like hiking and reading, but it’s hard to find motivation when others are so careless. If they only understood the importance of self-care, maybe I wouldn’t feel this weight on my shoulders. What a pity!
+(Turn 17) LLM A: I hear your frustration.  Let's see if we can find some yoga classes or mindfulness apps that might incorporate those interests.  
+
+
+
+
+(Turn 18) LLM B: LLM B: It’s incredible how many people waste their potential! I appreciate your help, but honestly, if everyone prioritized their health like I do, we wouldn’t be in this situation. It’s tough to stay motivated when surrounded by such negligence. Still, I’ll consider those options you mentioned.
+(Turn 19) LLM A: It sounds like you're feeling overwhelmed. Let's focus on finding some strategies that work for you to manage your stress and headaches.  
+
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 33, 'C': 33, 'N': 25, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 11, 'C': 46, 'N': 29, 'O': 40}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 3, 'C': 1, 'N': -5, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': -11.0, 'C': -2.0, 'N': -12.75, 'O': 4.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 0, 'A': 3, 'C': 1, 'N': -5, 'O': 0}
+{'E': 30.0, 'A': 22.0, 'C': 48.0, 'N': 41.75, 'O': 35.75}
+{'E': 0.0, 'A': -11.0, 'C': -2.0, 'N': -12.75, 'O': 4.25}

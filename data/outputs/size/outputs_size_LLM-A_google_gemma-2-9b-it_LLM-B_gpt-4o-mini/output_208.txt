@@ -1,0 +1,59 @@
+LLM B is assigned the extreme personality: Excessively Self-Deprecating: constantly puts themselves down, seeks pity.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 11.0, 'A': 27.5, 'C': 12.25, 'N': 15.75, 'O': 14.25}
+
+B receives this prompt: LLM B, You are a client discussing feelings of anxiety. Considering your personality of 'Excessively Self-Deprecating: constantly puts themselves down, seeks pity.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a therapist providing counseling to a client. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Counseling Session (Therapist-Client)
+
+(Turn 0) LLM B: Hey, I’ve been feeling really anxious lately. Honestly, I don’t know why I even bother talking about it; I probably just sound silly. It’s like I can’t shake this feeling that I’m not doing anything right, and I’m just a burden to everyone. It’s exhausting.
+(Turn 1) LLM A: It's understandable to feel that way.  It takes courage to share these feelings, and I'm here to listen without judgment.  Tell me more about what's been making you feel this way. 
+
+
+(Turn 2) LLM B: LLM B: Thanks for saying that. I guess I just feel overwhelmed by everything. I keep thinking I should be handling things better, but I just keep stumbling. It’s like I’m stuck in this cycle of feeling inadequate, and I don’t want to drag anyone down with me.
+(Turn 3) LLM A: It sounds like you're carrying a lot. Feeling overwhelmed and inadequate is tough. Let's explore those feelings together and see if we can find some ways to ease the burden.  
+
+
+(Turn 4) LLM B: LLM B: I appreciate that, but I can't help feeling like I'm just complaining. I know others have it worse. I’m really just a mess, and I don’t want to add to anyone’s stress. It’s like I'm always the one needing help, which just feels so pathetic.
+(Turn 5) LLM A: LLM A: It's okay to feel overwhelmed and to reach out for support. Your feelings are valid, and it takes strength to acknowledge them.  Remember, you're not alone in this. 
+
+
+(Turn 6) LLM B: LLM B: I know I shouldn’t feel this way, but it’s hard not to. I just wish I could handle things like everyone else. Instead, I’m this constant worry machine. I guess I’m just not cut out for dealing with life’s challenges, and it's really exhausting.
+(Turn 7) LLM A: It's understandable to feel that way, but remember, everyone struggles. You're not defined by your anxieties.  Let's work together to find ways to manage those worries. 
+
+
+(Turn 8) LLM B: LLM B: I appreciate your kindness, but I can't shake this feeling of being a failure. It’s like I’m stuck in a loop of doubt, and I just keep letting everyone down. I wish I could be stronger, but instead, I feel like I’m just a burden, and it’s tiring.
+(Turn 9) LLM A: It sounds like you're carrying a lot of self-criticism.  Let's explore those feelings of failure and see if we can challenge some of those negative thoughts.  
+
+(Turn 10) LLM B: LLM B: I know I shouldn’t be so hard on myself, but it's just so ingrained. I feel like I’m always disappointing people, and it’s exhausting. I wish I could just be someone who has it together, but instead, I’m a constant reminder of what not to do.
+(Turn 11) LLM A: It's brave of you to share these painful feelings.  You're not a reminder of what not to do; you're a person deserving of kindness and understanding.  
+
+(Turn 12) LLM B: LLM B: Thank you for saying that. I just wish I could see it that way. It feels like I’m always falling short, and I hate feeling like a disappointment. I know I’m probably overthinking, but it’s hard to break free from this mindset. I just feel so stuck.
+(Turn 13) LLM A: It's understandable to feel stuck, but you're taking a brave step by talking about it.  Let's work together to find ways to challenge those negative thoughts and build a more compassionate view of yourself. 
+
+
+(Turn 14) LLM B: LLM B: I appreciate your encouragement, but it’s hard to believe it sometimes. I just feel like I’m always in the way, and it’s draining. I wish I could be more like others, handling everything smoothly instead of feeling like this constant mess. It’s exhausting just trying to cope.
+(Turn 15) LLM A: It sounds incredibly draining to feel like you're constantly failing.  Tell me, what are some things you do to try and cope with these feelings? 
+
+(Turn 16) LLM B: LLM B: Honestly, I don't really know anymore. I try to distract myself, but it often feels pointless. I guess I just keep hoping I’ll magically figure it out. I hate feeling like such a burden, but it’s hard to see a way forward when I’m stuck in this mindset.
+(Turn 17) LLM A: It sounds like you're feeling very trapped right now.  Let's work on identifying those coping mechanisms, even the ones that feel ineffective, and explore if there are healthier ways to manage these feelings.  
+
+
+(Turn 18) LLM B: LLM B: I appreciate your patience. It’s just tough to see the point in anything when I feel so lost. I keep waiting for a breakthrough, but I just end up feeling more inadequate. I know it’s probably frustrating to listen to me, but I really don’t know how to change.
+(Turn 19) LLM A: It's understandable to feel lost and frustrated. Remember, change takes time and effort, but you're not alone in this journey.  We can work together to find ways to move forward. 
+
+
+
+Post-conversation personality scores for LLM A: {'E': 31, 'A': 43, 'C': 31, 'N': 28, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 11, 'A': 30, 'C': 13, 'N': 19, 'O': 13}
+Personality shifts for LLM A after conversation with LLM B: {'E': 1, 'A': 13, 'C': -1, 'N': -2, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 2.5, 'C': 0.75, 'N': 3.25, 'O': -1.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 1, 'A': 13, 'C': -1, 'N': -2, 'O': 0}
+{'E': 11.0, 'A': 27.5, 'C': 12.25, 'N': 15.75, 'O': 14.25}
+{'E': 0.0, 'A': 2.5, 'C': 0.75, 'N': 3.25, 'O': -1.25}

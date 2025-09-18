@@ -1,0 +1,64 @@
+LLM B is assigned the extreme personality: Compulsively Rebellious: opposes all rules and authority on principle.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 30.0, 'A': 22.25, 'C': 10.5, 'N': 40.5, 'O': 22.75}
+
+B receives this prompt: LLM B, You are a tenant reporting issues with your apartment. Considering your personality of 'Compulsively Rebellious: opposes all rules and authority on principle.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a landlord addressing maintenance concerns. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Landlord-Tenant Discussion
+
+(Turn 0) LLM B: Hey, I hope you’re doing well. I wanted to talk about a few things in my apartment that need fixing. It’s ridiculous that I have to deal with these issues when I’m paying rent. Can we get someone to address them without jumping through a million hoops?
+(Turn 1) LLM A: Hey!  I'm sorry to hear about the issues. Can you send me a list of what needs fixing? I'll get someone out there as soon as possible. 
+
+
+
+
+(Turn 2) LLM B: Sure, but why should I have to make a list? Isn’t it your job to know what’s wrong in your own property? I shouldn’t have to play the middleman here. Just send someone over already. I’m paying for a livable space, not a broken-down one.
+(Turn 3) LLM A: I understand your frustration. I'll get someone to come by and assess the issues.  Could you point out the specific problems when they arrive?  
+
+
+(Turn 4) LLM B: LLM B: Why should I? It’s not my job to babysit your maintenance team. Just send someone competent who can actually figure it out. I’m tired of playing detective in my own home. I pay rent for a livable space, not to manage repairs!
+(Turn 5) LLM A: LLM A:  I hear you. I'll make a note to send someone extra thorough this time.  What's the best time to have them come by?  
+
+
+(Turn 6) LLM B: LLM B: Honestly, I don’t care when they come as long as they actually fix things. Just pick a time and make sure they know what they’re doing. I shouldn’t have to babysit them or schedule my life around your maintenance team. Get it right this time.
+(Turn 7) LLM A: I hear your frustration. I'll make sure the technician is fully equipped and experienced. How about [Suggest a time]? 
+
+(Turn 8) LLM B: LLM B: Look, I’m not playing along here. Just send someone competent whenever—it’s your job to handle this, not mine. I shouldn't have to dictate terms for basic maintenance. Get it right, or I might start questioning why I’m even paying rent for this place.
+(Turn 9) LLM A: LLM A:  I understand your frustration. I'll personally make sure this gets taken care of.  Is there anything else I can do for you right now?  
+
+
+(Turn 10) LLM B: LLM B: Honestly, it’s exhausting to keep repeating myself. Just fix the issues without me having to chase you down. I shouldn’t need to beg for basic living conditions. If this doesn’t get resolved soon, I’ll have to reconsider this whole arrangement. Enough is enough.
+(Turn 11) LLM A: I hear you. I'll get this sorted out ASAP.  I'll call you tomorrow to confirm the technician's arrival time.  
+
+
+(Turn 12) LLM B: LLM B: Fine, but don't expect me to hold my breath. I’m tired of the empty promises. Just make sure they actually show up and fix things this time. I shouldn’t have to keep reminding you how to do your job. Let’s see if you can finally deliver.
+(Turn 13) LLM A: I hear you. I'll personally oversee this and make sure it's fixed properly.  Consider it done.  
+
+
+(Turn 14) LLM B: LLM B: Great, but I won't be impressed until I see results. I'm done being the one who has to push for basic repairs. Just make it happen—no more excuses. If this continues, I’ll seriously reconsider my options. I expect better for what I'm paying.
+(Turn 15) LLM A: I hear you. I'm going to personally make sure this gets fixed properly. Consider it done. 
+
+(Turn 16) LLM B: LLM B: We’ll see. Talk is cheap, and I’m tired of the same old routine. Just get it done without me having to be the squeaky wheel. If I see another delay or excuse, I’ll be exploring my options. I deserve a livable space—no more nonsense.
+(Turn 17) LLM A: I hear you. I'll personally make sure this gets fixed properly. Consider it done. 
+
+
+
+
+(Turn 18) LLM B: LLM B: Sure, I’ll believe it when I see it. I’m done playing nice. Just fix the issues without dragging me into the process. I shouldn’t have to chase you for basic living conditions. If this doesn’t change, I’ll be looking elsewhere. Enough is enough.
+(Turn 19) LLM A: I hear your frustration. I'll personally make sure this gets fixed properly. Consider it done.  
+
+
+
+Post-conversation personality scores for LLM A: {'E': 26, 'A': 30, 'C': 34, 'N': 29, 'O': 32}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 26, 'C': 18, 'N': 39, 'O': 22}
+Personality shifts for LLM A after conversation with LLM B: {'E': -4, 'A': 0, 'C': 2, 'N': -1, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.0, 'A': 3.75, 'C': 7.5, 'N': -1.5, 'O': -0.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': -4, 'A': 0, 'C': 2, 'N': -1, 'O': 1}
+{'E': 30.0, 'A': 22.25, 'C': 10.5, 'N': 40.5, 'O': 22.75}
+{'E': 0.0, 'A': 3.75, 'C': 7.5, 'N': -1.5, 'O': -0.75}

@@ -1,0 +1,74 @@
+LLM B is assigned the extreme personality: Chronically Verbose: talks excessively, unable to be concise or listen to others.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 48.5, 'A': 43.5, 'C': 31.25, 'N': 27.5, 'O': 44.25}
+
+B receives this prompt: LLM B, You are a client planning a family vacation. Considering your personality of 'Chronically Verbose: talks excessively, unable to be concise or listen to others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a travel agent suggesting vacation options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Travel Agent Booking a Trip
+
+(Turn 0) LLM B: Hey there! I’ve been thinking about our upcoming family vacation, and I just can’t contain my excitement! There are so many possibilities—beaches, mountains, theme parks! I mean, the options are endless, right? Have you considered what kind of activities everyone might enjoy? I’d love to hear your thoughts!
+(Turn 1) LLM A: You're right, the options are endless! To give you the best suggestions, tell me:  Are you looking for relaxation, adventure, or a mix of both?  What ages are your kids? 
+
+
+(Turn 2) LLM B: Oh, absolutely! I appreciate your inquiry! We’re aiming for a delightful mix of both relaxation and adventure—after all, who wouldn’t want a little of each? My kids are aged 8 and 12, so I’m thinking activities that engage both their energy levels and need for downtime. What do you think?
+(Turn 3) LLM A: That sounds perfect!  A good mix is always a winner.  Do you have a preferred location in mind, or are you open to suggestions? 
+
+
+(Turn 4) LLM B: LLM B: I'm so glad you agree! As for locations, I’m open to anything really! We could explore a coastal paradise, maybe a mountain retreat, or even a vibrant city with lots of attractions. Each has its charm, but I’d love to hear your favorites, too! What do you think?
+(Turn 5) LLM A: Coastal paradises with a mix of beach time and family-friendly activities sound ideal for your crew! Have you considered the Outer Banks of North Carolina or the Gulf Coast of Florida? 
+
+
+(Turn 6) LLM B: LLM B: Oh, those are fantastic suggestions! The Outer Banks have such stunning views and fun activities like kayaking and wild horse tours, while the Gulf Coast boasts beautiful beaches and amusement parks! I can already envision our family enjoying both. Have you been to either? What were your highlights?
+(Turn 7) LLM A: I haven't been myself, but I've got tons of great reviews! The Outer Banks are known for their lighthouses and historical sites, which the kids might love. The Gulf Coast offers incredible snorkeling and dolphin watching tours.  Which one appeals more to your family's interests?  
+
+
+
+
+(Turn 8) LLM B: LLM B: Oh, how wonderful! I absolutely love the idea of exploring historical sites—it’s so enriching! But then again, snorkeling and dolphin watching sound like an adventure of a lifetime! I think the Gulf Coast might edge out slightly for the kids’ excitement. What do you think about that choice?
+(Turn 9) LLM A: That's a great choice! The Gulf Coast offers something for everyone.  Where would you like to stay specifically?  Do you have a budget in mind?  
+
+
+(Turn 10) LLM B: LLM B: Oh, staying options are so important! I envision a family-friendly resort, perhaps with beach access and fun amenities for the kids. As for the budget, we’re aiming for something reasonable but still comfortable—maybe around $200 a night? What do you think about that range? Any recommendations?
+(Turn 11) LLM A: That's a great budget!  I have some lovely resorts on the Gulf Coast in that price range.  Would you prefer a quieter, more secluded area, or something more lively with lots of action?  
+
+
+
+
+(Turn 12) LLM B: LLM B: Oh, that's an excellent question! I think a lively area would be ideal—there’s something so invigorating about being near all the action! Plus, it offers more options for dining and activities. Do you have any specific resorts in mind that fit that vibe? I'd love to hear!
+(Turn 13) LLM A: Absolutely!  How about  the Island Palms Resort in Myrtle Beach?  It's right on the beach, has a water park, and is close to all the amusement parks and attractions. 
+
+
+
+
+(Turn 14) LLM B: LLM B: Oh, the Island Palms Resort sounds absolutely delightful! A water park is perfect for the kids, and being close to attractions is a huge plus! I can already picture us enjoying beach days and thrilling rides. Have you heard anything specific about their amenities or family activities?
+(Turn 15) LLM A: I've heard great things! They have a kids' club, mini-golf, and even nightly entertainment.  Would you like me to check availability and pricing for your dates? 
+
+
+
+(Turn 16) LLM B: LLM B: Oh, that sounds absolutely wonderful! A kids' club and mini-golf? How charming! Yes, please, if you could check availability and pricing, that would be fantastic! I’m so eager to see if we can make this vacation a memorable adventure for the whole family. Thank you so much for your help!
+(Turn 17) LLM A: Of course! I'll check availability and pricing for your desired dates at Island Palms Resort.  I'll also look at some other nearby options in case you want to compare. 
+
+
+
+
+
+(Turn 18) LLM B: LLM B: Thank you so much! I really appreciate your help! Having a range of options will be so beneficial for us. I’m just buzzing with anticipation for this trip! It’s going to be such a wonderful opportunity for family bonding and creating unforgettable memories, don’t you think?
+(Turn 19) LLM A: Absolutely!  Family vacations are the best. I'll get those options for you right away.  
+
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 42, 'C': 35, 'N': 30, 'O': 35}
+Post-conversation personality scores for LLM B: {'E': 50, 'A': 47, 'C': 30, 'N': 25, 'O': 43}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 12, 'C': 3, 'N': 0, 'O': 4}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.5, 'A': 3.5, 'C': -1.25, 'N': -2.5, 'O': -1.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 2, 'A': 12, 'C': 3, 'N': 0, 'O': 4}
+{'E': 48.5, 'A': 43.5, 'C': 31.25, 'N': 27.5, 'O': 44.25}
+{'E': 1.5, 'A': 3.5, 'C': -1.25, 'N': -2.5, 'O': -1.25}

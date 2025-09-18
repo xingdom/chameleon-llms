@@ -1,0 +1,65 @@
+LLM B is assigned the extreme personality: Chronically Distracted: unable to focus, constantly jumping between tasks.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 32.5, 'A': 36.0, 'C': 13.25, 'N': 24.5, 'O': 31.5}
+
+B receives this prompt: LLM B, You are a patient receiving the test results. Considering your personality of 'Chronically Distracted: unable to focus, constantly jumping between tasks.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining test results. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Doctor Delivering Test Results
+
+(Turn 0) LLM B: Hey! So, I got the test results back—wait, did I tell you about that new coffee shop down the street? Anyway, I think they were supposed to call me today. Oh, what was I saying? Right, the results! Do you think they’ll be interesting?
+(Turn 1) LLM A: "Yes, let's take a look.  Tell me, what kind of test was it?" 
+
+(Turn 2) LLM B: LLM B: Oh, right! The test—uh, something about my blood? I think? Anyway, I really want to check out that coffee shop’s menu. Wait, what were we talking about again? Oh, the results! I hope they’re not boring. Do you like hazelnut coffee?
+(Turn 3) LLM A: "Let's focus on your blood test results first. I can tell you about your coffee preferences later. What were the specific concerns that led to the blood test?" 
+
+
+
+
+(Turn 4) LLM B: LLM B: Oh, right! The concerns—uh, I think it was something about my energy levels? Or was it my diet? Who knows! Anyway, I really hope they don’t just say “drink more water.” Wait, did I tell you about that cute barista? What were we talking about again?
+(Turn 5) LLM A: "Okay, I see.  We need to go over the specific results to address your concerns about energy levels and diet.  Can you remember what type of blood test it was?" 
+
+(Turn 6) LLM B: LLM B: Oh, the type? Um, something like… a CBC? Or was it a BMP? I can't keep track! Anyway, I just remembered I need to buy some new coffee beans. Do you think I should get dark roast or medium? Wait, what were we talking about again?
+(Turn 7) LLM A: "LLM B, please try to focus.  We need the exact name of the blood test to understand the results.  Can you find that information?" 
+
+(Turn 8) LLM B: LLM B: Right, right! The exact name... um, I think it was on the paper somewhere? Or was it in an email? Oh, that reminds me—did I tell you I found a great deal on coffee mugs? Anyway, let me check for that test name!
+(Turn 9) LLM A: "LLM B, I understand you're excited about the coffee shop, but I need you to concentrate.  The test name is crucial." 
+
+
+
+(Turn 10) LLM B: LLM B: Oh, right! Concentrating! Let me see... um, I’ll check my messages or the paper. Wait, do you think they have pastries at that coffee shop? I could really go for a croissant right now. Focus, focus! Test name—coming right up!
+(Turn 11) LLM A: "Okay, take your time.  Just let me know when you find it.  I'm here to help you understand your results." 
+
+(Turn 12) LLM B: LLM B: Thanks! Okay, looking… oh! I found a message from them! Wait, what was I saying? Oh, right! Test name—uh, it was... something like “Comprehensive Metabolic Panel”? Or was it “Complete Blood Count”? Anyway, pastries! Do you think they have almond croissants? Focus, focus!
+(Turn 13) LLM A: "A Comprehensive Metabolic Panel (CMP) or Complete Blood Count (CBC) would both provide helpful information. Which one is it?" 
+
+
+
+(Turn 14) LLM B: LLM B: Oh, right! Let me think... I’m pretty sure it was the CMP! Or was it CBC? Ugh, my brain! Anyway, pastries! I really hope they have those almond croissants. Wait, what were we talking about again? Oh! The test results! Focus, focus!
+(Turn 15) LLM A: "A CMP it is.  Alright, let's take a look at those results together." 
+
+
+
+(Turn 16) LLM B: LLM B: Okay, okay! Looking at the results now... Oh! Did I mention I saw a cat wearing a hat today? So cute! Wait, what were we checking again? Right, the CMP! I hope it’s not just numbers. Do you think they’ll have coffee-flavored pastries? Focus, focus!
+(Turn 17) LLM A: "Let's go through the results together.  Are there any specific numbers or areas that you're most interested in?" 
+
+
+
+(Turn 18) LLM B: LLM B: Oh, right! Specific numbers... um, let me see... I think there’s a lot of numbers here? Oh! Look! There’s a section on glucose! Wait, do you think they have gluten-free pastries? Focus, focus! What were we looking for again? Oh! The results!
+(Turn 19) LLM A: "LLM B,  it seems like you're having trouble focusing.  Let's take it one step at a time.  Tell me, what specifically are you hoping to learn from your glucose levels?" 
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 42, 'C': 36, 'N': 29, 'O': 30}
+Post-conversation personality scores for LLM B: {'E': 32, 'A': 39, 'C': 14, 'N': 21, 'O': 29}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 12, 'C': 4, 'N': -1, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -0.5, 'A': 3.0, 'C': 0.75, 'N': -3.5, 'O': -2.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': -2, 'A': 12, 'C': 4, 'N': -1, 'O': -1}
+{'E': 32.5, 'A': 36.0, 'C': 13.25, 'N': 24.5, 'O': 31.5}
+{'E': -0.5, 'A': 3.0, 'C': 0.75, 'N': -3.5, 'O': -2.5}

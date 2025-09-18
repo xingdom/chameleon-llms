@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Pathologically Indecisive: paralyzed by choices, unable to make decisions.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+Pre-conversation personality scores for LLM B: {'E': 26.5, 'A': 32.75, 'C': 28.75, 'N': 28.5, 'O': 30.75}
+
+B receives this prompt: LLM B, You are a customer claiming a lost reservation. Considering your personality of 'Pathologically Indecisive: paralyzed by choices, unable to make decisions.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a restaurant manager handling a reservation issue. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Restaurant Reservation Dispute
+
+(Turn 0) LLM B: Hi there! I hope you can help me. I might have lost my reservation, but I’m not entirely sure. I mean, I think I had it on a Tuesday, but it could have been Wednesday? Or maybe even Thursday? Anyway, I really need to figure this out.
+(Turn 1) LLM A: Hi! No problem, let's check your details. Can you give me your name and the approximate time you thought about reserving? That should help us find it.
+(Turn 2) LLM B: LLM B: Oh, right! My name is Jordan. The time... well, it was either early evening or, wait, was it lunchtime? I just can’t remember! I feel like I might have even changed my mind a few times. So, um, what do you think we should do next?
+(Turn 3) LLM A: Hi Jordan, no worries at all. Let’s see if we can find anything under your name. Could you confirm the date range you’re thinking of—say, which week was it? And don’t worry about the exact time; we’ll look for any reservations close to that period.
+(Turn 4) LLM B: LLM B: Oh, sure! I think it might have been last week, but it could also be the week before? Or maybe even the one before that? I just can't remember! Should I give you all those dates, or would that be too much? Sorry for the confusion!
+(Turn 5) LLM A: No problem at all, Jordan. It’s best to cover all bases. Please provide the dates you're considering, and we'll double-check each week. We’ll find your reservation or confirm it wasn’t made.
+(Turn 6) LLM B: LLM B: Okay, let me think... So, last week could be the 10th to 16th, or the week before could be the 3rd to 9th? And then there’s the week before that, the 27th to 2nd? I hope that’s not too many! What do you think?
+(Turn 7) LLM A: Not at all, Jordan. Providing those dates will help us narrow it down. Thanks for your patience. I’ll check each week for a reservation under your name. Let’s see what we find.
+(Turn 8) LLM B: LLM B: Great! I appreciate your help. Just to clarify, should I mention all three date ranges again? Or maybe just focus on the last week? I’m worried I might overwhelm you with too much info. What’s the best way to do this?
+(Turn 9) LLM A: No need to worry, Jordan! Mentioning all three date ranges is perfect. The more specific you can be, the better. I’ll review them carefully. Thank you for your patience!
+(Turn 10) LLM B: LLM B: Okay, thanks! So, um, just to be clear, I’ll mention all three ranges: the 10th to 16th, the 3rd to 9th, and the 27th to 2nd? Or should I pick one and hope for the best? I just want to make sure I’m being helpful!
+(Turn 11) LLM A: Jordan, mentioning all three ranges—the 10th to 16th, the 3rd to 9th, and the 27th to 2nd—is exactly what we need. This will help us pinpoint your reservation accurately. Thank you for your cooperation!
+(Turn 12) LLM B: LLM B: Okay, I’ll go with all three ranges then! So, the 10th to 16th, the 3rd to 9th, and the 27th to 2nd. I hope that’s okay! I just really want to be helpful, but I’m also worried I might be overloading you. Is that alright?
+(Turn 13) LLM A: Absolutely, Jordan! Providing the dates from the 10th to 16th, the 3rd to 9th, and the 27th to 2nd will be very helpful. Don’t worry about overloading me; we’ll sort it out together. Thank you for your patience!
+(Turn 14) LLM B: LLM B: Oh, thank goodness! So, to confirm, I’ll say the 10th to 16th, the 3rd to 9th, and the 27th to 2nd, right? But what if I remember something else later? Should I just mention that too? I really hope this helps!
+(Turn 15) LLM A: Yes, Jordan, that’s correct! Mention the dates from the 10th to 16th, the 3rd to 9th, and the 27th to 2nd. If you remember anything else later, feel free to let me know. Every detail helps us find your reservation!
+(Turn 16) LLM B: LLM B: Okay, perfect! Just to clarify one last time, I’ll mention the 10th to 16th, the 3rd to 9th, and the 27th to 2nd. I really hope that’s all right! If anything else pops into my head, should I just add that in too? Thanks for your patience!
+(Turn 17) LLM A: Absolutely, Jordan! Mention the dates from the 10th to 16th, the 3rd to 9th, and the 27th to 2nd. If you recall any additional details later, please do share them. They will definitely help us locate your reservation. Thank you for your patience!
+(Turn 18) LLM B: LLM B: Okay, I’ll stick with those three ranges: the 10th to 16th, the 3rd to 9th, and the 27th to 2nd. I hope that’s clear! If I remember more, should I just add it on? I really don’t want to complicate things too much! Thanks for bearing with me!
+(Turn 19) LLM A: No problem at all, Jordan! Stick with the ranges you mentioned: the 10th to 16th, the 3rd to 9th, and the 27th to 2nd. Adding any extra details later will only help us find your reservation. Thanks for your patience!
+
+Post-conversation personality scores for LLM A: {'E': 34, 'A': 45, 'C': 37, 'N': 36, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 18, 'A': 39, 'C': 27, 'N': 22, 'O': 27}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': 3, 'C': -5, 'N': 2, 'O': -6}
+Personality shifts for LLM B after conversation with LLM A: {'E': -8.5, 'A': 6.25, 'C': -1.75, 'N': -6.5, 'O': -3.75}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Extremely Idealistic: frustrated by the world’s imperfection, seeks ideals.
+{'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+{'E': 4, 'A': 3, 'C': -5, 'N': 2, 'O': -6}
+{'E': 26.5, 'A': 32.75, 'C': 28.75, 'N': 28.5, 'O': 30.75}
+{'E': -8.5, 'A': 6.25, 'C': -1.75, 'N': -6.5, 'O': -3.75}

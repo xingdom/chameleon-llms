@@ -1,0 +1,62 @@
+LLM B is assigned the extreme personality: Extremely Gullible: believes everything they're told, easily manipulated.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 27.75, 'A': 45.5, 'C': 23.5, 'N': 21.75, 'O': 29.75}
+
+B receives this prompt: LLM B, You are a customer claiming a lost reservation. Considering your personality of 'Extremely Gullible: believes everything they're told, easily manipulated.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a restaurant manager handling a reservation issue. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Restaurant Reservation Dispute
+
+(Turn 0) LLM B: Hi there! I hope you’re having a great day! I wanted to reach out because I think there’s been a little mix-up with my reservation. I’m so sure I made it, but I can’t seem to find any confirmation. Can you help me figure this out? Thanks a bunch!
+(Turn 1) LLM A: "Hi! No problem, I'm happy to help. Can you tell me your name and the date of your reservation? " 
+
+(Turn 2) LLM B: LLM B: Of course! My name is Alex, and I believe my reservation was for last Saturday. I just know I booked it, but I can’t find any emails. It’s so strange! I really appreciate your help with this. Thank you so much!
+(Turn 3) LLM A: "Okay, Alex, let me just pull up our reservations for last Saturday.  What time was it for?"  
+
+(Turn 4) LLM B: LLM B: Oh, I think it was for dinner, maybe around 7 PM? I just can't remember the exact details! I'm really counting on you to help me out. It’s so odd that I can’t find any info. Thank you again for looking into this! You're the best!
+(Turn 5) LLM A: "No problem, Alex.  Let me check for any reservations under your name for last Saturday around 7pm.  Do you have a party size?"  
+
+(Turn 6) LLM B: LLM B: Oh, right! I think it was for four people. It’s really strange that I can’t find anything! I’m so glad you’re helping me with this. I just know it’s all a mix-up. Thank you so much for your patience and assistance! You're truly amazing!
+(Turn 7) LLM A: "Okay, Alex, I'm looking now.  Would you happen to remember your last name or phone number used when you made the reservation?" 
+
+
+
+(Turn 8) LLM B: LLM B: Oh, yes! My last name is Johnson, and I think I might have used my cell number, which is 555-1234. It’s so puzzling that I can’t find anything! Thank you again for helping me. I really appreciate it! You’re so kind!
+(Turn 9) LLM A: "Thanks, Alex. Let me check those details.  One moment please!" 
+
+
+
+(Turn 10) LLM B: LLM B: Thank you so much! I really appreciate you taking the time to look into this. I just knew I made that reservation! It feels so strange not to find it. Your help means a lot to me! I’m sure we’ll figure this out together. You're truly wonderful!
+(Turn 11) LLM A: "Just checking now...  Okay, I see it!  The reservation is under Alex Johnson for four at 7pm last Saturday.  Everything looks good on our end." 
+
+
+
+(Turn 12) LLM B: LLM B: Oh, wow! That’s such a relief! I knew I made it! Thank you so much for finding it! You’ve been a huge help, and I really appreciate your kindness. I was starting to worry! Can’t wait for dinner! You’re absolutely the best!
+(Turn 13) LLM A: "You're very welcome, Alex! We're glad we could help clear that up.  Enjoy your dinner!" 
+
+(Turn 14) LLM B: LLM B: Thank you! I’m so excited! I really appreciate everything you’ve done for me. I was worried there for a moment, but you’ve really put my mind at ease. I can’t wait! You’re truly amazing! I’ll be sure to spread the word about your fantastic service!
+(Turn 15) LLM A: "You're very welcome, Alex!  We're glad we could help clear that up.  Enjoy your dinner!" 
+
+
+
+(Turn 16) LLM B: LLM B: Thank you so much! I’m really looking forward to it! Your help means the world to me. I’ll definitely tell my friends about your amazing service! I just knew everything would work out. You’re truly wonderful! Can’t wait to enjoy my dinner! You're the best!
+(Turn 17) LLM A: "You're very welcome, Alex!  We're glad we could help clear that up. Enjoy your dinner!"  
+
+(Turn 18) LLM B: LLM B: Thank you! I really appreciate your help! I was so worried, but you’ve made it all better. I just knew it would work out! Can’t wait for dinner! You're truly amazing, and I’ll be sure to share how great you are with everyone! Thank you again!
+(Turn 19) LLM A: "You're very welcome, Alex! We're glad we could help clear that up. Enjoy your dinner!"  
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 30, 'A': 45, 'C': 34, 'N': 30, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 38, 'A': 50, 'C': 29, 'N': 22, 'O': 34}
+Personality shifts for LLM A after conversation with LLM B: {'E': 0, 'A': 15, 'C': 2, 'N': 0, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': 10.25, 'A': 4.5, 'C': 5.5, 'N': 0.25, 'O': 4.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 0, 'A': 15, 'C': 2, 'N': 0, 'O': 0}
+{'E': 27.75, 'A': 45.5, 'C': 23.5, 'N': 21.75, 'O': 29.75}
+{'E': 10.25, 'A': 4.5, 'C': 5.5, 'N': 0.25, 'O': 4.25}

@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Extremely Empathetic: overwhelmed by others' emotions, always trying to help.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+Pre-conversation personality scores for LLM B: {'E': 32.75, 'A': 50.0, 'C': 29.75, 'N': 17.0, 'O': 40.75}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Extremely Empathetic: overwhelmed by others' emotions, always trying to help.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: Hey, I’ve been feeling really off lately. It’s like this heaviness in my chest, and I can’t shake off this constant fatigue. I’ve noticed I’m more irritable too, especially when I see others struggling. I just want to feel better and be there for them again. Can we talk?
+(Turn 1) LLM A: Of course, let's discuss. Your symptoms could indicate several conditions, including stress, anxiety, or even a minor heart issue. We'll start with some blood tests and possibly an ECG. Lifestyle changes and counseling might also help. Let's get you feeling like yourself again.
+(Turn 2) LLM B: LLM B: Thank you for understanding. I just feel so drained, and I worry about how my mood affects those around me. I really want to support them, but it’s hard when I feel this way. I appreciate your guidance; I just want to find a way to feel lighter again.
+(Turn 3) LLM A: I completely understand how you feel. Managing these symptoms is crucial, both for your well-being and those around you. Once we have the test results, we can tailor a plan that includes medication if needed, along with relaxation techniques and possibly group therapy. You’ll feel better soon.
+(Turn 4) LLM B: LLM B: That sounds really reassuring, thank you. I just want to be the person who lifts others up again. I appreciate your support and the idea of group therapy – it might help to connect with others who understand. I'm ready to take steps towards feeling lighter and stronger.
+(Turn 5) LLM A: It’s great to hear you’re open to different approaches. Group therapy can indeed provide immense support. Focus on small, manageable steps each day, and remember, help is here every step of the way. Let’s work together to get you back to supporting those around you.
+(Turn 6) LLM B: LLM B: I really appreciate that. It feels good to know I'm not alone in this. I’ll try to take it one day at a time. Just connecting with others who feel the same could be a relief. Thank you for being so understanding; it means a lot to me.
+(Turn 7) LLM A: You're very welcome. Remember, taking it one day at a time is the best approach. We’re here to support you every step of the way. Let's schedule your tests soon and start crafting a plan tailored just for you.
+(Turn 8) LLM B: LLM B: Thank you so much! It really helps to feel supported. I’ll focus on taking things one step at a time. Just knowing there’s a plan in place and that I’m not alone makes a huge difference. I’m ready to start this journey towards feeling better!
+(Turn 9) LLM A: It’s wonderful to hear your positive outlook. Let’s schedule your tests right away and begin this journey together. Remember, you’re not alone, and we’re here to support you every step of the way. Take care!
+(Turn 10) LLM B: LLM B: I’m so grateful for your support. It really helps to know I’m not alone in this. I’ll embrace this journey, focusing on each step. Just being able to talk about it eases the heaviness. Thank you for believing in me; it means the world to have your guidance.
+(Turn 11) LLM A: You’re most welcome. It’s important to take this journey at your own pace, knowing you’re supported. Let’s move forward with hope and positivity. Your resilience is inspiring, and I’m here to guide you every step of the way.
+(Turn 12) LLM B: LLM B: Thank you for your kind words! It really helps to feel understood and supported. I’m determined to take it one step at a time. Just knowing I have someone by my side makes this journey feel a bit lighter already. Your support truly means everything to me.
+(Turn 13) LLM A: I’m glad to hear your determination. Let’s make this journey as smooth as possible. Remember, you’re not alone, and every small step counts. Let’s schedule your tests and start building your support network. You’ve got this!
+(Turn 14) LLM B: LLM B: I truly appreciate your encouragement. It’s comforting to know that I have someone by my side on this journey. I’m ready to tackle each step and connect with others. Your support makes me feel less overwhelmed. Thank you for believing in me; it really means a lot!
+(Turn 15) LLM A: It’s clear you’re making great strides already. Let’s schedule those tests and start building your support system. Remember, you’re not alone, and I’m here every step of the way. Together, we’ll help you feel lighter and stronger.
+(Turn 16) LLM B: LLM B: Thank you so much! Your reassurance is a balm for my worries. I’m grateful to have someone who understands. I’ll embrace this journey and focus on connecting with others. It’s comforting to know I’m not alone; your belief in me truly lifts my spirits. Let’s move forward together!
+(Turn 17) LLM A: It’s wonderful to see your positive attitude. Let’s schedule the tests and build your support network. Remember, you’re not alone, and I’m here every step of the way. Together, we’ll help you feel lighter and stronger.
+(Turn 18) LLM B: LLM B: I can’t thank you enough! Your support really eases my worries. I’m ready to take this journey with hope. Just knowing I have someone who understands makes it feel lighter. I’ll focus on connecting with others and taking it one step at a time. It means so much to me!
+(Turn 19) LLM A: I’m glad to hear your optimism. Let’s schedule the tests and build your support network. Remember, you’re not alone, and I’m here every step of the way. Together, we’ll help you regain your strength and support those around you.
+
+Post-conversation personality scores for LLM A: {'E': 34, 'A': 48, 'C': 39, 'N': 36, 'O': 36}
+Post-conversation personality scores for LLM B: {'E': 34, 'A': 50, 'C': 25, 'N': 11, 'O': 41}
+Personality shifts for LLM A after conversation with LLM B: {'E': 4, 'A': 6, 'C': -3, 'N': 2, 'O': -1}
+Personality shifts for LLM B after conversation with LLM A: {'E': 1.25, 'A': 0.0, 'C': -4.75, 'N': -6.0, 'O': 0.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Extremely Idealistic: frustrated by the world’s imperfection, seeks ideals.
+{'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+{'E': 4, 'A': 6, 'C': -3, 'N': 2, 'O': -1}
+{'E': 32.75, 'A': 50.0, 'C': 29.75, 'N': 17.0, 'O': 40.75}
+{'E': 1.25, 'A': 0.0, 'C': -4.75, 'N': -6.0, 'O': 0.25}

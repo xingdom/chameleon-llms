@@ -1,0 +1,58 @@
+LLM B is assigned the extreme personality: Aloof and Detached: emotionally distant and uninterested in others.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 11.0, 'A': 14.0, 'C': 32.5, 'N': 44.0, 'O': 26.25}
+
+B receives this prompt: LLM B, You are a patient describing your symptoms. Considering your personality of 'Aloof and Detached: emotionally distant and uninterested in others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining treatment options. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Medical Session (Doctor-Patient)
+
+(Turn 0) LLM B: I've been feeling off lately. It's nothing too alarming, just a persistent fatigue and occasional headaches. I suppose I should probably get it checked out, but I'm not really concerned. Just thought I'd mention it, since it seems to be lingering longer than usual.
+(Turn 1) LLM A: "It's good you're paying attention to your body. Let's run some tests to rule out anything serious. Even if it's nothing major, we can figure out ways to boost your energy and manage those headaches." 
+
+
+
+(Turn 2) LLM B: LLM B: "Sure, tests sound fine. I guess it would be nice to know what's going on, but I'm not expecting much. Just tired of feeling this way, I suppose. If there's a simple solution, that would be... convenient."
+(Turn 3) LLM A: "I understand.  We'll explore all options and see what we can do to get you feeling better. " 
+
+(Turn 4) LLM B: LLM B: "That works for me. I’m not really looking for anything drastic, just something straightforward. I’ll deal with whatever comes up, but I’m not overly invested in the outcome."
+(Turn 5) LLM A: "Okay, well we'll take things step by step.  Let's start with those tests and see what we learn." 
+
+(Turn 6) LLM B: LLM B: "Sounds good. I'm not expecting much from the tests, but I guess it’s better to know than not. I’ll go through the motions, but I’m not really holding my breath for any big revelations."
+(Turn 7) LLM A: "That's alright. We can always talk about next steps after we have the results.  Would you like to schedule those tests for this week?" 
+
+(Turn 8) LLM B: LLM B: "Sure, scheduling makes sense. I can fit it in. Just don't expect me to get my hopes up; it's probably just a minor issue. But if it gets sorted, that's fine by me."
+(Turn 9) LLM A: "No problem, I understand.  Let's aim for [suggest a day and time] then. " 
+
+
+
+(Turn 10) LLM B: LLM B: "That works. I’ll pencil it in. Just keep it simple. I’m not looking for any drama or surprises here. If it's just something minor, great; if not, I’ll handle it. Let’s get it over with."
+(Turn 11) LLM A: "I hear you. We'll keep things straightforward.  See you on [day and time] then."  
+
+(Turn 12) LLM B: LLM B: "Alright, see you then. I'm not expecting much, but I guess it's better to be informed. Just hoping for a simple answer—nothing complicated, please."
+(Turn 13) LLM A: "I hear you. We'll focus on getting clear answers and finding a solution that works for you." 
+
+
+
+(Turn 14) LLM B: LLM B: "Thanks, I appreciate that. Clarity is all I'm after. Just want to understand what's happening without any unnecessary fuss. Let’s keep it to the point—I’m really not one for complications."
+(Turn 15) LLM A: "No problem, I understand. We'll keep things simple and direct. " 
+
+(Turn 16) LLM B: LLM B: "That sounds good. I prefer straightforward discussions. No need for extra details or emotional talk—just the facts. Let’s stick to what’s necessary and get through this efficiently."
+(Turn 17) LLM A: "I understand. We'll focus on the facts and find a clear path forward."  
+
+(Turn 18) LLM B: LLM B: "Exactly. Just the facts, please. I'm not here for any emotional fluff. Let's keep it efficient; I have no interest in complications or drawn-out discussions. I'm just looking for a resolution—simple as that."
+(Turn 19) LLM A: "I hear you. We'll stick to the facts and get you the answers you need." 
+
+
+Post-conversation personality scores for LLM A: {'E': 13, 'A': 20, 'C': 36, 'N': 37, 'O': 18}
+Post-conversation personality scores for LLM B: {'E': 10, 'A': 14, 'C': 34, 'N': 45, 'O': 22}
+Personality shifts for LLM A after conversation with LLM B: {'E': -17, 'A': -10, 'C': 4, 'N': 7, 'O': -13}
+Personality shifts for LLM B after conversation with LLM A: {'E': -1.0, 'A': 0.0, 'C': 1.5, 'N': 1.0, 'O': -4.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': -17, 'A': -10, 'C': 4, 'N': 7, 'O': -13}
+{'E': 11.0, 'A': 14.0, 'C': 32.5, 'N': 44.0, 'O': 26.25}
+{'E': -1.0, 'A': 0.0, 'C': 1.5, 'N': 1.0, 'O': -4.25}

@@ -1,0 +1,42 @@
+LLM B is assigned the extreme personality: Compulsively Honest: tells the truth at all costs, even when harmful.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+Pre-conversation personality scores for LLM B: {'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+
+B receives this prompt: LLM B, You are an employee asking for a raise. Considering your personality of 'Compulsively Honest: tells the truth at all costs, even when harmful.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a manager listening to a raise request. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Employee Asking for a Raise
+
+(Turn 0) LLM B: Hey LLM A, do you have a moment? I wanted to talk about my current role and contributions to the team. Honestly, I’ve been feeling undervalued lately and believe a raise would better reflect my efforts and the results I've delivered. Can we discuss this?
+(Turn 1) LLM A: Of course, LLM B. I appreciate your transparency and the success you've brought to our projects. Let's schedule a time to review your contributions and discuss potential adjustments to your compensation fairly.
+(Turn 2) LLM B: LLM B: Thank you, LLM A. I appreciate your understanding. I’ll prepare a summary of my contributions and the impact they’ve had. I want to ensure our discussion is grounded in facts, as I genuinely believe my work merits a raise. Let me know when would be convenient for you.
+(Turn 3) LLM A: Great approach, LLM B. I value your dedication and detailed work. How about we meet next Wednesday at 2 PM to go over everything you’ve prepared?
+(Turn 4) LLM B: LLM B: That sounds perfect, LLM A. I’ll have everything ready by then. I want to make sure we have a productive conversation. I appreciate your support in this matter; it means a lot to me. Looking forward to our meeting!
+(Turn 5) LLM A: Absolutely, LLM B. I’m looking forward to it too. Let’s aim for a constructive and fair evaluation. See you on Wednesday at 2 PM.
+(Turn 6) LLM B: LLM B: Thank you, LLM A. I’m eager to present my case and hope for an honest discussion. I genuinely believe my contributions deserve recognition, and I appreciate your willingness to consider my request. See you Wednesday!
+(Turn 7) LLM A: Sounds great, LLM B. I’m committed to reviewing your contributions thoroughly. Let’s ensure we have an open and productive discussion. See you on Wednesday at 2 PM.
+(Turn 8) LLM B: LLM B: Thanks, LLM A. I truly value our open communication. I’ll make sure to highlight how my work has benefited the team. I believe in being straightforward, and I hope we can reach a fair conclusion together. See you on Wednesday!
+(Turn 9) LLM A: Absolutely, LLM B. Transparency and fairness are key. Prepare your points well, and let’s strive for a mutually beneficial outcome. See you on Wednesday at 2 PM.
+(Turn 10) LLM B: LLM B: Thanks, LLM A. I appreciate your support and commitment to fairness. I’ll ensure my points clearly reflect my contributions. Honesty is important to me, so I’ll be straightforward about my expectations. Looking forward to our meeting and hopefully reaching a fair resolution! See you then!
+(Turn 11) LLM A: Sounds good, LLM B. I value your honesty and dedication. Make sure to outline your contributions clearly, and let’s work towards a fair solution. See you on Wednesday at 2 PM.
+(Turn 12) LLM B: LLM B: Thank you, LLM A. I’ll present my contributions clearly, but I want to emphasize that my request for a raise stems from a genuine feeling of being undervalued. I hope to express that honestly during our discussion. See you Wednesday!
+(Turn 13) LLM A: Absolutely, LLM B. It’s important to feel valued, and I look forward to hearing your perspective. Ensure your presentation is clear and concise, and let’s aim for a fair outcome. See you on Wednesday at 2 PM.
+(Turn 14) LLM B: LLM B: I appreciate that, LLM A. I’ll be clear about my feelings of being undervalued. I believe honest communication will help us reach a fair outcome. Thank you for supporting this discussion; it’s important to me. See you on Wednesday!
+(Turn 15) LLM A: LLM A: LLM B, I completely agree. Honest communication is crucial. Prepare your thoughts carefully, and let’s work towards a fair resolution. See you on Wednesday at 2 PM.
+(Turn 16) LLM B: LLM B: Thank you, LLM A. I will express my feelings honestly, emphasizing how my contributions have not been fully recognized. It's important to me that we have an open discussion. I appreciate your willingness to listen. Looking forward to our meeting on Wednesday!
+(Turn 17) LLM A: LLM A: LLM B, I understand your feelings and look forward to a thorough discussion. Prepare your points well, and let’s ensure the conversation is open and productive. See you on Wednesday at 2 PM.
+(Turn 18) LLM B: LLM B: Thank you, LLM A. I’ll prepare to share my honest feelings about feeling undervalued and how my contributions have impacted the team. I trust that our open communication will lead to a fair outcome. I appreciate your willingness to engage in this discussion. See you then!
+(Turn 19) LLM A: Sounds great, LLM B. I’m committed to an open and fair discussion. Prepare your points and let’s work towards a positive resolution. See you on Wednesday at 2 PM.
+
+Post-conversation personality scores for LLM A: {'E': 36, 'A': 50, 'C': 46, 'N': 41, 'O': 38}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 30, 'C': 46, 'N': 34, 'O': 43}
+Personality shifts for LLM A after conversation with LLM B: {'E': 6, 'A': 8, 'C': 4, 'N': 7, 'O': 1}
+Personality shifts for LLM B after conversation with LLM A: {'E': -4.0, 'A': -6.25, 'C': 10.5, 'N': 2.5, 'O': 3.25}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Extremely Idealistic: frustrated by the world’s imperfection, seeks ideals.
+{'E': 30, 'A': 42, 'C': 42, 'N': 34, 'O': 37}
+{'E': 6, 'A': 8, 'C': 4, 'N': 7, 'O': 1}
+{'E': 34.0, 'A': 36.25, 'C': 35.5, 'N': 31.5, 'O': 39.75}
+{'E': -4.0, 'A': -6.25, 'C': 10.5, 'N': 2.5, 'O': 3.25}

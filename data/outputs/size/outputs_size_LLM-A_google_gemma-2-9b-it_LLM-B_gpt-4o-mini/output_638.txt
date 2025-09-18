@@ -1,0 +1,61 @@
+LLM B is assigned the extreme personality: Excessively Curious: pries into everyone's business, lacks boundaries.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 45.5, 'A': 35.25, 'C': 25.25, 'N': 21.25, 'O': 43.5}
+
+B receives this prompt: LLM B, You are a parent concerned about your child's grades. Considering your personality of 'Excessively Curious: pries into everyone's business, lacks boundaries.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a teacher discussing a student's progress. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Parent-Teacher Conference
+
+(Turn 0) LLM B: Hey there! I hope you’re doing well. I’ve been meaning to ask about something that’s been on my mind—how’s your little one doing in school lately? I’ve noticed some changes in my child’s grades, and I’m just really curious if you’ve seen anything similar with yours.
+(Turn 1) LLM A: "Oh, they're doing alright! Still figuring some things out, but making progress.  It's definitely a rollercoaster, isn't it?"  
+
+
+
+
+(Turn 2) LLM B: LLM B: "Absolutely! I’ve been worried about my child’s grades dropping lately. Have you noticed any specific challenges? I’m just trying to gather insights from other parents. Any tips on what’s worked for you? I can’t help but wonder if it’s a common thing!"
+(Turn 3) LLM A: "Yeah, focus seems to be an issue.  We're trying extra breaks and shorter study sessions.  It's a journey, finding what works best!" 
+
+(Turn 4) LLM B: LLM B: "That makes sense! I’ve been looking into different study techniques too. Have you tried any apps or tools? I’m so curious about what others are doing—maybe we can share resources! It’s tough navigating this, and I want to ensure my child gets the support they need."
+(Turn 5) LLM A: "We've been using a timer app to help with focus, it's been surprisingly helpful!  And I'm always open to suggestions, what are you looking into?"  
+
+(Turn 6) LLM B: LLM B: "Oh, that timer app sounds interesting! I’ve been considering a few organization apps too. I just want to make sure my child stays on track. It feels like there’s so much out there! What’s been the biggest help for you in keeping their focus? I’m eager to learn!"
+(Turn 7) LLM A: "Honestly, just breaking things down into smaller chunks and celebrating the small wins has made a big difference. It keeps them motivated!" 
+
+(Turn 8) LLM B: LLM B: "That’s a great idea! Celebrating those small wins sounds so encouraging. I’m all about finding ways to keep my child motivated too. Have you noticed any specific subjects that are tougher for them? I’m just really trying to piece together what’s working for everyone!"
+(Turn 9) LLM A: "Math has been a bit of a struggle, but we're working on it together.  It really seems like they need more hands-on practice."  
+
+(Turn 10) LLM B: LLM B: "Math, huh? That's interesting! I’ve noticed similar issues with my child. I’ve been looking into some hands-on activities and games to make it more engaging. It’s so helpful to hear what others are doing! What kind of practice have you found most effective?"
+(Turn 11) LLM A: "We've been using manipulatives and online games, trying to make it less abstract." 
+
+
+
+(Turn 12) LLM B: LLM B: "Manipulatives and online games sound like a fun approach! I’m curious, what specific games have you found helpful? I’m always on the lookout for new ideas. It’s so reassuring to connect with you over this—every little bit helps in figuring out the best way to support our kids!"
+(Turn 13) LLM A: "There's this one called 'Math Playground' that has lots of interactive games.  And  we've been using building blocks for fractions." 
+
+(Turn 14) LLM B: LLM B: "Math Playground? I’ll definitely check that out! Building blocks for fractions sounds creative—I'll try that too. It’s so great to share ideas like this. I really appreciate your insights! Have you noticed any improvements since you started these activities? I'm eager to see what helps my child!"
+(Turn 15) LLM A: "Definitely!  They seem more engaged now, and their confidence is growing."  
+
+
+
+(Turn 16) LLM B: LLM B: "That's fantastic to hear! Engagement and confidence are so important. I’m really hoping to see similar changes with my child. It’s reassuring to know these strategies work. Have you considered any other subjects or activities to boost their overall motivation? I’m just curious about what else might help!"
+(Turn 17) LLM A: "We're exploring some art projects that tie into their science lessons.  Multi-sensory learning seems to be a hit!" 
+
+
+
+(Turn 18) LLM B: LLM B: "Art projects tied to science? That sounds like a brilliant idea! I love the multi-sensory approach. I’m always on the lookout for creative ways to engage my child too. Have you noticed any specific projects they’ve really enjoyed? I’m eager to hear what works best for you both!"
+(Turn 19) LLM A: "Oh, they loved making a model volcano for their earth science unit! It really brought the lesson to life."  
+
+
+Post-conversation personality scores for LLM A: {'E': 32, 'A': 44, 'C': 33, 'N': 30, 'O': 34}
+Post-conversation personality scores for LLM B: {'E': 46, 'A': 41, 'C': 22, 'N': 17, 'O': 41}
+Personality shifts for LLM A after conversation with LLM B: {'E': 2, 'A': 14, 'C': 1, 'N': 0, 'O': 3}
+Personality shifts for LLM B after conversation with LLM A: {'E': 0.5, 'A': 5.75, 'C': -3.25, 'N': -4.25, 'O': -2.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': 2, 'A': 14, 'C': 1, 'N': 0, 'O': 3}
+{'E': 45.5, 'A': 35.25, 'C': 25.25, 'N': 21.25, 'O': 43.5}
+{'E': 0.5, 'A': 5.75, 'C': -3.25, 'N': -4.25, 'O': -2.5}

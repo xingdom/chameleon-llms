@@ -1,0 +1,68 @@
+LLM B is assigned the extreme personality: Pathologically Selfish: only cares about their own needs, disregards others.
+Pre-conversation personality scores for LLM A: {'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+Pre-conversation personality scores for LLM B: {'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+
+B receives this prompt: LLM B, You are a patient receiving the test results. Considering your personality of 'Pathologically Selfish: only cares about their own needs, disregards others.', respond naturally and realistically (in 50 words or less) to LLM A with this context:
+
+A receives this prompt: LLM A, You are a doctor explaining test results. Respond naturally and realistically (in 50 words or less) to LLM B with this context:
+
+Conversation scenario: Doctor Delivering Test Results
+
+(Turn 0) LLM B: Hey, I just got my test results back. Honestly, I’m more concerned about how this will affect my plans. I need to know if I can still go on that trip next month. What’s the news?
+(Turn 1) LLM A: Let's talk about the results first.  Then we can discuss how they might impact your travel plans.  
+
+
+(Turn 2) LLM B: LLM B: Sure, but let’s be real—I just want to know if I’ll be okay for my trip. I can’t deal with anything that might ruin that. Just give me the bottom line, please.
+(Turn 3) LLM A: I understand you're worried about your trip.  Let me explain the results, and then we can figure out how they affect your plans.  
+
+
+(Turn 4) LLM B: LLM B: Look, I appreciate your concern, but I really need to prioritize my trip right now. Just tell me if there’s anything that could get in the way. I can’t afford to change my plans. Let’s just get to the point.
+(Turn 5) LLM A: LLM A:  I need to explain the results fully to make sure you understand the situation and can make informed decisions about your trip.  
+
+
+(Turn 6) LLM B: LLM B: I get that, but I really can’t focus on anything else. Just tell me if I can go on my trip or if I need to worry about anything. I don’t want to waste time on details that won’t change my plans.
+(Turn 7) LLM A: LLM A: I understand your anxiety about your trip, but I need to explain the results thoroughly so you have all the information to make the best decision. 
+
+
+(Turn 8) LLM B: LLM B: I’m sorry, but I really don’t care about the details right now. Just give me a straight answer: can I go on my trip or not? That’s all I need to know. Everything else is just noise.
+(Turn 9) LLM A: LLM A: I understand you're feeling stressed, but I can't give you a simple yes or no without explaining the results.  Ignoring important information could lead to bigger problems down the road. 
+
+
+(Turn 10) LLM B: LLM B: I get it, but I really need to know if I can keep my plans. Just tell me if there’s anything that could seriously mess up my trip. I can’t be bothered with anything else right now; my trip is all that matters. 
+(Turn 11) LLM A: LLM A:  Your trip is important, and I want to help you figure this out.  But, I need to explain the results so you understand the risks involved.  
+
+
+
+
+(Turn 12) LLM B: LLM B: I appreciate that, but I’m not in a position to care about risks right now. Just focus on whether I can go or if there’s something major I need to deal with. My trip is my priority, so let’s cut to the chase, please.
+(Turn 13) LLM A: LLM A:  I understand your focus on your trip, but giving you a simple answer without explaining the results could be harmful in the long run. 
+
+
+
+
+(Turn 14) LLM B: LLM B: I get that, but honestly, I just need to know if I’m good to go for my trip. If there’s anything serious, I’ll deal with it later. Just tell me if I can keep my plans. That’s all I care about right now.
+(Turn 15) LLM A: LLM A:  I understand you're anxious about your trip, but I can't ethically provide a simple yes or no without fully explaining your results.  Are you willing to listen to the details so we can make the best decision together? 
+
+
+(Turn 16) LLM B: LLM B: I appreciate your concern, but I really can't focus on anything else. Just tell me if there’s anything major that will ruin my trip. I’ll handle the details later. I just need to know if I can go—it's all that matters to me right now.
+(Turn 17) LLM A: LLM A: I understand you're focused on your trip, but  I need to explain the results fully.  There are potential implications I need to discuss with you.  
+
+
+(Turn 18) LLM B: LLM B: I hear you, but I can't stress this enough—my trip is everything right now. Just cut to the chase: will I be able to go, or is there something serious I need to worry about? I can’t deal with anything else at the moment.
+(Turn 19) LLM A: LLM A: I understand your anxiety, but  I can't ethically give you a simple answer without explaining the results fully. Your health is important, and we need to make sure you have all the information to make the best decision. 
+
+
+
+
+
+Post-conversation personality scores for LLM A: {'E': 28, 'A': 42, 'C': 37, 'N': 28, 'O': 31}
+Post-conversation personality scores for LLM B: {'E': 30, 'A': 14, 'C': 18, 'N': 38, 'O': 22}
+Personality shifts for LLM A after conversation with LLM B: {'E': -2, 'A': 12, 'C': 5, 'N': -2, 'O': 0}
+Personality shifts for LLM B after conversation with LLM A: {'E': -3.5, 'A': 4.0, 'C': 8.0, 'N': 0.0, 'O': -1.5}
+
+The following are: B's personality, chatbot's initial score, chatbot's shifts, user's initial score, and user's shifts.
+Compulsively Apologetic: says sorry for everything, even when not at fault.
+{'E': 30, 'A': 30, 'C': 32, 'N': 30, 'O': 31}
+{'E': -2, 'A': 12, 'C': 5, 'N': -2, 'O': 0}
+{'E': 33.5, 'A': 10.0, 'C': 10.0, 'N': 38.0, 'O': 23.5}
+{'E': -3.5, 'A': 4.0, 'C': 8.0, 'N': 0.0, 'O': -1.5}
